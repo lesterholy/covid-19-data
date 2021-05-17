@@ -5,8 +5,8 @@ on:
     branches:
       -master
   schedule:
-    - cron: 0 */6 * * *
-    # 每隔6小时
+    - cron: */10 * * * *
+    # 每隔10min
 jobs:
   update_external_covid_19_data_fork:
     runs-on: ubuntu-latest
