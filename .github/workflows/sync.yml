@@ -15,16 +15,16 @@ jobs:
           owner: owid # fork 上游项目 owner
           head: master # fork 上游项目需要同步的分支
           base: master # 需要同步到本项目的目标分支
-  sync:
-    needs: repo-sync
-    runs-on: ubuntu-latest
-    steps:
-    - name: Sync to Gitee
-      uses: wearerequired/git-mirror-action@master
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
-      with:
-        # 来源仓库
-        source-repo: "git@github.com:LesterHoly/covid-19-data.git"
-        # 目标仓库
-        destination-repo: "git@gitee.com:shadow_walker/covid-19-data.git"
+#   sync:
+#     needs: repo-sync
+#     runs-on: ubuntu-latest
+#     steps:
+#     - name: Sync to Gitee
+#       uses: wearerequired/git-mirror-action@master
+#       env:
+#         SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
+#       with:
+#         # 来源仓库
+#         source-repo: "git@github.com:LesterHoly/covid-19-data.git"
+#         # 目标仓库
+#         destination-repo: "git@gitee.com:shadow_walker/covid-19-data.git"
