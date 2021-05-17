@@ -2,6 +2,7 @@ import argparse
 
 from vax.cmd._config import get_config
 from vax.cmd import main_get_data, main_process_data, main_generate_dataset
+from vax.cmd.export import main_export
 from vax.cmd.check_with_r import test_check_with_r
 from vax.utils.paths import Paths
 
@@ -22,6 +23,7 @@ def main():
             cfg.njobs,
             cfg.countries,
             creds.greece_api_token,
+            cfg.skip_countries,
         )
     elif config.mode == "process-data":
         cfg = config.ProcessDataConfig()
@@ -39,6 +41,11 @@ def main():
             main_generate_dataset(
                 paths,
             )
+    elif config.mode == "export":
+        main_export(
+            paths,
+            creds.owid_cloud_table_post
+        )
     elif config.mode == "all":
         cfg = config.GetDataConfig()
         main_get_data(

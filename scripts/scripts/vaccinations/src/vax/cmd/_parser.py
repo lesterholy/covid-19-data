@@ -1,7 +1,7 @@
 import argparse
 import os
 
-from vax.cmd.get_data import modules_name, modules_name_batch, modules_name_incremental, country_to_module
+from vax.cmd.utils import normalize_country_name
 
 
 def _parse_args():
@@ -10,16 +10,16 @@ def _parse_args():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument(
-        "mode", choices=["get-data", "process-data", "generate-dataset", "all"], default="all",
+        "mode", choices=["get-data", "process-data", "generate-dataset", "export", "all"], default="all",
         help=(
             "Choose a step: i) `get-data` will run automated scripts, 2) `process-data` will get csvs generated in 1"
-            " and collect all data from spreadsheet, 3) `generate-dataset` generate the output files, 4) `all` will"
-            " run all steps sequentially."
+            " and collect all data from spreadsheet, 3) `generate-dataset` generate the output files, 4) `export`"
+            " to generate all final files, 5) `all` will  run all steps sequentially."
         )
     )
     parser.add_argument(
         "-c", "--countries", default="all",
-        type=lambda x: [ss.strip().replace(" ", "_").lower() for ss in x.split(",")],
+        type=lambda x: [normalize_country_name(ss) for ss in x.split(",")],
         help=(
             "Run for a specific country. For a list of countries use commas to separate them (only in mode get-data)"
             "E.g.: peru, norway. \nSpecial keywords: 'all' to run all countries, 'incremental' to run incremental"
