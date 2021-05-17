@@ -1,5 +1,4 @@
 name: 'covid_19_data update daily'
-
 on:
   push:
     branches:
