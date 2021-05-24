@@ -59,6 +59,7 @@ Ireland,True
 Isle of Man,True
 Israel,True
 Italy,True
+Jamaica,True
 Japan,True
 Jersey,True
 Kazakhstan,True
@@ -100,12 +101,14 @@ Portugal,True
 Qatar,True
 Romania,True
 Russia,True
+Rwanda,True
 Saint Lucia,True
 Samoa,True
 San Marino,True
 Sao Tome and Principe,True
 Saudi Arabia,True
 Scotland,True
+Senegal,True
 Serbia,True
 Singapore,True
 Sint Maarten (Dutch part),True
@@ -172,7 +175,6 @@ Guyana,False
 Honduras,False
 Indonesia,False
 Iraq,False
-Jamaica,False
 Jordan,False
 Kenya,False
 Kosovo,False
@@ -193,11 +195,9 @@ Oman,False
 Palestine,False
 Panama,False
 Paraguay,False
-Rwanda,False
 Saint Helena,False
 Saint Kitts and Nevis,False
 Saint Vincent and the Grenadines,False
-Senegal,False
 Seychelles,False
 Sierra Leone,False
 Syria,False
