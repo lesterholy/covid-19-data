@@ -1,3 +1,5 @@
+import traceback
+
 import global_vaccinations
 import global_testing
 import yougov
@@ -17,13 +19,12 @@ processes = [
 
 if __name__ == "__main__":
   for process in processes:
-    print(process)
     try:
       process.update_db()
     except Exception as e:
+      tb = traceback.format_exc()
       send_error(
         channel="corona-data-updates",
-        title=f'Updated Grapher dataset: {process.DATASET_NAME}',
-        message=None,
-        trace=None
+        title=f'Updating Grapher dataset: {process.DATASET_NAME}',
+        trace=tb,
       )

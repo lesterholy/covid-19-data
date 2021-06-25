@@ -11,6 +11,7 @@ import pandas as pd
 
 
 DEBUG = False
+DATASET_NAME = "YouGov-Imperial COVID-19 Behavior Tracker"
 
 # MIN_RESPONSES: country-date-question observations with less than this
 # many valid responses will be dropped. If "None", no observations will
@@ -46,7 +47,7 @@ class YouGov:
         self.source_url = "https://github.com/YouGov-Data/covid-19-tracker/raw/master"
         self.debug = debug
         self.output_path = output_path
-        self.dataset_name = "YouGov-Imperial COVID-19 Behavior Tracker"
+        self.dataset_name = DATASET_NAME
 
     @property
     def output_csv_path(self):
@@ -434,6 +435,11 @@ def _reorder_columns(df):
     data_cols = sorted([col for col in df.columns if col not in index_cols])
     df = df[index_cols + data_cols]
     return df
+
+
+def update_db():
+    update_db_main()
+    update_db_composite()
 
 
 def update_db_main():
