@@ -186,11 +186,10 @@ hour=$(date +%H)
 if [ $hour == 15 ] ; then
 
   # Download CSV
-  run_python 'import gmobility; gmobility.download_csv()'
+  python -m cowidev.gmobility etl
 
   echo "Generating Google Mobility export..."
-  run_python 'import gmobility; gmobility.export_grapher()'
-  rm ./scripts/input/gmobility/latest.csv
+  python -m cowidev.gmobility grapher-file
 
   if has_changed './scripts/grapher/Google Mobility Trends (2020).csv'; then
     git add .
@@ -203,18 +202,17 @@ fi
 # Always run the database update.
 # The script itself contains a check against the database
 # to make sure it doesn't run unnecessarily.
-run_python 'import gmobility; gmobility.update_db()'
+python -m cowidev.gmobility grapher-db
 
 # =====================================================================
 # Variants
 # If there are any unstaged changes in the repo, then one of
 # the CSVs has changed, and we need to run the update script.
-if has_changed './public/data/variants/covid-variants.csv'; then
+if [ $hour == 20 ] ; then
   echo "Generating CoVariants dataset..."
-  python -m cowidev.variants
+  python -m cowidev.variants etl
+  python -m cowidev.variants grapher-file
   git add .
-  git commit -m "feat(variants): automated update"
+  git commit -m "data(variants): automated update"
   git push
-else
-  echo "CoVariants export is up to date"
 fi
