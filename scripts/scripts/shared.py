@@ -332,9 +332,12 @@ def inject_cfr(df):
         .replace(np.inf, np.nan)
         .replace(-np.inf, np.nan)
         .mul(100)
-        .round(3)
+        .round(4)
     )
-    df.loc[df.date.astype(str) < "2020-06-01", "cfr_short_term"] = pd.NA
+    df.loc[
+        (df.cfr_short_term < 0) | (df.cfr_short_term > 0.1),
+        "cfr_short_term",
+    ] = pd.NA
 
     return df
 
