@@ -436,93 +436,122 @@ def create_latest(df):
 
 
 internal_files_columns = {
-    "cases-tests": [
-        "location",
-        "date",
-        "total_cases",
-        "new_cases",
-        "new_cases_smoothed",
-        "total_cases_per_million",
-        "new_cases_per_million",
-        "new_cases_smoothed_per_million",
-        "reproduction_rate",
-        "new_tests",
-        "total_tests",
-        "total_tests_per_thousand",
-        "new_tests_per_thousand",
-        "new_tests_smoothed",
-        "new_tests_smoothed_per_thousand",
-        "positive_rate",
-        "tests_per_case",
-        "tests_units",
-        "stringency_index",
-    ],
-    "deaths": [
-        "continent",
-        "location",
-        "date",
-        "total_deaths",
-        "new_deaths",
-        "new_deaths_smoothed",
-        "total_deaths_per_million",
-        "new_deaths_per_million",
-        "new_deaths_smoothed_per_million",
-        "cfr",
-        "cfr_short_term",
-    ],
-    "vaccinations": [
-        "location",
-        "date",
-        "total_vaccinations",
-        "people_vaccinated",
-        "people_fully_vaccinated",
-        "new_vaccinations",
-        "new_vaccinations_smoothed",
-        "total_vaccinations_per_hundred",
-        "people_vaccinated_per_hundred",
-        "people_fully_vaccinated_per_hundred",
-        "new_vaccinations_smoothed_per_million",
-        "population",
-        "people_partly_vaccinated",
-        "people_partly_vaccinated_per_hundred",
-    ],
-    "hospital-admissions": [
-        "location",
-        "date",
-        "icu_patients",
-        "icu_patients_per_million",
-        "hosp_patients",
-        "hosp_patients_per_million",
-        "weekly_icu_admissions",
-        "weekly_icu_admissions_per_million",
-        "weekly_hosp_admissions",
-        "weekly_hosp_admissions_per_million",
-    ],
-    "excess-mortality": [
-        "location",
-        "date",
-        "excess_mortality",
-    ],
-    "auxiliary": [
-        "iso_code",
-        "continent",
-        "location",
-        "date",
-        "population_density",
-        "median_age",
-        "aged_65_older",
-        "aged_70_older",
-        "gdp_per_capita",
-        "extreme_poverty",
-        "cardiovasc_death_rate",
-        "diabetes_prevalence",
-        "female_smokers",
-        "male_smokers",
-        "handwashing_facilities",
-        "hospital_beds_per_thousand",
-        "life_expectancy",
-        "human_development_index",
-    ],
+    "cases-tests": {
+        "columns": [
+            "location",
+            "date",
+            "total_cases",
+            "new_cases",
+            "new_cases_smoothed",
+            "total_cases_per_million",
+            "new_cases_per_million",
+            "new_cases_smoothed_per_million",
+            "reproduction_rate",
+            "new_tests",
+            "total_tests",
+            "total_tests_per_thousand",
+            "new_tests_per_thousand",
+            "new_tests_smoothed",
+            "new_tests_smoothed_per_thousand",
+            "positive_rate",
+            "tests_per_case",
+            "tests_units",
+            "stringency_index",
+        ],
+        "dropna": "all",
+    },
+    "deaths": {
+        "columns": [
+            "continent",
+            "location",
+            "date",
+            "total_deaths",
+            "new_deaths",
+            "new_deaths_smoothed",
+            "total_deaths_per_million",
+            "new_deaths_per_million",
+            "new_deaths_smoothed_per_million",
+            "cfr",
+            "cfr_short_term",
+        ],
+        "dropna": "all",
+    },
+    "vaccinations": {
+        "columns": [
+            "location",
+            "date",
+            "total_vaccinations",
+            "people_vaccinated",
+            "people_fully_vaccinated",
+            "new_vaccinations",
+            "new_vaccinations_smoothed",
+            "total_vaccinations_per_hundred",
+            "people_vaccinated_per_hundred",
+            "people_fully_vaccinated_per_hundred",
+            "new_vaccinations_smoothed_per_million",
+            "population",
+            "people_partly_vaccinated",
+            "people_partly_vaccinated_per_hundred",
+        ],
+        "dropna": "all",
+    },
+    "vaccinations-bydose": {
+        "columns": [
+            "location",
+            "date",
+            "people_fully_vaccinated",
+            "people_fully_vaccinated_per_hundred",
+            "people_partly_vaccinated",
+            "people_partly_vaccinated_per_hundred",
+        ],
+        "dropna": "any",
+    },
+    "hospital-admissions": {
+        "columns": [
+            "location",
+            "date",
+            "icu_patients",
+            "icu_patients_per_million",
+            "hosp_patients",
+            "hosp_patients_per_million",
+            "weekly_icu_admissions",
+            "weekly_icu_admissions_per_million",
+            "weekly_hosp_admissions",
+            "weekly_hosp_admissions_per_million",
+        ],
+        "dropna": "all",
+    },
+    "excess-mortality": {
+        "columns": [
+            "location",
+            "date",
+            "excess_mortality",
+        ],
+        "dropna": "all",
+    },
+    "auxiliary": {
+        "columns": [
+            "iso_code",
+            "continent",
+            "location",
+            "date",
+            "population_density",
+            "median_age",
+            "aged_65_older",
+            "aged_70_older",
+            "gdp_per_capita",
+            "extreme_poverty",
+            "cardiovasc_death_rate",
+            "diabetes_prevalence",
+            "female_smokers",
+            "male_smokers",
+            "handwashing_facilities",
+            "hospital_beds_per_thousand",
+            "life_expectancy",
+            "human_development_index",
+        ],
+        "dropna": "all",
+    },
 }
 
 
@@ -722,18 +751,15 @@ def create_internal(df):
         x = pd.read_csv(filename, usecols=["location", "date", "people_partly_vaccinated"])
         df_a = df_a.merge(x, on=["location", "date"], how="outer")
     df_b = df[~df.location.isin(COUNTRIES_WITH_PARTLY_VAX_METRIC)]
-    dfg = df_b.groupby("location")
-    df_b.loc[:, "people_partly_vaccinated"] = (
-        dfg.people_vaccinated.ffill() - dfg.people_fully_vaccinated.ffill().fillna(0)).apply(lambda x: max(x, 0)
-    )
+    df_b.loc[:, "people_partly_vaccinated"] = df_b.people_vaccinated - df_b.people_fully_vaccinated
     df = pd.concat([df_a, df_b], ignore_index=True).sort_values(["location", "date"])
     df.loc[:, "people_partly_vaccinated_per_hundred"] = df["people_partly_vaccinated"]/df["population"] * 100
 
     # Export
-    for name, columns in internal_files_columns.items():
+    for name, config in internal_files_columns.items():
         output_path = os.path.join(dir_path, f"megafile--{name}.json")
-        value_columns = list(set(columns) - set(non_value_columns))
-        df_output = df[columns].dropna(subset=value_columns, how="all")
+        value_columns = list(set(config["columns"]) - set(non_value_columns))
+        df_output = df[config["columns"]].dropna(subset=value_columns, how=config["dropna"])
         df_output = annotator.add_annotations(df_output, name)
         df_to_columnar_json(df_output, output_path)
 
