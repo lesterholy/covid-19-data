@@ -34,6 +34,7 @@ def increment(
     people_vaccinated=None,
     people_partly_vaccinated=None,
     people_fully_vaccinated=None,
+    total_boosters=None,
 ):
     # Check fields
     _check_fields(
@@ -45,6 +46,7 @@ def increment(
         people_vaccinated=people_vaccinated,
         people_partly_vaccinated=people_partly_vaccinated,
         people_fully_vaccinated=people_fully_vaccinated,
+        total_boosters=total_boosters,
     )
     filepath_automated = paths.tmp_vax_out(location)
     filepath_public = f"{GH_LINK}/{location}.csv".replace(" ", "%20")
@@ -63,6 +65,7 @@ def increment(
             people_vaccinated=people_vaccinated,
             people_partly_vaccinated=people_partly_vaccinated,
             people_fully_vaccinated=people_fully_vaccinated,
+            total_boosters=total_boosters,
         )
     # If not available, create new file
     else:
@@ -75,9 +78,16 @@ def increment(
             people_vaccinated=people_vaccinated,
             people_partly_vaccinated=people_partly_vaccinated,
             people_fully_vaccinated=people_fully_vaccinated,
+            total_boosters=total_boosters,
         )
     # To Integer type
-    col_ints = ["total_vaccinations", "people_vaccinated", "people_partly_vaccinated", "people_fully_vaccinated"]
+    col_ints = [
+        "total_vaccinations",
+        "people_vaccinated",
+        "people_partly_vaccinated",
+        "people_fully_vaccinated",
+        "total_boosters",
+    ]
     for col in col_ints:
         if col in df.columns:
             df[col] = df[col].astype("Int64").fillna(pd.NA)
@@ -95,6 +105,7 @@ def _check_fields(
     people_vaccinated,
     people_partly_vaccinated,
     people_fully_vaccinated,
+    total_boosters,
 ):
     # Check location, vaccine, source_url
     if not isinstance(location, str):
@@ -119,10 +130,10 @@ def _check_fields(
         raise TypeError(
             f"Check `total_vaccinations` type! Should be numeric, found {type_wrong}. Value was {total_vaccinations}"
         )
-    if not isinstance(total_vaccinations, numbers.Number):
-        type_wrong = type(location).__name__
+    if not (isinstance(total_boosters, numbers.Number) or pd.isnull(total_boosters)):
+        type_wrong = type(total_boosters).__name__
         raise TypeError(
-            f"Check `total_vaccinations` type! Should be a str, found {type_wrong}. Value was {location}"
+            f"Check `total_boosters` type! Should be numeric, found {type_wrong}. Value was {total_boosters}"
         )
     if not (
         isinstance(people_vaccinated, numbers.Number) or pd.isnull(people_vaccinated)
@@ -132,7 +143,8 @@ def _check_fields(
             f"Check `people_vaccinated` type! Should be numeric, found {type_wrong}. Value was {people_vaccinated}"
         )
     if not (
-        isinstance(people_partly_vaccinated, numbers.Number) or pd.isnull(people_partly_vaccinated)
+        isinstance(people_partly_vaccinated, numbers.Number)
+        or pd.isnull(people_partly_vaccinated)
     ):
         type_wrong = type(people_partly_vaccinated).__name__
         raise TypeError(
@@ -172,17 +184,24 @@ def _increment(
     people_vaccinated=None,
     people_partly_vaccinated=None,
     people_fully_vaccinated=None,
+    total_boosters=None,
 ):
     prev = pd.read_csv(filepath)
-    if (total_vaccinations <= prev["total_vaccinations"].max() or date < prev["date"].max()):
+    if (
+        total_vaccinations <= prev["total_vaccinations"].max()
+        or date < prev["date"].max()
+    ):
         df = prev.copy()
     elif date == prev["date"].max():
         df = prev.copy()
         df.loc[df["date"] == date, "total_vaccinations"] = total_vaccinations
         df.loc[df["date"] == date, "people_vaccinated"] = people_vaccinated
         if people_partly_vaccinated is not None:
-            df.loc[df["date"] == date, "people_partly_vaccinated"] = people_partly_vaccinated
+            df.loc[
+                df["date"] == date, "people_partly_vaccinated"
+            ] = people_partly_vaccinated
         df.loc[df["date"] == date, "people_fully_vaccinated"] = people_fully_vaccinated
+        df.loc[df["date"] == date, "total_boosters"] = total_boosters
         df.loc[df["date"] == date, "source_url"] = source_url
     else:
         new = _build_df(
@@ -194,6 +213,7 @@ def _increment(
             people_vaccinated,
             people_partly_vaccinated,
             people_fully_vaccinated,
+            total_boosters,
         )
         df = pd.concat([prev, new])
     return df.sort_values("date")
@@ -208,6 +228,7 @@ def _build_df(
     people_vaccinated=None,
     people_partly_vaccinated=None,
     people_fully_vaccinated=None,
+    total_boosters=None,
 ):
     new = pd.DataFrame(
         {
@@ -224,11 +245,19 @@ def _build_df(
         new["people_partly_vaccinated"] = people_partly_vaccinated
     if people_fully_vaccinated is not None:
         new["people_fully_vaccinated"] = people_fully_vaccinated
+    if total_boosters is not None:
+        new["total_boosters"] = total_boosters
     return new
 
 
 def merge_with_current_data(df: pd.DataFrame, filepath: str) -> pd.DataFrame:
-    col_ints = ["total_vaccinations", "people_vaccinated", "people_partly_vaccinated", "people_fully_vaccinated"]
+    col_ints = [
+        "total_vaccinations",
+        "people_vaccinated",
+        "people_partly_vaccinated",
+        "people_fully_vaccinated",
+        "total_boosters",
+    ]
     # Load current data
     if os.path.isfile(filepath):
         df_current = pd.read_csv(filepath)
