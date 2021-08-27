@@ -9,8 +9,8 @@ import unicodedata
 from bs4 import BeautifulSoup
 import pandas as pd
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-
+from selenium.webdriver.chrome.options import Options as ChroOpt
+from selenium.webdriver.firefox.options import Options as FireOpt
 
 VAX_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 
@@ -93,10 +93,12 @@ def get_soup(
     return BeautifulSoup(content, "html.parser", from_encoding=from_encoding)
 
 
-def sel_options(headless: bool = True):
-    op = Options()
-    op.add_argument("--disable-notifications")
-    op.add_experimental_option(
+def sel_options(headless: bool = True, firefox: bool = False):
+    if firefox:
+        op = FireOpt()
+    else:
+        op = ChroOpt()
+        op.add_experimental_option(
         "prefs",
         {
             "download.prompt_for_download": False,
@@ -104,13 +106,19 @@ def sel_options(headless: bool = True):
             "safebrowsing.enabled": True,
         },
     )
+    op.add_argument("--disable-notifications")
     if headless:
         op.add_argument("--headless")
     return op
 
 
-def get_driver(headless: bool = True, download_folder: str = None):
-    driver = webdriver.Chrome(options=sel_options(headless=headless))
+def get_driver(headless: bool = True, download_folder: str = None, options=None, firefox: bool = False):
+    if options is None:
+        options = sel_options(headless=headless, firefox=firefox)
+    if firefox:
+        driver = webdriver.Firefox(options=options)
+    else:
+        driver = webdriver.Chrome(options=options)
     if download_folder:
         set_download_settings(driver, download_folder)
     return driver
@@ -137,9 +145,9 @@ def get_latest_file(path, extension):
 
 def scroll_till_element(driver, element):
     desired_y = (element.size["height"] / 2) + element.location["y"]
-    current_y = (
-        driver.execute_script("return window.innerHeight") / 2
-    ) + driver.execute_script("return window.pageYOffset")
+    current_y = (driver.execute_script("return window.innerHeight") / 2) + driver.execute_script(
+        "return window.pageYOffset"
+    )
     scroll_y_by = desired_y - current_y
     driver.execute_script("window.scrollBy(0, arguments[0]);", scroll_y_by)
 
