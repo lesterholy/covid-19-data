@@ -1,10 +1,8 @@
-from datetime import datetime, timedelta
-
 import pandas as pd
 
+from cowidev.utils.clean import extract_clean_date
 from cowidev.utils.web.scraping import get_soup
 from cowidev.vax.utils.incremental import enrich_data, increment
-from cowidev.vax.utils.dates import extract_clean_date
 
 
 class Guernsey:
