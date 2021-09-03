@@ -6,6 +6,7 @@ import pandas as pd
 
 from cowidev.utils.utils import get_project_dir
 from cowidev.utils.clean.dates import clean_date, DATE_FORMAT
+from cowidev.utils.web import request_json
 
 
 class VariantsETL:
@@ -64,14 +65,14 @@ class VariantsETL:
         return [v["rename"] for v in self.variants_details.values() if v["who"]]
 
     def extract(self) -> dict:
-        data = requests.get(self.source_url).json()
+        data = request_json(self.source_url)
         data = list(filter(lambda x: x["region"] == "World", data["regions"]))[0]["distributions"]
         return data
 
     @property
     def _parse_last_update_date(self):
         field_name = "lastUpdated"
-        date_json = requests.get(self.source_url_date).json()
+        date_json = request_json(self.source_url_date)
         if field_name in date_json:
             date_raw = date_json[field_name]
             return datetime.fromisoformat(date_raw).date()
@@ -123,7 +124,7 @@ class VariantsETL:
         dt = pd.to_datetime(df.date, format=DATE_FORMAT)
         dt = dt + timedelta(days=14)
         last_update = self._parse_last_update_date
-        dt = dt.apply(lambda x: clean_date(min(x.date(), last_update)))
+        dt = dt.apply(lambda x: clean_date(min(x.date(), last_update), DATE_FORMAT))
         return df.assign(
             date=dt,
         )
