@@ -337,9 +337,11 @@ def get_cgrt():
 def add_excess_mortality(df: pd.DataFrame) -> pd.DataFrame:
     xm = pd.read_csv(
         os.path.join(DATA_DIR, "excess_mortality/excess_mortality.csv"),
-        usecols=["location", "date", "p_proj_all_ages"],
+        usecols=["location", "date", "p_proj_all_ages", "cum_p_proj_all_ages"],
     )
-    df = df.merge(xm, how="left", on=["location", "date"]).rename(columns={"p_proj_all_ages": "excess_mortality"})
+    df = df.merge(xm, how="left", on=["location", "date"]).rename(
+        columns={"p_proj_all_ages": "excess_mortality", "cum_p_proj_all_ages": "excess_mortality_cumulative"}
+    )
     return df
 
 
@@ -515,6 +517,7 @@ internal_files_columns = {
             "location",
             "date",
             "excess_mortality",
+            "excess_mortality_cumulative",
         ],
         "dropna": "all",
     },
@@ -538,6 +541,22 @@ internal_files_columns = {
             "hospital_beds_per_thousand",
             "life_expectancy",
             "human_development_index",
+        ],
+        "dropna": "all",
+    },
+    "all-reduced": {
+        "columns": [
+            "location",
+            "date",
+            "new_cases_smoothed_per_million",
+            "new_deaths_smoothed_per_million",
+            "weekly_hosp_admissions_per_million",
+            "icu_patients_per_million",
+            "total_vaccinations_per_hundred",
+            "new_tests_smoothed_per_thousand",
+            "positive_rate",
+            "reproduction_rate",
+            "excess_mortality",
         ],
         "dropna": "all",
     },
