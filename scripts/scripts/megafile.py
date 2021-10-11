@@ -498,8 +498,15 @@ internal_files_columns = {
             "people_fully_vaccinated_per_hundred",
             "people_partly_vaccinated",
             "people_partly_vaccinated_per_hundred",
-            "people_fully_vaccinated_no_booster",
-            "people_fully_vaccinated_no_booster_per_hundred",
+        ],
+        "dropna": "any",
+    },
+    "vaccinations-boosters": {
+        "columns": [
+            "location",
+            "date",
+            "total_vaccinations_no_boosters",
+            "total_vaccinations_no_boosters_per_hundred",
             "total_boosters",
             "total_boosters_per_hundred",
         ],
@@ -754,7 +761,9 @@ def create_internal(df):
 
     # Add partly vaccinated
     df = df.pipe(add_partially_vaccinated)
-    df = df.pipe(add_fully_vaccinated_no_boosters)
+    # Add total vaccinations without boosters
+    df = df.pipe(add_total_vaccinations_no_boosters)
+    df = df.pipe(fillna_boosters_till_valid)
 
     # Export
     for name, config in internal_files_columns.items():
@@ -793,6 +802,23 @@ def add_fully_vaccinated_no_boosters(df):
             df.people_fully_vaccinated_per_hundred - df.total_boosters_per_hundred.fillna(0)
         ),
     )
+
+
+def add_total_vaccinations_no_boosters(df):
+    return df.assign(
+        total_vaccinations_no_boosters=df.total_vaccinations - df.total_boosters.fillna(0),
+        total_vaccinations_no_boosters_per_hundred=(
+            df.total_vaccinations_per_hundred - df.total_boosters_per_hundred.fillna(0)
+        ),
+    )
+
+
+def fillna_boosters_till_valid(df):
+    # Fill NaNs in total_boosters (only up to first valid value)
+    df = df.sort_values(["location", "date"])
+    msk = df.groupby(["location"]).total_boosters.ffill().isna()
+    df.loc[msk, ["total_boosters", "total_boosters_per_hundred"]] = 0
+    return df
 
 
 def generate_megafile():
