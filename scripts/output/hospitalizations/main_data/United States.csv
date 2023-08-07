@@ -684,7 +684,7 @@ date,indicator,value,entity
 2022-05-28,Daily hospital occupancy,22059.0,United States
 2022-05-29,Daily hospital occupancy,22352.0,United States
 2022-05-30,Daily hospital occupancy,22820.0,United States
-2022-05-31,Daily hospital occupancy,23971.0,United States
+2022-05-31,Daily hospital occupancy,23974.0,United States
 2022-06-01,Daily hospital occupancy,24718.0,United States
 2022-06-02,Daily hospital occupancy,24902.0,United States
 2022-06-03,Daily hospital occupancy,24723.0,United States
@@ -1106,7 +1106,7 @@ date,indicator,value,entity
 2023-07-24,Daily hospital occupancy,6833.0,United States
 2023-07-25,Daily hospital occupancy,7057.0,United States
 2023-07-26,Daily hospital occupancy,7054.0,United States
-2023-07-27,Daily hospital occupancy,7210.0,United States
+2023-07-27,Daily hospital occupancy,7216.0,United States
 2020-07-21,Weekly new hospital admissions,30552.0,United States
 2020-07-22,Weekly new hospital admissions,31352.0,United States
 2020-07-23,Weekly new hospital admissions,31679.0,United States
@@ -2208,7 +2208,7 @@ date,indicator,value,entity
 2023-07-24,Weekly new hospital admissions,8477.0,United States
 2023-07-25,Weekly new hospital admissions,8590.0,United States
 2023-07-26,Weekly new hospital admissions,8789.0,United States
-2023-07-27,Weekly new hospital admissions,9038.0,United States
+2023-07-27,Weekly new hospital admissions,9039.0,United States
 2020-07-15,Daily ICU occupancy,9245.0,United States
 2020-07-16,Daily ICU occupancy,9797.0,United States
 2020-07-17,Daily ICU occupancy,10700.0,United States
@@ -3274,46 +3274,46 @@ date,indicator,value,entity
 2023-06-12,Daily ICU occupancy,778.0,United States
 2023-06-13,Daily ICU occupancy,737.0,United States
 2023-06-14,Daily ICU occupancy,764.0,United States
-2023-06-15,Daily ICU occupancy,737.0,United States
-2023-06-16,Daily ICU occupancy,722.0,United States
-2023-06-17,Daily ICU occupancy,713.0,United States
-2023-06-18,Daily ICU occupancy,711.0,United States
-2023-06-19,Daily ICU occupancy,743.0,United States
-2023-06-20,Daily ICU occupancy,720.0,United States
-2023-06-21,Daily ICU occupancy,719.0,United States
+2023-06-15,Daily ICU occupancy,736.0,United States
+2023-06-16,Daily ICU occupancy,721.0,United States
+2023-06-17,Daily ICU occupancy,710.0,United States
+2023-06-18,Daily ICU occupancy,709.0,United States
+2023-06-19,Daily ICU occupancy,741.0,United States
+2023-06-20,Daily ICU occupancy,718.0,United States
+2023-06-21,Daily ICU occupancy,717.0,United States
 2023-06-22,Daily ICU occupancy,690.0,United States
 2023-06-23,Daily ICU occupancy,691.0,United States
 2023-06-24,Daily ICU occupancy,698.0,United States
 2023-06-25,Daily ICU occupancy,671.0,United States
 2023-06-26,Daily ICU occupancy,698.0,United States
 2023-06-27,Daily ICU occupancy,745.0,United States
-2023-06-28,Daily ICU occupancy,733.0,United States
-2023-06-29,Daily ICU occupancy,723.0,United States
-2023-06-30,Daily ICU occupancy,675.0,United States
-2023-07-01,Daily ICU occupancy,644.0,United States
-2023-07-02,Daily ICU occupancy,633.0,United States
+2023-06-28,Daily ICU occupancy,732.0,United States
+2023-06-29,Daily ICU occupancy,722.0,United States
+2023-06-30,Daily ICU occupancy,673.0,United States
+2023-07-01,Daily ICU occupancy,642.0,United States
+2023-07-02,Daily ICU occupancy,631.0,United States
 2023-07-03,Daily ICU occupancy,639.0,United States
 2023-07-04,Daily ICU occupancy,649.0,United States
 2023-07-05,Daily ICU occupancy,685.0,United States
-2023-07-06,Daily ICU occupancy,689.0,United States
-2023-07-07,Daily ICU occupancy,681.0,United States
-2023-07-08,Daily ICU occupancy,700.0,United States
-2023-07-09,Daily ICU occupancy,734.0,United States
-2023-07-10,Daily ICU occupancy,731.0,United States
-2023-07-11,Daily ICU occupancy,723.0,United States
-2023-07-12,Daily ICU occupancy,727.0,United States
-2023-07-13,Daily ICU occupancy,700.0,United States
+2023-07-06,Daily ICU occupancy,688.0,United States
+2023-07-07,Daily ICU occupancy,680.0,United States
+2023-07-08,Daily ICU occupancy,699.0,United States
+2023-07-09,Daily ICU occupancy,733.0,United States
+2023-07-10,Daily ICU occupancy,730.0,United States
+2023-07-11,Daily ICU occupancy,722.0,United States
+2023-07-12,Daily ICU occupancy,726.0,United States
+2023-07-13,Daily ICU occupancy,698.0,United States
 2023-07-14,Daily ICU occupancy,703.0,United States
 2023-07-15,Daily ICU occupancy,671.0,United States
-2023-07-16,Daily ICU occupancy,704.0,United States
-2023-07-17,Daily ICU occupancy,761.0,United States
-2023-07-18,Daily ICU occupancy,794.0,United States
-2023-07-19,Daily ICU occupancy,805.0,United States
-2023-07-20,Daily ICU occupancy,810.0,United States
-2023-07-21,Daily ICU occupancy,831.0,United States
-2023-07-22,Daily ICU occupancy,818.0,United States
-2023-07-23,Daily ICU occupancy,787.0,United States
-2023-07-24,Daily ICU occupancy,855.0,United States
-2023-07-25,Daily ICU occupancy,873.0,United States
-2023-07-26,Daily ICU occupancy,866.0,United States
-2023-07-27,Daily ICU occupancy,884.0,United States
+2023-07-16,Daily ICU occupancy,702.0,United States
+2023-07-17,Daily ICU occupancy,759.0,United States
+2023-07-18,Daily ICU occupancy,792.0,United States
+2023-07-19,Daily ICU occupancy,803.0,United States
+2023-07-20,Daily ICU occupancy,808.0,United States
+2023-07-21,Daily ICU occupancy,830.0,United States
+2023-07-22,Daily ICU occupancy,816.0,United States
+2023-07-23,Daily ICU occupancy,785.0,United States
+2023-07-24,Daily ICU occupancy,853.0,United States
+2023-07-25,Daily ICU occupancy,870.0,United States
+2023-07-26,Daily ICU occupancy,864.0,United States
+2023-07-27,Daily ICU occupancy,881.0,United States
