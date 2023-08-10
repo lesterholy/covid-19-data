@@ -11,7 +11,7 @@ SCRIPTS_DIR=$ROOT_DIR/scripts
 export OWID_COVID_PROJECT_DIR=${ROOT_DIR}
 export OWID_COVID_CONFIG=${OWID_COVID_PROJECT_DIR}/scripts/config.yaml
 export OWID_COVID_SECRETS=${OWID_COVID_PROJECT_DIR}/scripts/secrets.yaml
-export PATH=$PATH:/usr/local/bin/ 
+export PATH=$PATH:/usr/local/bin/
 
 
 # FUNCTIONS
@@ -47,19 +47,3 @@ source $SCRIPTS_DIR/venv/bin/activate
 
 # Make sure we have the latest commit.
 git checkout $BRANCH && git pull origin $BRANCH
-
-
-# Run Grapher updates
-cowidev-grapher-db
-
-## Additional individual grapher updates
-minute=$(date +%M)
-if [ $minute == 40 ] ; then
-  cowid --server casedeath grapher-db
-  cowid --server decoupling grapher-db
-  cowid --server hosp grapher-db
-  # cowid --server gmobility grapher-db
-  cowid --server sweden grapher-db
-  cowid --server uk-nations grapher-db
-  cowid --server oxcgrt grapher-db
-fi

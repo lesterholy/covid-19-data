@@ -1,9 +1,6 @@
-import os
-
-from cowidev import PATHS
-from cowidev.gmobility.etl import run_etl
-from cowidev.gmobility.grapher import run_grapheriser, run_db_updater
 from cowidev.gmobility._parser import _parse_args
+from cowidev.gmobility.etl import run_etl
+from cowidev.gmobility.grapher import run_grapheriser
 
 
 def run_step(step: str):
@@ -11,8 +8,6 @@ def run_step(step: str):
         run_etl()
     elif step == "grapher-file":
         run_grapheriser()
-    elif step == "grapher-db":
-        run_db_updater()
 
 
 if __name__ == "__main__":

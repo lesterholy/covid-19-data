@@ -1,8 +1,7 @@
 from datetime import datetime
 
 import pandas as pd
-from cowidev.grapher.db.base import GrapherBaseUpdater
-from cowidev.utils.utils import time_str_grapher, get_filename
+
 from cowidev.utils.clean.dates import DATE_FORMAT
 
 ZERO_DAY = "2020-01-01"
@@ -52,7 +51,12 @@ def run_grapheriser(input_path: str, input_path_country_std: str, output_path: s
     vax = pd.read_csv(
         URL_VACCINE,
         low_memory=False,
-        usecols=["CountryName", "Date", "V2_Vaccine Availability (summary)", "V2_Pregnant people"],
+        usecols=[
+            "CountryName",
+            "Date",
+            "V2_Vaccine Availability (summary)",
+            "V2_Pregnant people",
+        ],
     )
     cgrt = pd.merge(cgrt, vax, how="outer", on=["CountryName", "Date"], validate="one_to_one")
 
@@ -97,16 +101,3 @@ def run_grapheriser(input_path: str, input_path_country_std: str, output_path: s
 
     cgrt = cgrt.rename(columns=rename_dict).sort_values(["Country", "Year"])
     cgrt.to_csv(output_path, index=False)
-
-
-def run_db_updater(input_path: str):
-    dataset_name = get_filename(input_path)
-    GrapherBaseUpdater(
-        dataset_name=dataset_name,
-        source_name=(
-            "Oxford COVID-19 Government Response Tracker, Blavatnik School of Government, University of Oxford"
-            f" – Last updated {time_str_grapher()}"
-        ),
-        zero_day=ZERO_DAY,
-        slack_notifications=False,
-    ).run()

@@ -1,7 +1,6 @@
 import argparse
 
-
-CHOICES = ["download", "etl", "grapher-db"]
+CHOICES = ["download", "etl"]
 
 
 def _parse_args():
@@ -12,10 +11,7 @@ def _parse_args():
     parser.add_argument(
         "step",
         choices=CHOICES,
-        help=(
-            "Choose a step: 0) `download`, 1) `etl` to get all data and DS ready file, 3) `grapher-db`"
-            " to update Grapher DB."
-        ),
+        help=("Choose a step: 0) `download`, 1) `etl` to get all data and DS ready file."),
     )
     parser.add_argument(
         "-s",

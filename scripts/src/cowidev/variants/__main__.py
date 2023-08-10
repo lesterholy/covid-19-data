@@ -1,10 +1,9 @@
 import os
 
 from cowidev import PATHS
-from cowidev.variants.etl import run_etl
-from cowidev.variants.grapher import run_grapheriser, run_explorerizer, run_db_updater
 from cowidev.variants._parser import _parse_args
-
+from cowidev.variants.etl import run_etl
+from cowidev.variants.grapher import run_explorerizer, run_grapheriser
 
 FILE_DS = "s3://covid-19/internal/variants/covid-variants.csv"
 FILE_SEQ_DS = "s3://covid-19/internal/variants/covid-sequencing.csv"
@@ -25,8 +24,6 @@ def run_step(step: str):
     elif step == "explorer-file":
         # Filter by num_seq
         run_explorerizer()
-    elif step == "grapher-db":
-        run_db_updater()
 
 
 if __name__ == "__main__":

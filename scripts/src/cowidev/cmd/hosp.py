@@ -1,10 +1,15 @@
 import click
 
-from cowidev.cmd.commons.utils import OrderedGroup, Country2Module, PythonLiteralOption, feedback_log
-from cowidev.utils.params import CONFIG
-from cowidev.hosp.etl import run_etl
-from cowidev.hosp.grapher import run_db_updater, run_grapheriser
+from cowidev.cmd.commons.utils import (
+    Country2Module,
+    OrderedGroup,
+    PythonLiteralOption,
+    feedback_log,
+)
 from cowidev.hosp.countries import MODULES_NAME, country_to_module
+from cowidev.hosp.etl import run_etl
+from cowidev.hosp.grapher import run_grapheriser
+from cowidev.utils.params import CONFIG
 
 
 @click.group(name="hosp", chain=True, cls=OrderedGroup)
@@ -72,19 +77,5 @@ def click_hosp_grapherio(ctx):
     )
 
 
-@click.command(name="grapher-db", short_help="Step 3: Update Grapher database with generated files.")
-@click.pass_context
-def click_hosp_grapherdb(ctx):
-    feedback_log(
-        func=run_db_updater,
-        server=ctx.obj["server"],
-        domain="Hospitalizations",
-        step="grapher-db",
-        text_success="Hospitalization files were correctly uploaded to the database.",
-        hide_success=True,
-    )
-
-
 click_hosp.add_command(click_hosp_generate)
 click_hosp.add_command(click_hosp_grapherio)
-click_hosp.add_command(click_hosp_grapherdb)

@@ -1,7 +1,7 @@
 import click
 
 from cowidev.cmd.commons.utils import OrderedGroup, feedback_log
-from cowidev.jhu.__main__ import download_csv, generate_dataset, update_db
+from cowidev.jhu.__main__ import download_csv, generate_dataset
 
 
 @click.group(name="jhu", chain=True, cls=OrderedGroup)
@@ -40,19 +40,5 @@ def click_jhu_generate(ctx):
     )
 
 
-@click.command(name="grapher-db", short_help="Step 3: Update Grapher database with generated files.")
-@click.pass_context
-def click_jhu_db(ctx):
-    feedback_log(
-        func=update_db,
-        server=ctx.obj["server"],
-        domain="JHU",
-        step="grapher-db",
-        text_success="Files uploaded to the database.",
-        hide_success=True,
-    )
-
-
 click_jhu.add_command(click_jhu_download)
 click_jhu.add_command(click_jhu_generate)
-click_jhu.add_command(click_jhu_db)

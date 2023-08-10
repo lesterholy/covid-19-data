@@ -1,6 +1,6 @@
-from cowidev.hosp.etl import run_etl
-from cowidev.hosp.grapher import run_grapheriser, run_db_updater
 from cowidev.hosp._parser import _parse_args
+from cowidev.hosp.etl import run_etl
+from cowidev.hosp.grapher import run_grapheriser
 
 
 def run_step(args):
@@ -8,8 +8,6 @@ def run_step(args):
         run_etl(not args.monothread, args.njobs)
     elif args.step == "grapher-file":
         run_grapheriser()
-    elif args.step == "grapher-db":
-        run_db_updater()
 
 
 if __name__ == "__main__":

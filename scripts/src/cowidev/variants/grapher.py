@@ -1,9 +1,9 @@
 import os
+
 import pandas as pd
 
 from cowidev import PATHS
-from cowidev.grapher.files import Grapheriser, Exploriser
-
+from cowidev.grapher.files import Exploriser, Grapheriser
 
 NUM_SEQUENCES_TOTAL_THRESHOLD = 100
 FILE_GRAPHER = os.path.join(PATHS.INTERNAL_GRAPHER_DIR, "COVID-19 - Variants.csv")
@@ -54,7 +54,3 @@ def run_explorerizer():
         function_input=filter_by_num_sequences,
         function_output=variant_url_frienldy_name,
     ).run(PATHS.INTERNAL_OUTPUT_VARIANTS_FILE, FILE_EXPLORER)
-
-
-def run_db_updater(input_path: str):
-    raise NotImplementedError("Not yet implemented")

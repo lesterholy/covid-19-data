@@ -1,13 +1,10 @@
-from datetime import datetime, timedelta
 import os
-import sys
-import pandas as pd
-import pytz
+from datetime import datetime, timedelta
+
 import numpy as np
+import pandas as pd
 
 from cowidev import PATHS
-from cowidev.grapher.db.utils.db_imports import import_dataset
-
 
 DATASET_NAME = "COVID-19 - Swedish Public Health Agency"
 ZERO_DAY = "2020-01-01"
@@ -20,7 +17,10 @@ def download_data():
 
 
 def generate_dataset():
-    df = pd.read_csv(PATHS.INTERNAL_INPUT_SWEDEN_DEATHS_FILE, usecols=["Datum_avliden", "Antal_avlidna"])
+    df = pd.read_csv(
+        PATHS.INTERNAL_INPUT_SWEDEN_DEATHS_FILE,
+        usecols=["Datum_avliden", "Antal_avlidna"],
+    )
     df = df.rename(columns={"Datum_avliden": "Date", "Antal_avlidna": "Deaths"})
     df = df.dropna()
     df = df[-df["Date"].str.contains("ppgift saknas")]
@@ -38,19 +38,6 @@ def generate_dataset():
 
     df = df[["Country", "Year", "Deaths", "Incomplete deaths"]]
     df.to_csv(os.path.join(PATHS.INTERNAL_GRAPHER_DIR, f"{DATASET_NAME}.csv"), index=False)
-
-
-def update_db():
-    time_str = datetime.now().astimezone(pytz.timezone("Europe/London")).strftime("%-d %B %Y")
-    source_name = f"Swedish Public Health Agency – Last updated {time_str}"
-    import_dataset(
-        dataset_name=DATASET_NAME,
-        namespace="owid",
-        csv_path=os.path.join(PATHS.INTERNAL_GRAPHER_DIR, DATASET_NAME + ".csv"),
-        default_variable_display={"yearIsDay": True, "zeroDay": ZERO_DAY},
-        source_name=source_name,
-        slack_notifications=False,
-    )
 
 
 if __name__ == "__main__":

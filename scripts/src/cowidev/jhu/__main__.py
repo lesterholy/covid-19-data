@@ -4,15 +4,18 @@ import os
 from termcolor import colored
 
 from cowidev import PATHS
-from cowidev.jhu.process import standardize_data, standard_export, inject_population, ZERO_DAY
-from cowidev.jhu.utils import print_err
-from cowidev.jhu.load import load_data, load_owid_continents, load_population
-from cowidev.jhu.subnational import create_subnational
-from cowidev.utils.utils import export_timestamp
 from cowidev.grapher.db.utils.slack_client import send_warning
-from cowidev.grapher.db.utils.db_imports import import_dataset
+from cowidev.jhu.load import load_data, load_owid_continents, load_population
+from cowidev.jhu.process import (
+    ZERO_DAY,
+    inject_population,
+    standard_export,
+    standardize_data,
+)
+from cowidev.jhu.subnational import create_subnational
+from cowidev.jhu.utils import print_err
 from cowidev.utils.slackapi import SlackAPI
-
+from cowidev.utils.utils import export_timestamp
 
 ERROR = colored("[Error]", "red")
 WARNING = colored("[Warning]", "yellow")
@@ -91,7 +94,6 @@ def export(df, logger):
 
 
 def generate_dataset(logger, server_mode, skip_download=False):
-
     if not skip_download:
         logger.info("\nAttempting to download latest CSV files...")
         download_csv()
@@ -110,21 +112,13 @@ def generate_dataset(logger, server_mode, skip_download=False):
 
 
 def download_csv(logger):
-    files = ["time_series_covid19_confirmed_global.csv", "time_series_covid19_deaths_global.csv"]
+    files = [
+        "time_series_covid19_confirmed_global.csv",
+        "time_series_covid19_deaths_global.csv",
+    ]
     for file in files:
         logger.info(file)
         os.system(
             f"curl --silent -f -o {PATHS.INTERNAL_INPUT_JHU_DIR}/{file} -L"
             f" https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/{file}"
         )
-
-
-def update_db():
-    import_dataset(
-        dataset_name=DATASET_NAME,
-        namespace="owid",
-        csv_path=os.path.join(PATHS.DATA_JHU_DIR, DATASET_NAME + ".csv"),
-        default_variable_display={"yearIsDay": True, "zeroDay": ZERO_DAY},
-        source_name="Johns Hopkins University CSSE COVID-19 Data",
-        slack_notifications=False,
-    )

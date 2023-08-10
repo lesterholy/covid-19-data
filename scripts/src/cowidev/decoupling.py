@@ -1,11 +1,10 @@
 import os
-import requests
 import sys
 
 import pandas as pd
+import requests
 
 from cowidev import PATHS
-from cowidev.grapher.db.utils.db_imports import import_dataset
 
 CURRENT_DIR = os.path.dirname(__file__)
 sys.path.append(CURRENT_DIR)
@@ -63,7 +62,6 @@ def adjust_x_and_y(
 
 
 def process_usa() -> pd.DataFrame:
-
     c_d = requests.get(SOURCE_USA_C_D).json()["us_trend_by_Geography"]
     c_d = pd.DataFrame.from_records(
         c_d,
@@ -119,7 +117,6 @@ def process_usa() -> pd.DataFrame:
 
 
 def process_deu() -> pd.DataFrame:
-
     cases_deaths = (
         pd.read_csv(SOURCE_DEU_C_D, usecols=["Refdatum", "AnzahlFall", "AnzahlTodesfall"])
         .rename(
@@ -138,7 +135,8 @@ def process_deu() -> pd.DataFrame:
     )
 
     hosp_flow = pd.read_csv(
-        SOURCE_DEU_HOSP, usecols=["Datum", "Bundesland", "Altersgruppe", "7T_Hospitalisierung_Faelle"]
+        SOURCE_DEU_HOSP,
+        usecols=["Datum", "Bundesland", "Altersgruppe", "7T_Hospitalisierung_Faelle"],
     )
     hosp_flow = (
         hosp_flow[(hosp_flow.Bundesland == "Bundesgebiet") & (hosp_flow.Altersgruppe == "00+")]
@@ -175,7 +173,6 @@ def process_deu() -> pd.DataFrame:
 
 
 def process_esp() -> pd.DataFrame:
-
     df = (
         pd.read_csv(SOURCE_ESP, usecols=["fecha", "num_casos", "num_hosp", "num_uci", "num_def"])
         .rename(
@@ -210,10 +207,18 @@ def process_esp() -> pd.DataFrame:
 
 
 def process_isr() -> pd.DataFrame:
-
     df = (
         pd.read_csv(
-            SOURCE_ISR, usecols=["Date", "New infected", "New serious", "New deaths", "Easy", "Medium", "Hard"]
+            SOURCE_ISR,
+            usecols=[
+                "Date",
+                "New infected",
+                "New serious",
+                "New deaths",
+                "Easy",
+                "Medium",
+                "Hard",
+            ],
         )
         .rename(
             columns={
@@ -264,17 +269,6 @@ def main():
         ]
     ]
     df.to_csv(os.path.join(PATHS.INTERNAL_GRAPHER_DIR, f"{DATASET_NAME}.csv"), index=False)
-
-
-def update_db():
-    import_dataset(
-        dataset_name=DATASET_NAME,
-        namespace="owid",
-        csv_path=os.path.join(PATHS.INTERNAL_GRAPHER_DIR, DATASET_NAME + ".csv"),
-        default_variable_display={"yearIsDay": True, "zeroDay": ZERO_DAY},
-        source_name="Official data collated by Our World in Data",
-        slack_notifications=False,
-    )
 
 
 if __name__ == "__main__":

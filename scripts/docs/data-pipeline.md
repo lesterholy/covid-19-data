@@ -3,7 +3,7 @@ To produce [our dataset](../dataset) we are constantly developing our dedicated 
 command tool [`cowid`](../cowidev/cowid-api) which eases:
 
 1. Running several _sub-processes_ (or pipelines) that generate _intermediate datasets_.
-2. Jointly processing and merging all these intermediate datasets into the final and complete dataset.  
+2. Jointly processing and merging all these intermediate datasets into the final and complete dataset.
 
 Consequently, the dataset is updated multiple times a day (_at least_ at 06:00 and 18:00 UTC), using the latest generated intermediate datasets.
 
@@ -87,9 +87,6 @@ cowid hosp generate
 
 # Update Grapher-ready files
 cowid hosp grapher-io
-
-# Update Grapher database
-cowid hosp grapher-db
 ```
 
 ```{seealso}
@@ -105,9 +102,6 @@ re-publish the dataset.
 ```
 # Generate dataset
 cowid casedeath generate
-
-# Update Grapher database
-cowid casedeath grapher-db
 ```
 
 
@@ -133,7 +127,7 @@ cowid xm generate
 ```
 
 ## Variants pipeline
-We run this pipeline daily. 
+We run this pipeline daily.
 ### Execution steps
 
 ```
@@ -164,9 +158,6 @@ cowid oxcgrt get
 
 # Update Grapher files
 cowid oxcgrt grapher-io
-
-# Upload data to database
-cowid oxcgrt grapher-db
 ```
 
 

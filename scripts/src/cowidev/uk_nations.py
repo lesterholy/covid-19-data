@@ -1,13 +1,11 @@
-from datetime import datetime
 import os
-import pytz
-import requests
+from datetime import datetime
 
 import pandas as pd
+import requests
 from uk_covid19 import Cov19API
 
 from cowidev import PATHS
-from cowidev.grapher.db.utils.db_imports import import_dataset
 
 DATASET_NAME = "uk_covid_data"
 OUTPUT_CSV = os.path.join(PATHS.INTERNAL_GRAPHER_DIR, f"{DATASET_NAME}.csv")
@@ -211,19 +209,6 @@ def generate_dataset():
 
     # Export
     combined.to_csv(OUTPUT_CSV, index=False)
-
-
-def update_db():
-    time_str = datetime.now().astimezone(pytz.timezone("Europe/London")).strftime("%-d %B %Y")
-    source_name = f"UK Government COVID-19 Dashboard – Last updated {time_str}"
-    import_dataset(
-        dataset_name=DATASET_NAME,
-        namespace="owid",
-        csv_path=OUTPUT_CSV,
-        default_variable_display={"yearIsDay": True, "zeroDay": ZERO_DAY},
-        source_name=source_name,
-        slack_notifications=False,
-    )
 
 
 if __name__ == "__main__":

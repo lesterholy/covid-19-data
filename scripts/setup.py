@@ -1,9 +1,9 @@
 """setup script."""
 
 
-from setuptools import setup, find_packages
 import os
 
+from setuptools import find_packages, setup
 
 this_directory = os.path.abspath(os.path.dirname(__file__))
 # with open(os.path.join(this_directory, "README.md")) as f:
@@ -52,7 +52,6 @@ setup(
     python_requires=">=3.7",
     entry_points={
         "console_scripts": [
-            "cowidev-grapher-db=cowidev.grapher.db.__main__:main",
             "cowid=cowidev.cmd.__main__:cli",
         ]
     },

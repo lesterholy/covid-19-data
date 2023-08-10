@@ -1,11 +1,9 @@
 import os
 
 from cowidev import PATHS
-
+from cowidev.vax.us_states._parser import _parse_args
 from cowidev.vax.us_states.etl import run_etl
 from cowidev.vax.us_states.grapher import run_grapheriser
-from cowidev.vax.us_states._parser import _parse_args
-
 
 FILE_DS = PATHS.DATA_VAX_US_FILE
 FILE_GRAPHER = os.path.join(PATHS.INTERNAL_GRAPHER_DIR, "COVID-19 - United States vaccinations.csv")
@@ -18,8 +16,6 @@ def run_step(step: str):
         run_grapheriser(FILE_DS, FILE_GRAPHER)
     # elif step == "explorer-file":
     #     run_explorerizer(FILE_DS, FILE_EXPLORER)
-    # elif step == "grapher-db":
-    #     run_db_updater(FILE_GRAPHER)
 
 
 if __name__ == "__main__":

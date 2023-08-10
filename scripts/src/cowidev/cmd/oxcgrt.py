@@ -3,7 +3,7 @@ import click
 from cowidev import PATHS
 from cowidev.cmd.commons.utils import OrderedGroup, feedback_log
 from cowidev.oxcgrt.etl import run_etl
-from cowidev.oxcgrt.grapher import run_grapheriser, run_db_updater
+from cowidev.oxcgrt.grapher import run_grapheriser
 
 
 @click.group(name="oxcgrt", chain=True, cls=OrderedGroup)
@@ -43,20 +43,5 @@ def click_oxcgrt_grapher(ctx):
     )
 
 
-@click.command(name="grapher-db", short_help="Step 3: Update Grapher database with generated files.")
-@click.pass_context
-def click_oxcgrt_db(ctx):
-    feedback_log(
-        func=run_db_updater,
-        input_path=PATHS.INTERNAL_GRAPHER_BSG_FILE,
-        server=ctx.obj["server"],
-        domain="OxCGRT",
-        step="grapher-db",
-        text_success="Data correctly uploaded to the database.",
-        hide_success=True,
-    )
-
-
 click_oxcgrt.add_command(click_oxcgrt_get)
 click_oxcgrt.add_command(click_oxcgrt_grapher)
-click_oxcgrt.add_command(click_oxcgrt_db)

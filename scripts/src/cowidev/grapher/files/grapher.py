@@ -1,6 +1,6 @@
-from datetime import datetime
 from dataclasses import dataclass, field
-from typing import Callable, List
+from datetime import datetime
+from typing import Callable
 
 import pandas as pd
 
@@ -19,7 +19,7 @@ class Grapheriser:
     suffixes: list = None
     function_input: Callable = lambda x: x
     function_output: Callable = lambda x: x
-    columns_non_fillna_0: list = field(default_factory=lambda:[])
+    columns_non_fillna_0: list = field(default_factory=lambda: [])
 
     @property
     def columns_metadata(self) -> list:

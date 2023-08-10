@@ -1,12 +1,11 @@
 import os
 from datetime import datetime
+
 import pandas as pd
 
 from cowidev import PATHS
-from cowidev.grapher.db.base import GrapherBaseUpdater
-from cowidev.utils.utils import time_str_grapher, get_filename
-from cowidev.utils.clean.dates import DATE_FORMAT
 from cowidev.gmobility.dtypes import dtype
+from cowidev.utils.clean.dates import DATE_FORMAT
 
 ZERO_DAY = "2020-01-01"
 zero_day = datetime.strptime(ZERO_DAY, DATE_FORMAT)
@@ -82,13 +81,3 @@ def run_grapheriser():
     country_mobility.to_csv(FILE_GRAPHER, index=False)
 
     os.remove(FILE_DS)
-
-
-def run_db_updater():
-    dataset_name = get_filename(FILE_GRAPHER)
-    GrapherBaseUpdater(
-        dataset_name=dataset_name,
-        source_name=f"Google COVID-19 Community Mobility Trends – Last updated {time_str_grapher()}",
-        zero_day=ZERO_DAY,
-        slack_notifications=False,
-    ).run()

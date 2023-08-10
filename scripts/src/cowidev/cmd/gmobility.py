@@ -2,7 +2,7 @@ import click
 
 from cowidev.cmd.commons.utils import OrderedGroup, feedback_log
 from cowidev.gmobility.etl import run_etl
-from cowidev.gmobility.grapher import run_grapheriser, run_db_updater
+from cowidev.gmobility.grapher import run_grapheriser
 
 
 @click.group(name="gmobility", chain=True, cls=OrderedGroup)
@@ -37,18 +37,5 @@ def click_gm_grapherio(ctx):
     )
 
 
-@click.command(name="grapher-db", short_help="Step 3: Update Grapher database with generated files.")
-@click.pass_context
-def click_gm_grapherdb(ctx):
-    feedback_log(
-        func=run_db_updater,
-        server=ctx.obj["server"],
-        domain="Google Mobility",
-        step="generate",
-        hide_success=True,
-    )
-
-
 click_gm.add_command(click_gm_generate)
 click_gm.add_command(click_gm_grapherio)
-click_gm.add_command(click_gm_grapherdb)
