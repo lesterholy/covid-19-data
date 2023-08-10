@@ -3,7 +3,7 @@
 set -e
 
 BRANCH="master"
-ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd ../.. && pwd )"
+ROOT_DIR="/home/owid/covid-19-data" #"$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd ../.. && pwd )"
 SCRIPTS_DIR=$ROOT_DIR/scripts
 
 
@@ -31,7 +31,7 @@ git_push() {
     msg="data("$1"): automated update"
     git add .
     git commit -m "$msg"
-    git push
+    git push origin $BRANCH
   fi
 }
 
@@ -46,7 +46,7 @@ cd $ROOT_DIR
 source $SCRIPTS_DIR/venv/bin/activate
 
 # Make sure we have the latest commit.
-git reset --hard origin/master && git pull
+git reset --hard origin/$BRANCH && git pull origin $BRANCH
 
 
 # =====================================================================
@@ -66,12 +66,14 @@ else
 fi
 
 hour=$(date +%H)
-if [ $hour == 00 ] || [ $hour == 06] || [ $hour == 12] || [ $hour == 18] ; then
+echo "Hour: $hour"  # Debugging output
+if [ "$hour" == "00" ] || [ "$hour" == "06" ] || [ "$hour" == "12" ] || [ "$hour" == "18" ]; then
   echo "Generating Case/Death files..."
   cowid --server casedeath generate
-  # python $SCRIPTS_DIR/scripts/jhu.py --skip-download
+  # python "$SCRIPTS_DIR/scripts/jhu.py" --skip-download
   git_push "case-death"
 fi
+
 
 # =====================================================================
 # Decoupling charts

@@ -289,13 +289,13 @@ date,indicator,value,entity
 2020-12-19,Weekly new hospital admissions,3735.0,Czechia
 2020-12-20,Weekly new hospital admissions,3782.0,Czechia
 2020-12-21,Weekly new hospital admissions,3794.0,Czechia
-2020-12-22,Weekly new hospital admissions,3851.0,Czechia
-2020-12-23,Weekly new hospital admissions,4048.0,Czechia
-2020-12-24,Weekly new hospital admissions,3847.0,Czechia
-2020-12-25,Weekly new hospital admissions,3792.0,Czechia
-2020-12-26,Weekly new hospital admissions,4000.0,Czechia
-2020-12-27,Weekly new hospital admissions,4262.0,Czechia
-2020-12-28,Weekly new hospital admissions,4730.0,Czechia
+2020-12-22,Weekly new hospital admissions,3852.0,Czechia
+2020-12-23,Weekly new hospital admissions,4049.0,Czechia
+2020-12-24,Weekly new hospital admissions,3848.0,Czechia
+2020-12-25,Weekly new hospital admissions,3793.0,Czechia
+2020-12-26,Weekly new hospital admissions,4001.0,Czechia
+2020-12-27,Weekly new hospital admissions,4263.0,Czechia
+2020-12-28,Weekly new hospital admissions,4731.0,Czechia
 2020-12-29,Weekly new hospital admissions,5056.0,Czechia
 2020-12-30,Weekly new hospital admissions,5251.0,Czechia
 2020-12-31,Weekly new hospital admissions,5693.0,Czechia
@@ -308,22 +308,22 @@ date,indicator,value,entity
 2021-01-07,Weekly new hospital admissions,6696.0,Czechia
 2021-01-08,Weekly new hospital admissions,6972.0,Czechia
 2021-01-09,Weekly new hospital admissions,6837.0,Czechia
-2021-01-10,Weekly new hospital admissions,6704.0,Czechia
-2021-01-11,Weekly new hospital admissions,6349.0,Czechia
-2021-01-12,Weekly new hospital admissions,6291.0,Czechia
-2021-01-13,Weekly new hospital admissions,6044.0,Czechia
-2021-01-14,Weekly new hospital admissions,5809.0,Czechia
-2021-01-15,Weekly new hospital admissions,5709.0,Czechia
-2021-01-16,Weekly new hospital admissions,5570.0,Czechia
+2021-01-10,Weekly new hospital admissions,6705.0,Czechia
+2021-01-11,Weekly new hospital admissions,6350.0,Czechia
+2021-01-12,Weekly new hospital admissions,6292.0,Czechia
+2021-01-13,Weekly new hospital admissions,6045.0,Czechia
+2021-01-14,Weekly new hospital admissions,5810.0,Czechia
+2021-01-15,Weekly new hospital admissions,5710.0,Czechia
+2021-01-16,Weekly new hospital admissions,5571.0,Czechia
 2021-01-17,Weekly new hospital admissions,5429.0,Czechia
 2021-01-18,Weekly new hospital admissions,5315.0,Czechia
-2021-01-19,Weekly new hospital admissions,5043.0,Czechia
-2021-01-20,Weekly new hospital admissions,5023.0,Czechia
-2021-01-21,Weekly new hospital admissions,4883.0,Czechia
-2021-01-22,Weekly new hospital admissions,4850.0,Czechia
-2021-01-23,Weekly new hospital admissions,4847.0,Czechia
-2021-01-24,Weekly new hospital admissions,4830.0,Czechia
-2021-01-25,Weekly new hospital admissions,4697.0,Czechia
+2021-01-19,Weekly new hospital admissions,5044.0,Czechia
+2021-01-20,Weekly new hospital admissions,5024.0,Czechia
+2021-01-21,Weekly new hospital admissions,4884.0,Czechia
+2021-01-22,Weekly new hospital admissions,4851.0,Czechia
+2021-01-23,Weekly new hospital admissions,4848.0,Czechia
+2021-01-24,Weekly new hospital admissions,4831.0,Czechia
+2021-01-25,Weekly new hospital admissions,4698.0,Czechia
 2021-01-26,Weekly new hospital admissions,4697.0,Czechia
 2021-01-27,Weekly new hospital admissions,4622.0,Czechia
 2021-01-28,Weekly new hospital admissions,4591.0,Czechia
@@ -352,21 +352,21 @@ date,indicator,value,entity
 2021-02-20,Weekly new hospital admissions,5517.0,Czechia
 2021-02-21,Weekly new hospital admissions,5584.0,Czechia
 2021-02-22,Weekly new hospital admissions,5829.0,Czechia
-2021-02-23,Weekly new hospital admissions,5957.0,Czechia
-2021-02-24,Weekly new hospital admissions,6025.0,Czechia
-2021-02-25,Weekly new hospital admissions,6267.0,Czechia
-2021-02-26,Weekly new hospital admissions,6409.0,Czechia
-2021-02-27,Weekly new hospital admissions,6579.0,Czechia
-2021-02-28,Weekly new hospital admissions,6669.0,Czechia
-2021-03-01,Weekly new hospital admissions,6875.0,Czechia
+2021-02-23,Weekly new hospital admissions,5959.0,Czechia
+2021-02-24,Weekly new hospital admissions,6027.0,Czechia
+2021-02-25,Weekly new hospital admissions,6269.0,Czechia
+2021-02-26,Weekly new hospital admissions,6411.0,Czechia
+2021-02-27,Weekly new hospital admissions,6581.0,Czechia
+2021-02-28,Weekly new hospital admissions,6671.0,Czechia
+2021-03-01,Weekly new hospital admissions,6877.0,Czechia
 2021-03-02,Weekly new hospital admissions,7099.0,Czechia
-2021-03-03,Weekly new hospital admissions,7149.0,Czechia
-2021-03-04,Weekly new hospital admissions,7131.0,Czechia
-2021-03-05,Weekly new hospital admissions,7123.0,Czechia
-2021-03-06,Weekly new hospital admissions,7162.0,Czechia
-2021-03-07,Weekly new hospital admissions,7216.0,Czechia
-2021-03-08,Weekly new hospital admissions,7096.0,Czechia
-2021-03-09,Weekly new hospital admissions,7044.0,Czechia
+2021-03-03,Weekly new hospital admissions,7150.0,Czechia
+2021-03-04,Weekly new hospital admissions,7132.0,Czechia
+2021-03-05,Weekly new hospital admissions,7124.0,Czechia
+2021-03-06,Weekly new hospital admissions,7163.0,Czechia
+2021-03-07,Weekly new hospital admissions,7217.0,Czechia
+2021-03-08,Weekly new hospital admissions,7097.0,Czechia
+2021-03-09,Weekly new hospital admissions,7045.0,Czechia
 2021-03-10,Weekly new hospital admissions,7194.0,Czechia
 2021-03-11,Weekly new hospital admissions,7198.0,Czechia
 2021-03-12,Weekly new hospital admissions,7296.0,Czechia
@@ -418,13 +418,13 @@ date,indicator,value,entity
 2021-04-27,Weekly new hospital admissions,2028.0,Czechia
 2021-04-28,Weekly new hospital admissions,1906.0,Czechia
 2021-04-29,Weekly new hospital admissions,1864.0,Czechia
-2021-04-30,Weekly new hospital admissions,1817.0,Czechia
-2021-05-01,Weekly new hospital admissions,1808.0,Czechia
-2021-05-02,Weekly new hospital admissions,1785.0,Czechia
-2021-05-03,Weekly new hospital admissions,1816.0,Czechia
-2021-05-04,Weekly new hospital admissions,1739.0,Czechia
-2021-05-05,Weekly new hospital admissions,1676.0,Czechia
-2021-05-06,Weekly new hospital admissions,1579.0,Czechia
+2021-04-30,Weekly new hospital admissions,1818.0,Czechia
+2021-05-01,Weekly new hospital admissions,1809.0,Czechia
+2021-05-02,Weekly new hospital admissions,1786.0,Czechia
+2021-05-03,Weekly new hospital admissions,1817.0,Czechia
+2021-05-04,Weekly new hospital admissions,1740.0,Czechia
+2021-05-05,Weekly new hospital admissions,1677.0,Czechia
+2021-05-06,Weekly new hospital admissions,1580.0,Czechia
 2021-05-07,Weekly new hospital admissions,1541.0,Czechia
 2021-05-08,Weekly new hospital admissions,1454.0,Czechia
 2021-05-09,Weekly new hospital admissions,1405.0,Czechia
@@ -627,13 +627,13 @@ date,indicator,value,entity
 2021-11-22,Weekly new hospital admissions,4888.0,Czechia
 2021-11-23,Weekly new hospital admissions,4991.0,Czechia
 2021-11-24,Weekly new hospital admissions,5313.0,Czechia
-2021-11-25,Weekly new hospital admissions,5397.0,Czechia
-2021-11-26,Weekly new hospital admissions,5498.0,Czechia
-2021-11-27,Weekly new hospital admissions,5536.0,Czechia
-2021-11-28,Weekly new hospital admissions,5530.0,Czechia
-2021-11-29,Weekly new hospital admissions,5627.0,Czechia
-2021-11-30,Weekly new hospital admissions,5616.0,Czechia
-2021-12-01,Weekly new hospital admissions,5565.0,Czechia
+2021-11-25,Weekly new hospital admissions,5398.0,Czechia
+2021-11-26,Weekly new hospital admissions,5499.0,Czechia
+2021-11-27,Weekly new hospital admissions,5537.0,Czechia
+2021-11-28,Weekly new hospital admissions,5531.0,Czechia
+2021-11-29,Weekly new hospital admissions,5628.0,Czechia
+2021-11-30,Weekly new hospital admissions,5617.0,Czechia
+2021-12-01,Weekly new hospital admissions,5566.0,Czechia
 2021-12-02,Weekly new hospital admissions,5622.0,Czechia
 2021-12-03,Weekly new hospital admissions,5468.0,Czechia
 2021-12-04,Weekly new hospital admissions,5388.0,Czechia
@@ -673,13 +673,13 @@ date,indicator,value,entity
 2022-01-07,Weekly new hospital admissions,1776.0,Czechia
 2022-01-08,Weekly new hospital admissions,1756.0,Czechia
 2022-01-09,Weekly new hospital admissions,1703.0,Czechia
-2022-01-10,Weekly new hospital admissions,1583.0,Czechia
-2022-01-11,Weekly new hospital admissions,1501.0,Czechia
-2022-01-12,Weekly new hospital admissions,1366.0,Czechia
-2022-01-13,Weekly new hospital admissions,1315.0,Czechia
-2022-01-14,Weekly new hospital admissions,1250.0,Czechia
-2022-01-15,Weekly new hospital admissions,1177.0,Czechia
-2022-01-16,Weekly new hospital admissions,1158.0,Czechia
+2022-01-10,Weekly new hospital admissions,1584.0,Czechia
+2022-01-11,Weekly new hospital admissions,1502.0,Czechia
+2022-01-12,Weekly new hospital admissions,1367.0,Czechia
+2022-01-13,Weekly new hospital admissions,1316.0,Czechia
+2022-01-14,Weekly new hospital admissions,1251.0,Czechia
+2022-01-15,Weekly new hospital admissions,1178.0,Czechia
+2022-01-16,Weekly new hospital admissions,1159.0,Czechia
 2022-01-17,Weekly new hospital admissions,1202.0,Czechia
 2022-01-18,Weekly new hospital admissions,1202.0,Czechia
 2022-01-19,Weekly new hospital admissions,1301.0,Czechia
@@ -939,13 +939,13 @@ date,indicator,value,entity
 2022-09-30,Weekly new hospital admissions,2160.0,Czechia
 2022-10-01,Weekly new hospital admissions,2206.0,Czechia
 2022-10-02,Weekly new hospital admissions,2224.0,Czechia
-2022-10-03,Weekly new hospital admissions,2200.0,Czechia
-2022-10-04,Weekly new hospital admissions,2249.0,Czechia
-2022-10-05,Weekly new hospital admissions,2364.0,Czechia
-2022-10-06,Weekly new hospital admissions,2251.0,Czechia
-2022-10-07,Weekly new hospital admissions,2257.0,Czechia
-2022-10-08,Weekly new hospital admissions,2242.0,Czechia
-2022-10-09,Weekly new hospital admissions,2245.0,Czechia
+2022-10-03,Weekly new hospital admissions,2199.0,Czechia
+2022-10-04,Weekly new hospital admissions,2248.0,Czechia
+2022-10-05,Weekly new hospital admissions,2363.0,Czechia
+2022-10-06,Weekly new hospital admissions,2250.0,Czechia
+2022-10-07,Weekly new hospital admissions,2256.0,Czechia
+2022-10-08,Weekly new hospital admissions,2241.0,Czechia
+2022-10-09,Weekly new hospital admissions,2244.0,Czechia
 2022-10-10,Weekly new hospital admissions,2208.0,Czechia
 2022-10-11,Weekly new hospital admissions,2097.0,Czechia
 2022-10-12,Weekly new hospital admissions,2079.0,Czechia
@@ -1209,22 +1209,43 @@ date,indicator,value,entity
 2023-06-27,Weekly new hospital admissions,14.0,Czechia
 2023-06-28,Weekly new hospital admissions,5.0,Czechia
 2023-06-29,Weekly new hospital admissions,9.0,Czechia
-2023-06-30,Weekly new hospital admissions,9.0,Czechia
-2023-07-01,Weekly new hospital admissions,12.0,Czechia
-2023-07-02,Weekly new hospital admissions,12.0,Czechia
-2023-07-03,Weekly new hospital admissions,12.0,Czechia
-2023-07-04,Weekly new hospital admissions,16.0,Czechia
-2023-07-05,Weekly new hospital admissions,16.0,Czechia
-2023-07-06,Weekly new hospital admissions,13.0,Czechia
+2023-06-30,Weekly new hospital admissions,8.0,Czechia
+2023-07-01,Weekly new hospital admissions,11.0,Czechia
+2023-07-02,Weekly new hospital admissions,11.0,Czechia
+2023-07-03,Weekly new hospital admissions,11.0,Czechia
+2023-07-04,Weekly new hospital admissions,15.0,Czechia
+2023-07-05,Weekly new hospital admissions,15.0,Czechia
+2023-07-06,Weekly new hospital admissions,12.0,Czechia
 2023-07-07,Weekly new hospital admissions,18.0,Czechia
 2023-07-08,Weekly new hospital admissions,14.0,Czechia
-2023-07-09,Weekly new hospital admissions,14.0,Czechia
-2023-07-10,Weekly new hospital admissions,17.0,Czechia
-2023-07-11,Weekly new hospital admissions,15.0,Czechia
-2023-07-12,Weekly new hospital admissions,17.0,Czechia
-2023-07-13,Weekly new hospital admissions,20.0,Czechia
-2023-07-14,Weekly new hospital admissions,15.0,Czechia
-2023-07-15,Weekly new hospital admissions,15.0,Czechia
+2023-07-09,Weekly new hospital admissions,15.0,Czechia
+2023-07-10,Weekly new hospital admissions,18.0,Czechia
+2023-07-11,Weekly new hospital admissions,16.0,Czechia
+2023-07-12,Weekly new hospital admissions,18.0,Czechia
+2023-07-13,Weekly new hospital admissions,21.0,Czechia
+2023-07-14,Weekly new hospital admissions,16.0,Czechia
+2023-07-15,Weekly new hospital admissions,16.0,Czechia
+2023-07-16,Weekly new hospital admissions,15.0,Czechia
+2023-07-17,Weekly new hospital admissions,12.0,Czechia
+2023-07-18,Weekly new hospital admissions,12.0,Czechia
+2023-07-19,Weekly new hospital admissions,10.0,Czechia
+2023-07-20,Weekly new hospital admissions,8.0,Czechia
+2023-07-21,Weekly new hospital admissions,9.0,Czechia
+2023-07-22,Weekly new hospital admissions,9.0,Czechia
+2023-07-23,Weekly new hospital admissions,9.0,Czechia
+2023-07-24,Weekly new hospital admissions,16.0,Czechia
+2023-07-25,Weekly new hospital admissions,13.0,Czechia
+2023-07-26,Weekly new hospital admissions,13.0,Czechia
+2023-07-27,Weekly new hospital admissions,13.0,Czechia
+2023-07-28,Weekly new hospital admissions,11.0,Czechia
+2023-07-29,Weekly new hospital admissions,11.0,Czechia
+2023-07-30,Weekly new hospital admissions,11.0,Czechia
+2023-07-31,Weekly new hospital admissions,7.0,Czechia
+2023-08-01,Weekly new hospital admissions,6.0,Czechia
+2023-08-02,Weekly new hospital admissions,7.0,Czechia
+2023-08-03,Weekly new hospital admissions,4.0,Czechia
+2023-08-04,Weekly new hospital admissions,6.0,Czechia
+2023-08-05,Weekly new hospital admissions,6.0,Czechia
 2020-03-07,Weekly new ICU admissions,0.0,Czechia
 2020-03-08,Weekly new ICU admissions,0.0,Czechia
 2020-03-09,Weekly new ICU admissions,0.0,Czechia
@@ -1521,13 +1542,13 @@ date,indicator,value,entity
 2020-12-25,Weekly new ICU admissions,385.0,Czechia
 2020-12-26,Weekly new ICU admissions,406.0,Czechia
 2020-12-27,Weekly new ICU admissions,430.0,Czechia
-2020-12-28,Weekly new ICU admissions,476.0,Czechia
-2020-12-29,Weekly new ICU admissions,502.0,Czechia
-2020-12-30,Weekly new ICU admissions,519.0,Czechia
-2020-12-31,Weekly new ICU admissions,560.0,Czechia
-2021-01-01,Weekly new ICU admissions,568.0,Czechia
-2021-01-02,Weekly new ICU admissions,575.0,Czechia
-2021-01-03,Weekly new ICU admissions,578.0,Czechia
+2020-12-28,Weekly new ICU admissions,477.0,Czechia
+2020-12-29,Weekly new ICU admissions,503.0,Czechia
+2020-12-30,Weekly new ICU admissions,520.0,Czechia
+2020-12-31,Weekly new ICU admissions,561.0,Czechia
+2021-01-01,Weekly new ICU admissions,569.0,Czechia
+2021-01-02,Weekly new ICU admissions,576.0,Czechia
+2021-01-03,Weekly new ICU admissions,579.0,Czechia
 2021-01-04,Weekly new ICU admissions,602.0,Czechia
 2021-01-05,Weekly new ICU admissions,600.0,Czechia
 2021-01-06,Weekly new ICU admissions,606.0,Czechia
@@ -1860,13 +1881,13 @@ date,indicator,value,entity
 2021-11-29,Weekly new ICU admissions,480.0,Czechia
 2021-11-30,Weekly new ICU admissions,469.0,Czechia
 2021-12-01,Weekly new ICU admissions,474.0,Czechia
-2021-12-02,Weekly new ICU admissions,467.0,Czechia
-2021-12-03,Weekly new ICU admissions,450.0,Czechia
-2021-12-04,Weekly new ICU admissions,430.0,Czechia
-2021-12-05,Weekly new ICU admissions,442.0,Czechia
-2021-12-06,Weekly new ICU admissions,405.0,Czechia
-2021-12-07,Weekly new ICU admissions,388.0,Czechia
-2021-12-08,Weekly new ICU admissions,380.0,Czechia
+2021-12-02,Weekly new ICU admissions,466.0,Czechia
+2021-12-03,Weekly new ICU admissions,449.0,Czechia
+2021-12-04,Weekly new ICU admissions,429.0,Czechia
+2021-12-05,Weekly new ICU admissions,441.0,Czechia
+2021-12-06,Weekly new ICU admissions,404.0,Czechia
+2021-12-07,Weekly new ICU admissions,387.0,Czechia
+2021-12-08,Weekly new ICU admissions,379.0,Czechia
 2021-12-09,Weekly new ICU admissions,371.0,Czechia
 2021-12-10,Weekly new ICU admissions,348.0,Czechia
 2021-12-11,Weekly new ICU admissions,348.0,Czechia
@@ -2451,6 +2472,27 @@ date,indicator,value,entity
 2023-07-13,Weekly new ICU admissions,2.0,Czechia
 2023-07-14,Weekly new ICU admissions,0.0,Czechia
 2023-07-15,Weekly new ICU admissions,0.0,Czechia
+2023-07-16,Weekly new ICU admissions,0.0,Czechia
+2023-07-17,Weekly new ICU admissions,0.0,Czechia
+2023-07-18,Weekly new ICU admissions,1.0,Czechia
+2023-07-19,Weekly new ICU admissions,1.0,Czechia
+2023-07-20,Weekly new ICU admissions,3.0,Czechia
+2023-07-21,Weekly new ICU admissions,3.0,Czechia
+2023-07-22,Weekly new ICU admissions,3.0,Czechia
+2023-07-23,Weekly new ICU admissions,3.0,Czechia
+2023-07-24,Weekly new ICU admissions,5.0,Czechia
+2023-07-25,Weekly new ICU admissions,4.0,Czechia
+2023-07-26,Weekly new ICU admissions,4.0,Czechia
+2023-07-27,Weekly new ICU admissions,2.0,Czechia
+2023-07-28,Weekly new ICU admissions,2.0,Czechia
+2023-07-29,Weekly new ICU admissions,2.0,Czechia
+2023-07-30,Weekly new ICU admissions,2.0,Czechia
+2023-07-31,Weekly new ICU admissions,1.0,Czechia
+2023-08-01,Weekly new ICU admissions,1.0,Czechia
+2023-08-02,Weekly new ICU admissions,1.0,Czechia
+2023-08-03,Weekly new ICU admissions,1.0,Czechia
+2023-08-04,Weekly new ICU admissions,1.0,Czechia
+2023-08-05,Weekly new ICU admissions,1.0,Czechia
 2020-03-11,Daily hospital occupancy,2.0,Czechia
 2020-03-12,Daily hospital occupancy,3.0,Czechia
 2020-03-13,Daily hospital occupancy,4.0,Czechia
@@ -3387,15 +3429,15 @@ date,indicator,value,entity
 2022-09-30,Daily hospital occupancy,1731.0,Czechia
 2022-10-01,Daily hospital occupancy,1586.0,Czechia
 2022-10-02,Daily hospital occupancy,1670.0,Czechia
-2022-10-03,Daily hospital occupancy,1969.0,Czechia
-2022-10-04,Daily hospital occupancy,2022.0,Czechia
-2022-10-05,Daily hospital occupancy,1964.0,Czechia
-2022-10-06,Daily hospital occupancy,1934.0,Czechia
-2022-10-07,Daily hospital occupancy,1931.0,Czechia
-2022-10-08,Daily hospital occupancy,1660.0,Czechia
-2022-10-09,Daily hospital occupancy,1752.0,Czechia
-2022-10-10,Daily hospital occupancy,2016.0,Czechia
-2022-10-11,Daily hospital occupancy,1911.0,Czechia
+2022-10-03,Daily hospital occupancy,1968.0,Czechia
+2022-10-04,Daily hospital occupancy,2021.0,Czechia
+2022-10-05,Daily hospital occupancy,1963.0,Czechia
+2022-10-06,Daily hospital occupancy,1933.0,Czechia
+2022-10-07,Daily hospital occupancy,1930.0,Czechia
+2022-10-08,Daily hospital occupancy,1659.0,Czechia
+2022-10-09,Daily hospital occupancy,1751.0,Czechia
+2022-10-10,Daily hospital occupancy,2015.0,Czechia
+2022-10-11,Daily hospital occupancy,1910.0,Czechia
 2022-10-12,Daily hospital occupancy,1818.0,Czechia
 2022-10-13,Daily hospital occupancy,1745.0,Czechia
 2022-10-14,Daily hospital occupancy,1657.0,Czechia
@@ -3532,7 +3574,7 @@ date,indicator,value,entity
 2023-02-22,Daily hospital occupancy,765.0,Czechia
 2023-02-23,Daily hospital occupancy,766.0,Czechia
 2023-02-24,Daily hospital occupancy,788.0,Czechia
-2023-02-25,Daily hospital occupancy,697.0,Czechia
+2023-02-25,Daily hospital occupancy,698.0,Czechia
 2023-02-26,Daily hospital occupancy,694.0,Czechia
 2023-02-27,Daily hospital occupancy,808.0,Czechia
 2023-02-28,Daily hospital occupancy,779.0,Czechia
@@ -3657,7 +3699,7 @@ date,indicator,value,entity
 2023-06-27,Daily hospital occupancy,8.0,Czechia
 2023-06-28,Daily hospital occupancy,4.0,Czechia
 2023-06-29,Daily hospital occupancy,7.0,Czechia
-2023-06-30,Daily hospital occupancy,8.0,Czechia
+2023-06-30,Daily hospital occupancy,7.0,Czechia
 2023-07-01,Daily hospital occupancy,6.0,Czechia
 2023-07-02,Daily hospital occupancy,6.0,Czechia
 2023-07-03,Daily hospital occupancy,6.0,Czechia
@@ -3665,15 +3707,39 @@ date,indicator,value,entity
 2023-07-05,Daily hospital occupancy,7.0,Czechia
 2023-07-06,Daily hospital occupancy,9.0,Czechia
 2023-07-07,Daily hospital occupancy,12.0,Czechia
-2023-07-08,Daily hospital occupancy,7.0,Czechia
-2023-07-09,Daily hospital occupancy,6.0,Czechia
-2023-07-10,Daily hospital occupancy,8.0,Czechia
-2023-07-11,Daily hospital occupancy,9.0,Czechia
-2023-07-12,Daily hospital occupancy,9.0,Czechia
-2023-07-13,Daily hospital occupancy,11.0,Czechia
-2023-07-14,Daily hospital occupancy,9.0,Czechia
-2023-07-15,Daily hospital occupancy,7.0,Czechia
-2023-07-16,Daily hospital occupancy,7.0,Czechia
+2023-07-08,Daily hospital occupancy,9.0,Czechia
+2023-07-09,Daily hospital occupancy,9.0,Czechia
+2023-07-10,Daily hospital occupancy,11.0,Czechia
+2023-07-11,Daily hospital occupancy,13.0,Czechia
+2023-07-12,Daily hospital occupancy,12.0,Czechia
+2023-07-13,Daily hospital occupancy,16.0,Czechia
+2023-07-14,Daily hospital occupancy,13.0,Czechia
+2023-07-15,Daily hospital occupancy,10.0,Czechia
+2023-07-16,Daily hospital occupancy,8.0,Czechia
+2023-07-17,Daily hospital occupancy,7.0,Czechia
+2023-07-18,Daily hospital occupancy,8.0,Czechia
+2023-07-19,Daily hospital occupancy,8.0,Czechia
+2023-07-20,Daily hospital occupancy,8.0,Czechia
+2023-07-21,Daily hospital occupancy,6.0,Czechia
+2023-07-22,Daily hospital occupancy,6.0,Czechia
+2023-07-23,Daily hospital occupancy,5.0,Czechia
+2023-07-24,Daily hospital occupancy,10.0,Czechia
+2023-07-25,Daily hospital occupancy,6.0,Czechia
+2023-07-26,Daily hospital occupancy,4.0,Czechia
+2023-07-27,Daily hospital occupancy,5.0,Czechia
+2023-07-28,Daily hospital occupancy,5.0,Czechia
+2023-07-29,Daily hospital occupancy,4.0,Czechia
+2023-07-30,Daily hospital occupancy,4.0,Czechia
+2023-07-31,Daily hospital occupancy,7.0,Czechia
+2023-08-01,Daily hospital occupancy,3.0,Czechia
+2023-08-02,Daily hospital occupancy,4.0,Czechia
+2023-08-03,Daily hospital occupancy,4.0,Czechia
+2023-08-04,Daily hospital occupancy,8.0,Czechia
+2023-08-05,Daily hospital occupancy,7.0,Czechia
+2023-08-06,Daily hospital occupancy,8.0,Czechia
+2023-08-07,Daily hospital occupancy,8.0,Czechia
+2023-08-08,Daily hospital occupancy,8.0,Czechia
+2023-08-09,Daily hospital occupancy,9.0,Czechia
 2020-03-01,Daily ICU occupancy,0.0,Czechia
 2020-03-02,Daily ICU occupancy,0.0,Czechia
 2020-03-03,Daily ICU occupancy,0.0,Czechia
@@ -3992,7 +4058,7 @@ date,indicator,value,entity
 2021-01-10,Daily ICU occupancy,1177.0,Czechia
 2021-01-11,Daily ICU occupancy,1190.0,Czechia
 2021-01-12,Daily ICU occupancy,1178.0,Czechia
-2021-01-13,Daily ICU occupancy,1174.0,Czechia
+2021-01-13,Daily ICU occupancy,1175.0,Czechia
 2021-01-14,Daily ICU occupancy,1185.0,Czechia
 2021-01-15,Daily ICU occupancy,1175.0,Czechia
 2021-01-16,Daily ICU occupancy,1166.0,Czechia
@@ -4015,7 +4081,7 @@ date,indicator,value,entity
 2021-02-02,Daily ICU occupancy,1090.0,Czechia
 2021-02-03,Daily ICU occupancy,1076.0,Czechia
 2021-02-04,Daily ICU occupancy,1102.0,Czechia
-2021-02-05,Daily ICU occupancy,1088.0,Czechia
+2021-02-05,Daily ICU occupancy,1087.0,Czechia
 2021-02-06,Daily ICU occupancy,1070.0,Czechia
 2021-02-07,Daily ICU occupancy,1098.0,Czechia
 2021-02-08,Daily ICU occupancy,1107.0,Czechia
@@ -4071,7 +4137,7 @@ date,indicator,value,entity
 2021-03-30,Daily ICU occupancy,1613.0,Czechia
 2021-03-31,Daily ICU occupancy,1554.0,Czechia
 2021-04-01,Daily ICU occupancy,1506.0,Czechia
-2021-04-02,Daily ICU occupancy,1424.0,Czechia
+2021-04-02,Daily ICU occupancy,1423.0,Czechia
 2021-04-03,Daily ICU occupancy,1398.0,Czechia
 2021-04-04,Daily ICU occupancy,1378.0,Czechia
 2021-04-05,Daily ICU occupancy,1347.0,Czechia
@@ -4331,7 +4397,7 @@ date,indicator,value,entity
 2021-12-15,Daily ICU occupancy,929.0,Czechia
 2021-12-16,Daily ICU occupancy,878.0,Czechia
 2021-12-17,Daily ICU occupancy,858.0,Czechia
-2021-12-18,Daily ICU occupancy,803.0,Czechia
+2021-12-18,Daily ICU occupancy,802.0,Czechia
 2021-12-19,Daily ICU occupancy,808.0,Czechia
 2021-12-20,Daily ICU occupancy,866.0,Czechia
 2021-12-21,Daily ICU occupancy,855.0,Czechia
@@ -4907,3 +4973,27 @@ date,indicator,value,entity
 2023-07-14,Daily ICU occupancy,0.0,Czechia
 2023-07-15,Daily ICU occupancy,0.0,Czechia
 2023-07-16,Daily ICU occupancy,0.0,Czechia
+2023-07-17,Daily ICU occupancy,0.0,Czechia
+2023-07-18,Daily ICU occupancy,1.0,Czechia
+2023-07-19,Daily ICU occupancy,1.0,Czechia
+2023-07-20,Daily ICU occupancy,1.0,Czechia
+2023-07-21,Daily ICU occupancy,0.0,Czechia
+2023-07-22,Daily ICU occupancy,0.0,Czechia
+2023-07-23,Daily ICU occupancy,0.0,Czechia
+2023-07-24,Daily ICU occupancy,1.0,Czechia
+2023-07-25,Daily ICU occupancy,1.0,Czechia
+2023-07-26,Daily ICU occupancy,1.0,Czechia
+2023-07-27,Daily ICU occupancy,0.0,Czechia
+2023-07-28,Daily ICU occupancy,0.0,Czechia
+2023-07-29,Daily ICU occupancy,0.0,Czechia
+2023-07-30,Daily ICU occupancy,0.0,Czechia
+2023-07-31,Daily ICU occupancy,1.0,Czechia
+2023-08-01,Daily ICU occupancy,1.0,Czechia
+2023-08-02,Daily ICU occupancy,1.0,Czechia
+2023-08-03,Daily ICU occupancy,1.0,Czechia
+2023-08-04,Daily ICU occupancy,1.0,Czechia
+2023-08-05,Daily ICU occupancy,1.0,Czechia
+2023-08-06,Daily ICU occupancy,1.0,Czechia
+2023-08-07,Daily ICU occupancy,1.0,Czechia
+2023-08-08,Daily ICU occupancy,1.0,Czechia
+2023-08-09,Daily ICU occupancy,1.0,Czechia

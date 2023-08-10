@@ -3,7 +3,7 @@
 set -e
 
 BRANCH="master"
-ROOT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd ../.. && pwd )"
+ROOT_DIR="/home/owid/covid-19-data" #"$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd ../.. && pwd )"
 SCRIPTS_DIR=$ROOT_DIR/scripts
 
 
@@ -46,4 +46,4 @@ cd $ROOT_DIR
 source $SCRIPTS_DIR/venv/bin/activate
 
 # Make sure we have the latest commit.
-git checkout $BRANCH && git pull
+git checkout $BRANCH && git pull origin $BRANCH
