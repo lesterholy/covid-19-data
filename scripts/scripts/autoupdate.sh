@@ -31,7 +31,7 @@ git_push() {
     msg="data("$1"): automated update"
     git add .
     git commit -m "$msg"
-    git push
+    git push origin $BRANCH
   fi
 }
 
@@ -66,12 +66,14 @@ else
 fi
 
 hour=$(date +%H)
-if [ $hour == 00 ] || [ $hour == 06] || [ $hour == 12] || [ $hour == 18] ; then
+echo "Hour: $hour"  # Debugging output
+if [ "$hour" == "00" ] || [ "$hour" == "06" ] || [ "$hour" == "12" ] || [ "$hour" == "18" ]; then
   echo "Generating Case/Death files..."
   cowid --server casedeath generate
-  # python $SCRIPTS_DIR/scripts/jhu.py --skip-download
+  # python "$SCRIPTS_DIR/scripts/jhu.py" --skip-download
   git_push "case-death"
 fi
+
 
 # =====================================================================
 # Decoupling charts
