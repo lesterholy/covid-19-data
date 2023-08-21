@@ -60,6 +60,8 @@ class XMortalityETL:
         return pd.DataFrame(t), date_accessed
 
     def pipeline(self, df: pd.DataFrame):
+        # Reset index
+        df = df.reset_index()
         # Rename columns
         df = df.rename(
             columns={
@@ -101,8 +103,8 @@ class XMortalityETL:
 
 class XMortalityEconomistETL:
     def extract(self):
-        cat = catalog.RemoteCatalog(channels=["garden"])
-        t = cat.find_latest(namespace="excess_mortality", dataset="excess_mortality_economist", table="excess_mortality_economist")
+        cat = catalog.RemoteCatalog(channels=["grapher"])
+        t = cat.find(namespace="excess_mortality", dataset="excess_mortality_economist", table="excess_mortality_economist")
         date_accessed = max(s.date_accessed for s in t.metadata.dataset.sources)
         return pd.DataFrame(t), date_accessed
 
