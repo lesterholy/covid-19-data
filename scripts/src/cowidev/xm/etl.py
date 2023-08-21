@@ -104,7 +104,8 @@ class XMortalityETL:
 class XMortalityEconomistETL:
     def extract(self):
         cat = catalog.RemoteCatalog(channels=["grapher"])
-        t = cat.find(namespace="excess_mortality", dataset="excess_mortality_economist", table="excess_mortality_economist")
+        datasets = cat.find(namespace="excess_mortality", dataset="excess_mortality_economist", table="excess_mortality_economist")
+        t = datasets.iloc[0].load()
         date_accessed = max(s.date_accessed for s in t.metadata.dataset.sources)
         return pd.DataFrame(t), date_accessed
 
@@ -127,5 +128,5 @@ def run_etl():
     etl = XMortalityETL()
     etl.run()
 
-    etl_econ = XMortalityEconomistETL()
-    etl_econ.run()
+    # etl_econ = XMortalityEconomistETL()
+    # etl_econ.run()
