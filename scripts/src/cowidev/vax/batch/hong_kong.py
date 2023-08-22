@@ -248,12 +248,26 @@ class HongKong(CountryVaxBase):
         df = df[~df["date"].isin(["2023-01-21"])]
         return df
 
+    def filter_dates(self, df: pd.DataFrame) -> pd.DataFrame:
+        DATES_FILTER = [
+            "2023-05-21",
+            "2023-06-04",
+            "2023-07-23",
+            "2023-07-29",
+            "2023-07-30",
+            "2023-08-06",
+            "2023-08-07",
+            "2023-08-09",
+        ]
+        df = df[~df["date"].isin(DATES_FILTER)]
+        return df
+
     def export(self):
         df_base = self.read().pipe(self.pipeline_base)
         # Check on age groups
         df_base = self.check_number_age_groups_latest(df_base)
         # Filter date
-        df_base = df_base[~df_base["date"].isin(["2023-05-21", "2023-06-04"])]
+        df_base = self.filter_dates(df_base)
         # Main data
         df = df_base.pipe(self.pipeline)
         # Manufacturer
