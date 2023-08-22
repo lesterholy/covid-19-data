@@ -79,7 +79,7 @@ class XMortalityETL:
         )
         df = df[COLUMNS]
         # Fix date
-        df.loc[:, "date"] = [clean_date(datetime(2020, 1, 1) + timedelta(days=d)) for d in df.date]
+        df.loc[:, "date"] = [clean_date(datetime(2020, 1, 1) + timedelta(days=d)) for d in df["date"]]
         # Sort rows
         df = df.sort_values(["location", "date"])
         return df
@@ -104,13 +104,20 @@ class XMortalityETL:
 class XMortalityEconomistETL:
     def extract(self):
         cat = catalog.RemoteCatalog(channels=["grapher"])
-        datasets = cat.find(namespace="excess_mortality", dataset="excess_mortality_economist", table="excess_mortality_economist")
-        t = datasets.iloc[0].load()
+        t = cat.find_latest(namespace="excess_mortality", dataset="excess_mortality_economist", table="excess_mortality_economist")
         date_accessed = max(s.date_accessed for s in t.metadata.dataset.sources)
         return pd.DataFrame(t), date_accessed
 
     def transform(self, df: pd.DataFrame) -> pd.DataFrame:
-        return df.sort_values(["country", "date"])
+        # Reset index
+        df = df.reset_index()
+        # Fix date
+        df.loc[:, "date"] = [clean_date(datetime(2020, 1, 1) + timedelta(days=d)) for d in df["year"]]
+        df = df.drop(columns=["year"])
+        # Sort rows
+        df = df.sort_values(["country", "date"])
+
+        return df
 
     def load(self, df: pd.DataFrame, output_path: str, date_accessed: str) -> None:
         df_current = pd.read_csv(output_path)
@@ -128,5 +135,5 @@ def run_etl():
     etl = XMortalityETL()
     etl.run()
 
-    # etl_econ = XMortalityEconomistETL()
-    # etl_econ.run()
+    etl_econ = XMortalityEconomistETL()
+    etl_econ.run()
