@@ -64,7 +64,6 @@ class Taiwan:
         df = dfs[0]
         cols = df.columns
 
-        print(df)
         shape_expected = (44, 4)
         if df.shape != shape_expected:
             raise ValueError(f"Table 1: format has changed! It has shape {df.shape} instead of {shape_expected}")
