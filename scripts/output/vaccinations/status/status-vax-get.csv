@@ -88,7 +88,7 @@ cowidev.vax.batch.jersey,4.02,True,2023-08-23T07:00:11,,
 cowidev.vax.batch.latvia,59.92,True,2023-08-23T07:01:07,,
 cowidev.vax.batch.lithuania,4.67,True,2023-08-23T07:00:12,,
 cowidev.vax.batch.luxembourg,9.39,True,2023-08-23T07:00:16,,
-cowidev.vax.batch.malaysia,0.74,True,2023-08-23T07:00:08,,
+cowidev.vax.batch.malaysia,0.62,True,2023-08-23T16:42:12,,
 cowidev.vax.batch.malta,1.2,True,2023-08-23T07:00:08,,
 cowidev.vax.batch.netherlands,,,2023-08-23T07:00:07,,
 cowidev.vax.batch.new_zealand,1.84,False,2023-08-23T07:02:14,"Traceback (most recent call last):
