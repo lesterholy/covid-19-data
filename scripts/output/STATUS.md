@@ -5,7 +5,7 @@ This file shows the latest status of the data pipeline.
 ## Vaccinations
 ### Get (scraping)
 
-`7/112` scripts failed, `38/112` were skipped. Latest update was `2023-08-23T07:03:51`.
+`7/112` scripts failed, `38/112` were skipped. Latest update was `2023-08-23T16:42:12`.
 
 <table border="1" class="dataframe">
   <thead>
@@ -331,6 +331,13 @@ This file shows the latest status of the data pipeline.
       <td>⚠️</td>
       <td>2023-08-23T07:00:07</td>
       <td>NaN</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>cowidev.vax.batch.malaysia</td>
+      <td>✅</td>
+      <td>2023-08-23T16:42:12</td>
+      <td>0.62</td>
       <td></td>
     </tr>
     <tr>
@@ -782,13 +789,6 @@ This file shows the latest status of the data pipeline.
       <td></td>
     </tr>
     <tr>
-      <td>cowidev.vax.batch.malaysia</td>
-      <td>✅</td>
-      <td>2023-08-23T07:00:08</td>
-      <td>0.74</td>
-      <td></td>
-    </tr>
-    <tr>
       <td>cowidev.vax.batch.norway</td>
       <td>✅</td>
       <td>2023-08-23T07:00:07</td>
@@ -808,7 +808,8 @@ This file shows the latest status of the data pipeline.
 
 ### Process (Checks)
 
-`9/223` processes failed, `0/223` were skipped. Latest update was `2023-08-23T07:04:03`.
+`9/223` processes failed, `0/223` were skipped. Latest update was `2023-08-23T07:04:03
+`.
 
 <table border="1" class="dataframe">
   <thead>
@@ -830,7 +831,7 @@ This file shows the latest status of the data pipeline.
       <td>New Zealand</td>
       <td>❌</td>
       <td>2023-08-23T07:04:00</td>
-      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py", line 92, in _process_location_and_move_file<br>    df = process_location(df, monotonic_check_skip, anomaly_check_skip)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/utils.py", line 57, in process_location<br>    country_df_sanity_checks(<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 72, in country_df_sanity_checks<br>    checker.run()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 252, in run<br>    self.check_metrics()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 171, in check_metrics<br>    self._check_metrics_inequalities(df)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 209, in _check_metrics_inequalities<br>    raise ValueError(<br>ValueError: New Zealand -- people_vaccinated can't be < people_fully_vaccinated!<br>        location       date  ... people_fully_vaccinated total_boosters<br>792  New Zealand 2023-04-19  ...                 4303264        3616334<br>793  New Zealand 2023-04-20  ...                 4314635        3621501<br>794  New Zealand 2023-04-22  ...                 4327657        3629325<br>795  New Zealand 2023-04-23  ...                 4328446        3630146<br>796  New Zealand 2023-04-24  ...                 4336847        3634962<br>797  New Zealand 2023-04-25  ...                 4337184        3635249<br>798  New Zealand 2023-04-26  ...                 4347391        3640084<br>799  New Zealand 2023-04-27  ...                 4357407        3645035<br>800  New Zealand 2023-04-28  ...                 4366398        3650036<br>801  New Zealand 2023-04-29  ...                 4369093        3652410<br>802  New Zealand 2023-04-30  ...                 4369725        3653233<br>803  New Zealand 2023-05-01  ...                 4376276        3656872<br>804  New Zealand 2023-05-02  ...                 4383698        3660870<br><br>[13 rows x 8 columns]<br></pre></details></td>
+      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py", line 92, in _process_location_and_move_file<br>    df = process_location(df, monotonic_check_skip, anomaly_check_skip)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/vax/process/utils.py", line 57, in process_location<br>    country_df_sanity_checks(<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 72, in country_df_sanity_checks<br>    checker.run()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 252, in run<br>    self.check_metrics()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 171, in check_metrics<br>    self._check_metrics_inequalities(df)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 209, in _check_metrics_inequalities<br>    raise ValueError(<br>ValueError: New Zealand -- people_vaccinated can't be < people_fully_vaccinated!<br>        location       date  ... people_fully_vaccinated total_boosters<br>792  New Zealand 2023-04-19  ...                 4303264        3616334<br>793  New Zealand 2023-04-20  ...                 4314635        3621501<br>794  New Zealand 2023-04-22  ...                 4327657        3629325<br>795  New Zealand 2023-04-23  ...                 4328446        3630146<br>796  New Zealand 2023-04-24  ...                 4336847        3634962<br>797  New Zealand 2023-04-25  ...                 4337184        3635249<br>798  New Zealand 2023-04-26  ...                 4347391        3640084<br>799  New Zealand 2023-04-27  ...                 4357407        3645035<br>800  New Zealand 2023-04-28  ...                 4366398        3650036<br>801  New Zealand 2023-04-29  ...                 4369093        3652410<br>802  New Zealand 2023-04-30  ...                 4369725        3653233<br>803  New Zealand 2023-05-01  ...                 4376276        3656872<br>804  New Zealand 2023-05-02  ...                 4383698        3660870<br><br>[13 rows x 8 columns]<br></pre></details></td>
     </tr>
     <tr>
       <td>Poland</td>
@@ -872,7 +873,7 @@ This file shows the latest status of the data pipeline.
       <td>Australia</td>
       <td>❌</td>
       <td>2023-08-23T07:03:54</td>
-      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py", line 92, in _process_location_and_move_file<br>    df = process_location(df, monotonic_check_skip, anomaly_check_skip)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/utils.py", line 57, in process_location<br>    country_df_sanity_checks(<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 72, in country_df_sanity_checks<br>    checker.run()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 252, in run<br>    self.check_metrics()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 169, in check_metrics<br>    self._check_metrics_monotonic(df)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 185, in _check_metrics_monotonic<br>    raise ValueError(<br>ValueError: Australia -- Column people_vaccinated must be monotonically increasing! Check:<br>      location       date  ... people_fully_vaccinated total_boosters<br>567  Australia 2023-07-06  ...                21627933           <NA><br>568  Australia 2023-08-03  ...                21619793           <NA><br><br>[2 rows x 8 columns]<br></pre></details></td>
+      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py", line 92, in _process_location_and_move_file<br>    df = process_location(df, monotonic_check_skip, anomaly_check_skip)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/vax/process/utils.py", line 57, in process_location<br>    country_df_sanity_checks(<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 72, in country_df_sanity_checks<br>    checker.run()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 252, in run<br>    self.check_metrics()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 169, in check_metrics<br>    self._check_metrics_monotonic(df)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 185, in _check_metrics_monotonic<br>    raise ValueError(<br>ValueError: Australia -- Column people_vaccinated must be monotonically increasing! Check:<br>      location       date                                            vaccine                source_url  total_vaccinations  people_vaccinated  people_fully_vaccinated  total_boosters<br>567  Australia 2023-07-06  Johnson&Johnson, Moderna, Novavax, Oxford/Astr...  https://covid19.who.int/            68247343           22216819                 21627933            <NA><br>568  Australia 2023-08-03  Johnson&Johnson, Moderna, Novavax, Oxford/Astr...  https://covid19.who.int/            68480571           22209605                 21619793            <NA><br></pre></details></td>
     </tr>
     <tr>
       <td>Ukraine</td>
