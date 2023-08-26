@@ -1239,6 +1239,8 @@ date,indicator,value,entity
 2023-08-21,Daily ICU occupancy,10.0,Chile
 2023-08-22,Daily ICU occupancy,8.0,Chile
 2023-08-23,Daily ICU occupancy,10.0,Chile
+2023-08-24,Daily ICU occupancy,11.0,Chile
+2023-08-25,Daily ICU occupancy,11.0,Chile
 2020-04-01,Weekly new ICU admissions,,Chile
 2020-04-02,Weekly new ICU admissions,,Chile
 2020-04-03,Weekly new ICU admissions,,Chile
@@ -2479,6 +2481,8 @@ date,indicator,value,entity
 2023-08-21,Weekly new ICU admissions,4.0,Chile
 2023-08-22,Weekly new ICU admissions,2.0,Chile
 2023-08-23,Weekly new ICU admissions,3.0,Chile
+2023-08-24,Weekly new ICU admissions,,Chile
+2023-08-25,Weekly new ICU admissions,,Chile
 2020-04-01,Weekly new hospital admissions,,Chile
 2020-04-02,Weekly new hospital admissions,,Chile
 2020-04-03,Weekly new hospital admissions,,Chile
@@ -3719,3 +3723,5 @@ date,indicator,value,entity
 2023-08-21,Weekly new hospital admissions,,Chile
 2023-08-22,Weekly new hospital admissions,,Chile
 2023-08-23,Weekly new hospital admissions,,Chile
+2023-08-24,Weekly new hospital admissions,,Chile
+2023-08-25,Weekly new hospital admissions,,Chile
