@@ -540,7 +540,7 @@ date,indicator,value,entity
 2022-01-04,Daily hospital occupancy,114846.0,United States
 2022-01-05,Daily hospital occupancy,121444.0,United States
 2022-01-06,Daily hospital occupancy,126976.0,United States
-2022-01-07,Daily hospital occupancy,131859.0,United States
+2022-01-07,Daily hospital occupancy,131874.0,United States
 2022-01-08,Daily hospital occupancy,133576.0,United States
 2022-01-09,Daily hospital occupancy,137251.0,United States
 2022-01-10,Daily hospital occupancy,142248.0,United States
@@ -905,8 +905,8 @@ date,indicator,value,entity
 2023-01-04,Daily hospital occupancy,43557.0,United States
 2023-01-05,Daily hospital occupancy,42743.0,United States
 2023-01-06,Daily hospital occupancy,41754.0,United States
-2023-01-07,Daily hospital occupancy,40047.0,United States
-2023-01-08,Daily hospital occupancy,40298.0,United States
+2023-01-07,Daily hospital occupancy,40046.0,United States
+2023-01-08,Daily hospital occupancy,40297.0,United States
 2023-01-09,Daily hospital occupancy,40539.0,United States
 2023-01-10,Daily hospital occupancy,39619.0,United States
 2023-01-11,Daily hospital occupancy,38419.0,United States
@@ -919,23 +919,23 @@ date,indicator,value,entity
 2023-01-18,Daily hospital occupancy,33163.0,United States
 2023-01-19,Daily hospital occupancy,32073.0,United States
 2023-01-20,Daily hospital occupancy,30996.0,United States
-2023-01-21,Daily hospital occupancy,29503.0,United States
+2023-01-21,Daily hospital occupancy,29504.0,United States
 2023-01-22,Daily hospital occupancy,29481.0,United States
 2023-01-23,Daily hospital occupancy,29700.0,United States
 2023-01-24,Daily hospital occupancy,29210.0,United States
 2023-01-25,Daily hospital occupancy,28825.0,United States
 2023-01-26,Daily hospital occupancy,27871.0,United States
 2023-01-27,Daily hospital occupancy,26959.0,United States
-2023-01-28,Daily hospital occupancy,26010.0,United States
-2023-01-29,Daily hospital occupancy,26193.0,United States
-2023-01-30,Daily hospital occupancy,26699.0,United States
+2023-01-28,Daily hospital occupancy,26009.0,United States
+2023-01-29,Daily hospital occupancy,26192.0,United States
+2023-01-30,Daily hospital occupancy,26698.0,United States
 2023-01-31,Daily hospital occupancy,26336.0,United States
-2023-02-01,Daily hospital occupancy,25835.0,United States
+2023-02-01,Daily hospital occupancy,25834.0,United States
 2023-02-02,Daily hospital occupancy,25316.0,United States
 2023-02-03,Daily hospital occupancy,24678.0,United States
-2023-02-04,Daily hospital occupancy,23899.0,United States
+2023-02-04,Daily hospital occupancy,23898.0,United States
 2023-02-05,Daily hospital occupancy,24056.0,United States
-2023-02-06,Daily hospital occupancy,24800.0,United States
+2023-02-06,Daily hospital occupancy,24799.0,United States
 2023-02-07,Daily hospital occupancy,24517.0,United States
 2023-02-08,Daily hospital occupancy,24392.0,United States
 2023-02-09,Daily hospital occupancy,23957.0,United States
@@ -950,7 +950,7 @@ date,indicator,value,entity
 2023-02-18,Daily hospital occupancy,22379.0,United States
 2023-02-19,Daily hospital occupancy,22620.0,United States
 2023-02-20,Daily hospital occupancy,22941.0,United States
-2023-02-21,Daily hospital occupancy,23057.0,United States
+2023-02-21,Daily hospital occupancy,23056.0,United States
 2023-02-22,Daily hospital occupancy,22738.0,United States
 2023-02-23,Daily hospital occupancy,22415.0,United States
 2023-02-24,Daily hospital occupancy,22017.0,United States
@@ -971,7 +971,7 @@ date,indicator,value,entity
 2023-03-11,Daily hospital occupancy,17558.0,United States
 2023-03-12,Daily hospital occupancy,17676.0,United States
 2023-03-13,Daily hospital occupancy,18011.0,United States
-2023-03-14,Daily hospital occupancy,17600.0,United States
+2023-03-14,Daily hospital occupancy,17598.0,United States
 2023-03-15,Daily hospital occupancy,17338.0,United States
 2023-03-16,Daily hospital occupancy,16885.0,United States
 2023-03-17,Daily hospital occupancy,16438.0,United States
@@ -991,13 +991,13 @@ date,indicator,value,entity
 2023-03-31,Daily hospital occupancy,14269.0,United States
 2023-04-01,Daily hospital occupancy,13649.0,United States
 2023-04-02,Daily hospital occupancy,13758.0,United States
-2023-04-03,Daily hospital occupancy,14114.0,United States
+2023-04-03,Daily hospital occupancy,14115.0,United States
 2023-04-04,Daily hospital occupancy,13963.0,United States
 2023-04-05,Daily hospital occupancy,13620.0,United States
 2023-04-06,Daily hospital occupancy,13391.0,United States
 2023-04-07,Daily hospital occupancy,12932.0,United States
-2023-04-08,Daily hospital occupancy,12205.0,United States
-2023-04-09,Daily hospital occupancy,12207.0,United States
+2023-04-08,Daily hospital occupancy,12204.0,United States
+2023-04-09,Daily hospital occupancy,12206.0,United States
 2023-04-10,Daily hospital occupancy,12548.0,United States
 2023-04-11,Daily hospital occupancy,12450.0,United States
 2023-04-12,Daily hospital occupancy,12299.0,United States
@@ -1063,9 +1063,9 @@ date,indicator,value,entity
 2023-06-11,Daily hospital occupancy,6175.0,United States
 2023-06-12,Daily hospital occupancy,6252.0,United States
 2023-06-13,Daily hospital occupancy,6172.0,United States
-2023-06-14,Daily hospital occupancy,6166.0,United States
-2023-06-15,Daily hospital occupancy,6109.0,United States
-2023-06-16,Daily hospital occupancy,6003.0,United States
+2023-06-14,Daily hospital occupancy,6165.0,United States
+2023-06-15,Daily hospital occupancy,6107.0,United States
+2023-06-16,Daily hospital occupancy,6002.0,United States
 2023-06-17,Daily hospital occupancy,5782.0,United States
 2023-06-18,Daily hospital occupancy,5857.0,United States
 2023-06-19,Daily hospital occupancy,5887.0,United States
@@ -1090,17 +1090,17 @@ date,indicator,value,entity
 2023-07-08,Daily hospital occupancy,5507.0,United States
 2023-07-09,Daily hospital occupancy,5631.0,United States
 2023-07-10,Daily hospital occupancy,5802.0,United States
-2023-07-11,Daily hospital occupancy,5944.0,United States
-2023-07-12,Daily hospital occupancy,5950.0,United States
-2023-07-13,Daily hospital occupancy,5833.0,United States
-2023-07-14,Daily hospital occupancy,5768.0,United States
+2023-07-11,Daily hospital occupancy,5943.0,United States
+2023-07-12,Daily hospital occupancy,5949.0,United States
+2023-07-13,Daily hospital occupancy,5832.0,United States
+2023-07-14,Daily hospital occupancy,5767.0,United States
 2023-07-15,Daily hospital occupancy,5737.0,United States
 2023-07-16,Daily hospital occupancy,5967.0,United States
 2023-07-17,Daily hospital occupancy,6216.0,United States
 2023-07-18,Daily hospital occupancy,6268.0,United States
 2023-07-19,Daily hospital occupancy,6319.0,United States
 2023-07-20,Daily hospital occupancy,6297.0,United States
-2023-07-21,Daily hospital occupancy,6395.0,United States
+2023-07-21,Daily hospital occupancy,6394.0,United States
 2023-07-22,Daily hospital occupancy,6433.0,United States
 2023-07-23,Daily hospital occupancy,6491.0,United States
 2023-07-24,Daily hospital occupancy,6838.0,United States
@@ -1111,23 +1111,30 @@ date,indicator,value,entity
 2023-07-29,Daily hospital occupancy,7447.0,United States
 2023-07-30,Daily hospital occupancy,7753.0,United States
 2023-07-31,Daily hospital occupancy,7897.0,United States
-2023-08-01,Daily hospital occupancy,8323.0,United States
+2023-08-01,Daily hospital occupancy,8324.0,United States
 2023-08-02,Daily hospital occupancy,8484.0,United States
-2023-08-03,Daily hospital occupancy,8500.0,United States
-2023-08-04,Daily hospital occupancy,8660.0,United States
-2023-08-05,Daily hospital occupancy,8592.0,United States
-2023-08-06,Daily hospital occupancy,8989.0,United States
-2023-08-07,Daily hospital occupancy,9375.0,United States
-2023-08-08,Daily hospital occupancy,9657.0,United States
-2023-08-09,Daily hospital occupancy,9960.0,United States
-2023-08-10,Daily hospital occupancy,10096.0,United States
-2023-08-11,Daily hospital occupancy,10229.0,United States
-2023-08-12,Daily hospital occupancy,9860.0,United States
-2023-08-13,Daily hospital occupancy,10336.0,United States
-2023-08-14,Daily hospital occupancy,11229.0,United States
-2023-08-15,Daily hospital occupancy,11505.0,United States
-2023-08-16,Daily hospital occupancy,11611.0,United States
-2023-08-17,Daily hospital occupancy,11610.0,United States
+2023-08-03,Daily hospital occupancy,8504.0,United States
+2023-08-04,Daily hospital occupancy,8661.0,United States
+2023-08-05,Daily hospital occupancy,8593.0,United States
+2023-08-06,Daily hospital occupancy,8996.0,United States
+2023-08-07,Daily hospital occupancy,9380.0,United States
+2023-08-08,Daily hospital occupancy,9660.0,United States
+2023-08-09,Daily hospital occupancy,9964.0,United States
+2023-08-10,Daily hospital occupancy,10101.0,United States
+2023-08-11,Daily hospital occupancy,10232.0,United States
+2023-08-12,Daily hospital occupancy,9865.0,United States
+2023-08-13,Daily hospital occupancy,10344.0,United States
+2023-08-14,Daily hospital occupancy,11234.0,United States
+2023-08-15,Daily hospital occupancy,11507.0,United States
+2023-08-16,Daily hospital occupancy,11608.0,United States
+2023-08-17,Daily hospital occupancy,11626.0,United States
+2023-08-18,Daily hospital occupancy,11737.0,United States
+2023-08-19,Daily hospital occupancy,11694.0,United States
+2023-08-20,Daily hospital occupancy,12186.0,United States
+2023-08-21,Daily hospital occupancy,12671.0,United States
+2023-08-22,Daily hospital occupancy,13080.0,United States
+2023-08-23,Daily hospital occupancy,13397.0,United States
+2023-08-24,Daily hospital occupancy,13636.0,United States
 2020-07-21,Weekly new hospital admissions,30552.0,United States
 2020-07-22,Weekly new hospital admissions,31352.0,United States
 2020-07-23,Weekly new hospital admissions,31679.0,United States
@@ -2028,13 +2035,13 @@ date,indicator,value,entity
 2023-01-04,Weekly new hospital admissions,47322.0,United States
 2023-01-05,Weekly new hospital admissions,46733.0,United States
 2023-01-06,Weekly new hospital admissions,45949.0,United States
-2023-01-07,Weekly new hospital admissions,44887.0,United States
-2023-01-08,Weekly new hospital admissions,43930.0,United States
-2023-01-09,Weekly new hospital admissions,42954.0,United States
-2023-01-10,Weekly new hospital admissions,42052.0,United States
-2023-01-11,Weekly new hospital admissions,40933.0,United States
-2023-01-12,Weekly new hospital admissions,39897.0,United States
-2023-01-13,Weekly new hospital admissions,38705.0,United States
+2023-01-07,Weekly new hospital admissions,44886.0,United States
+2023-01-08,Weekly new hospital admissions,43929.0,United States
+2023-01-09,Weekly new hospital admissions,42953.0,United States
+2023-01-10,Weekly new hospital admissions,42051.0,United States
+2023-01-11,Weekly new hospital admissions,40932.0,United States
+2023-01-12,Weekly new hospital admissions,39896.0,United States
+2023-01-13,Weekly new hospital admissions,38704.0,United States
 2023-01-14,Weekly new hospital admissions,37891.0,United States
 2023-01-15,Weekly new hospital admissions,36959.0,United States
 2023-01-16,Weekly new hospital admissions,35964.0,United States
@@ -2049,21 +2056,21 @@ date,indicator,value,entity
 2023-01-25,Weekly new hospital admissions,30131.0,United States
 2023-01-26,Weekly new hospital admissions,29484.0,United States
 2023-01-27,Weekly new hospital admissions,28917.0,United States
-2023-01-28,Weekly new hospital admissions,28540.0,United States
-2023-01-29,Weekly new hospital admissions,28382.0,United States
+2023-01-28,Weekly new hospital admissions,28538.0,United States
+2023-01-29,Weekly new hospital admissions,28381.0,United States
 2023-01-30,Weekly new hospital admissions,28205.0,United States
-2023-01-31,Weekly new hospital admissions,27826.0,United States
-2023-02-01,Weekly new hospital admissions,27403.0,United States
-2023-02-02,Weekly new hospital admissions,27201.0,United States
-2023-02-03,Weekly new hospital admissions,26943.0,United States
-2023-02-04,Weekly new hospital admissions,26719.0,United States
-2023-02-05,Weekly new hospital admissions,26426.0,United States
-2023-02-06,Weekly new hospital admissions,26354.0,United States
-2023-02-07,Weekly new hospital admissions,26345.0,United States
-2023-02-08,Weekly new hospital admissions,26392.0,United States
-2023-02-09,Weekly new hospital admissions,26439.0,United States
-2023-02-10,Weekly new hospital admissions,26540.0,United States
-2023-02-11,Weekly new hospital admissions,26631.0,United States
+2023-01-31,Weekly new hospital admissions,27827.0,United States
+2023-02-01,Weekly new hospital admissions,27404.0,United States
+2023-02-02,Weekly new hospital admissions,27203.0,United States
+2023-02-03,Weekly new hospital admissions,26946.0,United States
+2023-02-04,Weekly new hospital admissions,26724.0,United States
+2023-02-05,Weekly new hospital admissions,26432.0,United States
+2023-02-06,Weekly new hospital admissions,26359.0,United States
+2023-02-07,Weekly new hospital admissions,26349.0,United States
+2023-02-08,Weekly new hospital admissions,26396.0,United States
+2023-02-09,Weekly new hospital admissions,26442.0,United States
+2023-02-10,Weekly new hospital admissions,26542.0,United States
+2023-02-11,Weekly new hospital admissions,26633.0,United States
 2023-02-12,Weekly new hospital admissions,26620.0,United States
 2023-02-13,Weekly new hospital admissions,26424.0,United States
 2023-02-14,Weekly new hospital admissions,26308.0,United States
@@ -2073,34 +2080,34 @@ date,indicator,value,entity
 2023-02-18,Weekly new hospital admissions,25756.0,United States
 2023-02-19,Weekly new hospital admissions,25735.0,United States
 2023-02-20,Weekly new hospital admissions,25702.0,United States
-2023-02-21,Weekly new hospital admissions,25617.0,United States
-2023-02-22,Weekly new hospital admissions,25317.0,United States
+2023-02-21,Weekly new hospital admissions,25616.0,United States
+2023-02-22,Weekly new hospital admissions,25316.0,United States
 2023-02-23,Weekly new hospital admissions,24956.0,United States
 2023-02-24,Weekly new hospital admissions,24605.0,United States
 2023-02-25,Weekly new hospital admissions,24324.0,United States
 2023-02-26,Weekly new hospital admissions,23975.0,United States
 2023-02-27,Weekly new hospital admissions,23900.0,United States
-2023-02-28,Weekly new hospital admissions,23656.0,United States
-2023-03-01,Weekly new hospital admissions,23324.0,United States
+2023-02-28,Weekly new hospital admissions,23657.0,United States
+2023-03-01,Weekly new hospital admissions,23325.0,United States
 2023-03-02,Weekly new hospital admissions,23056.0,United States
 2023-03-03,Weekly new hospital admissions,22869.0,United States
 2023-03-04,Weekly new hospital admissions,22595.0,United States
 2023-03-05,Weekly new hospital admissions,22451.0,United States
 2023-03-06,Weekly new hospital admissions,22143.0,United States
 2023-03-07,Weekly new hospital admissions,21679.0,United States
-2023-03-08,Weekly new hospital admissions,21349.0,United States
-2023-03-09,Weekly new hospital admissions,21001.0,United States
-2023-03-10,Weekly new hospital admissions,20625.0,United States
-2023-03-11,Weekly new hospital admissions,20357.0,United States
-2023-03-12,Weekly new hospital admissions,19986.0,United States
-2023-03-13,Weekly new hospital admissions,19558.0,United States
-2023-03-14,Weekly new hospital admissions,19282.0,United States
-2023-03-15,Weekly new hospital admissions,19026.0,United States
-2023-03-16,Weekly new hospital admissions,18934.0,United States
-2023-03-17,Weekly new hospital admissions,18685.0,United States
-2023-03-18,Weekly new hospital admissions,18307.0,United States
-2023-03-19,Weekly new hospital admissions,18139.0,United States
-2023-03-20,Weekly new hospital admissions,17963.0,United States
+2023-03-08,Weekly new hospital admissions,21348.0,United States
+2023-03-09,Weekly new hospital admissions,21000.0,United States
+2023-03-10,Weekly new hospital admissions,20624.0,United States
+2023-03-11,Weekly new hospital admissions,20356.0,United States
+2023-03-12,Weekly new hospital admissions,19985.0,United States
+2023-03-13,Weekly new hospital admissions,19557.0,United States
+2023-03-14,Weekly new hospital admissions,19280.0,United States
+2023-03-15,Weekly new hospital admissions,19025.0,United States
+2023-03-16,Weekly new hospital admissions,18933.0,United States
+2023-03-17,Weekly new hospital admissions,18684.0,United States
+2023-03-18,Weekly new hospital admissions,18306.0,United States
+2023-03-19,Weekly new hospital admissions,18138.0,United States
+2023-03-20,Weekly new hospital admissions,17962.0,United States
 2023-03-21,Weekly new hospital admissions,17745.0,United States
 2023-03-22,Weekly new hospital admissions,17565.0,United States
 2023-03-23,Weekly new hospital admissions,17319.0,United States
@@ -2114,19 +2121,19 @@ date,indicator,value,entity
 2023-03-31,Weekly new hospital admissions,16216.0,United States
 2023-04-01,Weekly new hospital admissions,15990.0,United States
 2023-04-02,Weekly new hospital admissions,15766.0,United States
-2023-04-03,Weekly new hospital admissions,15748.0,United States
-2023-04-04,Weekly new hospital admissions,15646.0,United States
-2023-04-05,Weekly new hospital admissions,15427.0,United States
-2023-04-06,Weekly new hospital admissions,15189.0,United States
-2023-04-07,Weekly new hospital admissions,14950.0,United States
+2023-04-03,Weekly new hospital admissions,15749.0,United States
+2023-04-04,Weekly new hospital admissions,15647.0,United States
+2023-04-05,Weekly new hospital admissions,15428.0,United States
+2023-04-06,Weekly new hospital admissions,15190.0,United States
+2023-04-07,Weekly new hospital admissions,14951.0,United States
 2023-04-08,Weekly new hospital admissions,14562.0,United States
-2023-04-09,Weekly new hospital admissions,14288.0,United States
-2023-04-10,Weekly new hospital admissions,14012.0,United States
-2023-04-11,Weekly new hospital admissions,13742.0,United States
-2023-04-12,Weekly new hospital admissions,13529.0,United States
-2023-04-13,Weekly new hospital admissions,13463.0,United States
-2023-04-14,Weekly new hospital admissions,13342.0,United States
-2023-04-15,Weekly new hospital admissions,13462.0,United States
+2023-04-09,Weekly new hospital admissions,14287.0,United States
+2023-04-10,Weekly new hospital admissions,14010.0,United States
+2023-04-11,Weekly new hospital admissions,13740.0,United States
+2023-04-12,Weekly new hospital admissions,13527.0,United States
+2023-04-13,Weekly new hospital admissions,13461.0,United States
+2023-04-14,Weekly new hospital admissions,13340.0,United States
+2023-04-15,Weekly new hospital admissions,13461.0,United States
 2023-04-16,Weekly new hospital admissions,13463.0,United States
 2023-04-17,Weekly new hospital admissions,13347.0,United States
 2023-04-18,Weekly new hospital admissions,13100.0,United States
@@ -2186,15 +2193,15 @@ date,indicator,value,entity
 2023-06-11,Weekly new hospital admissions,6922.0,United States
 2023-06-12,Weekly new hospital admissions,6897.0,United States
 2023-06-13,Weekly new hospital admissions,6781.0,United States
-2023-06-14,Weekly new hospital admissions,6809.0,United States
-2023-06-15,Weekly new hospital admissions,6751.0,United States
-2023-06-16,Weekly new hospital admissions,6796.0,United States
-2023-06-17,Weekly new hospital admissions,6746.0,United States
-2023-06-18,Weekly new hospital admissions,6728.0,United States
-2023-06-19,Weekly new hospital admissions,6656.0,United States
-2023-06-20,Weekly new hospital admissions,6637.0,United States
-2023-06-21,Weekly new hospital admissions,6494.0,United States
-2023-06-22,Weekly new hospital admissions,6448.0,United States
+2023-06-14,Weekly new hospital admissions,6808.0,United States
+2023-06-15,Weekly new hospital admissions,6749.0,United States
+2023-06-16,Weekly new hospital admissions,6793.0,United States
+2023-06-17,Weekly new hospital admissions,6743.0,United States
+2023-06-18,Weekly new hospital admissions,6725.0,United States
+2023-06-19,Weekly new hospital admissions,6653.0,United States
+2023-06-20,Weekly new hospital admissions,6634.0,United States
+2023-06-21,Weekly new hospital admissions,6492.0,United States
+2023-06-22,Weekly new hospital admissions,6447.0,United States
 2023-06-23,Weekly new hospital admissions,6373.0,United States
 2023-06-24,Weekly new hospital admissions,6392.0,United States
 2023-06-25,Weekly new hospital admissions,6371.0,United States
@@ -2213,13 +2220,13 @@ date,indicator,value,entity
 2023-07-08,Weekly new hospital admissions,6571.0,United States
 2023-07-09,Weekly new hospital admissions,6693.0,United States
 2023-07-10,Weekly new hospital admissions,6784.0,United States
-2023-07-11,Weekly new hospital admissions,6884.0,United States
-2023-07-12,Weekly new hospital admissions,7132.0,United States
-2023-07-13,Weekly new hospital admissions,7138.0,United States
-2023-07-14,Weekly new hospital admissions,7174.0,United States
-2023-07-15,Weekly new hospital admissions,7261.0,United States
-2023-07-16,Weekly new hospital admissions,7308.0,United States
-2023-07-17,Weekly new hospital admissions,7382.0,United States
+2023-07-11,Weekly new hospital admissions,6882.0,United States
+2023-07-12,Weekly new hospital admissions,7130.0,United States
+2023-07-13,Weekly new hospital admissions,7136.0,United States
+2023-07-14,Weekly new hospital admissions,7172.0,United States
+2023-07-15,Weekly new hospital admissions,7259.0,United States
+2023-07-16,Weekly new hospital admissions,7306.0,United States
+2023-07-17,Weekly new hospital admissions,7380.0,United States
 2023-07-18,Weekly new hospital admissions,7528.0,United States
 2023-07-19,Weekly new hospital admissions,7617.0,United States
 2023-07-20,Weekly new hospital admissions,7749.0,United States
@@ -2234,23 +2241,30 @@ date,indicator,value,entity
 2023-07-29,Weekly new hospital admissions,9317.0,United States
 2023-07-30,Weekly new hospital admissions,9463.0,United States
 2023-07-31,Weekly new hospital admissions,9572.0,United States
-2023-08-01,Weekly new hospital admissions,9835.0,United States
-2023-08-02,Weekly new hospital admissions,9995.0,United States
-2023-08-03,Weekly new hospital admissions,10195.0,United States
-2023-08-04,Weekly new hospital admissions,10544.0,United States
-2023-08-05,Weekly new hospital admissions,10721.0,United States
-2023-08-06,Weekly new hospital admissions,11072.0,United States
-2023-08-07,Weekly new hospital admissions,11359.0,United States
+2023-08-01,Weekly new hospital admissions,9836.0,United States
+2023-08-02,Weekly new hospital admissions,9996.0,United States
+2023-08-03,Weekly new hospital admissions,10194.0,United States
+2023-08-04,Weekly new hospital admissions,10543.0,United States
+2023-08-05,Weekly new hospital admissions,10720.0,United States
+2023-08-06,Weekly new hospital admissions,11070.0,United States
+2023-08-07,Weekly new hospital admissions,11357.0,United States
 2023-08-08,Weekly new hospital admissions,11651.0,United States
-2023-08-09,Weekly new hospital admissions,12075.0,United States
-2023-08-10,Weekly new hospital admissions,12459.0,United States
-2023-08-11,Weekly new hospital admissions,12661.0,United States
-2023-08-12,Weekly new hospital admissions,12933.0,United States
-2023-08-13,Weekly new hospital admissions,13132.0,United States
-2023-08-14,Weekly new hospital admissions,13612.0,United States
-2023-08-15,Weekly new hospital admissions,13981.0,United States
-2023-08-16,Weekly new hospital admissions,14236.0,United States
-2023-08-17,Weekly new hospital admissions,14523.0,United States
+2023-08-09,Weekly new hospital admissions,12076.0,United States
+2023-08-10,Weekly new hospital admissions,12461.0,United States
+2023-08-11,Weekly new hospital admissions,12664.0,United States
+2023-08-12,Weekly new hospital admissions,12938.0,United States
+2023-08-13,Weekly new hospital admissions,13143.0,United States
+2023-08-14,Weekly new hospital admissions,13626.0,United States
+2023-08-15,Weekly new hospital admissions,13995.0,United States
+2023-08-16,Weekly new hospital admissions,14249.0,United States
+2023-08-17,Weekly new hospital admissions,14530.0,United States
+2023-08-18,Weekly new hospital admissions,14877.0,United States
+2023-08-19,Weekly new hospital admissions,15274.0,United States
+2023-08-20,Weekly new hospital admissions,15586.0,United States
+2023-08-21,Weekly new hospital admissions,15738.0,United States
+2023-08-22,Weekly new hospital admissions,16159.0,United States
+2023-08-23,Weekly new hospital admissions,16552.0,United States
+2023-08-24,Weekly new hospital admissions,17040.0,United States
 2020-07-15,Daily ICU occupancy,9245.0,United States
 2020-07-16,Daily ICU occupancy,9797.0,United States
 2020-07-17,Daily ICU occupancy,10700.0,United States
@@ -3365,18 +3379,25 @@ date,indicator,value,entity
 2023-07-31,Daily ICU occupancy,838.0,United States
 2023-08-01,Daily ICU occupancy,915.0,United States
 2023-08-02,Daily ICU occupancy,950.0,United States
-2023-08-03,Daily ICU occupancy,973.0,United States
-2023-08-04,Daily ICU occupancy,1033.0,United States
-2023-08-05,Daily ICU occupancy,1065.0,United States
-2023-08-06,Daily ICU occupancy,1106.0,United States
+2023-08-03,Daily ICU occupancy,974.0,United States
+2023-08-04,Daily ICU occupancy,1034.0,United States
+2023-08-05,Daily ICU occupancy,1066.0,United States
+2023-08-06,Daily ICU occupancy,1107.0,United States
 2023-08-07,Daily ICU occupancy,1027.0,United States
 2023-08-08,Daily ICU occupancy,1028.0,United States
 2023-08-09,Daily ICU occupancy,1125.0,United States
-2023-08-10,Daily ICU occupancy,1163.0,United States
+2023-08-10,Daily ICU occupancy,1165.0,United States
 2023-08-11,Daily ICU occupancy,1136.0,United States
-2023-08-12,Daily ICU occupancy,1102.0,United States
+2023-08-12,Daily ICU occupancy,1103.0,United States
 2023-08-13,Daily ICU occupancy,1145.0,United States
 2023-08-14,Daily ICU occupancy,1279.0,United States
-2023-08-15,Daily ICU occupancy,1328.0,United States
-2023-08-16,Daily ICU occupancy,1342.0,United States
-2023-08-17,Daily ICU occupancy,1433.0,United States
+2023-08-15,Daily ICU occupancy,1329.0,United States
+2023-08-16,Daily ICU occupancy,1343.0,United States
+2023-08-17,Daily ICU occupancy,1437.0,United States
+2023-08-18,Daily ICU occupancy,1446.0,United States
+2023-08-19,Daily ICU occupancy,1383.0,United States
+2023-08-20,Daily ICU occupancy,1468.0,United States
+2023-08-21,Daily ICU occupancy,1534.0,United States
+2023-08-22,Daily ICU occupancy,1568.0,United States
+2023-08-23,Daily ICU occupancy,1571.0,United States
+2023-08-24,Daily ICU occupancy,1613.0,United States
