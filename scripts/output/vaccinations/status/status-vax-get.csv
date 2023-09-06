@@ -44,31 +44,7 @@ cowidev.vax.batch.estonia,1.08,True,2023-09-06T07:00:08,,
 cowidev.vax.batch.france,6.63,True,2023-09-06T07:00:14,,
 cowidev.vax.batch.germany,0.23,True,2023-09-06T07:00:07,,
 cowidev.vax.batch.greece,23.1,True,2023-09-06T07:00:30,,
-cowidev.vax.batch.hong_kong,5.3,False,2023-09-06T07:02:18,"Traceback (most recent call last):
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
-    module.main()
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/hong_kong.py"", line 288, in main
-    HongKong().export()
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/hong_kong.py"", line 272, in export
-    df = df_base.pipe(self.pipeline)
-  File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/generic.py"", line 5430, in pipe
-    return com.pipe(self, func, *args, **kwargs)
-  File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/common.py"", line 471, in pipe
-    return func(obj, *args, **kwargs)
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/hong_kong.py"", line 134, in pipeline
-    .pipe(self.make_monotonic)
-  File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/generic.py"", line 5430, in pipe
-    return com.pipe(self, func, *args, **kwargs)
-  File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/common.py"", line 471, in pipe
-    return func(obj, *args, **kwargs)
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/base.py"", line 120, in make_monotonic
-    return mkm(
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/utils/utils.py"", line 23, in make_monotonic
-    return make_monotonic_new(df, column_date, column_metrics, max_removed_rows)
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/utils/utils.py"", line 96, in make_monotonic_new
-    raise Exception(
-Exception: 1 chunks of lengths 548 would be NaNed for metric total_vaccinations. That is more than maximum allowed (10) by make_monotonic() - check the data. Check dates ['2023-08-12']. Location(s) affected: {'Hong Kong'}
-",1 chunks of lengths 548 would be NaNed for metric total_vaccinations. That is more than maximum allowed (10) by make_monotonic() - check the data. Check dates ['2023-08-12']. Location(s) affected: {'Hong Kong'}
+cowidev.vax.batch.hong_kong,4.4,True,2023-09-06T14:42:24,,
 cowidev.vax.batch.indonesia,,,2023-09-06T07:00:07,,
 cowidev.vax.batch.ireland,4.55,True,2023-09-06T07:00:12,,
 cowidev.vax.batch.israel,0.11,False,2023-09-06T07:02:18,"Traceback (most recent call last):
