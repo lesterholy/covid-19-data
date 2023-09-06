@@ -46,7 +46,7 @@ cowidev.vax.batch.germany,0.23,True,2023-09-06T07:00:07,,
 cowidev.vax.batch.greece,23.1,True,2023-09-06T07:00:30,,
 cowidev.vax.batch.hong_kong,4.4,True,2023-09-06T14:42:24,,
 cowidev.vax.batch.indonesia,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.ireland,4.55,True,2023-09-06T07:00:12,,
+cowidev.vax.batch.ireland,0.51,True,2023-09-06T16:19:33,,
 cowidev.vax.batch.israel,0.35,False,2023-09-06T14:43:26,"Traceback (most recent call last):
   File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
@@ -67,28 +67,28 @@ cowidev.vax.batch.israel,0.35,False,2023-09-06T14:43:26,"Traceback (most recent 
 json.decoder.JSONDecodeError: Expecting value: line 3 column 2 (char 3)
 ",Expecting value: line 3 column 2 (char 3)
 cowidev.vax.batch.italy,23.11,True,2023-09-06T07:00:30,,
-cowidev.vax.batch.japan,9.26,False,2023-09-06T07:02:27,"Traceback (most recent call last):
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
+cowidev.vax.batch.japan,12.34,False,2023-09-06T14:54:41,"Traceback (most recent call last):
+  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 375, in main
+  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 375, in main
     Japan().export()
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 359, in export
+  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 359, in export
     df = self.read().pipe(self.pipeline_base)
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 71, in read
+  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 71, in read
     df_latest = self.read_latest().pipe(self.pipe_read_latest)
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 100, in read_latest
+  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 100, in read_latest
     self._read_latest_booster(),
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 211, in _read_latest_booster
+  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 211, in _read_latest_booster
     df = self._read_xlsx(
-  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 233, in _read_xlsx
+  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 233, in _read_xlsx
     raise ValueError(f""Unknown sheets: {sheets_unknown}"")
-ValueError: Unknown sheets: {'5.8以降接種_一般接種（５回目）', '5.8以降接種_一般接種（６回目）', '６回目_総接種回数', '5.8以降接種_総接種回数', '5.8以降接種_一般接種（３回目）', '５回目_総接種回数', '5.8以降接種_一般接種（４回目）', '５回目_一般接種回数', '６回目_一般接種回数'}
-","Unknown sheets: {'5.8以降接種_一般接種（５回目）', '5.8以降接種_一般接種（６回目）', '６回目_総接種回数', '5.8以降接種_総接種回数', '5.8以降接種_一般接種（３回目）', '５回目_総接種回数', '5.8以降接種_一般接種（４回目）', '５回目_一般接種回数', '６回目_一般接種回数'}"
+ValueError: Unknown sheets: {'５回目_総接種回数', '６回目_一般接種回数', '5.8以降接種_一般接種（６回目）', '5.8以降接種_総接種回数', '5.8以降接種_一般接種（３回目）', '６回目_総接種回数', '5.8以降接種_一般接種（４回目）', '５回目_一般接種回数', '5.8以降接種_一般接種（５回目）'}
+","Unknown sheets: {'５回目_総接種回数', '６回目_一般接種回数', '5.8以降接種_一般接種（６回目）', '5.8以降接種_総接種回数', '5.8以降接種_一般接種（３回目）', '６回目_総接種回数', '5.8以降接種_一般接種（４回目）', '５回目_一般接種回数', '5.8以降接種_一般接種（５回目）'}"
 cowidev.vax.batch.jersey,4.92,True,2023-09-06T07:00:12,,
 cowidev.vax.batch.latvia,65.65,True,2023-09-06T07:01:13,,
 cowidev.vax.batch.lithuania,4.95,True,2023-09-06T07:00:12,,
 cowidev.vax.batch.luxembourg,2.03,True,2023-09-06T07:00:09,,
-cowidev.vax.batch.malaysia,1.12,True,2023-09-06T07:00:08,,
+cowidev.vax.batch.malaysia,0.36,True,2023-09-06T16:19:33,,
 cowidev.vax.batch.malta,1.09,True,2023-09-06T07:00:08,,
 cowidev.vax.batch.netherlands,,,2023-09-06T07:00:07,,
 cowidev.vax.batch.new_zealand,2.04,False,2023-09-06T07:02:29,"Traceback (most recent call last):
