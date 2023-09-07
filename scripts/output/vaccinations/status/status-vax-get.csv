@@ -1,10 +1,10 @@
 module,execution_time (sec),success,timestamp,error,error_short
-cowidev.vax.batch.argentina,18.16,True,2023-09-06T07:00:25,,
-cowidev.vax.batch.australia,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.austria_old,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.belgium,19.93,True,2023-09-06T07:00:27,,
-cowidev.vax.batch.bolivia,4.57,True,2023-09-06T07:00:12,,
-cowidev.vax.batch.canada,6.81,False,2023-09-06T07:02:12,"Traceback (most recent call last):
+cowidev.vax.batch.argentina,11.4,True,2023-09-07T07:00:17,,
+cowidev.vax.batch.australia,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.austria_old,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.belgium,2.71,True,2023-09-07T07:00:09,,
+cowidev.vax.batch.bolivia,2.87,True,2023-09-07T07:00:09,,
+cowidev.vax.batch.canada,6.33,False,2023-09-07T07:01:49,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/canada.py"", line 282, in main
@@ -35,28 +35,28 @@ cowidev.vax.batch.canada,6.81,False,2023-09-06T07:02:12,"Traceback (most recent 
     raise Exception(
 Exception: 2 chunks of lengths 36, 29 would be NaNed for metric people_vaccinated. That is more than maximum allowed (22) by make_monotonic() - check the data. Check dates ['2023-01-26', '2023-06-15']. Location(s) affected: {'Canada'}
 ","2 chunks of lengths 36, 29 would be NaNed for metric people_vaccinated. That is more than maximum allowed (22) by make_monotonic() - check the data. Check dates ['2023-01-26', '2023-06-15']. Location(s) affected: {'Canada'}"
-cowidev.vax.batch.chile,1.18,True,2023-09-06T07:00:08,,
-cowidev.vax.batch.czechia,33.1,True,2023-09-06T07:00:40,,
-cowidev.vax.batch.denmark,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.ecdc,103.71,True,2023-09-06T07:01:51,,
-cowidev.vax.batch.ecuador,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.estonia,1.08,True,2023-09-06T07:00:08,,
-cowidev.vax.batch.france,6.63,True,2023-09-06T07:00:14,,
-cowidev.vax.batch.germany,0.23,True,2023-09-06T07:00:07,,
-cowidev.vax.batch.greece,23.1,True,2023-09-06T07:00:30,,
-cowidev.vax.batch.hong_kong,4.4,True,2023-09-06T14:42:24,,
-cowidev.vax.batch.indonesia,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.ireland,0.51,True,2023-09-06T16:19:33,,
-cowidev.vax.batch.israel,0.35,False,2023-09-06T14:43:26,"Traceback (most recent call last):
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
+cowidev.vax.batch.chile,6.13,True,2023-09-07T07:00:12,,
+cowidev.vax.batch.czechia,18.69,True,2023-09-07T07:00:25,,
+cowidev.vax.batch.denmark,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.ecdc,76.76,True,2023-09-07T07:01:23,,
+cowidev.vax.batch.ecuador,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.estonia,0.67,True,2023-09-07T07:00:07,,
+cowidev.vax.batch.france,5.82,True,2023-09-07T07:00:12,,
+cowidev.vax.batch.germany,0.36,True,2023-09-07T07:00:06,,
+cowidev.vax.batch.greece,15.99,True,2023-09-07T07:00:22,,
+cowidev.vax.batch.hong_kong,13.5,True,2023-09-07T07:00:20,,
+cowidev.vax.batch.indonesia,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.ireland,4.35,True,2023-09-07T07:00:10,,
+cowidev.vax.batch.israel,0.16,False,2023-09-07T07:01:49,"Traceback (most recent call last):
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/israel.py"", line 189, in main
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/israel.py"", line 189, in main
     Israel().export()
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/israel.py"", line 175, in export
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/israel.py"", line 175, in export
     df = self.read().pipe(self.pipeline)
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/israel.py"", line 21, in read
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/israel.py"", line 21, in read
     data = request_json(self.source_url, verify=False)
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/utils/web/scraping.py"", line 107, in request_json
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/utils/web/scraping.py"", line 107, in request_json
     return json.loads(text)
   File ""/usr/lib/python3.10/json/__init__.py"", line 346, in loads
     return _default_decoder.decode(s)
@@ -66,32 +66,16 @@ cowidev.vax.batch.israel,0.35,False,2023-09-06T14:43:26,"Traceback (most recent 
     raise JSONDecodeError(""Expecting value"", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 3 column 2 (char 3)
 ",Expecting value: line 3 column 2 (char 3)
-cowidev.vax.batch.italy,23.11,True,2023-09-06T07:00:30,,
-cowidev.vax.batch.japan,12.34,False,2023-09-06T14:54:41,"Traceback (most recent call last):
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
-    module.main()
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 375, in main
-    Japan().export()
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 359, in export
-    df = self.read().pipe(self.pipeline_base)
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 71, in read
-    df_latest = self.read_latest().pipe(self.pipe_read_latest)
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 100, in read_latest
-    self._read_latest_booster(),
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 211, in _read_latest_booster
-    df = self._read_xlsx(
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/japan.py"", line 233, in _read_xlsx
-    raise ValueError(f""Unknown sheets: {sheets_unknown}"")
-ValueError: Unknown sheets: {'５回目_総接種回数', '６回目_一般接種回数', '5.8以降接種_一般接種（６回目）', '5.8以降接種_総接種回数', '5.8以降接種_一般接種（３回目）', '６回目_総接種回数', '5.8以降接種_一般接種（４回目）', '５回目_一般接種回数', '5.8以降接種_一般接種（５回目）'}
-","Unknown sheets: {'５回目_総接種回数', '６回目_一般接種回数', '5.8以降接種_一般接種（６回目）', '5.8以降接種_総接種回数', '5.8以降接種_一般接種（３回目）', '６回目_総接種回数', '5.8以降接種_一般接種（４回目）', '５回目_一般接種回数', '5.8以降接種_一般接種（５回目）'}"
-cowidev.vax.batch.jersey,4.92,True,2023-09-06T07:00:12,,
-cowidev.vax.batch.latvia,65.65,True,2023-09-06T07:01:13,,
-cowidev.vax.batch.lithuania,4.95,True,2023-09-06T07:00:12,,
-cowidev.vax.batch.luxembourg,2.03,True,2023-09-06T07:00:09,,
-cowidev.vax.batch.malaysia,0.36,True,2023-09-06T16:19:33,,
-cowidev.vax.batch.malta,1.09,True,2023-09-06T07:00:08,,
-cowidev.vax.batch.netherlands,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.new_zealand,2.04,False,2023-09-06T07:02:29,"Traceback (most recent call last):
+cowidev.vax.batch.italy,14.9,True,2023-09-07T07:00:21,,
+cowidev.vax.batch.japan,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.jersey,4.49,True,2023-09-07T07:00:11,,
+cowidev.vax.batch.latvia,82.32,True,2023-09-07T07:01:28,,
+cowidev.vax.batch.lithuania,4.51,True,2023-09-07T07:00:11,,
+cowidev.vax.batch.luxembourg,2.26,True,2023-09-07T07:00:08,,
+cowidev.vax.batch.malaysia,1.65,True,2023-09-07T07:00:08,,
+cowidev.vax.batch.malta,1.34,True,2023-09-07T07:00:07,,
+cowidev.vax.batch.netherlands,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.new_zealand,1.01,False,2023-09-07T07:01:50,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/new_zealand.py"", line 119, in main
@@ -110,23 +94,23 @@ cowidev.vax.batch.new_zealand,2.04,False,2023-09-06T07:02:29,"Traceback (most re
     raise ValueError(
 ValueError: Excel file format cannot be determined, you must specify an engine manually.
 ","Excel file format cannot be determined, you must specify an engine manually."
-cowidev.vax.batch.norway,0.67,True,2023-09-06T07:00:08,,
-cowidev.vax.batch.peru,4.94,True,2023-09-06T07:00:12,,
-cowidev.vax.batch.portugal,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.romania,31.38,True,2023-09-06T07:00:38,,
-cowidev.vax.batch.saudi_arabia,8.32,True,2023-09-06T07:00:15,,
-cowidev.vax.batch.singapore,2.7,True,2023-09-06T07:00:10,,
-cowidev.vax.batch.slovakia,53.71,True,2023-09-06T07:01:01,,
-cowidev.vax.batch.slovenia,2.25,True,2023-09-06T07:00:09,,
-cowidev.vax.batch.south_korea,,,2023-09-06T07:00:07,,
-cowidev.vax.batch.spc,32.26,True,2023-09-06T07:00:39,,
-cowidev.vax.batch.sweden,23.52,True,2023-09-06T07:00:31,,
-cowidev.vax.batch.switzerland,73.82,True,2023-09-06T07:01:21,,
-cowidev.vax.batch.trinidad_and_tobago,4.29,True,2023-09-06T07:00:12,,
-cowidev.vax.batch.ukraine,,,2023-09-06T07:00:08,,
-cowidev.vax.batch.united_kingdom,25.25,True,2023-09-06T07:00:33,,
-cowidev.vax.batch.united_states,19.24,True,2023-09-06T07:00:27,,
-cowidev.vax.batch.uruguay,1.53,False,2023-09-06T07:02:30,"Traceback (most recent call last):
+cowidev.vax.batch.norway,0.47,True,2023-09-07T07:00:07,,
+cowidev.vax.batch.peru,4.48,True,2023-09-07T07:00:11,,
+cowidev.vax.batch.portugal,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.romania,29.27,True,2023-09-07T07:00:35,,
+cowidev.vax.batch.saudi_arabia,6.39,True,2023-09-07T07:00:12,,
+cowidev.vax.batch.singapore,4.34,True,2023-09-07T07:00:10,,
+cowidev.vax.batch.slovakia,34.86,True,2023-09-07T07:00:41,,
+cowidev.vax.batch.slovenia,2.32,True,2023-09-07T07:00:08,,
+cowidev.vax.batch.south_korea,,,2023-09-07T07:00:06,,
+cowidev.vax.batch.spc,30.86,True,2023-09-07T07:00:37,,
+cowidev.vax.batch.sweden,10.08,True,2023-09-07T07:00:16,,
+cowidev.vax.batch.switzerland,65.63,True,2023-09-07T07:01:12,,
+cowidev.vax.batch.trinidad_and_tobago,3.95,True,2023-09-07T07:00:10,,
+cowidev.vax.batch.ukraine,,,2023-09-07T07:00:07,,
+cowidev.vax.batch.united_kingdom,14.3,True,2023-09-07T07:00:21,,
+cowidev.vax.batch.united_states,14.44,True,2023-09-07T07:00:21,,
+cowidev.vax.batch.uruguay,1.58,False,2023-09-07T07:01:51,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/uruguay.py"", line 151, in main
@@ -151,69 +135,105 @@ cowidev.vax.batch.uruguay,1.53,False,2023-09-06T07:02:30,"Traceback (most recent
     raise Exception(
 Exception: 1 chunks of lengths 672 would be NaNed for metric total_vaccinations. That is more than maximum allowed (10) by make_monotonic() - check the data. Check dates ['2023-01-01']. Location(s) affected: {'Uruguay'}
 ",1 chunks of lengths 672 would be NaNed for metric total_vaccinations. That is more than maximum allowed (10) by make_monotonic() - check the data. Check dates ['2023-01-01']. Location(s) affected: {'Uruguay'}
-cowidev.vax.batch.zimbabwe,3.7,True,2023-09-06T07:00:12,,
-cowidev.vax.incremental.africacdc,,,2023-09-06T07:00:09,,
-cowidev.vax.incremental.antigua_barbuda,,,2023-09-06T07:00:09,,
-cowidev.vax.incremental.aruba,2.27,True,2023-09-06T07:00:11,,
-cowidev.vax.incremental.austria,,,2023-09-06T07:00:09,,
-cowidev.vax.incremental.azerbaijan,,,2023-09-06T07:00:09,,
-cowidev.vax.incremental.bahrain,,,2023-09-06T07:00:09,,
-cowidev.vax.incremental.bangladesh,51.48,True,2023-09-06T07:01:01,,
-cowidev.vax.incremental.barbados,,,2023-09-06T07:00:10,,
-cowidev.vax.incremental.brazil,1.25,True,2023-09-06T07:00:11,,
-cowidev.vax.incremental.bulgaria,20.95,True,2023-09-06T07:00:32,,
-cowidev.vax.incremental.china,23.63,True,2023-09-06T07:00:35,,
-cowidev.vax.incremental.costa_rica,,,2023-09-06T07:00:12,,
-cowidev.vax.incremental.croatia,0.99,True,2023-09-06T07:00:13,,
-cowidev.vax.incremental.cuba,11.63,True,2023-09-06T07:00:23,,
-cowidev.vax.incremental.curacao,,,2023-09-06T07:00:12,,
-cowidev.vax.incremental.cyprus,2.08,True,2023-09-06T07:00:14,,
-cowidev.vax.incremental.dominican_republic,14.39,True,2023-09-06T14:43:31,,
-cowidev.vax.incremental.el_salvador,8.85,True,2023-09-06T07:00:21,,
-cowidev.vax.incremental.faeroe_islands,1.28,True,2023-09-06T07:00:13,,
-cowidev.vax.incremental.fiji,0.0,True,2023-09-06T07:00:12,,
-cowidev.vax.incremental.finland,0.59,True,2023-09-06T07:00:13,,
-cowidev.vax.incremental.gabon,,,2023-09-06T07:00:13,,
-cowidev.vax.incremental.georgia,5.29,True,2023-09-06T07:00:18,,
-cowidev.vax.incremental.greenland,,,2023-09-06T07:00:13,,
-cowidev.vax.incremental.guatemala,,,2023-09-06T07:00:13,,
-cowidev.vax.incremental.guernsey,,,2023-09-06T07:00:13,,
-cowidev.vax.incremental.hungary,93.48,True,2023-09-06T07:01:46,,
-cowidev.vax.incremental.iceland,3.53,True,2023-09-06T07:00:17,,
-cowidev.vax.incremental.india,1.75,True,2023-09-06T07:00:15,,
-cowidev.vax.incremental.iran,,,2023-09-06T07:00:14,,
-cowidev.vax.incremental.isle_of_man,3.06,True,2023-09-06T07:00:17,,
-cowidev.vax.incremental.jamaica,9.59,True,2023-09-06T07:00:24,,
-cowidev.vax.incremental.kazakhstan,15.98,True,2023-09-06T07:00:31,,
-cowidev.vax.incremental.kosovo,,,2023-09-06T07:00:15,,
-cowidev.vax.incremental.kyrgyzstan,6.01,True,2023-09-06T07:00:21,,
-cowidev.vax.incremental.laos,10.86,True,2023-09-06T07:00:28,,
-cowidev.vax.incremental.macao,,,2023-09-06T07:00:17,,
-cowidev.vax.incremental.moldova,,,2023-09-06T07:00:17,,
-cowidev.vax.incremental.monaco,93.44,True,2023-09-06T07:01:50,,
-cowidev.vax.incremental.mongolia,2.43,True,2023-09-06T07:00:20,,
-cowidev.vax.incremental.montenegro,1.35,True,2023-09-06T07:00:22,,
-cowidev.vax.incremental.morocco,,,2023-09-06T07:00:21,,
-cowidev.vax.incremental.myanmar,,,2023-09-06T07:00:21,,
-cowidev.vax.incremental.nepal,,,2023-09-06T07:00:21,,
-cowidev.vax.incremental.north_macedonia,,,2023-09-06T07:00:21,,
-cowidev.vax.incremental.northern_cyprus,8.86,True,2023-09-06T07:00:30,,
-cowidev.vax.incremental.paho,77.82,True,2023-09-06T14:44:35,,
-cowidev.vax.incremental.pakistan,,,2023-09-06T07:00:22,,
-cowidev.vax.incremental.philippines,,,2023-09-06T07:00:22,,
-cowidev.vax.incremental.poland,4.42,True,2023-09-06T07:00:26,,
-cowidev.vax.incremental.qatar,,,2023-09-06T07:00:22,,
-cowidev.vax.incremental.russia,20.01,True,2023-09-06T07:00:42,,
-cowidev.vax.incremental.saint_lucia,,,2023-09-06T07:00:23,,
-cowidev.vax.incremental.serbia,11.13,True,2023-09-06T07:00:34,,
-cowidev.vax.incremental.south_africa,,,2023-09-06T07:00:24,,
-cowidev.vax.incremental.spain,19.95,True,2023-09-06T07:00:43,,
-cowidev.vax.incremental.sri_lanka,,,2023-09-06T07:00:25,,
-cowidev.vax.incremental.suriname,14.69,True,2023-09-06T07:00:40,,
-cowidev.vax.incremental.taiwan,22.93,True,2023-09-06T07:00:49,,
-cowidev.vax.incremental.thailand,6.44,True,2023-09-06T07:00:33,,
-cowidev.vax.incremental.turkey,,,2023-09-06T07:00:27,,
-cowidev.vax.incremental.united_arab_emirates,,,2023-09-06T07:00:27,,
-cowidev.vax.incremental.vietnam,,,2023-09-06T07:00:27,,
-cowidev.vax.incremental.who,29.25,True,2023-09-06T07:00:56,,
-cowidev.vax.incremental.zambia,2.62,True,2023-09-06T07:00:30,,
+cowidev.vax.batch.zimbabwe,2.29,True,2023-09-07T07:00:10,,
+cowidev.vax.incremental.africacdc,,,2023-09-07T07:00:08,,
+cowidev.vax.incremental.antigua_barbuda,,,2023-09-07T07:00:08,,
+cowidev.vax.incremental.aruba,2.04,True,2023-09-07T07:00:10,,
+cowidev.vax.incremental.austria,,,2023-09-07T07:00:08,,
+cowidev.vax.incremental.azerbaijan,,,2023-09-07T07:00:08,,
+cowidev.vax.incremental.bahrain,,,2023-09-07T07:00:08,,
+cowidev.vax.incremental.bangladesh,62.34,True,2023-09-07T07:01:11,,
+cowidev.vax.incremental.barbados,,,2023-09-07T07:00:09,,
+cowidev.vax.incremental.brazil,0.91,True,2023-09-07T07:00:10,,
+cowidev.vax.incremental.bulgaria,4.98,True,2023-09-07T07:00:14,,
+cowidev.vax.incremental.china,14.45,True,2023-09-07T07:00:24,,
+cowidev.vax.incremental.costa_rica,,,2023-09-07T07:00:10,,
+cowidev.vax.incremental.croatia,1.03,True,2023-09-07T07:00:11,,
+cowidev.vax.incremental.cuba,4.97,True,2023-09-07T07:00:15,,
+cowidev.vax.incremental.curacao,,,2023-09-07T07:00:10,,
+cowidev.vax.incremental.cyprus,1.6,True,2023-09-07T07:00:12,,
+cowidev.vax.incremental.dominican_republic,12.56,False,2023-09-07T07:02:04,"Traceback (most recent call last):
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
+    module.main()
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/dominican_republic.py"", line 112, in main
+    DominicanRepublic().export()
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/dominican_republic.py"", line 68, in export
+    data = self.read().pipe(self.pipeline)
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/dominican_republic.py"", line 26, in read
+    metrics = self._parse_metrics(driver)
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/dominican_republic.py"", line 35, in _parse_metrics
+    metric_candidates = _find_potential_metrics(driver)
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/dominican_republic.py"", line 91, in _find_potential_metrics
+    h3 = _find_h3(driver)
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/dominican_republic.py"", line 81, in _find_h3
+    raise ValueError(""More than one element found!"")
+ValueError: More than one element found!
+",More than one element found!
+cowidev.vax.incremental.el_salvador,6.1,True,2023-09-07T07:00:17,,
+cowidev.vax.incremental.faeroe_islands,1.11,True,2023-09-07T07:00:12,,
+cowidev.vax.incremental.fiji,0.0,True,2023-09-07T07:00:11,,
+cowidev.vax.incremental.finland,0.49,True,2023-09-07T07:00:11,,
+cowidev.vax.incremental.gabon,,,2023-09-07T07:00:11,,
+cowidev.vax.incremental.georgia,2.8,True,2023-09-07T07:00:13,,
+cowidev.vax.incremental.greenland,,,2023-09-07T07:00:11,,
+cowidev.vax.incremental.guatemala,,,2023-09-07T07:00:11,,
+cowidev.vax.incremental.guernsey,,,2023-09-07T07:00:11,,
+cowidev.vax.incremental.hungary,58.79,True,2023-09-07T07:01:10,,
+cowidev.vax.incremental.iceland,1.74,True,2023-09-07T07:00:13,,
+cowidev.vax.incremental.india,1.44,True,2023-09-07T07:00:13,,
+cowidev.vax.incremental.iran,,,2023-09-07T07:00:12,,
+cowidev.vax.incremental.isle_of_man,2.98,True,2023-09-07T07:00:15,,
+cowidev.vax.incremental.jamaica,7.04,True,2023-09-07T07:00:19,,
+cowidev.vax.incremental.kazakhstan,7.37,True,2023-09-07T07:00:20,,
+cowidev.vax.incremental.kosovo,,,2023-09-07T07:00:12,,
+cowidev.vax.incremental.kyrgyzstan,2.08,True,2023-09-07T07:00:15,,
+cowidev.vax.incremental.laos,5.69,True,2023-09-07T07:00:19,,
+cowidev.vax.incremental.macao,,,2023-09-07T07:00:13,,
+cowidev.vax.incremental.moldova,,,2023-09-07T07:00:13,,
+cowidev.vax.incremental.monaco,60.51,True,2023-09-07T07:01:14,,
+cowidev.vax.incremental.mongolia,0.89,True,2023-09-07T07:00:14,,
+cowidev.vax.incremental.montenegro,0.31,True,2023-09-07T07:00:14,,
+cowidev.vax.incremental.morocco,,,2023-09-07T07:00:14,,
+cowidev.vax.incremental.myanmar,,,2023-09-07T07:00:14,,
+cowidev.vax.incremental.nepal,,,2023-09-07T07:00:14,,
+cowidev.vax.incremental.north_macedonia,,,2023-09-07T07:00:14,,
+cowidev.vax.incremental.northern_cyprus,4.2,True,2023-09-07T07:00:18,,
+cowidev.vax.incremental.paho,84.63,False,2023-09-07T07:03:29,"Traceback (most recent call last):
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
+    module.main()
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/paho.py"", line 195, in main
+    PAHO().export()
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/paho.py"", line 190, in export
+    df = self.read().pipe(self.pipeline)
+  File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/generic.py"", line 5430, in pipe
+    return com.pipe(self, func, *args, **kwargs)
+  File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/common.py"", line 471, in pipe
+    return func(obj, *args, **kwargs)
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/paho.py"", line 167, in pipeline
+    df.pipe(self.pipe_check_columns)
+  File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/generic.py"", line 5430, in pipe
+    return com.pipe(self, func, *args, **kwargs)
+  File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/common.py"", line 471, in pipe
+    return func(obj, *args, **kwargs)
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/paho.py"", line 122, in pipe_check_columns
+    raise ValueError(f""Missing column fields: {columns_missing}. Present columns are: {df.columns}"")
+ValueError: Missing column fields: {'Second dose', 'Total doses', '2nd additional dose', 'First dose', '1st additional dose', 'Country/ Territory', 'Single dose', 'Country code'}. Present columns are: Index(['date,location,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters,new_vaccinations,new_vaccinations_interpolated,new_people_vaccinated_interpolated,new_vaccinations_smoothed,new_people_vaccinated_smoothed', 'date'], dtype='object')
+","Missing column fields: {'Second dose', 'Total doses', '2nd additional dose', 'First dose', '1st additional dose', 'Country/ Territory', 'Single dose', 'Country code'}. Present columns are: Index(['date,location,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters,new_vaccinations,new_vaccinations_interpolated,new_people_vaccinated_interpolated,new_vaccinations_smoothed,new_people_vaccinated_smoothed', 'date'], dtype='object')"
+cowidev.vax.incremental.pakistan,,,2023-09-07T07:00:14,,
+cowidev.vax.incremental.philippines,,,2023-09-07T07:00:14,,
+cowidev.vax.incremental.poland,1.18,True,2023-09-07T07:00:15,,
+cowidev.vax.incremental.qatar,,,2023-09-07T07:00:15,,
+cowidev.vax.incremental.russia,8.14,True,2023-09-07T07:00:23,,
+cowidev.vax.incremental.saint_lucia,,,2023-09-07T07:00:15,,
+cowidev.vax.incremental.serbia,6.35,True,2023-09-07T07:00:21,,
+cowidev.vax.incremental.south_africa,,,2023-09-07T07:00:15,,
+cowidev.vax.incremental.spain,15.15,True,2023-09-07T07:00:30,,
+cowidev.vax.incremental.sri_lanka,,,2023-09-07T07:00:15,,
+cowidev.vax.incremental.suriname,14.0,True,2023-09-07T07:00:29,,
+cowidev.vax.incremental.taiwan,14.74,True,2023-09-07T07:00:30,,
+cowidev.vax.incremental.thailand,4.82,True,2023-09-07T07:00:21,,
+cowidev.vax.incremental.turkey,,,2023-09-07T07:00:17,,
+cowidev.vax.incremental.united_arab_emirates,,,2023-09-07T07:00:17,,
+cowidev.vax.incremental.vietnam,,,2023-09-07T07:00:17,,
+cowidev.vax.incremental.who,8.08,True,2023-09-07T07:00:25,,
+cowidev.vax.incremental.zambia,1.67,True,2023-09-07T07:00:19,,
