@@ -1,9 +1,9 @@
 date,indicator,value,entity
 2020-04-01,Daily hospital occupancy,836,Canada
 2020-04-02,Daily hospital occupancy,571,Canada
-2020-04-03,Daily hospital occupancy,596,Canada
-2020-04-04,Daily hospital occupancy,668,Canada
-2020-04-05,Daily hospital occupancy,697,Canada
+2020-04-03,Daily hospital occupancy,593,Canada
+2020-04-04,Daily hospital occupancy,664,Canada
+2020-04-05,Daily hospital occupancy,687,Canada
 2020-04-06,Daily hospital occupancy,1271,Canada
 2020-04-07,Daily hospital occupancy,1354,Canada
 2020-04-08,Daily hospital occupancy,1444,Canada
@@ -1266,11 +1266,18 @@ date,indicator,value,entity
 2023-09-17,Daily hospital occupancy,2686,Canada
 2023-09-18,Daily hospital occupancy,2686,Canada
 2023-09-19,Daily hospital occupancy,2742,Canada
+2023-09-20,Daily hospital occupancy,2742,Canada
+2023-09-21,Daily hospital occupancy,2820,Canada
+2023-09-22,Daily hospital occupancy,2839,Canada
+2023-09-23,Daily hospital occupancy,2844,Canada
+2023-09-24,Daily hospital occupancy,2844,Canada
+2023-09-25,Daily hospital occupancy,2846,Canada
+2023-09-26,Daily hospital occupancy,2848,Canada
 2020-04-01,Daily ICU occupancy,203,Canada
-2020-04-02,Daily ICU occupancy,225,Canada
-2020-04-03,Daily ICU occupancy,228,Canada
-2020-04-04,Daily ICU occupancy,233,Canada
-2020-04-05,Daily ICU occupancy,254,Canada
+2020-04-02,Daily ICU occupancy,222,Canada
+2020-04-03,Daily ICU occupancy,225,Canada
+2020-04-04,Daily ICU occupancy,230,Canada
+2020-04-05,Daily ICU occupancy,250,Canada
 2020-04-06,Daily ICU occupancy,433,Canada
 2020-04-07,Daily ICU occupancy,461,Canada
 2020-04-08,Daily ICU occupancy,493,Canada
@@ -2533,3 +2540,10 @@ date,indicator,value,entity
 2023-09-17,Daily ICU occupancy,89,Canada
 2023-09-18,Daily ICU occupancy,89,Canada
 2023-09-19,Daily ICU occupancy,91,Canada
+2023-09-20,Daily ICU occupancy,91,Canada
+2023-09-21,Daily ICU occupancy,94,Canada
+2023-09-22,Daily ICU occupancy,92,Canada
+2023-09-23,Daily ICU occupancy,91,Canada
+2023-09-24,Daily ICU occupancy,91,Canada
+2023-09-25,Daily ICU occupancy,92,Canada
+2023-09-26,Daily ICU occupancy,91,Canada
