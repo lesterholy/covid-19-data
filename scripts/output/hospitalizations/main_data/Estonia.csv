@@ -1310,6 +1310,7 @@ Estonia,Daily ICU occupancy,2023-09-10,0.0
 Estonia,Daily ICU occupancy,2023-09-17,0.0
 Estonia,Daily ICU occupancy,2023-09-24,0.0
 Estonia,Daily ICU occupancy,2023-10-01,0.0
+Estonia,Daily ICU occupancy,2023-10-08,0.0
 Estonia,Weekly new hospital admissions,2020-03-29,521.7447236663874
 Estonia,Weekly new ICU admissions,2020-03-29,51.77619395162622
 Estonia,Weekly new hospital admissions,2020-04-26,23.896704900750564
@@ -1664,3 +1665,5 @@ Estonia,Weekly new hospital admissions,2023-09-24,19.913920750625472
 Estonia,Weekly new ICU admissions,2023-09-24,0.0
 Estonia,Weekly new hospital admissions,2023-10-01,25.88809697581311
 Estonia,Weekly new ICU admissions,2023-10-01,0.9956960375312731
+Estonia,Weekly new hospital admissions,2023-10-08,20.909616788156747
+Estonia,Weekly new ICU admissions,2023-10-08,0.0
