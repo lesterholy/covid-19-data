@@ -10,13 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           persist-credentials: false
 
       - name: Upload to R2
-        run: aws s3 sync ./public/ s3://covid-19 --acl public-read
+        run: aws s3 sync --endpoint-url https://078fcdfed9955087315dd86792e71a7e.r2.cloudflarestorage.com ./public/ s3://covid-19 --acl public-read
         env:
-          AWS_ENDPOINT_URL: https://078fcdfed9955087315dd86792e71a7e.r2.cloudflarestorage.com
           AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
