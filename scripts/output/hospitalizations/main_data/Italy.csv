@@ -2658,6 +2658,13 @@ date,indicator,value,entity
 2023-10-16,Daily ICU occupancy,125.0,Italy
 2023-10-17,Daily ICU occupancy,127.0,Italy
 2023-10-18,Daily ICU occupancy,119.0,Italy
+2023-10-19,Daily ICU occupancy,122.0,Italy
+2023-10-20,Daily ICU occupancy,115.0,Italy
+2023-10-21,Daily ICU occupancy,107.0,Italy
+2023-10-22,Daily ICU occupancy,106.0,Italy
+2023-10-23,Daily ICU occupancy,102.0,Italy
+2023-10-24,Daily ICU occupancy,106.0,Italy
+2023-10-25,Daily ICU occupancy,111.0,Italy
 2020-02-24,Daily hospital occupancy,127.0,Italy
 2020-02-25,Daily hospital occupancy,150.0,Italy
 2020-02-26,Daily hospital occupancy,164.0,Italy
@@ -3991,6 +3998,13 @@ date,indicator,value,entity
 2023-10-16,Daily hospital occupancy,3756.0,Italy
 2023-10-17,Daily hospital occupancy,3736.0,Italy
 2023-10-18,Daily hospital occupancy,3670.0,Italy
+2023-10-19,Daily hospital occupancy,3639.0,Italy
+2023-10-20,Daily hospital occupancy,3559.0,Italy
+2023-10-21,Daily hospital occupancy,3571.0,Italy
+2023-10-22,Daily hospital occupancy,3579.0,Italy
+2023-10-23,Daily hospital occupancy,3658.0,Italy
+2023-10-24,Daily hospital occupancy,3648.0,Italy
+2023-10-25,Daily hospital occupancy,3657.0,Italy
 2020-12-09,Weekly new ICU admissions,1248.0,Italy
 2020-12-10,Weekly new ICU admissions,1282.0,Italy
 2020-12-11,Weekly new ICU admissions,1289.0,Italy
@@ -5035,3 +5049,10 @@ date,indicator,value,entity
 2023-10-16,Weekly new ICU admissions,102.0,Italy
 2023-10-17,Weekly new ICU admissions,112.0,Italy
 2023-10-18,Weekly new ICU admissions,102.0,Italy
+2023-10-19,Weekly new ICU admissions,110.0,Italy
+2023-10-20,Weekly new ICU admissions,97.0,Italy
+2023-10-21,Weekly new ICU admissions,97.0,Italy
+2023-10-22,Weekly new ICU admissions,103.0,Italy
+2023-10-23,Weekly new ICU admissions,86.0,Italy
+2023-10-24,Weekly new ICU admissions,79.0,Italy
+2023-10-25,Weekly new ICU admissions,84.0,Italy
