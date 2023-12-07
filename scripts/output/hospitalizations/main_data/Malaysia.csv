@@ -1351,6 +1351,7 @@ date,indicator,value,entity
 2023-12-04,Weekly new hospital admissions,686.0,Malaysia
 2023-12-05,Weekly new hospital admissions,723.0,Malaysia
 2023-12-06,Weekly new hospital admissions,748.0,Malaysia
+2023-12-07,Weekly new hospital admissions,804.0,Malaysia
 2020-03-24,Daily hospital occupancy,1019.0,Malaysia
 2020-03-25,Daily hospital occupancy,1229.0,Malaysia
 2020-03-26,Daily hospital occupancy,1347.0,Malaysia
@@ -2703,6 +2704,7 @@ date,indicator,value,entity
 2023-12-04,Daily hospital occupancy,259.0,Malaysia
 2023-12-05,Daily hospital occupancy,299.0,Malaysia
 2023-12-06,Daily hospital occupancy,309.0,Malaysia
+2023-12-07,Daily hospital occupancy,357.0,Malaysia
 2020-03-24,Daily ICU occupancy,69.0,Malaysia
 2020-03-25,Daily ICU occupancy,60.0,Malaysia
 2020-03-26,Daily ICU occupancy,71.0,Malaysia
@@ -4055,3 +4057,4 @@ date,indicator,value,entity
 2023-12-04,Daily ICU occupancy,6.0,Malaysia
 2023-12-05,Daily ICU occupancy,8.0,Malaysia
 2023-12-06,Daily ICU occupancy,9.0,Malaysia
+2023-12-07,Daily ICU occupancy,13.0,Malaysia
