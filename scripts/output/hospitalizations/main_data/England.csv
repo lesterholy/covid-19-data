@@ -1338,12 +1338,19 @@ date,indicator,value,entity
 2023-11-16,Daily hospital occupancy,2507.0,England
 2023-11-17,Daily hospital occupancy,2503.0,England
 2023-11-18,Daily hospital occupancy,2475.0,England
-2023-11-19,Daily hospital occupancy,2451.0,England
-2023-11-20,Daily hospital occupancy,2442.0,England
-2023-11-21,Daily hospital occupancy,2372.0,England
-2023-11-22,Daily hospital occupancy,2309.0,England
-2023-11-23,Daily hospital occupancy,2320.0,England
-2023-11-24,Daily hospital occupancy,2264.0,England
+2023-11-19,Daily hospital occupancy,2452.0,England
+2023-11-20,Daily hospital occupancy,2443.0,England
+2023-11-21,Daily hospital occupancy,2373.0,England
+2023-11-22,Daily hospital occupancy,2310.0,England
+2023-11-23,Daily hospital occupancy,2321.0,England
+2023-11-24,Daily hospital occupancy,2265.0,England
+2023-11-25,Daily hospital occupancy,2238.0,England
+2023-11-26,Daily hospital occupancy,2275.0,England
+2023-11-27,Daily hospital occupancy,2277.0,England
+2023-11-28,Daily hospital occupancy,2332.0,England
+2023-11-29,Daily hospital occupancy,2333.0,England
+2023-11-30,Daily hospital occupancy,2315.0,England
+2023-12-01,Daily hospital occupancy,2370.0,England
 2020-03-25,Weekly new hospital admissions,7340.0,England
 2020-03-26,Weekly new hospital admissions,8393.0,England
 2020-03-27,Weekly new hospital admissions,9633.0,England
@@ -2678,12 +2685,19 @@ date,indicator,value,entity
 2023-11-16,Weekly new hospital admissions,2017.0,England
 2023-11-17,Weekly new hospital admissions,2012.0,England
 2023-11-18,Weekly new hospital admissions,1977.0,England
-2023-11-19,Weekly new hospital admissions,1956.0,England
-2023-11-20,Weekly new hospital admissions,1924.0,England
-2023-11-21,Weekly new hospital admissions,1906.0,England
-2023-11-22,Weekly new hospital admissions,1881.0,England
-2023-11-23,Weekly new hospital admissions,1882.0,England
-2023-11-24,Weekly new hospital admissions,1880.0,England
+2023-11-19,Weekly new hospital admissions,1955.0,England
+2023-11-20,Weekly new hospital admissions,1921.0,England
+2023-11-21,Weekly new hospital admissions,1903.0,England
+2023-11-22,Weekly new hospital admissions,1878.0,England
+2023-11-23,Weekly new hospital admissions,1879.0,England
+2023-11-24,Weekly new hospital admissions,1877.0,England
+2023-11-25,Weekly new hospital admissions,1877.0,England
+2023-11-26,Weekly new hospital admissions,1898.0,England
+2023-11-27,Weekly new hospital admissions,1945.0,England
+2023-11-28,Weekly new hospital admissions,1983.0,England
+2023-11-29,Weekly new hospital admissions,2017.0,England
+2023-11-30,Weekly new hospital admissions,2040.0,England
+2023-12-01,Weekly new hospital admissions,2064.0,England
 2020-04-02,Daily ICU occupancy,1494.0,England
 2020-04-03,Daily ICU occupancy,1788.0,England
 2020-04-04,Daily ICU occupancy,1950.0,England
