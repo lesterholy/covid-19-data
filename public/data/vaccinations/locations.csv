@@ -8,7 +8,7 @@ Anguilla,AIA,"Oxford/AstraZeneca, Pfizer/BioNTech",2023-03-17,World Health Organ
 Antigua and Barbuda,ATG,"Johnson&Johnson, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",2022-09-16,Ministry of Health,https://covid19.who.int/
 Argentina,ARG,"CanSino, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",2023-11-30,Ministry of Health,https://covidstats.com.ar/
 Armenia,ARM,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinopharm/Wuhan, Sinovac, Sputnik Light, Sputnik V",2023-10-01,World Health Organization,https://covid19.who.int/
-Aruba,ABW,Pfizer/BioNTech,2023-12-05,Government of Aruba,https://www.government.aw
+Aruba,ABW,Pfizer/BioNTech,2023-12-07,Government of Aruba,https://www.government.aw
 Australia,AUS,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2023-03-24,Government of Australia via CovidBaseAU,https://covid19.who.int/
 Austria,AUT,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",2023-06-30,European CDC,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea
 Azerbaijan,AZE,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinovac, Sputnik V",2022-08-28,Government of Azerbaijan,https://koronavirusinfo.az
@@ -29,7 +29,7 @@ Botswana,BWA,"Covaxin, Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioN
 Brazil,BRA,"Johnson&Johnson, Oxford/AstraZeneca, Pfizer/BioNTech, Sinovac",2023-03-22,State governments via coronavirusbra1.github.io,https://coronavirusbra1.github.io
 British Virgin Islands,VGB,"Johnson&Johnson, Oxford/AstraZeneca",2022-09-16,World Health Organization,https://covid19.who.int/
 Brunei,BRN,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",2023-06-30,World Health Organization,https://covid19.who.int/
-Bulgaria,BGR,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2023-12-06,Ministry of Health,https://coronavirus.bg/bg/statistika
+Bulgaria,BGR,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2023-12-07,Ministry of Health,https://coronavirus.bg/bg/statistika
 Burkina Faso,BFA,"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing",2023-07-23,World Health Organization,https://covid19.who.int/
 Burundi,BDI,"Johnson&Johnson, Sinopharm/Beijing",2023-11-05,World Health Organization,https://covid19.who.int/
 Cambodia,KHM,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2023-11-07,World Health Organization,https://covid19.who.int/
@@ -77,7 +77,7 @@ Georgia,GEO,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",20
 Germany,DEU,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",2023-04-07,Robert Koch Institut,https://impfdashboard.de/
 Ghana,GHA,"Oxford/AstraZeneca, Sputnik V",2023-07-02,World Health Organization,https://covid19.who.int/
 Gibraltar,GIB,"Oxford/AstraZeneca, Pfizer/BioNTech",2022-12-16,Government of Gibraltar,https://twitter.com/GibraltarGov/status/1517138573614477315
-Greece,GRC,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2023-12-05,Ministry of Health,https://www.data.gov.gr/datasets/mdg_emvolio/
+Greece,GRC,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2023-12-06,Ministry of Health,https://www.data.gov.gr/datasets/mdg_emvolio/
 Greenland,GRL,Moderna,2022-03-14,Government of Greenland,https://corona.nun.gl/en/
 Grenada,GRD,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2023-03-17,World Health Organization,https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp
 Guatemala,GTM,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",2023-05-12,Ministry of Health,https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp
@@ -90,7 +90,7 @@ Honduras,HND,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Spu
 Hong Kong,HKG,"Pfizer/BioNTech, Sinovac",2023-08-31,Food and Health Bureau,https://data.gov.hk/en-data/dataset/hk-fhb-fhbcovid19-vaccination-rates-over-time-by-age
 Hungary,HUN,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sputnik V",2022-12-27,Government of Hungary,https://koronavirus.gov.hu//cikkek/6-millio-421-ezer-beoltott-4-397-az-uj-fertozott-es-elhunyt-56-beteg
 Iceland,ISL,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2022-03-29,Directorate of Health,https://www.covid.is/tolulegar-upplysingar-boluefni
-India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2023-12-06,Government of India,https://dashboard.cowin.gov.in/
+India,IND,"Corbevax, Covaxin, Novavax, Oxford/AstraZeneca, Sputnik V",2023-12-07,Government of India,https://dashboard.cowin.gov.in/
 Indonesia,IDN,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2023-11-23,Government of Indonesia,https://covid19.who.int/
 Iran,IRN,"COVIran Barekat, CanSino, Covaxin, Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Soberana02, Sputnik Light, Sputnik V",2023-11-26,World Health Organization,https://covid19.who.int/
 Iraq,IRQ,"CanSino, Covaxin, Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik Light, Sputnik V",2023-01-02,World Health Organization,https://covid19.who.int/
@@ -115,12 +115,12 @@ Lesotho,LSO,"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing",2023-03-19,
 Liberia,LBR,Oxford/AstraZeneca,2022-12-11,World Health Organization,https://covid19.who.int/
 Libya,LBY,"CanSino, Covaxin, Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik Light, Sputnik V",2023-01-16,World Health Organization,https://covid19.who.int/
 Liechtenstein,LIE,"Johnson&Johnson, Moderna, Novavax, Pfizer/BioNTech",2023-06-07,Federal Office of Public Health,https://opendata.swiss/en/dataset/covid-19-schweiz?detGeo=FL
-Lithuania,LTU,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2023-12-05,Ministry of Health,https://experience.arcgis.com/experience/cab84dcfe0464c2a8050a78f817924ca/page/page_3/
+Lithuania,LTU,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2023-12-06,Ministry of Health,https://experience.arcgis.com/experience/cab84dcfe0464c2a8050a78f817924ca/page/page_3/
 Luxembourg,LUX,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",2023-06-11,Government of Luxembourg,https://covid19.who.int/
 Macao,MAC,"Pfizer/BioNTech, Sinopharm/Beijing",2023-04-13,Government of Macao,https://www.ssm.gov.mo/apps1/COVID19Case/en.aspx
 Madagascar,MDG,"Johnson&Johnson, Oxford/AstraZeneca, Sinopharm/Beijing",2023-07-30,World Health Organization,https://covid19.who.int/
 Malawi,MWI,"Johnson&Johnson, Oxford/AstraZeneca",2023-09-24,World Health Organization,https://covid19.who.int/
-Malaysia,MYS,"CanSino, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2023-12-06,Government of Malaysia,https://github.com/MoH-Malaysia/covid19-public
+Malaysia,MYS,"CanSino, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",2023-12-07,Government of Malaysia,https://github.com/MoH-Malaysia/covid19-public
 Maldives,MDV,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac, Sputnik V",2023-05-25,World Health Organization,https://covid19.who.int/
 Mali,MLI,Oxford/AstraZeneca,2023-05-14,World Health Organization,https://covid19.who.int/
 Malta,MLT,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",2023-11-07,COVID-19 Malta Public Health Response Team,https://github.com/COVID19-Malta/COVID19-Cases
