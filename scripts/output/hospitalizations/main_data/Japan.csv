@@ -187,6 +187,7 @@ date,indicator,value,entity
 2023-11-22,Daily hospital occupancy,4873.0,Japan
 2023-11-29,Daily hospital occupancy,5418.0,Japan
 2023-12-06,Daily hospital occupancy,6246.0,Japan
+2023-12-13,Daily hospital occupancy,8016.0,Japan
 2020-05-07,Daily ICU occupancy,341.0,Japan
 2020-05-13,Daily ICU occupancy,251.0,Japan
 2020-05-21,Daily ICU occupancy,184.0,Japan
@@ -374,3 +375,4 @@ date,indicator,value,entity
 2023-11-22,Daily ICU occupancy,71.0,Japan
 2023-11-29,Daily ICU occupancy,59.0,Japan
 2023-12-06,Daily ICU occupancy,65.0,Japan
+2023-12-13,Daily ICU occupancy,96.0,Japan
