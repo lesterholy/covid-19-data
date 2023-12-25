@@ -1,14 +1,14 @@
 location,success,skipped,error,error_short,timestamp
-Afghanistan,True,False,,,2023-12-24T07:08:51
-Albania,True,False,,,2023-12-24T07:08:51
-Algeria,True,False,,,2023-12-24T07:08:51
-Andorra,True,False,,,2023-12-24T07:08:51
-Angola,True,False,,,2023-12-24T07:08:51
-Anguilla,True,False,,,2023-12-24T07:08:51
-Antigua and Barbuda,True,False,,,2023-12-24T07:08:51
-Argentina,True,False,,,2023-12-24T07:08:51
-Armenia,True,False,,,2023-12-24T07:08:51
-Aruba,True,False,,,2023-12-24T07:08:51
+Afghanistan,True,False,,,2023-12-25T07:08:01
+Albania,True,False,,,2023-12-25T07:08:01
+Algeria,True,False,,,2023-12-25T07:08:01
+Andorra,True,False,,,2023-12-25T07:08:01
+Angola,True,False,,,2023-12-25T07:08:01
+Anguilla,True,False,,,2023-12-25T07:08:01
+Antigua and Barbuda,True,False,,,2023-12-25T07:08:01
+Argentina,True,False,,,2023-12-25T07:08:01
+Armenia,True,False,,,2023-12-25T07:08:01
+Aruba,True,False,,,2023-12-25T07:08:01
 Australia,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -39,35 +39,35 @@ ValueError: Australia -- Column people_vaccinated must be monotonically increasi
 570  Australia 2023-10-05  ...                21602288           <NA>
 571  Australia 2023-12-07  ...                21577910           <NA>
 
-[5 rows x 8 columns]",2023-12-24T07:08:51
-Austria,True,False,,,2023-12-24T07:08:51
-Azerbaijan,True,False,,,2023-12-24T07:08:51
-Bahamas,True,False,,,2023-12-24T07:08:51
-Bahrain,True,False,,,2023-12-24T07:08:52
-Bangladesh,True,False,,,2023-12-24T07:08:52
-Barbados,True,False,,,2023-12-24T07:08:52
-Belarus,True,False,,,2023-12-24T07:08:52
-Belgium,True,False,,,2023-12-24T07:08:52
-Belize,True,False,,,2023-12-24T07:08:52
-Benin,True,False,,,2023-12-24T07:08:52
-Bermuda,True,False,,,2023-12-24T07:08:52
-Bhutan,True,False,,,2023-12-24T07:08:52
-Bolivia,True,False,,,2023-12-24T07:08:52
-Bonaire Sint Eustatius and Saba,True,False,,,2023-12-24T07:08:52
-Bosnia and Herzegovina,True,False,,,2023-12-24T07:08:52
-Botswana,True,False,,,2023-12-24T07:08:52
-Brazil,True,False,,,2023-12-24T07:08:52
-British Virgin Islands,True,False,,,2023-12-24T07:08:52
-Brunei,True,False,,,2023-12-24T07:08:52
-Bulgaria,True,False,,,2023-12-24T07:08:52
-Burkina Faso,True,False,,,2023-12-24T07:08:52
-Burundi,True,False,,,2023-12-24T07:08:52
-Cambodia,True,False,,,2023-12-24T07:08:52
-Cameroon,True,False,,,2023-12-24T07:08:52
-Canada,True,False,,,2023-12-24T07:08:52
-Cape Verde,True,False,,,2023-12-24T07:08:52
-Cayman Islands,True,False,,,2023-12-24T07:08:52
-Central African Republic,True,False,,,2023-12-24T07:08:52
+[5 rows x 8 columns]",2023-12-25T07:08:01
+Austria,True,False,,,2023-12-25T07:08:01
+Azerbaijan,True,False,,,2023-12-25T07:08:01
+Bahamas,True,False,,,2023-12-25T07:08:01
+Bahrain,True,False,,,2023-12-25T07:08:01
+Bangladesh,True,False,,,2023-12-25T07:08:01
+Barbados,True,False,,,2023-12-25T07:08:02
+Belarus,True,False,,,2023-12-25T07:08:02
+Belgium,True,False,,,2023-12-25T07:08:02
+Belize,True,False,,,2023-12-25T07:08:02
+Benin,True,False,,,2023-12-25T07:08:02
+Bermuda,True,False,,,2023-12-25T07:08:02
+Bhutan,True,False,,,2023-12-25T07:08:02
+Bolivia,True,False,,,2023-12-25T07:08:02
+Bonaire Sint Eustatius and Saba,True,False,,,2023-12-25T07:08:02
+Bosnia and Herzegovina,True,False,,,2023-12-25T07:08:02
+Botswana,True,False,,,2023-12-25T07:08:02
+Brazil,True,False,,,2023-12-25T07:08:02
+British Virgin Islands,True,False,,,2023-12-25T07:08:02
+Brunei,True,False,,,2023-12-25T07:08:02
+Bulgaria,True,False,,,2023-12-25T07:08:02
+Burkina Faso,True,False,,,2023-12-25T07:08:02
+Burundi,True,False,,,2023-12-25T07:08:02
+Cambodia,True,False,,,2023-12-25T07:08:02
+Cameroon,True,False,,,2023-12-25T07:08:02
+Canada,True,False,,,2023-12-25T07:08:02
+Cape Verde,True,False,,,2023-12-25T07:08:02
+Cayman Islands,True,False,,,2023-12-25T07:08:02
+Central African Republic,True,False,,,2023-12-25T07:08:02
 Chad,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -90,36 +90,36 @@ ValueError: Chad -- Column people_vaccinated must be monotonically increasing! C
    location       date  ... people_fully_vaccinated total_boosters
 64     Chad 2023-08-13  ...                 4805867        4042573
 
-[1 rows x 8 columns]",2023-12-24T07:08:52
-Chile,True,False,,,2023-12-24T07:08:52
-China,True,False,,,2023-12-24T07:08:53
-Colombia,True,False,,,2023-12-24T07:08:53
-Comoros,True,False,,,2023-12-24T07:08:53
-Congo,True,False,,,2023-12-24T07:08:53
-Cook Islands,True,False,,,2023-12-24T07:08:53
-Costa Rica,True,False,,,2023-12-24T07:08:53
-Cote d'Ivoire,True,False,,,2023-12-24T07:08:53
-Croatia,True,False,,,2023-12-24T07:08:53
-Cuba,True,False,,,2023-12-24T07:08:53
-Curacao,True,False,,,2023-12-24T07:08:53
-Cyprus,True,False,,,2023-12-24T07:08:53
-Czechia,True,False,,,2023-12-24T07:08:53
-Democratic Republic of Congo,True,False,,,2023-12-24T07:08:53
-Denmark,True,False,,,2023-12-24T07:08:53
-Djibouti,True,False,,,2023-12-24T07:08:53
-Dominica,True,False,,,2023-12-24T07:08:53
-Dominican Republic,True,False,,,2023-12-24T07:08:53
-Ecuador,True,False,,,2023-12-24T07:08:53
-Egypt,True,False,,,2023-12-24T07:08:53
-El Salvador,True,False,,,2023-12-24T07:08:53
-England,True,False,,,2023-12-24T07:08:53
-Equatorial Guinea,True,False,,,2023-12-24T07:08:53
-Estonia,True,False,,,2023-12-24T07:08:53
-Eswatini,True,False,,,2023-12-24T07:08:53
-Ethiopia,True,False,,,2023-12-24T07:08:53
-Faeroe Islands,True,False,,,2023-12-24T07:08:53
-Falkland Islands,True,False,,,2023-12-24T07:08:53
-Fiji,True,False,,,2023-12-24T07:08:54
+[1 rows x 8 columns]",2023-12-25T07:08:02
+Chile,True,False,,,2023-12-25T07:08:02
+China,True,False,,,2023-12-25T07:08:02
+Colombia,True,False,,,2023-12-25T07:08:02
+Comoros,True,False,,,2023-12-25T07:08:03
+Congo,True,False,,,2023-12-25T07:08:03
+Cook Islands,True,False,,,2023-12-25T07:08:03
+Costa Rica,True,False,,,2023-12-25T07:08:03
+Cote d'Ivoire,True,False,,,2023-12-25T07:08:03
+Croatia,True,False,,,2023-12-25T07:08:03
+Cuba,True,False,,,2023-12-25T07:08:03
+Curacao,True,False,,,2023-12-25T07:08:03
+Cyprus,True,False,,,2023-12-25T07:08:03
+Czechia,True,False,,,2023-12-25T07:08:03
+Democratic Republic of Congo,True,False,,,2023-12-25T07:08:03
+Denmark,True,False,,,2023-12-25T07:08:03
+Djibouti,True,False,,,2023-12-25T07:08:03
+Dominica,True,False,,,2023-12-25T07:08:03
+Dominican Republic,True,False,,,2023-12-25T07:08:03
+Ecuador,True,False,,,2023-12-25T07:08:03
+Egypt,True,False,,,2023-12-25T07:08:03
+El Salvador,True,False,,,2023-12-25T07:08:03
+England,True,False,,,2023-12-25T07:08:03
+Equatorial Guinea,True,False,,,2023-12-25T07:08:03
+Estonia,True,False,,,2023-12-25T07:08:03
+Eswatini,True,False,,,2023-12-25T07:08:03
+Ethiopia,True,False,,,2023-12-25T07:08:03
+Faeroe Islands,True,False,,,2023-12-25T07:08:03
+Falkland Islands,True,False,,,2023-12-25T07:08:03
+Fiji,True,False,,,2023-12-25T07:08:03
 Finland,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -154,24 +154,24 @@ ValueError: Finland -- Column total_vaccinations must be monotonically increasin
 193  Finland 2023-10-11  ...                 4346522        4343312
 195  Finland 2023-10-18  ...                 4346423        4343387
 
-[7 rows x 8 columns]",2023-12-24T07:08:54
-France,True,False,,,2023-12-24T07:08:54
-French Polynesia,True,False,,,2023-12-24T07:08:54
-Gabon,True,False,,,2023-12-24T07:08:54
-Gambia,True,False,,,2023-12-24T07:08:54
-Georgia,True,False,,,2023-12-24T07:08:54
-Germany,True,False,,,2023-12-24T07:08:54
-Ghana,True,False,,,2023-12-24T07:08:54
-Gibraltar,True,False,,,2023-12-24T07:08:54
-Greece,True,False,,,2023-12-24T07:08:54
-Greenland,True,False,,,2023-12-24T07:08:54
-Grenada,True,False,,,2023-12-24T07:08:54
-Guatemala,True,False,,,2023-12-24T07:08:54
-Guernsey,True,False,,,2023-12-24T07:08:54
-Guinea,True,False,,,2023-12-24T07:08:54
-Guinea-Bissau,True,False,,,2023-12-24T07:08:54
-Guyana,True,False,,,2023-12-24T07:08:54
-Haiti,True,False,,,2023-12-24T07:08:54
+[7 rows x 8 columns]",2023-12-25T07:08:03
+France,True,False,,,2023-12-25T07:08:04
+French Polynesia,True,False,,,2023-12-25T07:08:04
+Gabon,True,False,,,2023-12-25T07:08:04
+Gambia,True,False,,,2023-12-25T07:08:04
+Georgia,True,False,,,2023-12-25T07:08:04
+Germany,True,False,,,2023-12-25T07:08:04
+Ghana,True,False,,,2023-12-25T07:08:04
+Gibraltar,True,False,,,2023-12-25T07:08:04
+Greece,True,False,,,2023-12-25T07:08:04
+Greenland,True,False,,,2023-12-25T07:08:04
+Grenada,True,False,,,2023-12-25T07:08:04
+Guatemala,True,False,,,2023-12-25T07:08:04
+Guernsey,True,False,,,2023-12-25T07:08:04
+Guinea,True,False,,,2023-12-25T07:08:04
+Guinea-Bissau,True,False,,,2023-12-25T07:08:04
+Guyana,True,False,,,2023-12-25T07:08:04
+Haiti,True,False,,,2023-12-25T07:08:04
 Honduras,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -194,10 +194,10 @@ ValueError: Honduras -- Column people_vaccinated must be monotonically increasin
      location       date  ... people_fully_vaccinated total_boosters
 105  Honduras 2023-06-02  ...                 5751048        4665196
 
-[1 rows x 8 columns]",2023-12-24T07:08:54
-Hong Kong,True,False,,,2023-12-24T07:08:54
-Hungary,True,False,,,2023-12-24T07:08:54
-Iceland,True,False,,,2023-12-24T07:08:54
+[1 rows x 8 columns]",2023-12-25T07:08:04
+Hong Kong,True,False,,,2023-12-25T07:08:04
+Hungary,True,False,,,2023-12-25T07:08:04
+Iceland,True,False,,,2023-12-25T07:08:04
 India,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -220,10 +220,10 @@ ValueError: India -- Column total_boosters must be monotonically increasing! Che
      location       date  ... people_fully_vaccinated total_boosters
 1042    India 2023-12-20  ...                    <NA>      227343876
 
-[1 rows x 8 columns]",2023-12-24T07:08:54
-Indonesia,True,False,,,2023-12-24T07:08:54
-Iran,True,False,,,2023-12-24T07:08:54
-Iraq,True,False,,,2023-12-24T07:08:54
+[1 rows x 8 columns]",2023-12-25T07:08:04
+Indonesia,True,False,,,2023-12-25T07:08:04
+Iran,True,False,,,2023-12-25T07:08:04
+Iraq,True,False,,,2023-12-25T07:08:04
 Ireland,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -258,28 +258,28 @@ ValueError: Ireland -- Column total_vaccinations must be monotonically increasin
 979  Ireland 2023-10-14  ...                       0        3199645
 990  Ireland 2023-10-25  ...                       0        3202243
 
-[7 rows x 8 columns]",2023-12-24T07:08:54
-Isle of Man,True,False,,,2023-12-24T07:08:54
-Israel,True,False,,,2023-12-24T07:08:54
-Italy,True,False,,,2023-12-24T07:08:55
-Jamaica,True,False,,,2023-12-24T07:08:55
-Japan,True,False,,,2023-12-24T07:08:55
-Jersey,True,False,,,2023-12-24T07:08:55
-Jordan,True,False,,,2023-12-24T07:08:55
-Kazakhstan,True,False,,,2023-12-24T07:08:55
-Kenya,True,False,,,2023-12-24T07:08:55
-Kiribati,True,False,,,2023-12-24T07:08:55
-Kosovo,True,False,,,2023-12-24T07:08:55
-Kuwait,True,False,,,2023-12-24T07:08:55
-Kyrgyzstan,True,False,,,2023-12-24T07:08:55
-Laos,True,False,,,2023-12-24T07:08:55
-Latvia,True,False,,,2023-12-24T07:08:55
-Lebanon,True,False,,,2023-12-24T07:08:55
-Lesotho,True,False,,,2023-12-24T07:08:55
-Liberia,True,False,,,2023-12-24T07:08:55
-Libya,True,False,,,2023-12-24T07:08:55
-Liechtenstein,True,False,,,2023-12-24T07:08:55
-Lithuania,True,False,,,2023-12-24T07:08:55
+[7 rows x 8 columns]",2023-12-25T07:08:04
+Isle of Man,True,False,,,2023-12-25T07:08:04
+Israel,True,False,,,2023-12-25T07:08:04
+Italy,True,False,,,2023-12-25T07:08:05
+Jamaica,True,False,,,2023-12-25T07:08:05
+Japan,True,False,,,2023-12-25T07:08:05
+Jersey,True,False,,,2023-12-25T07:08:05
+Jordan,True,False,,,2023-12-25T07:08:05
+Kazakhstan,True,False,,,2023-12-25T07:08:05
+Kenya,True,False,,,2023-12-25T07:08:05
+Kiribati,True,False,,,2023-12-25T07:08:05
+Kosovo,True,False,,,2023-12-25T07:08:05
+Kuwait,True,False,,,2023-12-25T07:08:05
+Kyrgyzstan,True,False,,,2023-12-25T07:08:05
+Laos,True,False,,,2023-12-25T07:08:05
+Latvia,True,False,,,2023-12-25T07:08:05
+Lebanon,True,False,,,2023-12-25T07:08:05
+Lesotho,True,False,,,2023-12-25T07:08:05
+Liberia,True,False,,,2023-12-25T07:08:05
+Libya,True,False,,,2023-12-25T07:08:05
+Liechtenstein,True,False,,,2023-12-25T07:08:05
+Lithuania,True,False,,,2023-12-25T07:08:05
 Luxembourg,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -304,30 +304,30 @@ ValueError: Luxembourg -- Potential anomalies found ⚠️:
         date  ...  people_fully_vaccinated_ratio
 0 2023-10-01  ...                      13.883973
 
-[1 rows x 4 columns]",2023-12-24T07:08:55
-Macao,True,False,,,2023-12-24T07:08:55
-Madagascar,True,False,,,2023-12-24T07:08:55
-Malawi,True,False,,,2023-12-24T07:08:55
-Malaysia,True,False,,,2023-12-24T07:08:55
-Maldives,True,False,,,2023-12-24T07:08:55
-Mali,True,False,,,2023-12-24T07:08:55
-Malta,True,False,,,2023-12-24T07:08:56
-Mauritania,True,False,,,2023-12-24T07:08:56
-Mauritius,True,False,,,2023-12-24T07:08:56
-Mexico,True,False,,,2023-12-24T07:08:56
-Moldova,True,False,,,2023-12-24T07:08:56
-Monaco,True,False,,,2023-12-24T07:08:56
-Mongolia,True,False,,,2023-12-24T07:08:56
-Montenegro,True,False,,,2023-12-24T07:08:56
-Montserrat,True,False,,,2023-12-24T07:08:56
-Morocco,True,False,,,2023-12-24T07:08:56
-Mozambique,True,False,,,2023-12-24T07:08:56
-Myanmar,True,False,,,2023-12-24T07:08:56
-Namibia,True,False,,,2023-12-24T07:08:56
-Nauru,True,False,,,2023-12-24T07:08:56
-Nepal,True,False,,,2023-12-24T07:08:56
-Netherlands,True,False,,,2023-12-24T07:08:56
-New Caledonia,True,False,,,2023-12-24T07:08:56
+[1 rows x 4 columns]",2023-12-25T07:08:05
+Macao,True,False,,,2023-12-25T07:08:05
+Madagascar,True,False,,,2023-12-25T07:08:05
+Malawi,True,False,,,2023-12-25T07:08:05
+Malaysia,True,False,,,2023-12-25T07:08:05
+Maldives,True,False,,,2023-12-25T07:08:05
+Mali,True,False,,,2023-12-25T07:08:05
+Malta,True,False,,,2023-12-25T07:08:05
+Mauritania,True,False,,,2023-12-25T07:08:06
+Mauritius,True,False,,,2023-12-25T07:08:06
+Mexico,True,False,,,2023-12-25T07:08:06
+Moldova,True,False,,,2023-12-25T07:08:06
+Monaco,True,False,,,2023-12-25T07:08:06
+Mongolia,True,False,,,2023-12-25T07:08:06
+Montenegro,True,False,,,2023-12-25T07:08:06
+Montserrat,True,False,,,2023-12-25T07:08:06
+Morocco,True,False,,,2023-12-25T07:08:06
+Mozambique,True,False,,,2023-12-25T07:08:06
+Myanmar,True,False,,,2023-12-25T07:08:06
+Namibia,True,False,,,2023-12-25T07:08:06
+Nauru,True,False,,,2023-12-25T07:08:06
+Nepal,True,False,,,2023-12-25T07:08:06
+Netherlands,True,False,,,2023-12-25T07:08:06
+New Caledonia,True,False,,,2023-12-25T07:08:06
 New Zealand,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -374,24 +374,24 @@ ValueError: New Zealand -- people_vaccinated can't be < people_fully_vaccinated!
 803  New Zealand 2023-05-01  ...                 4376276        3656872
 804  New Zealand 2023-05-02  ...                 4383698        3660870
 
-[13 rows x 8 columns]",2023-12-24T07:08:56
-Nicaragua,True,False,,,2023-12-24T07:08:56
-Niger,True,False,,,2023-12-24T07:08:56
-Nigeria,True,False,,,2023-12-24T07:08:56
-North Macedonia,True,False,,,2023-12-24T07:08:56
-Northern Cyprus,True,False,,,2023-12-24T07:08:56
-Northern Ireland,True,False,,,2023-12-24T07:08:56
-Norway,True,False,,,2023-12-24T07:08:56
-Niue,True,False,,,2023-12-24T07:08:56
-Oman,True,False,,,2023-12-24T07:08:56
-Pakistan,True,False,,,2023-12-24T07:08:56
-Palestine,True,False,,,2023-12-24T07:08:57
-Panama,True,False,,,2023-12-24T07:08:57
-Papua New Guinea,True,False,,,2023-12-24T07:08:57
-Paraguay,True,False,,,2023-12-24T07:08:57
-Peru,True,False,,,2023-12-24T07:08:57
-Philippines,True,False,,,2023-12-24T07:08:57
-Pitcairn,True,False,,,2023-12-24T07:08:57
+[13 rows x 8 columns]",2023-12-25T07:08:06
+Nicaragua,True,False,,,2023-12-25T07:08:06
+Niger,True,False,,,2023-12-25T07:08:06
+Nigeria,True,False,,,2023-12-25T07:08:06
+North Macedonia,True,False,,,2023-12-25T07:08:06
+Northern Cyprus,True,False,,,2023-12-25T07:08:06
+Northern Ireland,True,False,,,2023-12-25T07:08:06
+Norway,True,False,,,2023-12-25T07:08:06
+Niue,True,False,,,2023-12-25T07:08:06
+Oman,True,False,,,2023-12-25T07:08:06
+Pakistan,True,False,,,2023-12-25T07:08:06
+Palestine,True,False,,,2023-12-25T07:08:06
+Panama,True,False,,,2023-12-25T07:08:06
+Papua New Guinea,True,False,,,2023-12-25T07:08:07
+Paraguay,True,False,,,2023-12-25T07:08:07
+Peru,True,False,,,2023-12-25T07:08:07
+Philippines,True,False,,,2023-12-25T07:08:07
+Pitcairn,True,False,,,2023-12-25T07:08:07
 Poland,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -414,11 +414,11 @@ ValueError: Poland -- Column people_vaccinated must be monotonically increasing!
     location       date  ... people_fully_vaccinated total_boosters
 987   Poland 2023-12-20  ...                22649455       15594518
 
-[1 rows x 8 columns]",2023-12-24T07:08:57
-Portugal,True,False,,,2023-12-24T07:08:57
-Qatar,True,False,,,2023-12-24T07:08:57
-Romania,True,False,,,2023-12-24T07:08:57
-Russia,True,False,,,2023-12-24T07:08:57
+[1 rows x 8 columns]",2023-12-25T07:08:07
+Portugal,True,False,,,2023-12-25T07:08:07
+Qatar,True,False,,,2023-12-25T07:08:07
+Romania,True,False,,,2023-12-25T07:08:07
+Russia,True,False,,,2023-12-25T07:08:07
 Rwanda,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -441,16 +441,16 @@ ValueError: Rwanda -- Column total_boosters must be monotonically increasing! Ch
    location       date  ... people_fully_vaccinated total_boosters
 92   Rwanda 2023-06-04  ...                10399665        4225194
 
-[1 rows x 8 columns]",2023-12-24T07:08:57
-Saint Helena,True,False,,,2023-12-24T07:08:57
-Saint Kitts and Nevis,True,False,,,2023-12-24T07:08:57
-Saint Lucia,True,False,,,2023-12-24T07:08:57
-Saint Vincent and the Grenadines,True,False,,,2023-12-24T07:08:57
-Samoa,True,False,,,2023-12-24T07:08:57
-San Marino,True,False,,,2023-12-24T07:08:57
-Sao Tome and Principe,True,False,,,2023-12-24T07:08:57
-Saudi Arabia,True,False,,,2023-12-24T07:08:57
-Scotland,True,False,,,2023-12-24T07:08:57
+[1 rows x 8 columns]",2023-12-25T07:08:07
+Saint Helena,True,False,,,2023-12-25T07:08:07
+Saint Kitts and Nevis,True,False,,,2023-12-25T07:08:07
+Saint Lucia,True,False,,,2023-12-25T07:08:07
+Saint Vincent and the Grenadines,True,False,,,2023-12-25T07:08:07
+Samoa,True,False,,,2023-12-25T07:08:07
+San Marino,True,False,,,2023-12-25T07:08:07
+Sao Tome and Principe,True,False,,,2023-12-25T07:08:07
+Saudi Arabia,True,False,,,2023-12-25T07:08:07
+Scotland,True,False,,,2023-12-25T07:08:07
 Senegal,False,False,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py"", line 92, in _process_location_and_move_file
     df = process_location(df, monotonic_check_skip, anomaly_check_skip)
@@ -473,52 +473,52 @@ ValueError: Senegal -- Column total_boosters must be monotonically increasing! C
     location       date  ... people_fully_vaccinated total_boosters
 133  Senegal 2023-10-08  ...                 1544596         724754
 
-[1 rows x 8 columns]",2023-12-24T07:08:57
-Serbia,True,False,,,2023-12-24T07:08:57
-Seychelles,True,False,,,2023-12-24T07:08:57
-Sierra Leone,True,False,,,2023-12-24T07:08:57
-Singapore,True,False,,,2023-12-24T07:08:57
-Sint Maarten (Dutch part),True,False,,,2023-12-24T07:08:57
-Slovakia,True,False,,,2023-12-24T07:08:57
-Slovenia,True,False,,,2023-12-24T07:08:58
-Solomon Islands,True,False,,,2023-12-24T07:08:58
-Somalia,True,False,,,2023-12-24T07:08:58
-South Africa,True,False,,,2023-12-24T07:08:58
-South Korea,True,False,,,2023-12-24T07:08:58
-South Sudan,True,False,,,2023-12-24T07:08:58
-Spain,True,False,,,2023-12-24T07:08:58
-Sri Lanka,True,False,,,2023-12-24T07:08:58
-Sudan,True,False,,,2023-12-24T07:08:58
-Suriname,True,False,,,2023-12-24T07:08:58
-Sweden,True,False,,,2023-12-24T07:08:58
-Switzerland,True,False,,,2023-12-24T07:08:58
-Syria,True,False,,,2023-12-24T07:08:58
-Taiwan,True,False,,,2023-12-24T07:08:58
-Tajikistan,True,False,,,2023-12-24T07:08:58
-Tanzania,True,False,,,2023-12-24T07:08:58
-Thailand,True,False,,,2023-12-24T07:08:58
-Timor,True,False,,,2023-12-24T07:08:58
-Tokelau,True,False,,,2023-12-24T07:08:58
-Togo,True,False,,,2023-12-24T07:08:58
-Tonga,True,False,,,2023-12-24T07:08:58
-Trinidad and Tobago,True,False,,,2023-12-24T07:08:58
-Tunisia,True,False,,,2023-12-24T07:08:58
-Turkey,True,False,,,2023-12-24T07:08:58
-Turkmenistan,True,False,,,2023-12-24T07:08:58
-Turks and Caicos Islands,True,False,,,2023-12-24T07:08:58
-Tuvalu,True,False,,,2023-12-24T07:08:58
-Uganda,True,False,,,2023-12-24T07:08:59
-Ukraine,True,False,,,2023-12-24T07:08:59
-United Arab Emirates,True,False,,,2023-12-24T07:08:59
-United Kingdom,True,False,,,2023-12-24T07:08:59
-United States,True,False,,,2023-12-24T07:08:59
-Uruguay,True,False,,,2023-12-24T07:08:59
-Uzbekistan,True,False,,,2023-12-24T07:08:59
-Vanuatu,True,False,,,2023-12-24T07:08:59
-Venezuela,True,False,,,2023-12-24T07:08:59
-Vietnam,True,False,,,2023-12-24T07:08:59
-Wales,True,False,,,2023-12-24T07:08:59
-Wallis and Futuna,True,False,,,2023-12-24T07:08:59
-Yemen,True,False,,,2023-12-24T07:08:59
-Zambia,True,False,,,2023-12-24T07:08:59
-Zimbabwe,True,False,,,2023-12-24T07:08:59
+[1 rows x 8 columns]",2023-12-25T07:08:07
+Serbia,True,False,,,2023-12-25T07:08:07
+Seychelles,True,False,,,2023-12-25T07:08:07
+Sierra Leone,True,False,,,2023-12-25T07:08:07
+Singapore,True,False,,,2023-12-25T07:08:07
+Sint Maarten (Dutch part),True,False,,,2023-12-25T07:08:07
+Slovakia,True,False,,,2023-12-25T07:08:07
+Slovenia,True,False,,,2023-12-25T07:08:07
+Solomon Islands,True,False,,,2023-12-25T07:08:08
+Somalia,True,False,,,2023-12-25T07:08:08
+South Africa,True,False,,,2023-12-25T07:08:08
+South Korea,True,False,,,2023-12-25T07:08:08
+South Sudan,True,False,,,2023-12-25T07:08:08
+Spain,True,False,,,2023-12-25T07:08:08
+Sri Lanka,True,False,,,2023-12-25T07:08:08
+Sudan,True,False,,,2023-12-25T07:08:08
+Suriname,True,False,,,2023-12-25T07:08:08
+Sweden,True,False,,,2023-12-25T07:08:08
+Switzerland,True,False,,,2023-12-25T07:08:08
+Syria,True,False,,,2023-12-25T07:08:08
+Taiwan,True,False,,,2023-12-25T07:08:08
+Tajikistan,True,False,,,2023-12-25T07:08:08
+Tanzania,True,False,,,2023-12-25T07:08:08
+Thailand,True,False,,,2023-12-25T07:08:08
+Timor,True,False,,,2023-12-25T07:08:08
+Tokelau,True,False,,,2023-12-25T07:08:08
+Togo,True,False,,,2023-12-25T07:08:08
+Tonga,True,False,,,2023-12-25T07:08:08
+Trinidad and Tobago,True,False,,,2023-12-25T07:08:08
+Tunisia,True,False,,,2023-12-25T07:08:08
+Turkey,True,False,,,2023-12-25T07:08:08
+Turkmenistan,True,False,,,2023-12-25T07:08:08
+Turks and Caicos Islands,True,False,,,2023-12-25T07:08:08
+Tuvalu,True,False,,,2023-12-25T07:08:08
+Uganda,True,False,,,2023-12-25T07:08:08
+Ukraine,True,False,,,2023-12-25T07:08:09
+United Arab Emirates,True,False,,,2023-12-25T07:08:09
+United Kingdom,True,False,,,2023-12-25T07:08:09
+United States,True,False,,,2023-12-25T07:08:09
+Uruguay,True,False,,,2023-12-25T07:08:09
+Uzbekistan,True,False,,,2023-12-25T07:08:09
+Vanuatu,True,False,,,2023-12-25T07:08:09
+Venezuela,True,False,,,2023-12-25T07:08:09
+Vietnam,True,False,,,2023-12-25T07:08:09
+Wales,True,False,,,2023-12-25T07:08:09
+Wallis and Futuna,True,False,,,2023-12-25T07:08:09
+Yemen,True,False,,,2023-12-25T07:08:09
+Zambia,True,False,,,2023-12-25T07:08:09
+Zimbabwe,True,False,,,2023-12-25T07:08:09
