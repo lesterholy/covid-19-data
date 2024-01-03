@@ -3,16 +3,16 @@ import pandas as pd
 
 from cowidev import PATHS
 from cowidev.cases_deaths.params import API
-
+from cowidev.utils.web.download import read_csv_from_url
 
 URL = "https://covid19.who.int/WHO-COVID-19-global-data.csv"
-
+URL = "https://data.who.int/dashboards/covid19//WHO-COVID-19-global-data.csv"
 
 def load_data(server_mode):
     """Load WHO data"""
     # Load data
     try:
-        df = pd.read_csv(URL)
+        df = read_csv_from_url(URL)
     except Exception:
         if server_mode:
             API.send_error(
@@ -29,6 +29,8 @@ def load_data(server_mode):
 def process_data(df: pd.DataFrame, API, server_mode):
     # Clean column names, column and row ordering, etc.
     df = format_table(df)
+    # HOTFIX: remove countries with name set to NaN
+    df = df[~df["location"].isna()]
     # Remove zero-values
     # df = df[(df["total_cases"] > 0) | (df["total_deaths"] > 0)]
     # Harmonize country names
