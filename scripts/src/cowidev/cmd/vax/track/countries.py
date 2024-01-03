@@ -8,7 +8,8 @@ from cowidev import PATHS
 
 def get_who_data():
     # Load WHO
-    url = "https://covid19.who.int/who-data/vaccination-data.csv"
+    # url = "https://covid19.who.int/who-data/vaccination-data.csv"
+    url = "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/vaccination-data.csv"
     df_who = pd.read_csv(url, usecols=["ISO3", "COUNTRY", "DATA_SOURCE"])
     df_who = df_who.rename(columns={"COUNTRY": "location_WHO"})
     # Countries WHO relies on us

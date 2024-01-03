@@ -87,7 +87,8 @@ def add_latest_who_values(df: pd.DataFrame, who_location_name: str, metrics: lis
     df = df.sort_values("date")
 
     who = pd.read_csv(
-        "https://covid19.who.int/who-data/vaccination-data.csv",
+        # "https://covid19.who.int/who-data/vaccination-data.csv",
+        "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/vaccination-data.csv",
         usecols=[
             "COUNTRY",
             "DATA_SOURCE",
@@ -117,7 +118,8 @@ def add_latest_who_values(df: pd.DataFrame, who_location_name: str, metrics: lis
     )
     if "total_boosters" in who_row.columns:
         who_row["total_boosters"] = pd.NA
-    who_row["source_url"] = "https://covid19.who.int/"
+    # who_row["source_url"] = "https://covid19.who.int/"
+    who_row["source_url"] = "https://data.who.int/dashboards/covid19/"
 
     df = pd.concat([original_rows, who_row], ignore_index=True).sort_values("date")
     return df

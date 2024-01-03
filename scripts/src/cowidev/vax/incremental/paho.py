@@ -149,7 +149,8 @@ class PAHO:
         )
 
     def pipe_vaccine(self, df: pd.DataFrame) -> pd.DataFrame:
-        url = "https://covid19.who.int/who-data/vaccination-data.csv"
+        # url = "https://covid19.who.int/who-data/vaccination-data.csv"
+        url = "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/vaccination-data.csv"
         df_who = pd.read_csv(url, usecols=["ISO3", "VACCINES_USED"]).rename(columns={"VACCINES_USED": "vaccine"})
         df_who = df_who.dropna(subset=["vaccine"])
         df_who = df_who.assign(

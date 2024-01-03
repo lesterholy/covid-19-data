@@ -11,7 +11,7 @@ Consequently, the dataset is updated multiple times a day (_at least_ at 06:00 a
 ## Overview
 The dataset pipeline is built from several pipelines, which are executed independently and whose outputs are combined in
 a final step. The complexity of the pipelines varies. For instance, for vaccinations, testing and hospitalization
-we are responsible for collecting, processing and publishing the data but for cases/deaths we leave the collection step to the [WHO](https://covid19.who.int/) and then transform and publish the data. Note
+we are responsible for collecting, processing and publishing the data but for cases/deaths we leave the collection step to the [WHO](https://data.who.int/dashboards/covid19/cases) and then transform and publish the data. Note
 that on 23 June 2022, we stopped adding new data points to our COVID-19 testing dataset ([read more)](https://github.com/owid/covid-19-data/discussions/2667)).
 
 The table below lists all the constituent pipelines, along with their execution frequencies, and what are the pipelines'
@@ -95,7 +95,7 @@ cowid hosp grapher-io
 ```
 
 ## Cases & Deaths pipeline
-We source cases and death figures from the [COVID-19 Dashboard by the WHO](https://covid19.who.int/). We transform some of the variables and
+We source cases and death figures from the [COVID-19 Dashboard by the WHO](https://data.who.int/dashboards/covid19/cases). We transform some of the variables and
 re-publish the dataset.
 ### Execution steps
 

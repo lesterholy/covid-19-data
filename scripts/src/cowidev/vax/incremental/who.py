@@ -27,9 +27,13 @@ METRICS_IGNORE = {
 
 class WHO(CountryVaxBase):
     location = "WHO"
-    source_url = "https://covid19.who.int/who-data/vaccination-data.csv"
-    source_url_meta = "https://covid19.who.int/who-data/vaccination-metadata.csv"
-    source_url_ref = "https://covid19.who.int/"
+    # source_url = "https://covid19.who.int/who-data/vaccination-data.csv"
+    source_url = "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/vaccination-data.csv"
+    # source_url_meta = "https://covid19.who.int/who-data/vaccination-metadata.csv"
+    source_url_meta = "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/vaccination-metadata.csv"
+    # source_url_ref = "https://covid19.who.int/"
+    source_url_ref = "https://data.who.int/dashboards/covid19/"
+    
     rename_columns = {
         "DATE_UPDATED": "date",
         "COUNTRY": "location",

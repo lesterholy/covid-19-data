@@ -210,7 +210,8 @@ def vaccines_missing(aggregated: bool = False, verbose: bool = False):
 
 def vaccines_comparison_with_who():
     # Load WHO
-    url = "https://covid19.who.int/who-data/vaccination-metadata.csv"
+    # url = "https://covid19.who.int/who-data/vaccination-metadata.csv"
+    url = "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/vaccination-metadata.csv"
     df_who = pd.read_csv(url)
     vaccines_used_who = df_who.groupby("ISO3").apply(
         lambda x: set(WHO_VACCINES[xx] for xx in x[~x.START_DATE.isnull()].VACCINE_NAME)

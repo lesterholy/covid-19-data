@@ -80,7 +80,8 @@ class AfricaCDC:
     def pipe_vaccine_who(self, df: pd.DataFrame) -> pd.DataFrame:
         if self.skip_who:
             return df
-        url = "https://covid19.who.int/who-data/vaccination-data.csv"
+        # url = "https://covid19.who.int/who-data/vaccination-data.csv"
+        url = "https://srhdpeuwpubsa.blob.core.windows.net/whdh/COVID/vaccination-data.csv"
         df_who = pd.read_csv(url, usecols=["ISO3", "VACCINES_USED"]).rename(columns={"VACCINES_USED": "vaccine"})
         df_who = df_who.dropna(subset=["vaccine"])
         df = df.merge(df_who, left_on="ISO_3_CODE", right_on="ISO3")
