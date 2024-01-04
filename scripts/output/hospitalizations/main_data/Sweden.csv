@@ -1389,7 +1389,9 @@ date,indicator,value,entity
 2023-12-30,Daily hospital occupancy,962.0,Sweden
 2023-12-31,Daily hospital occupancy,962.0,Sweden
 2024-01-01,Daily hospital occupancy,962.0,Sweden
-2024-01-02,Daily hospital occupancy,962.0,Sweden
+2024-01-02,Daily hospital occupancy,960.0,Sweden
+2024-01-03,Daily hospital occupancy,897.0,Sweden
+2024-01-04,Daily hospital occupancy,897.0,Sweden
 2020-03-28,Daily ICU occupancy,3.0,Sweden
 2020-03-29,Daily ICU occupancy,3.0,Sweden
 2020-03-30,Daily ICU occupancy,250.0,Sweden
