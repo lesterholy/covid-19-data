@@ -17,6 +17,14 @@ FULL_URL_CSV = "https://covid.ourworldindata.org/data/owid-covid-data.csv"
 FULL_URL_XLSX = "https://covid.ourworldindata.org/data/owid-covid-data.xlsx"
 # FULL_URL_JSON = "https://covid.ourworldindata.org/data/owid-covid-data.json"
 
+# ALLOWED DAYS
+ALLOWED_DAYS_MAX_VAX = 2
+ALLOWED_DAYS_MAX_CASESDEATHS = 20
+ALLOWED_DAYS_MAX_JHU = 1
+ALLOWED_DAYS_MAX_TESTING = 7
+ALLOWED_DAYS_MAX_HOSP = 1
+ALLOWED_DAYS_MAX_MEGAFILE = 1
+
 
 def check_updated(url, date_col, allowed_days, weekends, local_check=False, url_local=None) -> None:
     if not weekends and datetime.datetime.today().weekday() in [5, 6]:
@@ -64,7 +72,7 @@ def click_check_vax(ctx):
         func=check_updated,
         url=VAX_URL,
         date_col="date",
-        allowed_days=1,
+        allowed_days=ALLOWED_DAYS_MAX_VAX,
         weekends=False,
         server=ctx.obj["server"],
         domain="Check",
@@ -82,7 +90,7 @@ def click_check_casedeath(ctx):
         func=check_updated,
         url=CASES_DEATHS_URL,
         date_col="date",
-        allowed_days=8,
+        allowed_days=ALLOWED_DAYS_MAX_CASESDEATHS,
         weekends=True,
         server=ctx.obj["server"],
         domain="Check",
@@ -101,7 +109,7 @@ def click_check_jhu(ctx):
         func=check_updated,
         url=JHU_URL,
         date_col="date",
-        allowed_days=1,
+        allowed_days=ALLOWED_DAYS_MAX_JHU,
         weekends=True,
         server=ctx.obj["server"],
         domain="Check",
@@ -120,7 +128,7 @@ def click_check_test(ctx):
         func=check_updated,
         url=TESTING_URL,
         date_col="Date",
-        allowed_days=7,
+        allowed_days=ALLOWED_DAYS_MAX_TESTING,
         weekends=False,
         server=ctx.obj["server"],
         domain="Check",
@@ -138,7 +146,7 @@ def click_check_hosp(ctx):
         func=check_updated,
         url=HOSP_URL,
         date_col="date",
-        allowed_days=1,
+        allowed_days=ALLOWED_DAYS_MAX_HOSP,
         weekends=True,
         server=ctx.obj["server"],
         domain="Check",
@@ -157,7 +165,7 @@ def click_check_megafile(ctx):
         func=check_updated,
         url=FULL_URL_CSV,
         date_col="date",
-        allowed_days=1,
+        allowed_days=ALLOWED_DAYS_MAX_MEGAFILE,
         weekends=True,
         server=ctx.obj["server"],
         domain="Check",
@@ -170,7 +178,7 @@ def click_check_megafile(ctx):
         func=check_updated,
         url=FULL_URL_XLSX,
         date_col="date",
-        allowed_days=1,
+        allowed_days=ALLOWED_DAYS_MAX_MEGAFILE,
         weekends=True,
         server=ctx.obj["server"],
         domain="Check",
