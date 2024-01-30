@@ -57,7 +57,7 @@ class VariantsETL:
             "23I (Omicron)": {"rename": "Omicron (BA.2.86)", "who": True},
             "S:677H.Robin1": {"rename": "S:677H.Robin1", "who": False},
             "S:677P.Pelican": {"rename": "S:677P.Pelican", "who": False},
-            "recombinant": {"rename": "Recombinant", "who": True},
+            "recombinant": {"rename": "Recombinant", "who": False},
         }
         self.country_mapping = {
             "USA": "United States",
