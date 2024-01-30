@@ -12,9 +12,9 @@ from cowidev.utils.s3 import obj_to_s3
 class VariantsETL:
     def __init__(self) -> None:
         self.source_url = (
-            "https://raw.githubusercontent.com/hodcroftlab/covariants/master/web/data/perCountryData.json"
+            "https://raw.githubusercontent.com/hodcroftlab/covariants/master/web/public/data/perCountryData.json"
         )
-        self.source_url_date = "https://github.com/hodcroftlab/covariants/raw/master/web/data/update.json"
+        self.source_url_date = "https://github.com/hodcroftlab/covariants/raw/master/web/public/data/update.json"
         # CoVariants -> OWID name mapping. If who=False, variant is placed in bucket "non_who", along with "others"
         self.variants_details = {
             "20A.EU2": {"rename": "B.1.160", "who": False},
@@ -50,8 +50,11 @@ class VariantsETL:
             "23B (Omicron)": {"rename": "Omicron (XBB.1.16)", "who": True},
             "23C (Omicron)": {"rename": "Omicron (CH.1.1)", "who": True},
             "23D (Omicron)": {"rename": "Omicron (XBB.1.9)", "who": True},
-            "23F (Omicron)": {"rename": "Omicron (EG.5.1)", "who": True},
             "23E (Omicron)": {"rename": "Omicron (XBB.2.3)", "who": True},
+            "23F (Omicron)": {"rename": "Omicron (EG.5.1)", "who": True},
+            "23G (Omicron)": {"rename": "Omicron (XBB.1.5.70)", "who": True},
+            "23H (Omicron)": {"rename": "Omicron (HK.3)", "who": True},
+            "23I (Omicron)": {"rename": "Omicron (BA.2.86)", "who": True},
             "S:677H.Robin1": {"rename": "S:677H.Robin1", "who": False},
             "S:677P.Pelican": {"rename": "S:677P.Pelican", "who": False},
             "recombinant": {"rename": "Recombinant", "who": True},
