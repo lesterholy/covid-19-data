@@ -58,6 +58,8 @@ pipeline:
         - Macao # Stop reporting bc website returns 403 error
         - South Korea  # Moved to WHO
         - Japan  # Too complex to maintain
+        - Chile  # Moved to WHO
+        - Kyrgyzstan  # Moved to WHO
     process:
       skip_complete:
         - Pitcairn
