@@ -20,9 +20,18 @@ ADDITIONAL_VACCINES_USED = {
     "Burundi": ["Johnson&Johnson"],
 }
 
+# Only retrieve total_vaccinations
+ONLY_TOTAL = [
+    "Chile",
+]
 # Add here metrics to ignore for certain countries
 METRICS_IGNORE = {
     "Australia": ["total_boosters"]
+}
+METRICS_IGNORE = {
+    "Australia": ["total_boosters"],
+    # Add from ONLY_TOTAL
+    **{country: ["people_vaccinated", "people_fully_vaccinated", "total_boosters"] for country in ONLY_TOTAL},
 }
 
 class WHO(CountryVaxBase):
@@ -71,7 +80,7 @@ class WHO(CountryVaxBase):
         )
         if len(df) > 300:
             raise ValueError(f"Check source, it may contain updates from several dates! Shape found was {df.shape}")
-        if df.groupby("COUNTRY").DATE_UPDATED.nunique().nunique() == 1:
+        if (df.groupby("COUNTRY").DATE_UPDATED.nunique() >= 1).any():
             if df.groupby("COUNTRY").DATE_UPDATED.nunique().unique()[0] != 1:
                 raise ValueError("Countries have more than one date update!")
         else:
@@ -86,21 +95,35 @@ class WHO(CountryVaxBase):
         """Get valid entries:
 
         - Countries not coming from OWID (avoid loop)
+        - All-indicator-NaN rows
         - Rows with total_vaccinations >= people_vaccinated >= people_fully_vaccinated
         - Only preserve countries which are in the WHO_COUNTRIES dict (those set in the config file)
         """
+        # Not from OWID
         df = df[df.DATA_SOURCE == "REPORTING"].copy()
+        # Ensure numbers make sense
         mask_1 = (
             df.TOTAL_VACCINATIONS >= df.PERSONS_VACCINATED_1PLUS_DOSE
         ) | df.PERSONS_VACCINATED_1PLUS_DOSE.isnull()
         mask_2 = (df.TOTAL_VACCINATIONS >= df.PERSONS_LAST_DOSE) | df.PERSONS_LAST_DOSE.isnull()
+        df = df.loc[(mask_1 & mask_2) & df["COUNTRY"].isin(WHO_COUNTRIES.values())]
+        # Remove all-nan rows
+        columns_idx = [
+            "COUNTRY",
+            "ISO3",
+            "WHO_REGION",
+            "DATA_SOURCE",
+        ]
+        df = df.dropna(subset=[col for col in df.columns if col not in columns_idx], how="all")
+
+        # Other checks (only applicable when importing more indicators besides `total_vaccinations`)
         mask_3 = (
             (df.PERSONS_VACCINATED_1PLUS_DOSE >= df.PERSONS_LAST_DOSE)
             | df.PERSONS_VACCINATED_1PLUS_DOSE.isnull()
             | df.PERSONS_LAST_DOSE.isnull()
         )
-        df = df[(mask_1 & mask_2 & mask_3)]
-        df = df[df.COUNTRY.isin(WHO_COUNTRIES.values())]
+        df = df[mask_3 | df["COUNTRY"].isin(ONLY_TOTAL)]
+
         return df
 
     def pipe_vaccines(self, df: pd.DataFrame, df_meta: pd.DataFrame) -> pd.DataFrame:
@@ -188,8 +211,9 @@ class WHO(CountryVaxBase):
         return df
 
     def increment_countries(self, df: pd.DataFrame):
-        locations = set(df.location)
+        locations = sorted(set(df.location))
         for location in locations:
+            print(location)
             df_c = df[df.location == location]
             df_c = df_c.dropna(
                 subset=["people_vaccinated", "people_fully_vaccinated", "total_vaccinations", "total_boosters"],

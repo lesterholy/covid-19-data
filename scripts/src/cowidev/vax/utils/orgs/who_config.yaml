@@ -152,6 +152,8 @@ countries:
     owid_name: "Cayman Islands"
   - org_name: "Central African Republic"
     owid_name: "Central African Republic"
+  - org_name: "Chile"
+    owid_name: "Chile"
   - org_name: "Chad"
     owid_name: "Chad"
   - org_name: "Colombia"
