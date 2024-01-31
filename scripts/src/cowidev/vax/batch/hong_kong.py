@@ -1,6 +1,7 @@
 import io
 import requests
 
+import numpy as np
 import pandas as pd
 
 from cowidev.utils.utils import check_known_columns
@@ -10,8 +11,8 @@ from cowidev.vax.utils.base import CountryVaxBase
 
 class HongKong(CountryVaxBase):
     location: str = "Hong Kong"
-    source_url: str = " https://www.fhb.gov.hk/download/opendata/COVID19/vaccination-rates-over-time-by-age.csv"
-    source_url_ref: str = "https://data.gov.hk/en-data/dataset/hk-fhb-fhbcovid19-vaccination-rates-over-time-by-age"
+    source_url: str = "https://www.fhb.gov.hk/download/opendata/COVID19/vaccination-rates-over-time-by-age.csv"
+    source_url_ref: str = "https://data.gov.hk/en-data/dataset/hk-dh-chpsebcddr-novel-infectious-agent"
     vaccine_mapping: dict = {
         "Sinovac": "Sinovac",
         "BioNTech": "Pfizer/BioNTech",
@@ -105,7 +106,7 @@ class HongKong(CountryVaxBase):
         )
 
     def pipe_filter_dp(self, df: pd.DataFrame) -> pd.DataFrame:
-        msk = df.date.isin([
+        dates_invalid = [
             "2021-10-13",
             "2022-02-01",
             "2023-01-22",
@@ -122,8 +123,15 @@ class HongKong(CountryVaxBase):
             "2023-07-16",
             "2023-07-17",
             "2023-07-18",
-        ])
-        return df[~msk]
+        ]
+        # Since August 2023 there are tons of outliers
+        value = df.loc[df["date"] == "2023-08-01", "total_vaccinations"].item()
+        dates_additional = list(df.loc[(df["date"] >= "2023-08-01") & (df["total_vaccinations"] < value), "date"])
+        dates_invalid += dates_additional
+        msk = df.date.isin(dates_invalid)
+        df = df[~msk]
+        # df.loc[df["date"] == "2023-08-29", "total_boosters"] = np.nan
+        return df
 
     def pipeline(self, df: pd.DataFrame) -> pd.DataFrame:
         return (
@@ -148,7 +156,8 @@ class HongKong(CountryVaxBase):
         )
 
     def pipe_filter_manuf_dp(self, df):
-        msk_sin = (df.vaccine == "Sinovac") & df.date.isin([
+        value_sin = df.loc[(df["date"] == "2023-08-01") & (df["vaccine"] == "Sinovac"), "total_vaccinations"].item()
+        msk_sin = ((df.vaccine == "Sinovac") & (df.date.isin([
             "2021-10-13",
             "2022-01-31",
             "2023-01-22",
@@ -164,8 +173,9 @@ class HongKong(CountryVaxBase):
             "2023-07-16",
             "2023-07-17",
             "2023-07-18",
-        ])
-        msk_pfi = (df.vaccine == "Pfizer/BioNTech") & df.date.isin([
+        ]) | ((df["date"] >= "2023-08-01") & (df["total_vaccinations"] < value_sin))))
+        value_pfi = df.loc[(df["date"] == "2023-08-01") & (df["vaccine"] == "Pfizer/BioNTech"), "total_vaccinations"].item()
+        msk_pfi = ((df.vaccine == "Pfizer/BioNTech") & (df.date.isin([
             "2021-10-13",
             "2022-02-01",
             "2023-01-22",
@@ -182,7 +192,7 @@ class HongKong(CountryVaxBase):
             "2023-07-17",
             "2023-07-18",
         ]
-        )
+        ) | ((df["date"] >= "2023-08-01") & (df["total_vaccinations"] < value_pfi))))
         return df[~(msk_sin | msk_pfi)]
 
     def pipe_age_checks(self, df: pd.DataFrame):
