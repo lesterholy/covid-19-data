@@ -137,23 +137,7 @@ cowidev.vax.batch.singapore,5.95,True,2024-01-31T07:00:13,,
 cowidev.vax.batch.slovakia,32.52,True,2024-01-31T07:00:39,,
 cowidev.vax.batch.slovenia,4.26,True,2024-01-31T07:00:11,,
 cowidev.vax.batch.south_korea,,,2024-01-31T07:00:07,,
-cowidev.vax.batch.spc,2.46,False,2024-01-31T16:49:50,"Traceback (most recent call last):
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
-    module.main()
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/spc.py"", line 219, in main
-    SPC().export()
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/spc.py"", line 213, in export
-    data = self.read()
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/spc.py"", line 58, in read
-    return self.parse_data(data)
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/spc.py"", line 62, in parse_data
-    country_info = self._parse_country_info(data)
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/spc.py"", line 79, in _parse_country_info
-    return {str(i): SPC_COUNTRIES[c[""id""]] for i, c in enumerate(country_info[""values""])}
-  File ""/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/batch/spc.py"", line 79, in <dictcomp>
-    return {str(i): SPC_COUNTRIES[c[""id""]] for i, c in enumerate(country_info[""values""])}
-KeyError: 'POL'
-",'POL'
+cowidev.vax.batch.spc,9.36,True,2024-01-31T16:55:12,,
 cowidev.vax.batch.sweden,0.8,False,2024-01-31T07:02:48,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
