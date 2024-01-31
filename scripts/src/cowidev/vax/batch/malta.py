@@ -21,6 +21,8 @@ class Malta(CountryVaxBase):
         "Total 2nd Booster doses": "total_boosters_2",
         "Total Omicron booster doses": "total_boosters_omicron",
         "Omicron booster doses": "_",
+        "Adapted Omicron XBB.1.5 booster doses administered last week": 1,
+        "Total Adapted Omicron XBB.1.5 booster administered": "total_boosters_omicron_xbb15",
     }
 
     def read(self) -> pd.DataFrame:
@@ -29,17 +31,7 @@ class Malta(CountryVaxBase):
         df.columns = [col.replace("\ufeff", "") for col in df.columns]
         check_known_columns(
             df,
-            [
-                "Covering Dates & Week",
-                "Date of Vaccination",
-                "Total Vaccination Doses",
-                "Primary Vaccination",
-                "Received one dose",
-                "Total Booster doses",
-                "Total 2nd Booster doses",
-                "Omicron booster doses",
-                "Total Omicron booster doses",
-            ],
+            list(self.columns_rename.keys()),
         )
         return df
 
@@ -57,7 +49,7 @@ class Malta(CountryVaxBase):
             (df.people_fully_vaccinated == 0) | df.people_fully_vaccinated.isnull(),
             "people_vaccinated",
         ] = df.total_vaccinations
-        df = df.assign(total_boosters=df.total_boosters + df.total_boosters_2 + df.total_boosters_omicron)
+        df = df.assign(total_boosters=df["total_boosters"] + df["total_boosters_2"] + df["total_boosters_omicron"] + df["total_boosters_omicron_xbb15"])
         return df
 
     def pipe_date(self, df: pd.DataFrame) -> pd.DataFrame:
