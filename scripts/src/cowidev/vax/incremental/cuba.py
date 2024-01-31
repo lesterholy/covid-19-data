@@ -14,9 +14,12 @@ class Cuba:
         self.source_url = "https://salud.msp.gob.cu/actualizacion-de-la-vacunacion-en-el-marco-de-los-estudios-de-los-candidatos-vacunales-cubanos-y-la-intervencion-sanitaria/"
         self.location = "Cuba"
         self.regex = {
+            # "title": (
+            #     r"Al cierre del (\d{1,2}(?:ro)? de [a-z]+)\s+se acumulan en el país ([\d\s]+) (?:de )?dosis"
+            #     r" administradas"
+            # ),
             "title": (
-                r"Al cierre del (\d{1,2}(?:ro)? de [a-z]+)\s+se acumulan en el país ([\d\s]+) (?:de )?dosis"
-                r" administradas"
+                r"Al cierre de la semana del\s+\d+ al (\d+ de [a-z]+ de 20\d\d)\s+se acumulan en el país ([\d\s]+) de dosis"
             ),
             # "people_vaccinated": r"al menos una dosis [^\.]+, ([\d ]+) personas",
             "people_vaccinated": r"al menos una dosis de una de las vacunas cubanas SOBERANA 02, SOBERANA Plus y ABDALA, ([\d ]+) personas",
@@ -39,7 +42,7 @@ class Cuba:
     def _parse_date(self, soup):
         match = re.search(self.regex["title"], soup.text)
         date_str = match.group(1)
-        date = clean_date(f"{date_str} {datetime.now().year}", "%d de %B %Y", lang="es")
+        date = clean_date(f"{date_str}", "%d de %B de %Y", lang="es")
         if date > localdate("America/Havana", force_today=True):
             date = clean_date(f"{date_str} {datetime.now().year-1}", "%d de %B %Y", lang="es")
         return date
