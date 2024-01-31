@@ -12,21 +12,24 @@ class Ireland(CountryVaxBase):
     location = "Ireland"
     source_url_ref = "https://covid19ireland-geohive.hub.arcgis.com/"
     source_url = {
-        "primary": "https://services-eu1.arcgis.com/z6bHNio59iTqqSUY/arcgis/rest/services/COVID19_Daily_Vaccination/FeatureServer/0/query",
+        "primary": "https://services-eu1.arcgis.com/z6bHNio59iTqqSUY/ArcGIS/rest/services/COVID19_Daily_Vaccination/FeatureServer/0/query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&relationParam=&returnGeodetic=false&outFields=*&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&defaultSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=VaccinationDate+desc&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=",
         "booster": "https://services-eu1.arcgis.com/z6bHNio59iTqqSUY/arcgis/rest/services/COVID19_HSE_vaccine_booster_dose_daily/FeatureServer/0/query",
     }
 
     def read(self) -> pd.DataFrame:
         params = load_query("ireland-metrics", to_str=False)
 
-        data_primary = request_json(self.source_url["primary"], params=params)
+        data_primary = request_json(self.source_url["primary"])
         data_primary = self._parse_data_primary(data_primary)
 
         data_booster = request_json(self.source_url["booster"], params=params)
         data_booster = self._parse_data_boosters(data_booster)
 
-        return pd.merge(data_primary, data_booster, how="outer", on="date", validate="one_to_one")
+        df = pd.merge(data_primary, data_booster, how="outer", on="date", validate="one_to_one")
 
+        df = df.sort_values("date").ffill()
+
+        return df
     def _parse_data_primary(self, data: dict) -> int:
         records = [
             {
@@ -50,7 +53,13 @@ class Ireland(CountryVaxBase):
             {
                 "date": x["attributes"]["VaccinationDate"],
                 "immuno_doses": x["attributes"]["ImmunoDoseCum"],
+                "immuno_doses2": x["attributes"]["ImmunoDoseCum2"],
+                "immuno_doses3": x["attributes"]["ImmunoDoseCum3"],
+                "immuno_doses4": x["attributes"]["ImmunoDoseCum4"],
                 "additional_doses": x["attributes"]["AdditionalDoseCum"],
+                "additional_doses_2": x["attributes"]["AdditionalDoseCum2"],
+                "additional_doses_3": x["attributes"]["AdditionalDoseCum3"],
+                "additional_doses_4": x["attributes"]["AdditionalDoseCum4"],
             }
             for x in data["features"]
         ]
@@ -138,15 +147,19 @@ class Ireland(CountryVaxBase):
         # for col in ["total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "total_boosters"]:
         if (df.loc[msk, ["people_vaccinated", "people_fully_vaccinated"]] == 0).any(axis=None):
             df = df.loc[~msk]
-        dt_limit = "2023-10-25"
-        df.loc[df["date"] >= dt_limit, ["people_vaccinated", "people_fully_vaccinated"]] = np.nan
+        # dt_limit = "2023-10-25"
+        # df.loc[df["date"] >= dt_limit, ["people_vaccinated", "people_fully_vaccinated"]] = np.nan
         
         # Boosters
         df.loc[df["date"].isin(["2023-09-09", "2022-12-25"]), "total_boosters"] = np.nan
 
         # Just drop rows
         df = df[~df["date"].isin([
-            "2023-12-31"
+            "2022-12-25",
+            "2023-09-16",
+            "2023-12-31",
+            "2024-01-01",
+
         ])]
         return df
 
