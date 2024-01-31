@@ -27,8 +27,8 @@ class Switzerland(CountryVaxBase):
     def read(self):
         doses_url, people_url, manufacturer_url = self._get_file_url()
         df, df_manufacturer = self._parse_data(doses_url, people_url, manufacturer_url)
-        df_age = self.read_age()
-        return df, df_manufacturer, df_age
+        # df_age = self.read_age()
+        return df, df_manufacturer  #, df_age
 
     def read_age(self):
         soup = get_soup(self.source_url)
@@ -240,7 +240,8 @@ class Switzerland(CountryVaxBase):
 
     def export(self):
         locations = ["Switzerland", "Liechtenstein"]
-        df, df_manuf, df_age = self.read()
+        # df, df_manuf, df_age = self.read()
+        df, df_manuf = self.read()
 
         # Save vaccine timeline
         self.save_vaccine_timeline(df_manuf)
@@ -258,13 +259,13 @@ class Switzerland(CountryVaxBase):
         )
 
         # Age
-        for location in locations:
-            df_age_ = df_age.pipe(self.pipeline_age, location)
-            self.export_datafile(
-                df_age=df_age_,
-                meta_age={"source_name": "Federal Office of Public Health", "source_url": self.source_url},
-                filename=location,
-            )
+        # for location in locations:
+        #     df_age_ = df_age.pipe(self.pipeline_age, location)
+        #     self.export_datafile(
+        #         df_age=df_age_,
+        #         meta_age={"source_name": "Federal Office of Public Health", "source_url": self.source_url},
+        #         filename=location,
+        #     )
 
 
 def main():
