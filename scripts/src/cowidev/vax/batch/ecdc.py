@@ -110,7 +110,7 @@ class ECDC(CountryVaxBase):
     location = "ECDC"
     source_url = "https://opendata.ecdc.europa.eu/covid19/vaccine_tracker/csv/data.csv"
     source_url_ref = "https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea"
-    vaccine_mapping = {**ECDC_VACCINES, "UNK": "Unknown"}
+    vaccine_mapping = {**ECDC_VACCINES, "UNK": "Unknown", "OTHER": "Unknown"}
 
     @property
     def country_mapping(self):
