@@ -23,6 +23,7 @@ ADDITIONAL_VACCINES_USED = {
 # Only retrieve total_vaccinations
 ONLY_TOTAL = [
     "Chile",
+    "Kazakhstan",
 ]
 # Add here metrics to ignore for certain countries
 METRICS_IGNORE = {

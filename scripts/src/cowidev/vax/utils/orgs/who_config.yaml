@@ -224,6 +224,8 @@ countries:
   #   owid_name: "Kiribati"
   # - org_name: "Kosovo"
   #   owid_name: "Kosovo"
+  - org_name: Kazakhstan
+    owid_name: Kazakhstan
   - org_name: "Madagascar"
     owid_name: "Madagascar"
   - org_name: "Malawi"
