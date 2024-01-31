@@ -1,10 +1,7 @@
-import datetime
-import requests
-
 import pandas as pd
 
 from cowidev.utils import get_soup
-from cowidev.utils.clean import clean_count, clean_date
+from cowidev.utils.clean import clean_date
 from cowidev.vax.utils.base import CountryVaxBase
 from cowidev.vax.utils.utils import build_vaccine_timeline, make_monotonic
 from cowidev.utils.web.download import read_xlsx_from_url
@@ -32,7 +29,7 @@ class Sweden(CountryVaxBase):
     def read(self) -> pd.DataFrame:
         url = self.get_file_url()
         dfs = read_xlsx_from_url(url, sheet_name=None)
-        return dfs["Vaccinationer tidsserie"]
+        return dfs["1. Vaccinationer tidsserie"]
 
 
     def pipeline(self, df: pd.DataFrame) -> pd.DataFrame:
