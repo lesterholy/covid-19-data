@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 from cowidev.utils import clean_date_series
 from cowidev.utils.web import request_json
@@ -126,11 +127,27 @@ class Ireland(CountryVaxBase):
                 "2023-08-20",
                 "2023-08-26",
                 "2023-08-29",
+                "2023-09-10",
+                "2023-09-12",
+                "2023-09-23",
+                "2023-09-24",
+                "2023-10-14"
             ]
         )
+
         # for col in ["total_vaccinations", "people_vaccinated", "people_fully_vaccinated", "total_boosters"]:
         if (df.loc[msk, ["people_vaccinated", "people_fully_vaccinated"]] == 0).any(axis=None):
             df = df.loc[~msk]
+        dt_limit = "2023-10-25"
+        df.loc[df["date"] >= dt_limit, ["people_vaccinated", "people_fully_vaccinated"]] = np.nan
+        
+        # Boosters
+        df.loc[df["date"].isin(["2023-09-09", "2022-12-25"]), "total_boosters"] = np.nan
+
+        # Just drop rows
+        df = df[~df["date"].isin([
+            "2023-12-31"
+        ])]
         return df
 
     def pipeline(self, df: pd.DataFrame) -> pd.DataFrame:
