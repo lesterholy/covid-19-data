@@ -5,7 +5,7 @@ This file shows the latest status of the data pipeline.
 ## Vaccinations
 ### Get (scraping)
 
-`12/112` scripts failed, `39/112` were skipped. Latest update was `2024-01-31T16:55:12`.
+`12/112` scripts failed, `39/112` were skipped. Latest update was `2024-01-31T17:21:08`.
 
 <table border="1" class="dataframe">
   <thead>
@@ -19,6 +19,20 @@ This file shows the latest status of the data pipeline.
   </thead>
   <tbody>
     <tr>
+      <td>cowidev.vax.incremental.kazakhstan</td>
+      <td>❌</td>
+      <td>2024-01-31T17:18:19</td>
+      <td>131.41</td>
+      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/commons/get.py", line 47, in run<br>    module.main()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/incremental/kazakhstan.py", line 78, in main<br>    Kazakhstan().export()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/incremental/kazakhstan.py", line 73, in export<br>    df = self.read().pipe(self.pipeline)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/incremental/kazakhstan.py", line 18, in read<br>    driver.get(self.source_url)<br>  File "/home/lucas/repos/covid-19-data/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get<br>    self.execute(Command.GET, {'url': url})<br>  File "/home/lucas/repos/covid-19-data/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute<br>    self.error_handler.check_response(response)<br>  File "/home/lucas/repos/covid-19-data/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response<br>    raise exception_class(message, screen, stacktrace)<br>selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT<br>  (Session info: headless chrome=87.0.4280.66)<br><br></pre></details></td>
+    </tr>
+    <tr>
+      <td>cowidev.vax.incremental.kyrgyzstan</td>
+      <td>❌</td>
+      <td>2024-01-31T17:11:27</td>
+      <td>0.86</td>
+      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/lucas/repos/covid-19-data/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc<br>    return self._engine.get_loc(casted_key)<br>  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc<br>  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc<br>  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item<br>  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item<br>KeyError: 'total_vaccinations'<br><br>The above exception was the direct cause of the following exception:<br><br>Traceback (most recent call last):<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/commons/get.py", line 47, in run<br>    module.main()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/incremental/kyrgyzstan.py", line 61, in main<br>    Kyrgyzstan().export()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/incremental/kyrgyzstan.py", line 51, in export<br>    total_vaccinations=int(data["total_vaccinations"]),<br>  File "/home/lucas/repos/covid-19-data/venv/lib/python3.10/site-packages/pandas/core/series.py", line 942, in __getitem__<br>    return self._get_value(key)<br>  File "/home/lucas/repos/covid-19-data/venv/lib/python3.10/site-packages/pandas/core/series.py", line 1051, in _get_value<br>    loc = self.index.get_loc(label)<br>  File "/home/lucas/repos/covid-19-data/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc<br>    raise KeyError(key) from err<br>KeyError: 'total_vaccinations'<br></pre></details></td>
+    </tr>
+    <tr>
       <td>cowidev.vax.batch.chile</td>
       <td>❌</td>
       <td>2024-01-31T14:54:15</td>
@@ -31,20 +45,6 @@ This file shows the latest status of the data pipeline.
       <td>2024-01-31T07:06:45</td>
       <td>6.46</td>
       <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py", line 47, in run<br>    module.main()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/taiwan.py", line 183, in main<br>    Taiwan().export()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/taiwan.py", line 169, in export<br>    data = self.read().pipe(self.pipeline)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/taiwan.py", line 39, in read<br>    df = self._parse_table(url_pdf)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/taiwan.py", line 69, in _parse_table<br>    raise ValueError(f"Table 1: format has changed! It has shape {df.shape} instead of {shape_expected}")<br>ValueError: Table 1: format has changed! It has shape (3, 2) instead of (44, 4)<br></pre></details></td>
-    </tr>
-    <tr>
-      <td>cowidev.vax.incremental.kyrgyzstan</td>
-      <td>❌</td>
-      <td>2024-01-31T07:05:10</td>
-      <td>1.86</td>
-      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3361, in get_loc<br>    return self._engine.get_loc(casted_key)<br>  File "pandas/_libs/index.pyx", line 76, in pandas._libs.index.IndexEngine.get_loc<br>  File "pandas/_libs/index.pyx", line 108, in pandas._libs.index.IndexEngine.get_loc<br>  File "pandas/_libs/hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item<br>  File "pandas/_libs/hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item<br>KeyError: 'total_vaccinations'<br><br>The above exception was the direct cause of the following exception:<br><br>Traceback (most recent call last):<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py", line 47, in run<br>    module.main()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/kyrgyzstan.py", line 61, in main<br>    Kyrgyzstan().export()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/kyrgyzstan.py", line 51, in export<br>    total_vaccinations=int(data["total_vaccinations"]),<br>  File "/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/series.py", line 942, in __getitem__<br>    return self._get_value(key)<br>  File "/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/series.py", line 1051, in _get_value<br>    loc = self.index.get_loc(label)<br>  File "/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3363, in get_loc<br>    raise KeyError(key) from err<br>KeyError: 'total_vaccinations'<br></pre></details></td>
-    </tr>
-    <tr>
-      <td>cowidev.vax.incremental.kazakhstan</td>
-      <td>❌</td>
-      <td>2024-01-31T07:05:08</td>
-      <td>132.43</td>
-      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py", line 47, in run<br>    module.main()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/kazakhstan.py", line 78, in main<br>    Kazakhstan().export()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/kazakhstan.py", line 73, in export<br>    df = self.read().pipe(self.pipeline)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/kazakhstan.py", line 18, in read<br>    driver.get(self.source_url)<br>  File "/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get<br>    self.execute(Command.GET, {'url': url})<br>  File "/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute<br>    self.error_handler.check_response(response)<br>  File "/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response<br>    raise exception_class(message, screen, stacktrace)<br>selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_CONNECTION_TIMED_OUT<br>  (Session info: chrome-headless-shell=121.0.6167.85)<br><br></pre></details></td>
     </tr>
     <tr>
       <td>cowidev.vax.incremental.cuba</td>
@@ -376,6 +376,13 @@ This file shows the latest status of the data pipeline.
       <td></td>
     </tr>
     <tr>
+      <td>cowidev.vax.incremental.who</td>
+      <td>✅</td>
+      <td>2024-01-31T17:21:08</td>
+      <td>1.85</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>cowidev.vax.batch.spc</td>
       <td>✅</td>
       <td>2024-01-31T16:55:12</td>
@@ -408,13 +415,6 @@ This file shows the latest status of the data pipeline.
       <td>✅</td>
       <td>2024-01-31T15:50:11</td>
       <td>3.02</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>cowidev.vax.incremental.who</td>
-      <td>✅</td>
-      <td>2024-01-31T15:26:52</td>
-      <td>1.87</td>
       <td></td>
     </tr>
     <tr>
