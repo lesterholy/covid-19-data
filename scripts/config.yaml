@@ -56,7 +56,6 @@ pipeline:
         - Australia # Moved to WHO
         - Macao # Stop reporting bc website returns 403 error
         - South Korea  # Moved to WHO
-        - Japan  # Too complex to maintain
         - Chile  # Moved to WHO
         - Kazakhstan  # Moved to WHO
 
@@ -65,6 +64,8 @@ pipeline:
         - Kyrgyzstan
         - Switzerland
         - Turkey # Blocked external IP
+        - Japan  # Too complex to maintain
+        - Taiwan # Too complex to maintain
     process:
       skip_complete:
         - Pitcairn
