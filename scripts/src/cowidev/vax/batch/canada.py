@@ -114,13 +114,15 @@ class Canada(CountryVaxBase):
                 "numtotal_fully",
                 "numtotal_additional",
                 "numtotal_2nd_additional",
-                "numtotal_recent_fullyoradditional",
+                "numtotal_recommended_vax",
+                "numtotal_vax_interest",
                 "proptotal_atleast1dose",
                 "proptotal_partially",
                 "proptotal_fully",
                 "proptotal_additional",
                 "proptotal_2nd_additional",
-                "proptotal_recent_fullyoradditional",
+                "proptotal_recommended_vax",
+                "proptotal_vax_interest",
             ],
         )
         return df
@@ -221,6 +223,8 @@ class Canada(CountryVaxBase):
 
     def pipe_filter_dp(self, df: pd.DataFrame) -> pd.DataFrame:
         df.loc[df.date.isin(["2022-07-29", "2022-07-30", "2022-07-31"]), "people_vaccinated"] = np.nan
+        msk = df["date"] >= "2023-01-26"
+        df.loc[msk, ["people_vaccinated", "people_fully_vaccinated"]] = np.nan
         return df
 
     def pipe_make_monotonic(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -247,7 +251,8 @@ class Canada(CountryVaxBase):
             .pipe(self.pipe_vaccine_timeline, df_man)
             .pipe(self.pipe_filter_dp)
             .pipe(self.pipe_metadata)
-            .pipe(self.pipe_make_monotonic)[
+            .pipe(self.pipe_make_monotonic)
+            [
                 [
                     "location",
                     "date",
