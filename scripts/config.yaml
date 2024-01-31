@@ -52,15 +52,19 @@ pipeline:
         - Guernsey # No longer publishing data
         - Greenland # No longer publishing data
         - Kosovo # Page not available
-        - Turkey # Blocked external IP
         - Curacao # Moved to PAHO
         - Australia # Moved to WHO
         - Macao # Stop reporting bc website returns 403 error
         - South Korea  # Moved to WHO
         - Japan  # Too complex to maintain
         - Chile  # Moved to WHO
-        - Kyrgyzstan  # No reliable source atm
         - Kazakhstan  # Moved to WHO
+
+        # No reliable sources
+        - Saudi Arabia
+        - Kyrgyzstan
+        - Switzerland
+        - Turkey # Blocked external IP
     process:
       skip_complete:
         - Pitcairn
