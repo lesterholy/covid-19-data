@@ -3,7 +3,8 @@ import re
 import pandas as pd
 from bs4 import BeautifulSoup
 
-from cowidev.utils import clean_date, clean_date_series, get_soup
+from cowidev.utils import clean_date, clean_date_series, get_soup, clean_count
+from cowidev.utils.clean import extract_clean_date
 from cowidev.utils.web.download import read_xlsx_from_url
 from cowidev.vax.utils.base import CountryVaxBase
 from cowidev.vax.utils.utils import build_vaccine_timeline
@@ -11,7 +12,7 @@ from cowidev.vax.utils.utils import build_vaccine_timeline
 
 class NewZealand(CountryVaxBase):
     # Consider: https://github.com/minhealthnz/nz-covid-data/tree/main/vaccine-data
-    source_url_ref = "https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-data-and-statistics/covid-19-vaccine-data"
+    source_url_ref = "https://www.tewhatuora.govt.nz/our-health-system/data-and-statistics/covid-vaccine-data"
     base_url = "https://www.health.govt.nz"
     location = "New Zealand"
     rename_columns = {
@@ -40,6 +41,7 @@ class NewZealand(CountryVaxBase):
         soup = get_soup(self.source_url_ref)
         # self._read_latest(soup)
         link = self._parse_file_link(soup)
+        print(link)
         df = read_xlsx_from_url(link, sheet_name="Date")
         return df
 
@@ -114,6 +116,51 @@ class NewZealand(CountryVaxBase):
         df = self.read().pipe(self.pipeline)
         self.export_datafile(df, valid_cols_only=True)
 
+    def export_alternative(self):
+        """Export alternatively.
+        
+        NZ has changed their reporting substantially. We therefore implement this hotfix, which gets the latest data from their HTML site (no xls file anymore).
+        The data is not available for all indicators!
+        """
+        dfs = pd.read_html(self.source_url_ref)
+
+        # Sanity check
+        assert len(dfs) == 4, f"Number of tables in page has changed! Check {self.source_url_ref}"
+
+        # Get total vaccinations
+        df = dfs[0]
+        assert "Total Doses Administered" in list(df[0])
+        total_doses = clean_count(df.loc[df[0] == "Total Doses Administered", 1].item())
+
+        # Get number of people vaccinated
+        df = dfs[1]
+        assert "Booster 1" in list(df["Unnamed: 0"])
+        total_boosters_1 = df.loc[df["Unnamed: 0"] == "Booster 1", "Cumulative total"].item()
+        assert "Booster 2" in list(df["Unnamed: 0"])
+        total_boosters_2 = df.loc[df["Unnamed: 0"] == "Booster 2", "Cumulative total"].item()
+        assert "Booster 3+" in list(df["Unnamed: 0"])
+        total_boosters_3 = df.loc[df["Unnamed: 0"] == "Booster 3+", "Cumulative total"].item()
+        total_boosters = clean_count(total_boosters_1 + total_boosters_2 + total_boosters_3)
+
+        # Get date
+        soup = get_soup(self.source_url_ref)
+        rex_pattern = r"Vaccine data is up to [a-zA-Z]+ (\d+ [a-zA-Z]+ 20\d+).*"
+
+        dt = extract_clean_date(soup.text, regex=rex_pattern, date_format="%d %B %Y")
+
+        # Get number of boosters administered
+        data = [{
+            "total_vaccinations": total_doses,
+            "total_boosters": total_boosters,
+            "location": "New Zealand",
+            "source_url": self.source_url_ref,
+            "vaccine": "Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",
+            "date": dt
+        }]
+        df = pd.DataFrame(data)
+
+        self.export_datafile(df, valid_cols_only=True, attach=True)
+
 
 def main():
-    NewZealand().export()
+    NewZealand().export_alternative()
