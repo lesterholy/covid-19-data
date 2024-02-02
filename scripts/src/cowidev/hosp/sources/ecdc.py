@@ -32,8 +32,8 @@ EXCLUDED_COUNTRIES = [
 
 
 def download_data():
-    df = read_csv_from_url(
-        METADATA_BASE["source_url"], usecols=["country", "indicator", "date", "value", "year_week"], use_proxy=True
+    df = pd.read_csv(
+        METADATA_BASE["source_url"], usecols=["country", "indicator", "date", "value", "year_week"],
     )
     df = df[-df.country.isin(EXCLUDED_COUNTRIES)]
     df = df.drop_duplicates()
