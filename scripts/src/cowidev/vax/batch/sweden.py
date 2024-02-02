@@ -1,7 +1,9 @@
+
+
 import pandas as pd
 
 from cowidev.utils import get_soup
-from cowidev.utils.clean import clean_date
+from cowidev.utils.clean import clean_date, clean_date_series
 from cowidev.vax.utils.base import CountryVaxBase
 from cowidev.vax.utils.utils import build_vaccine_timeline, make_monotonic
 from cowidev.utils.web.download import read_xlsx_from_url
@@ -45,6 +47,19 @@ class Sweden(CountryVaxBase):
             .drop_duplicates(subset=["date"], keep=False)
         )
 
+    def pipe_date(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Read weekly data
+
+        This data is loaded from an excel. It contains very clean (but sparse, i.e. weekly) data.
+        """
+        # Get date
+        df["date"] = df["År"].astype(str) + "W" + df["Vecka"].astype(str)
+        df["date"] = clean_date_series(df["date"] + "+1", "%GW%V+%w")
+        # Drop unused columns
+        df = df.drop(columns=["Vecka", "År"]).sort_values("date")
+        # print(df)
+        return df
+
     def pipe_vaccine(self, df: pd.DataFrame) -> pd.DataFrame:
         # Source: https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea
         return build_vaccine_timeline(
@@ -57,26 +72,13 @@ class Sweden(CountryVaxBase):
             },
         )
 
-    def pipe_date(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Read weekly data
-
-        This data is loaded from an excel. It contains very clean (but sparse, i.e. weekly) data.
-        """
-        # Date
-        ds = df["År"].astype(str) + "-W" + df["Vecka"].astype(str) + "+0"
-        df["date"] = ds.apply(lambda x: clean_date(x, "%Y-W%W+%w"))
-        # Prepare output
-        df = df.drop(columns=["Vecka", "År"]).sort_values("date")
-        # print(df)
-        return df
-
     def pipe_filter_rows(self, df: pd.DataFrame) -> pd.DataFrame:
         df = df[df["Region"]=="| Sverige |"]
         return df
 
 
     def pipe_columns(self, df: pd.DataFrame) -> pd.DataFrame:
-        df["total_vaccinations"] = df.sort_values("date")["Antal vaccinationer"].cumsum()
+        df["total_vaccinations"] = df.sort_values("date")["Antal vaccinationer"]
         df = df.drop(columns=["Region", "Antal vaccinationer"])
         return df.assign(location=self.location, source_url=self.source_url)
 
