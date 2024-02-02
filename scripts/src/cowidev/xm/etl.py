@@ -103,20 +103,17 @@ class XMortalityETL:
 
 class XMortalityEconomistETL:
     def extract(self):
-        cat = catalog.RemoteCatalog(channels=["grapher"])
+        # NOTE (Feb 2024): For some reason, the data for XM from The Economist obtained from Grapher chanel
+        # in RemoteCatalog is not up to date. Luckily there is little processing in the ETL Grapher step. Hence, we just load
+        # the Garden dataset and tweak it to be Grapher-ready.
+        cat = catalog.RemoteCatalog(channels=["garden"])
         t = cat.find_latest(namespace="excess_mortality", dataset="excess_mortality_economist", table="excess_mortality_economist")
         date_accessed = max(s.date_accessed for s in t.metadata.dataset.sources)
         return pd.DataFrame(t), date_accessed
 
     def transform(self, df: pd.DataFrame) -> pd.DataFrame:
-        # Reset index
-        df = df.reset_index()
-        # Fix date
-        df.loc[:, "date"] = [clean_date(datetime(2020, 1, 1) + timedelta(days=d)) for d in df["year"]]
-        df = df.drop(columns=["year"])
-        # Sort rows
-        df = df.sort_values(["country", "date"])
-
+        # Sort by primary keys (country, date) and reset index
+        df = df.sort_index().reset_index()
         return df
 
     def load(self, df: pd.DataFrame, output_path: str, date_accessed: str) -> None:
