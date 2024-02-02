@@ -58,7 +58,7 @@ def fill_date_gaps(df):
 
     # Fill in NaNs
     df[["new_cases", "new_deaths"]] = df[["new_cases", "new_deaths"]].fillna(0)
-    df[["total_cases", "total_deaths"]] = df[["total_cases", "total_deaths"]].ffill()
+    df[["total_cases", "total_deaths"]] = df.groupby(level='location')[["total_cases", "total_deaths"]].fillna(method='ffill')
 
     # Reset index
     df = df.reset_index()
