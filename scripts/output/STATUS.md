@@ -5,7 +5,7 @@ This file shows the latest status of the data pipeline.
 ## Vaccinations
 ### Get (scraping)
 
-`4/112` scripts failed, `45/112` were skipped. Latest update was `2024-02-02T07:07:07`.
+`4/112` scripts failed, `45/112` were skipped. Latest update was `2024-02-02T13:51:57`.
 
 <table border="1" class="dataframe">
   <thead>
@@ -362,6 +362,13 @@ This file shows the latest status of the data pipeline.
       <td></td>
     </tr>
     <tr>
+      <td>cowidev.vax.batch.sweden</td>
+      <td>✅</td>
+      <td>2024-02-02T13:51:57</td>
+      <td>1.86</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>cowidev.vax.incremental.spain</td>
       <td>✅</td>
       <td>2024-02-02T07:05:46</td>
@@ -485,13 +492,6 @@ This file shows the latest status of the data pipeline.
       <td>✅</td>
       <td>2024-02-02T07:00:23</td>
       <td>7.61</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>cowidev.vax.batch.sweden</td>
-      <td>✅</td>
-      <td>2024-02-02T07:00:21</td>
-      <td>14.83</td>
       <td></td>
     </tr>
     <tr>
@@ -808,7 +808,7 @@ This file shows the latest status of the data pipeline.
 
 ### Process (Checks)
 
-`2/223` processes failed, `0/223` were skipped. Latest update was `2024-02-02T07:07:18`.
+`2/223` processes failed, `0/223` were skipped. Latest update was `2024-02-02T13:52:24`.
 
 <table border="1" class="dataframe">
   <thead>
@@ -823,1339 +823,1339 @@ This file shows the latest status of the data pipeline.
     <tr>
       <td>Poland</td>
       <td>❌</td>
-      <td>2024-02-02T07:07:15</td>
-      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py", line 92, in _process_location_and_move_file<br>    df = process_location(df, monotonic_check_skip, anomaly_check_skip)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/utils.py", line 57, in process_location<br>    country_df_sanity_checks(<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 73, in country_df_sanity_checks<br>    checker.run()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 253, in run<br>    self.check_metrics()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 170, in check_metrics<br>    self._check_metrics_monotonic(df)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 186, in _check_metrics_monotonic<br>    raise ValueError(<br>ValueError: Poland -- Column people_vaccinated must be monotonically increasing! Check:<br>    location       date  ... people_fully_vaccinated total_boosters<br>987   Poland 2023-12-20  ...                22649455       15594518<br>992   Poland 2023-12-25  ...                22649460       15631381<br><br>[2 rows x 8 columns]<br></pre></details></td>
+      <td>2024-02-02T13:52:22</td>
+      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py", line 92, in _process_location_and_move_file<br>    df = process_location(df, monotonic_check_skip, anomaly_check_skip)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/vax/process/utils.py", line 57, in process_location<br>    country_df_sanity_checks(<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 73, in country_df_sanity_checks<br>    checker.run()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 253, in run<br>    self.check_metrics()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 170, in check_metrics<br>    self._check_metrics_monotonic(df)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 186, in _check_metrics_monotonic<br>    raise ValueError(<br>ValueError: Poland -- Column people_vaccinated must be monotonically increasing! Check:<br>    location       date                                            vaccine                                         source_url  total_vaccinations  people_vaccinated  people_fully_vaccinated  total_boosters<br>987   Poland 2023-12-20  Johnson&Johnson, Moderna, Novavax, Oxford/Astr...  https://www.gov.pl/web/szczepimysie/raport-szc...            58232737           22877730                 22649455        15594518<br>992   Poland 2023-12-25  Johnson&Johnson, Moderna, Novavax, Oxford/Astr...  https://www.gov.pl/web/szczepimysie/raport-szc...            58269606           22877731                 22649460        15631381<br></pre></details></td>
     </tr>
     <tr>
       <td>Luxembourg</td>
       <td>❌</td>
-      <td>2024-02-02T07:07:14</td>
-      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py", line 92, in _process_location_and_move_file<br>    df = process_location(df, monotonic_check_skip, anomaly_check_skip)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/cmd/vax/process/utils.py", line 57, in process_location<br>    country_df_sanity_checks(<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 73, in country_df_sanity_checks<br>    checker.run()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 253, in run<br>    self.check_metrics()<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 175, in check_metrics<br>    self._check_metrics_anomalies(df)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 217, in _check_metrics_anomalies<br>    self._check_anomalies(df, metric)<br>  File "/home/owid/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 239, in _check_anomalies<br>    raise ValueError(f"{self.location} -- Potential anomalies found ⚠️:\n{anomalies}")<br>ValueError: Luxembourg -- Potential anomalies found ⚠️:<br>        date  ...  people_fully_vaccinated_ratio<br>0 2023-10-01  ...                      13.883973<br><br>[1 rows x 4 columns]<br></pre></details></td>
+      <td>2024-02-02T13:52:20</td>
+      <td><details><summary>show</summary><pre>Traceback (most recent call last):<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/vax/process/process.py", line 92, in _process_location_and_move_file<br>    df = process_location(df, monotonic_check_skip, anomaly_check_skip)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/cmd/vax/process/utils.py", line 57, in process_location<br>    country_df_sanity_checks(<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 73, in country_df_sanity_checks<br>    checker.run()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 253, in run<br>    self.check_metrics()<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 175, in check_metrics<br>    self._check_metrics_anomalies(df)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 217, in _check_metrics_anomalies<br>    self._check_anomalies(df, metric)<br>  File "/home/lucas/repos/covid-19-data/scripts/src/cowidev/vax/utils/checks.py", line 239, in _check_anomalies<br>    raise ValueError(f"{self.location} -- Potential anomalies found ⚠️:\n{anomalies}")<br>ValueError: Luxembourg -- Potential anomalies found ⚠️:<br>        date  people_fully_vaccinated  people_fully_vaccinated_7d  people_fully_vaccinated_ratio<br>0 2023-10-01                   462732                     33328.5                      13.883973<br></pre></details></td>
+    </tr>
+    <tr>
+      <td>Vietnam</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:24</td>
+      <td></td>
     </tr>
     <tr>
       <td>Wales</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:18</td>
+      <td>2024-02-02T13:52:24</td>
       <td></td>
     </tr>
     <tr>
       <td>Wallis and Futuna</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:18</td>
+      <td>2024-02-02T13:52:24</td>
       <td></td>
     </tr>
     <tr>
       <td>Yemen</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:18</td>
+      <td>2024-02-02T13:52:24</td>
       <td></td>
     </tr>
     <tr>
       <td>Zambia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:18</td>
+      <td>2024-02-02T13:52:24</td>
       <td></td>
     </tr>
     <tr>
       <td>Zimbabwe</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:18</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Switzerland</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Syria</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Taiwan</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tajikistan</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tanzania</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Thailand</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Timor</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tokelau</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Togo</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tonga</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Trinidad and Tobago</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tunisia</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Turkey</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Turkmenistan</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Turks and Caicos Islands</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tuvalu</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Uganda</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Ukraine</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>United Arab Emirates</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>United Kingdom</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>United States</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Uruguay</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Uzbekistan</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Vanuatu</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Venezuela</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Vietnam</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:17</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Rwanda</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Saint Helena</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Saint Kitts and Nevis</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Saint Lucia</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Saint Vincent and the Grenadines</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Samoa</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>San Marino</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sao Tome and Principe</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Saudi Arabia</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Scotland</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Senegal</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Serbia</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Seychelles</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sierra Leone</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Singapore</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Sint Maarten (Dutch part)</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Slovakia</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Slovenia</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Solomon Islands</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Somalia</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>South Africa</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>South Korea</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>South Sudan</td>
-      <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
+      <td>2024-02-02T13:52:24</td>
       <td></td>
     </tr>
     <tr>
       <td>Spain</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
       <td>Sri Lanka</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
       <td>Sudan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
       <td>Suriname</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
       <td>Sweden</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:16</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Namibia</td>
+      <td>Switzerland</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Nauru</td>
+      <td>Syria</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Nepal</td>
+      <td>Taiwan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Netherlands</td>
+      <td>Tajikistan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>New Caledonia</td>
+      <td>Tanzania</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>New Zealand</td>
+      <td>Thailand</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Nicaragua</td>
+      <td>Timor</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Niger</td>
+      <td>Tokelau</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Nigeria</td>
+      <td>Togo</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>North Macedonia</td>
+      <td>Tonga</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Northern Cyprus</td>
+      <td>Trinidad and Tobago</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Northern Ireland</td>
+      <td>Tunisia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Norway</td>
+      <td>Turkey</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Niue</td>
+      <td>Turkmenistan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Oman</td>
+      <td>Turks and Caicos Islands</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Pakistan</td>
+      <td>Tuvalu</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Palestine</td>
+      <td>Uganda</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Panama</td>
+      <td>Ukraine</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Papua New Guinea</td>
+      <td>United Arab Emirates</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
-      <td>Paraguay</td>
+      <td>United Kingdom</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:23</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>United States</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:23</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Uruguay</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:23</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Uzbekistan</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:23</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vanuatu</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:23</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Venezuela</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:23</td>
       <td></td>
     </tr>
     <tr>
       <td>Peru</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
       <td>Philippines</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
       <td>Pitcairn</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
       <td>Portugal</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
       <td>Qatar</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
       <td>Romania</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
       <td>Russia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:15</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Laos</td>
+      <td>Rwanda</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Latvia</td>
+      <td>Saint Helena</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lebanon</td>
+      <td>Saint Kitts and Nevis</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lesotho</td>
+      <td>Saint Lucia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Liberia</td>
+      <td>Saint Vincent and the Grenadines</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Libya</td>
+      <td>Samoa</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Liechtenstein</td>
+      <td>San Marino</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Lithuania</td>
+      <td>Sao Tome and Principe</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Macao</td>
+      <td>Saudi Arabia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Madagascar</td>
+      <td>Scotland</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Malawi</td>
+      <td>Senegal</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Malaysia</td>
+      <td>Serbia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Maldives</td>
+      <td>Seychelles</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Mali</td>
+      <td>Sierra Leone</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
-      <td>Malta</td>
+      <td>Singapore</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sint Maarten (Dutch part)</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Slovakia</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Slovenia</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Solomon Islands</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Somalia</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>South Africa</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>South Korea</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:22</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>South Sudan</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:22</td>
       <td></td>
     </tr>
     <tr>
       <td>Mauritania</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Mauritius</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Mexico</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Moldova</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Monaco</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Mongolia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Montenegro</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Montserrat</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Morocco</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Mozambique</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Myanmar</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:14</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Guinea-Bissau</td>
+      <td>Namibia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Guyana</td>
+      <td>Nauru</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Haiti</td>
+      <td>Nepal</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Honduras</td>
+      <td>Netherlands</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Hong Kong</td>
+      <td>New Caledonia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Hungary</td>
+      <td>New Zealand</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Iceland</td>
+      <td>Nicaragua</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>India</td>
+      <td>Niger</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Indonesia</td>
+      <td>Nigeria</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Iran</td>
+      <td>North Macedonia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Iraq</td>
+      <td>Northern Cyprus</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ireland</td>
+      <td>Northern Ireland</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Norway</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Niue</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Oman</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Pakistan</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Palestine</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Panama</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Papua New Guinea</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Paraguay</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:21</td>
       <td></td>
     </tr>
     <tr>
       <td>Isle of Man</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Israel</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Italy</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Jamaica</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Japan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Jersey</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Jordan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Kazakhstan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Kenya</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Kiribati</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Kosovo</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Kuwait</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Kyrgyzstan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:13</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>Dominican Republic</td>
+      <td>Laos</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ecuador</td>
+      <td>Latvia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>Egypt</td>
+      <td>Lebanon</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>El Salvador</td>
+      <td>Lesotho</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>England</td>
+      <td>Liberia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>Equatorial Guinea</td>
+      <td>Libya</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>Estonia</td>
+      <td>Liechtenstein</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>Eswatini</td>
+      <td>Lithuania</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
-      <td>Ethiopia</td>
+      <td>Macao</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Madagascar</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Malawi</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Malaysia</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Maldives</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mali</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:20</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Malta</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:20</td>
       <td></td>
     </tr>
     <tr>
       <td>Faeroe Islands</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Falkland Islands</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Fiji</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Finland</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>France</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>French Polynesia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Gabon</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Gambia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Georgia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Germany</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Ghana</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Gibraltar</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Greece</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Greenland</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Grenada</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Guatemala</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Guernsey</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Guinea</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:12</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
-      <td>Bulgaria</td>
+      <td>Guinea-Bissau</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
-      <td>Burkina Faso</td>
+      <td>Guyana</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
-      <td>Burundi</td>
+      <td>Haiti</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
-      <td>Cambodia</td>
+      <td>Honduras</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
-      <td>Cameroon</td>
+      <td>Hong Kong</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
-      <td>Canada</td>
+      <td>Hungary</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Iceland</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>India</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Indonesia</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Iran</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Iraq</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:19</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ireland</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:19</td>
       <td></td>
     </tr>
     <tr>
       <td>Cape Verde</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Cayman Islands</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Central African Republic</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Chad</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Chile</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>China</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Colombia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Comoros</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Congo</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Cook Islands</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Costa Rica</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Cote d'Ivoire</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Croatia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Cuba</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Curacao</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Cyprus</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Czechia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Democratic Republic of Congo</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Denmark</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Djibouti</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Dominica</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:11</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
-      <td>Angola</td>
+      <td>Dominican Republic</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
-      <td>Anguilla</td>
+      <td>Ecuador</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Egypt</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>El Salvador</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>England</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Equatorial Guinea</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Estonia</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Eswatini</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ethiopia</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:18</td>
       <td></td>
     </tr>
     <tr>
       <td>Antigua and Barbuda</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Argentina</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Armenia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Aruba</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Australia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Austria</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Azerbaijan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Bahamas</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Bahrain</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Bangladesh</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Barbados</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Belarus</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Belgium</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Belize</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Benin</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Bermuda</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Bhutan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Bolivia</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Bonaire Sint Eustatius and Saba</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Bosnia and Herzegovina</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Botswana</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Brazil</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>British Virgin Islands</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Brunei</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:10</td>
+      <td>2024-02-02T13:52:17</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bulgaria</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:17</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Burkina Faso</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:17</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Burundi</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:17</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cambodia</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:17</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cameroon</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:17</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Canada</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:17</td>
       <td></td>
     </tr>
     <tr>
       <td>Afghanistan</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:09</td>
+      <td>2024-02-02T13:52:16</td>
       <td></td>
     </tr>
     <tr>
       <td>Albania</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:09</td>
+      <td>2024-02-02T13:52:16</td>
       <td></td>
     </tr>
     <tr>
       <td>Algeria</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:09</td>
+      <td>2024-02-02T13:52:16</td>
       <td></td>
     </tr>
     <tr>
       <td>Andorra</td>
       <td>✅</td>
-      <td>2024-02-02T07:07:09</td>
+      <td>2024-02-02T13:52:16</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Angola</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:16</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Anguilla</td>
+      <td>✅</td>
+      <td>2024-02-02T13:52:16</td>
       <td></td>
     </tr>
   </tbody>
