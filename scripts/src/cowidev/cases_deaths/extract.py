@@ -36,7 +36,7 @@ def process_data(df: pd.DataFrame, API, server_mode):
     # Harmonize country names
     df = harmonize_country_names(df, API, server_mode)
     # Handle country-specific issues
-    df = handle_country_issues(df)
+    # df = handle_country_issues(df)
     # Sort rows by country and date
     df = df.sort_values(["location", "date"])
     return df

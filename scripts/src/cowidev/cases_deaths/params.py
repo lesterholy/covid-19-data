@@ -94,6 +94,12 @@ LARGE_DATA_CORRECTIONS = [
 LARGE_DATA_CORRECTIONS_SINCE = [
     ("United States", "2023-05-21", "deaths"),
     ("United States", "2023-05-21", "cases"),
+    ("Spain", "2023-07-10", "deaths"),
+    ("Spain", "2023-07-10", "cases"),
+    ("Germany", "2023-07-10", "deaths"),
+    ("Germany", "2023-07-10", "cases"),
+    ("France", "2023-07-02", "deaths"),
+    ("France", "2023-07-02", "cases"),
 ]
 
 ########################################################################################
