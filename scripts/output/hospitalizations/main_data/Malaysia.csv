@@ -1410,6 +1410,7 @@ date,indicator,value,entity
 2024-02-01,Weekly new hospital admissions,343.0,Malaysia
 2024-02-02,Weekly new hospital admissions,310.0,Malaysia
 2024-02-03,Weekly new hospital admissions,288.0,Malaysia
+2024-02-04,Weekly new hospital admissions,280.0,Malaysia
 2020-03-24,Daily hospital occupancy,1019.0,Malaysia
 2020-03-25,Daily hospital occupancy,1229.0,Malaysia
 2020-03-26,Daily hospital occupancy,1347.0,Malaysia
@@ -2821,6 +2822,7 @@ date,indicator,value,entity
 2024-02-01,Daily hospital occupancy,112.0,Malaysia
 2024-02-02,Daily hospital occupancy,96.0,Malaysia
 2024-02-03,Daily hospital occupancy,115.0,Malaysia
+2024-02-04,Daily hospital occupancy,94.0,Malaysia
 2020-03-24,Daily ICU occupancy,69.0,Malaysia
 2020-03-25,Daily ICU occupancy,60.0,Malaysia
 2020-03-26,Daily ICU occupancy,71.0,Malaysia
@@ -4232,3 +4234,4 @@ date,indicator,value,entity
 2024-02-01,Daily ICU occupancy,10.0,Malaysia
 2024-02-02,Daily ICU occupancy,10.0,Malaysia
 2024-02-03,Daily ICU occupancy,9.0,Malaysia
+2024-02-04,Daily ICU occupancy,9.0,Malaysia
