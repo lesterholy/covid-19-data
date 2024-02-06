@@ -9,7 +9,8 @@ from cowidev.utils.utils import dict_to_compact_json
 
 
 DATA_DIR = PATHS.DATA_DIR
-
+# Latest data will only have data up to `NUM_WEEKS_TOLERANCE_LATEST` weeks before today.
+NUM_WEEKS_TOLERANCE_LATEST = 4
 
 def create_dataset(df, macro_variables, logger, filename=None):
     """Export dataset as CSV, XLSX and JSON (complete time series)."""
@@ -37,7 +38,7 @@ def create_dataset(df, macro_variables, logger, filename=None):
 
 def create_latest(df, logger):
     """Export dataset as CSV, XLSX and JSON (latest data points)."""
-    df = df[df.date >= str(date.today() - timedelta(weeks=2))]
+    df = df[df.date >= str(date.today() - timedelta(weeks=NUM_WEEKS_TOLERANCE_LATEST))]
     df = df.sort_values("date")
 
     latest = [df[df.location == loc].ffill().tail(1).round(3) for loc in set(df.location)]
