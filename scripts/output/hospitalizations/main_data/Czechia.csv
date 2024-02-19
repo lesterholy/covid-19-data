@@ -4244,9 +4244,9 @@ date,indicator,value,entity
 2023-11-27,Daily hospital occupancy,803.0,Czechia
 2023-11-28,Daily hospital occupancy,809.0,Czechia
 2023-11-29,Daily hospital occupancy,777.0,Czechia
-2023-11-30,Daily hospital occupancy,761.0,Czechia
-2023-12-01,Daily hospital occupancy,806.0,Czechia
-2023-12-02,Daily hospital occupancy,697.0,Czechia
+2023-11-30,Daily hospital occupancy,762.0,Czechia
+2023-12-01,Daily hospital occupancy,807.0,Czechia
+2023-12-02,Daily hospital occupancy,698.0,Czechia
 2023-12-03,Daily hospital occupancy,723.0,Czechia
 2023-12-04,Daily hospital occupancy,907.0,Czechia
 2023-12-05,Daily hospital occupancy,930.0,Czechia
@@ -4321,9 +4321,10 @@ date,indicator,value,entity
 2024-02-12,Daily hospital occupancy,64.0,Czechia
 2024-02-13,Daily hospital occupancy,64.0,Czechia
 2024-02-14,Daily hospital occupancy,57.0,Czechia
-2024-02-15,Daily hospital occupancy,44.0,Czechia
-2024-02-16,Daily hospital occupancy,44.0,Czechia
-2024-02-17,Daily hospital occupancy,33.0,Czechia
+2024-02-15,Daily hospital occupancy,45.0,Czechia
+2024-02-16,Daily hospital occupancy,39.0,Czechia
+2024-02-17,Daily hospital occupancy,27.0,Czechia
+2024-02-18,Daily hospital occupancy,26.0,Czechia
 2020-03-01,Daily ICU occupancy,0.0,Czechia
 2020-03-02,Daily ICU occupancy,0.0,Czechia
 2020-03-03,Daily ICU occupancy,0.0,Czechia
@@ -5407,7 +5408,7 @@ date,indicator,value,entity
 2023-02-14,Daily ICU occupancy,37.0,Czechia
 2023-02-15,Daily ICU occupancy,33.0,Czechia
 2023-02-16,Daily ICU occupancy,38.0,Czechia
-2023-02-17,Daily ICU occupancy,45.0,Czechia
+2023-02-17,Daily ICU occupancy,44.0,Czechia
 2023-02-18,Daily ICU occupancy,46.0,Czechia
 2023-02-19,Daily ICU occupancy,48.0,Czechia
 2023-02-20,Daily ICU occupancy,49.0,Czechia
@@ -5770,6 +5771,7 @@ date,indicator,value,entity
 2024-02-12,Daily ICU occupancy,12.0,Czechia
 2024-02-13,Daily ICU occupancy,10.0,Czechia
 2024-02-14,Daily ICU occupancy,9.0,Czechia
-2024-02-15,Daily ICU occupancy,5.0,Czechia
-2024-02-16,Daily ICU occupancy,3.0,Czechia
-2024-02-17,Daily ICU occupancy,2.0,Czechia
+2024-02-15,Daily ICU occupancy,6.0,Czechia
+2024-02-16,Daily ICU occupancy,2.0,Czechia
+2024-02-17,Daily ICU occupancy,0.0,Czechia
+2024-02-18,Daily ICU occupancy,0.0,Czechia
