@@ -12912,43 +12912,45 @@ Czechia,2024-01-24,Pfizer/BioNTech,16049033
 Czechia,2024-01-25,Novavax,11468
 Czechia,2024-01-25,Pfizer/BioNTech,16049661
 Czechia,2024-01-26,Novavax,11478
-Czechia,2024-01-26,Pfizer/BioNTech,16050206
-Czechia,2024-01-27,Pfizer/BioNTech,16050208
+Czechia,2024-01-26,Pfizer/BioNTech,16050207
+Czechia,2024-01-27,Pfizer/BioNTech,16050209
 Czechia,2024-01-29,Novavax,11480
-Czechia,2024-01-29,Pfizer/BioNTech,16050572
+Czechia,2024-01-29,Pfizer/BioNTech,16050573
 Czechia,2024-01-30,Novavax,11488
-Czechia,2024-01-30,Pfizer/BioNTech,16050883
+Czechia,2024-01-30,Pfizer/BioNTech,16050884
 Czechia,2024-01-31,Novavax,11492
-Czechia,2024-01-31,Pfizer/BioNTech,16051241
+Czechia,2024-01-31,Pfizer/BioNTech,16051242
 Czechia,2024-02-01,Novavax,11495
-Czechia,2024-02-01,Pfizer/BioNTech,16051505
+Czechia,2024-02-01,Pfizer/BioNTech,16051506
 Czechia,2024-02-02,Novavax,11504
-Czechia,2024-02-02,Pfizer/BioNTech,16051765
-Czechia,2024-02-03,Pfizer/BioNTech,16051768
+Czechia,2024-02-02,Pfizer/BioNTech,16051766
+Czechia,2024-02-03,Pfizer/BioNTech,16051769
 Czechia,2024-02-04,Moderna,1642801
 Czechia,2024-02-05,Novavax,11505
-Czechia,2024-02-05,Pfizer/BioNTech,16051893
+Czechia,2024-02-05,Pfizer/BioNTech,16051894
 Czechia,2024-02-06,Novavax,11513
-Czechia,2024-02-06,Pfizer/BioNTech,16052045
+Czechia,2024-02-06,Pfizer/BioNTech,16052046
 Czechia,2024-02-07,Novavax,11530
-Czechia,2024-02-07,Pfizer/BioNTech,16052212
-Czechia,2024-02-08,Pfizer/BioNTech,16052365
+Czechia,2024-02-07,Pfizer/BioNTech,16052213
+Czechia,2024-02-08,Pfizer/BioNTech,16052366
 Czechia,2024-02-09,Novavax,11534
-Czechia,2024-02-09,Pfizer/BioNTech,16052478
-Czechia,2024-02-12,Pfizer/BioNTech,16052535
+Czechia,2024-02-09,Pfizer/BioNTech,16052479
+Czechia,2024-02-12,Pfizer/BioNTech,16052536
 Czechia,2024-02-13,Novavax,11539
-Czechia,2024-02-13,Pfizer/BioNTech,16052642
+Czechia,2024-02-13,Pfizer/BioNTech,16052643
 Czechia,2024-02-14,Novavax,11546
-Czechia,2024-02-14,Pfizer/BioNTech,16052801
-Czechia,2024-02-15,Pfizer/BioNTech,16052909
-Czechia,2024-02-16,Pfizer/BioNTech,16052993
-Czechia,2024-02-19,Pfizer/BioNTech,16053032
+Czechia,2024-02-14,Pfizer/BioNTech,16052802
+Czechia,2024-02-15,Pfizer/BioNTech,16052910
+Czechia,2024-02-16,Pfizer/BioNTech,16053005
+Czechia,2024-02-19,Pfizer/BioNTech,16053044
 Czechia,2024-02-20,Novavax,11549
-Czechia,2024-02-20,Pfizer/BioNTech,16053103
-Czechia,2024-02-21,Pfizer/BioNTech,16053168
+Czechia,2024-02-20,Pfizer/BioNTech,16053115
+Czechia,2024-02-21,Pfizer/BioNTech,16053182
 Czechia,2024-02-22,Moderna,1642802
 Czechia,2024-02-22,Novavax,11550
-Czechia,2024-02-22,Pfizer/BioNTech,16053231
+Czechia,2024-02-22,Pfizer/BioNTech,16053256
+Czechia,2024-02-23,Novavax,11551
+Czechia,2024-02-23,Pfizer/BioNTech,16053314
 Denmark,2020-12-18,Pfizer/BioNTech,2
 Denmark,2020-12-25,Moderna,1
 Denmark,2020-12-25,Pfizer/BioNTech,10
@@ -67012,7 +67014,7 @@ European Union,2024-01-26,Johnson&Johnson,18698746
 European Union,2024-01-26,Moderna,156357724
 European Union,2024-01-26,Novavax,310207
 European Union,2024-01-26,Oxford/AstraZeneca,67182963
-European Union,2024-01-26,Pfizer/BioNTech,664600134
+European Union,2024-01-26,Pfizer/BioNTech,664600135
 European Union,2024-01-26,Sanofi/GSK,5458
 European Union,2024-01-26,Sinopharm/Beijing,2320663
 European Union,2024-01-26,Sinovac,10660
@@ -67023,7 +67025,7 @@ European Union,2024-01-27,Johnson&Johnson,18698746
 European Union,2024-01-27,Moderna,156357724
 European Union,2024-01-27,Novavax,310207
 European Union,2024-01-27,Oxford/AstraZeneca,67182963
-European Union,2024-01-27,Pfizer/BioNTech,664600136
+European Union,2024-01-27,Pfizer/BioNTech,664600137
 European Union,2024-01-27,Sanofi/GSK,5458
 European Union,2024-01-27,Sinopharm/Beijing,2320663
 European Union,2024-01-27,Sinovac,10660
@@ -67034,7 +67036,7 @@ European Union,2024-01-29,Johnson&Johnson,18698746
 European Union,2024-01-29,Moderna,156357724
 European Union,2024-01-29,Novavax,310209
 European Union,2024-01-29,Oxford/AstraZeneca,67182963
-European Union,2024-01-29,Pfizer/BioNTech,664600500
+European Union,2024-01-29,Pfizer/BioNTech,664600501
 European Union,2024-01-29,Sanofi/GSK,5458
 European Union,2024-01-29,Sinopharm/Beijing,2320663
 European Union,2024-01-29,Sinovac,10660
@@ -67045,7 +67047,7 @@ European Union,2024-01-30,Johnson&Johnson,18698746
 European Union,2024-01-30,Moderna,156357724
 European Union,2024-01-30,Novavax,310217
 European Union,2024-01-30,Oxford/AstraZeneca,67182963
-European Union,2024-01-30,Pfizer/BioNTech,664600811
+European Union,2024-01-30,Pfizer/BioNTech,664600812
 European Union,2024-01-30,Sanofi/GSK,5458
 European Union,2024-01-30,Sinopharm/Beijing,2320663
 European Union,2024-01-30,Sinovac,10660
@@ -67056,7 +67058,7 @@ European Union,2024-01-31,Johnson&Johnson,18698746
 European Union,2024-01-31,Moderna,156357724
 European Union,2024-01-31,Novavax,310221
 European Union,2024-01-31,Oxford/AstraZeneca,67182963
-European Union,2024-01-31,Pfizer/BioNTech,664601169
+European Union,2024-01-31,Pfizer/BioNTech,664601170
 European Union,2024-01-31,Sanofi/GSK,5458
 European Union,2024-01-31,Sinopharm/Beijing,2320663
 European Union,2024-01-31,Sinovac,10660
@@ -67067,7 +67069,7 @@ European Union,2024-02-01,Johnson&Johnson,18698746
 European Union,2024-02-01,Moderna,156357724
 European Union,2024-02-01,Novavax,310224
 European Union,2024-02-01,Oxford/AstraZeneca,67182963
-European Union,2024-02-01,Pfizer/BioNTech,664601433
+European Union,2024-02-01,Pfizer/BioNTech,664601434
 European Union,2024-02-01,Sanofi/GSK,5458
 European Union,2024-02-01,Sinopharm/Beijing,2320663
 European Union,2024-02-01,Sinovac,10660
@@ -67078,7 +67080,7 @@ European Union,2024-02-02,Johnson&Johnson,18698746
 European Union,2024-02-02,Moderna,156357724
 European Union,2024-02-02,Novavax,310233
 European Union,2024-02-02,Oxford/AstraZeneca,67182963
-European Union,2024-02-02,Pfizer/BioNTech,664601693
+European Union,2024-02-02,Pfizer/BioNTech,664601694
 European Union,2024-02-02,Sanofi/GSK,5458
 European Union,2024-02-02,Sinopharm/Beijing,2320663
 European Union,2024-02-02,Sinovac,10660
@@ -67089,7 +67091,7 @@ European Union,2024-02-03,Johnson&Johnson,18698746
 European Union,2024-02-03,Moderna,156357724
 European Union,2024-02-03,Novavax,310233
 European Union,2024-02-03,Oxford/AstraZeneca,67182963
-European Union,2024-02-03,Pfizer/BioNTech,664601696
+European Union,2024-02-03,Pfizer/BioNTech,664601697
 European Union,2024-02-03,Sanofi/GSK,5458
 European Union,2024-02-03,Sinopharm/Beijing,2320663
 European Union,2024-02-03,Sinovac,10660
@@ -67100,7 +67102,7 @@ European Union,2024-02-04,Johnson&Johnson,18698746
 European Union,2024-02-04,Moderna,156357725
 European Union,2024-02-04,Novavax,310233
 European Union,2024-02-04,Oxford/AstraZeneca,67182963
-European Union,2024-02-04,Pfizer/BioNTech,664601696
+European Union,2024-02-04,Pfizer/BioNTech,664601697
 European Union,2024-02-04,Sanofi/GSK,5458
 European Union,2024-02-04,Sinopharm/Beijing,2320663
 European Union,2024-02-04,Sinovac,10660
@@ -67111,7 +67113,7 @@ European Union,2024-02-05,Johnson&Johnson,18698746
 European Union,2024-02-05,Moderna,156357725
 European Union,2024-02-05,Novavax,310234
 European Union,2024-02-05,Oxford/AstraZeneca,67182963
-European Union,2024-02-05,Pfizer/BioNTech,664601821
+European Union,2024-02-05,Pfizer/BioNTech,664601822
 European Union,2024-02-05,Sanofi/GSK,5458
 European Union,2024-02-05,Sinopharm/Beijing,2320663
 European Union,2024-02-05,Sinovac,10660
@@ -67122,7 +67124,7 @@ European Union,2024-02-06,Johnson&Johnson,18698746
 European Union,2024-02-06,Moderna,156357725
 European Union,2024-02-06,Novavax,310242
 European Union,2024-02-06,Oxford/AstraZeneca,67182963
-European Union,2024-02-06,Pfizer/BioNTech,664601973
+European Union,2024-02-06,Pfizer/BioNTech,664601974
 European Union,2024-02-06,Sanofi/GSK,5458
 European Union,2024-02-06,Sinopharm/Beijing,2320663
 European Union,2024-02-06,Sinovac,10660
@@ -67133,7 +67135,7 @@ European Union,2024-02-07,Johnson&Johnson,18698746
 European Union,2024-02-07,Moderna,156357725
 European Union,2024-02-07,Novavax,310259
 European Union,2024-02-07,Oxford/AstraZeneca,67182963
-European Union,2024-02-07,Pfizer/BioNTech,664602140
+European Union,2024-02-07,Pfizer/BioNTech,664602141
 European Union,2024-02-07,Sanofi/GSK,5458
 European Union,2024-02-07,Sinopharm/Beijing,2320663
 European Union,2024-02-07,Sinovac,10660
@@ -67144,7 +67146,7 @@ European Union,2024-02-08,Johnson&Johnson,18698746
 European Union,2024-02-08,Moderna,156357725
 European Union,2024-02-08,Novavax,310259
 European Union,2024-02-08,Oxford/AstraZeneca,67182963
-European Union,2024-02-08,Pfizer/BioNTech,664602293
+European Union,2024-02-08,Pfizer/BioNTech,664602294
 European Union,2024-02-08,Sanofi/GSK,5458
 European Union,2024-02-08,Sinopharm/Beijing,2320663
 European Union,2024-02-08,Sinovac,10660
@@ -67155,7 +67157,7 @@ European Union,2024-02-09,Johnson&Johnson,18698746
 European Union,2024-02-09,Moderna,156357725
 European Union,2024-02-09,Novavax,310263
 European Union,2024-02-09,Oxford/AstraZeneca,67182963
-European Union,2024-02-09,Pfizer/BioNTech,664602406
+European Union,2024-02-09,Pfizer/BioNTech,664602407
 European Union,2024-02-09,Sanofi/GSK,5458
 European Union,2024-02-09,Sinopharm/Beijing,2320663
 European Union,2024-02-09,Sinovac,10660
@@ -67166,7 +67168,7 @@ European Union,2024-02-12,Johnson&Johnson,18698746
 European Union,2024-02-12,Moderna,156357725
 European Union,2024-02-12,Novavax,310263
 European Union,2024-02-12,Oxford/AstraZeneca,67182963
-European Union,2024-02-12,Pfizer/BioNTech,664602463
+European Union,2024-02-12,Pfizer/BioNTech,664602464
 European Union,2024-02-12,Sanofi/GSK,5458
 European Union,2024-02-12,Sinopharm/Beijing,2320663
 European Union,2024-02-12,Sinovac,10660
@@ -67177,7 +67179,7 @@ European Union,2024-02-13,Johnson&Johnson,18698746
 European Union,2024-02-13,Moderna,156357725
 European Union,2024-02-13,Novavax,310268
 European Union,2024-02-13,Oxford/AstraZeneca,67182963
-European Union,2024-02-13,Pfizer/BioNTech,664602570
+European Union,2024-02-13,Pfizer/BioNTech,664602571
 European Union,2024-02-13,Sanofi/GSK,5458
 European Union,2024-02-13,Sinopharm/Beijing,2320663
 European Union,2024-02-13,Sinovac,10660
@@ -67188,7 +67190,7 @@ European Union,2024-02-14,Johnson&Johnson,18698746
 European Union,2024-02-14,Moderna,156357725
 European Union,2024-02-14,Novavax,310275
 European Union,2024-02-14,Oxford/AstraZeneca,67182963
-European Union,2024-02-14,Pfizer/BioNTech,664602729
+European Union,2024-02-14,Pfizer/BioNTech,664602730
 European Union,2024-02-14,Sanofi/GSK,5458
 European Union,2024-02-14,Sinopharm/Beijing,2320663
 European Union,2024-02-14,Sinovac,10660
@@ -67199,7 +67201,7 @@ European Union,2024-02-15,Johnson&Johnson,18698746
 European Union,2024-02-15,Moderna,156357725
 European Union,2024-02-15,Novavax,310275
 European Union,2024-02-15,Oxford/AstraZeneca,67182963
-European Union,2024-02-15,Pfizer/BioNTech,664602837
+European Union,2024-02-15,Pfizer/BioNTech,664602838
 European Union,2024-02-15,Sanofi/GSK,5458
 European Union,2024-02-15,Sinopharm/Beijing,2320663
 European Union,2024-02-15,Sinovac,10660
@@ -67210,7 +67212,7 @@ European Union,2024-02-16,Johnson&Johnson,18698746
 European Union,2024-02-16,Moderna,156357725
 European Union,2024-02-16,Novavax,310275
 European Union,2024-02-16,Oxford/AstraZeneca,67182963
-European Union,2024-02-16,Pfizer/BioNTech,664602921
+European Union,2024-02-16,Pfizer/BioNTech,664602933
 European Union,2024-02-16,Sanofi/GSK,5458
 European Union,2024-02-16,Sinopharm/Beijing,2320663
 European Union,2024-02-16,Sinovac,10660
@@ -67221,7 +67223,7 @@ European Union,2024-02-19,Johnson&Johnson,18698746
 European Union,2024-02-19,Moderna,156357725
 European Union,2024-02-19,Novavax,310275
 European Union,2024-02-19,Oxford/AstraZeneca,67182963
-European Union,2024-02-19,Pfizer/BioNTech,664602960
+European Union,2024-02-19,Pfizer/BioNTech,664602972
 European Union,2024-02-19,Sanofi/GSK,5458
 European Union,2024-02-19,Sinopharm/Beijing,2320663
 European Union,2024-02-19,Sinovac,10660
@@ -67232,7 +67234,7 @@ European Union,2024-02-20,Johnson&Johnson,18698746
 European Union,2024-02-20,Moderna,156357725
 European Union,2024-02-20,Novavax,310278
 European Union,2024-02-20,Oxford/AstraZeneca,67182963
-European Union,2024-02-20,Pfizer/BioNTech,664603031
+European Union,2024-02-20,Pfizer/BioNTech,664603043
 European Union,2024-02-20,Sanofi/GSK,5458
 European Union,2024-02-20,Sinopharm/Beijing,2320663
 European Union,2024-02-20,Sinovac,10660
@@ -67243,7 +67245,7 @@ European Union,2024-02-21,Johnson&Johnson,18698746
 European Union,2024-02-21,Moderna,156357725
 European Union,2024-02-21,Novavax,310278
 European Union,2024-02-21,Oxford/AstraZeneca,67182963
-European Union,2024-02-21,Pfizer/BioNTech,664603096
+European Union,2024-02-21,Pfizer/BioNTech,664603110
 European Union,2024-02-21,Sanofi/GSK,5458
 European Union,2024-02-21,Sinopharm/Beijing,2320663
 European Union,2024-02-21,Sinovac,10660
@@ -67254,9 +67256,20 @@ European Union,2024-02-22,Johnson&Johnson,18698746
 European Union,2024-02-22,Moderna,156357726
 European Union,2024-02-22,Novavax,310279
 European Union,2024-02-22,Oxford/AstraZeneca,67182963
-European Union,2024-02-22,Pfizer/BioNTech,664603159
+European Union,2024-02-22,Pfizer/BioNTech,664603184
 European Union,2024-02-22,Sanofi/GSK,5458
 European Union,2024-02-22,Sinopharm/Beijing,2320663
 European Union,2024-02-22,Sinovac,10660
 European Union,2024-02-22,Sputnik V,1845404
 European Union,2024-02-22,Valneva,10193
+European Union,2024-02-23,Covaxin,178
+European Union,2024-02-23,Johnson&Johnson,18698746
+European Union,2024-02-23,Moderna,156357726
+European Union,2024-02-23,Novavax,310280
+European Union,2024-02-23,Oxford/AstraZeneca,67182963
+European Union,2024-02-23,Pfizer/BioNTech,664603242
+European Union,2024-02-23,Sanofi/GSK,5458
+European Union,2024-02-23,Sinopharm/Beijing,2320663
+European Union,2024-02-23,Sinovac,10660
+European Union,2024-02-23,Sputnik V,1845404
+European Union,2024-02-23,Valneva,10193
