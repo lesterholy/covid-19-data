@@ -31,6 +31,8 @@ def process_data(df: pd.DataFrame, API, server_mode):
     df = format_table(df)
     # HOTFIX: remove countries with name set to NaN
     df = df[~df["location"].isna()]
+    # Remove invalid locations
+    df = df[~df["location"].isin(["Icvanuatu", "Ickiribati"])]
     # Remove zero-values
     # df = df[(df["total_cases"] > 0) | (df["total_deaths"] > 0)]
     # Harmonize country names
