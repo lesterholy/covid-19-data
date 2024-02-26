@@ -38,9 +38,21 @@ def process_data(df: pd.DataFrame, API, server_mode):
     # Harmonize country names
     df = harmonize_country_names(df, API, server_mode)
     # Handle country-specific issues
-    # df = handle_country_issues(df)
+    # Aggregate International
+    df = aggregate_international(df)
     # Sort rows by country and date
     df = df.sort_values(["location", "date"])
+    return df
+
+
+def aggregate_international(df: pd.DataFrame) -> pd.DataFrame:
+    # Sanity check
+    x = df.groupby(["location", "date"]).size()
+    countries_duplicate = x[x > 1].index
+    countries_duplicate = set(i[0] for i in countries_duplicate)
+    assert countries_duplicate == {"International"}, "There are unexpected duplicates!"
+    # Aggregate
+    df = df.groupby(["location", "date"]).sum(min_count=1).reset_index()
     return df
 
 

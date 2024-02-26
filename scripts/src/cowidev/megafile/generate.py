@@ -77,10 +77,7 @@ def load_data(logger, old=False):
     excluded = [
         "Summer Olympics 2020",
         "Winter Olympics 2022",
-        "Diamond (ship)",
-        "Chefoo (ship)",
-        "Fesco (ship)",
-        "Charo (ship)",
+        "International",
     ]
     all_covid = all_covid[-all_covid.location.isin(excluded)]
 
