@@ -6,7 +6,7 @@ from cowidev.cases_deaths.params import API
 from cowidev.utils.web.download import read_csv_from_url
 
 URL = "https://data.who.int/dashboards/covid19//WHO-COVID-19-global-data.csv"
-
+URL = "https://covid19.who.int/WHO-COVID-19-global-data.csv"
 
 def load_data(server_mode):
     """Load WHO data"""
