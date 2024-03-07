@@ -41,10 +41,10 @@ def fill_date_gaps(df):
     We do this by:
         - Reindexing the dataframe to have all dates for all locations.
         - Filling in NaNs with zeroes, for daily indicators.
-        - Filling in NaNs with the last non-NaN value, for cumulative indicators (forward filling).    
+        - Filling in NaNs with the last non-NaN value, for cumulative indicators (forward filling).
     """
     # Ensure date is of type date
-    df["date"] = pd.to_datetime(df["date"])
+    df["date"] = pd.to_datetime(df["date"], format="%d/%m/%y")
 
     # Get set of locations
     locations = set(df["location"])
