@@ -44,7 +44,7 @@ def fill_date_gaps(df):
         - Filling in NaNs with the last non-NaN value, for cumulative indicators (forward filling).
     """
     # Ensure date is of type date
-    df["date"] = pd.to_datetime(df["date"], format="%d/%m/%y")
+    df["date"] = pd.to_datetime(df["date"], format="%Y-%m-%d")
 
     # Get set of locations
     locations = set(df["location"])
