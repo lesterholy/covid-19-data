@@ -201,6 +201,7 @@ date,indicator,value,entity
 2024-02-28,Daily hospital occupancy,16716.0,Japan
 2024-03-06,Daily hospital occupancy,14892.0,Japan
 2024-03-13,Daily hospital occupancy,13954.0,Japan
+2024-03-20,Daily hospital occupancy,13019.0,Japan
 2020-05-07,Daily ICU occupancy,341.0,Japan
 2020-05-13,Daily ICU occupancy,251.0,Japan
 2020-05-21,Daily ICU occupancy,184.0,Japan
@@ -402,3 +403,4 @@ date,indicator,value,entity
 2024-02-28,Daily ICU occupancy,259.0,Japan
 2024-03-06,Daily ICU occupancy,210.0,Japan
 2024-03-13,Daily ICU occupancy,210.0,Japan
+2024-03-20,Daily ICU occupancy,173.0,Japan
