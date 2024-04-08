@@ -4469,8 +4469,9 @@ date,indicator,value,entity
 2024-04-02,Daily hospital occupancy,8.0,Czechia
 2024-04-03,Daily hospital occupancy,9.0,Czechia
 2024-04-04,Daily hospital occupancy,10.0,Czechia
-2024-04-05,Daily hospital occupancy,7.0,Czechia
-2024-04-06,Daily hospital occupancy,5.0,Czechia
+2024-04-05,Daily hospital occupancy,6.0,Czechia
+2024-04-06,Daily hospital occupancy,4.0,Czechia
+2024-04-07,Daily hospital occupancy,4.0,Czechia
 2020-03-01,Daily ICU occupancy,0.0,Czechia
 2020-03-02,Daily ICU occupancy,0.0,Czechia
 2020-03-03,Daily ICU occupancy,0.0,Czechia
@@ -4748,7 +4749,7 @@ date,indicator,value,entity
 2020-11-30,Daily ICU occupancy,791.0,Czechia
 2020-12-01,Daily ICU occupancy,733.0,Czechia
 2020-12-02,Daily ICU occupancy,717.0,Czechia
-2020-12-03,Daily ICU occupancy,718.0,Czechia
+2020-12-03,Daily ICU occupancy,719.0,Czechia
 2020-12-04,Daily ICU occupancy,715.0,Czechia
 2020-12-05,Daily ICU occupancy,692.0,Czechia
 2020-12-06,Daily ICU occupancy,680.0,Czechia
@@ -4788,7 +4789,7 @@ date,indicator,value,entity
 2021-01-09,Daily ICU occupancy,1149.0,Czechia
 2021-01-10,Daily ICU occupancy,1177.0,Czechia
 2021-01-11,Daily ICU occupancy,1190.0,Czechia
-2021-01-12,Daily ICU occupancy,1178.0,Czechia
+2021-01-12,Daily ICU occupancy,1179.0,Czechia
 2021-01-13,Daily ICU occupancy,1174.0,Czechia
 2021-01-14,Daily ICU occupancy,1185.0,Czechia
 2021-01-15,Daily ICU occupancy,1175.0,Czechia
@@ -5554,7 +5555,7 @@ date,indicator,value,entity
 2023-02-14,Daily ICU occupancy,37.0,Czechia
 2023-02-15,Daily ICU occupancy,33.0,Czechia
 2023-02-16,Daily ICU occupancy,38.0,Czechia
-2023-02-17,Daily ICU occupancy,44.0,Czechia
+2023-02-17,Daily ICU occupancy,45.0,Czechia
 2023-02-18,Daily ICU occupancy,46.0,Czechia
 2023-02-19,Daily ICU occupancy,48.0,Czechia
 2023-02-20,Daily ICU occupancy,49.0,Czechia
@@ -5969,3 +5970,4 @@ date,indicator,value,entity
 2024-04-04,Daily ICU occupancy,2.0,Czechia
 2024-04-05,Daily ICU occupancy,0.0,Czechia
 2024-04-06,Daily ICU occupancy,0.0,Czechia
+2024-04-07,Daily ICU occupancy,0.0,Czechia
