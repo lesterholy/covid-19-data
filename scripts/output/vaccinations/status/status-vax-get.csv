@@ -1,23 +1,23 @@
 module,execution_time (sec),success,timestamp,error,error_short
-cowidev.vax.batch.argentina,12.41,True,2024-04-09T07:00:20,,
-cowidev.vax.batch.australia,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.austria_old,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.belgium,20.92,True,2024-04-09T07:00:28,,
-cowidev.vax.batch.bolivia,2.51,True,2024-04-09T07:00:10,,
-cowidev.vax.batch.canada,19.11,True,2024-04-09T07:00:26,,
-cowidev.vax.batch.chile,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.czechia,43.17,True,2024-04-09T07:00:50,,
-cowidev.vax.batch.denmark,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.ecdc,102.99,True,2024-04-09T07:01:50,,
-cowidev.vax.batch.ecuador,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.estonia,1.1,True,2024-04-09T07:00:08,,
-cowidev.vax.batch.france,1.29,True,2024-04-09T07:00:08,,
-cowidev.vax.batch.germany,0.14,True,2024-04-09T07:00:07,,
-cowidev.vax.batch.greece,18.68,True,2024-04-09T07:00:26,,
-cowidev.vax.batch.hong_kong,18.34,True,2024-04-09T07:00:26,,
-cowidev.vax.batch.indonesia,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.ireland,9.96,True,2024-04-09T07:00:17,,
-cowidev.vax.batch.israel,0.17,False,2024-04-09T07:02:04,"Traceback (most recent call last):
+cowidev.vax.batch.argentina,11.11,True,2024-04-10T07:00:18,,
+cowidev.vax.batch.australia,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.austria_old,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.belgium,20.09,True,2024-04-10T07:00:27,,
+cowidev.vax.batch.bolivia,2.76,True,2024-04-10T07:00:09,,
+cowidev.vax.batch.canada,18.62,True,2024-04-10T07:00:25,,
+cowidev.vax.batch.chile,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.czechia,42.0,True,2024-04-10T07:00:48,,
+cowidev.vax.batch.denmark,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.ecdc,101.61,True,2024-04-10T07:01:48,,
+cowidev.vax.batch.ecuador,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.estonia,1.12,True,2024-04-10T07:00:08,,
+cowidev.vax.batch.france,1.41,True,2024-04-10T07:00:08,,
+cowidev.vax.batch.germany,0.2,True,2024-04-10T07:00:07,,
+cowidev.vax.batch.greece,18.15,True,2024-04-10T07:00:25,,
+cowidev.vax.batch.hong_kong,16.59,True,2024-04-10T07:00:23,,
+cowidev.vax.batch.indonesia,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.ireland,1.59,True,2024-04-10T07:00:08,,
+cowidev.vax.batch.israel,0.17,False,2024-04-10T07:02:01,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/israel.py"", line 189, in main
@@ -36,31 +36,31 @@ cowidev.vax.batch.israel,0.17,False,2024-04-09T07:02:04,"Traceback (most recent 
     raise JSONDecodeError(""Expecting value"", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 3 column 2 (char 3)
 ",Expecting value: line 3 column 2 (char 3)
-cowidev.vax.batch.italy,14.75,True,2024-04-09T07:00:22,,
-cowidev.vax.batch.japan,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.jersey,1.15,True,2024-04-09T07:00:08,,
-cowidev.vax.batch.latvia,42.95,True,2024-04-09T07:00:50,,
-cowidev.vax.batch.lithuania,2.47,True,2024-04-09T07:00:10,,
-cowidev.vax.batch.luxembourg,2.31,True,2024-04-09T07:00:10,,
-cowidev.vax.batch.malaysia,1.03,True,2024-04-09T07:00:08,,
-cowidev.vax.batch.malta,0.93,True,2024-04-09T07:00:08,,
-cowidev.vax.batch.netherlands,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.new_zealand,17.54,True,2024-04-09T07:00:25,,
-cowidev.vax.batch.norway,0.45,True,2024-04-09T07:00:08,,
-cowidev.vax.batch.peru,3.25,True,2024-04-09T07:00:10,,
-cowidev.vax.batch.portugal,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.romania,19.21,True,2024-04-09T07:00:26,,
-cowidev.vax.batch.saudi_arabia,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.singapore,2.31,True,2024-04-09T07:00:10,,
-cowidev.vax.batch.slovakia,40.33,True,2024-04-09T07:00:48,,
-cowidev.vax.batch.slovenia,0.66,True,2024-04-09T07:00:08,,
-cowidev.vax.batch.south_korea,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.spc,27.86,True,2024-04-09T07:00:35,,
-cowidev.vax.batch.sweden,17.69,True,2024-04-09T07:00:25,,
-cowidev.vax.batch.switzerland,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.trinidad_and_tobago,1.99,True,2024-04-09T07:00:09,,
-cowidev.vax.batch.ukraine,,,2024-04-09T07:00:07,,
-cowidev.vax.batch.united_kingdom,0.02,False,2024-04-09T07:02:04,"Traceback (most recent call last):
+cowidev.vax.batch.italy,14.73,True,2024-04-10T07:00:21,,
+cowidev.vax.batch.japan,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.jersey,1.06,True,2024-04-10T07:00:08,,
+cowidev.vax.batch.latvia,41.54,True,2024-04-10T07:00:48,,
+cowidev.vax.batch.lithuania,2.73,True,2024-04-10T07:00:09,,
+cowidev.vax.batch.luxembourg,1.51,True,2024-04-10T07:00:08,,
+cowidev.vax.batch.malaysia,0.93,True,2024-04-10T07:00:07,,
+cowidev.vax.batch.malta,0.77,True,2024-04-10T07:00:07,,
+cowidev.vax.batch.netherlands,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.new_zealand,12.54,True,2024-04-10T07:00:19,,
+cowidev.vax.batch.norway,0.71,True,2024-04-10T07:00:07,,
+cowidev.vax.batch.peru,2.78,True,2024-04-10T07:00:09,,
+cowidev.vax.batch.portugal,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.romania,18.59,True,2024-04-10T07:00:25,,
+cowidev.vax.batch.saudi_arabia,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.singapore,1.14,True,2024-04-10T07:00:08,,
+cowidev.vax.batch.slovakia,38.59,True,2024-04-10T07:00:45,,
+cowidev.vax.batch.slovenia,0.72,True,2024-04-10T07:00:07,,
+cowidev.vax.batch.south_korea,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.spc,19.28,True,2024-04-10T07:00:26,,
+cowidev.vax.batch.sweden,9.06,True,2024-04-10T07:00:16,,
+cowidev.vax.batch.switzerland,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.trinidad_and_tobago,1.9,True,2024-04-10T07:00:08,,
+cowidev.vax.batch.ukraine,,,2024-04-10T07:00:06,,
+cowidev.vax.batch.united_kingdom,0.02,False,2024-04-10T07:02:01,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/connection.py"", line 174, in _new_conn
     conn = connection.create_connection(
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/util/connection.py"", line 72, in create_connection
@@ -82,7 +82,7 @@ Traceback (most recent call last):
     self.sock = conn = self._new_conn()
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/connection.py"", line 186, in _new_conn
     raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f0b5e640400>: Failed to establish a new connection: [Errno -2] Name or service not known
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fa2b017aef0>: Failed to establish a new connection: [Errno -2] Name or service not known
 
 During handling of the above exception, another exception occurred:
 
@@ -93,7 +93,7 @@ Traceback (most recent call last):
     retries = retries.increment(
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/util/retry.py"", line 592, in increment
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.coronavirus.data.gov.uk', port=443): Max retries exceeded with url: /v1/data?filters=areaType%3Doverview&structure=%7B%22date%22%3A%22date%22%2C%22location%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22people_vaccinated%22%3A%22cumPeopleVaccinatedFirstDoseByPublishDate%22%2C%22people_fully_vaccinated%22%3A%22cumPeopleVaccinatedSecondDoseByPublishDate%22%2C%22total_vaccinations%22%3A%22cumVaccinesGivenByPublishDate%22%2C%22total_boosters%22%3A%22cumPeopleVaccinatedThirdInjectionByPublishDate%22%2C%22vaccinations_age%22%3A%22vaccinationsAgeDemographics%22%7D&format=json&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0b5e640400>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.coronavirus.data.gov.uk', port=443): Max retries exceeded with url: /v1/data?filters=areaType%3Doverview&structure=%7B%22date%22%3A%22date%22%2C%22location%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22people_vaccinated%22%3A%22cumPeopleVaccinatedFirstDoseByPublishDate%22%2C%22people_fully_vaccinated%22%3A%22cumPeopleVaccinatedSecondDoseByPublishDate%22%2C%22total_vaccinations%22%3A%22cumVaccinesGivenByPublishDate%22%2C%22total_boosters%22%3A%22cumPeopleVaccinatedThirdInjectionByPublishDate%22%2C%22vaccinations_age%22%3A%22vaccinationsAgeDemographics%22%7D&format=json&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2b017aef0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
 
 During handling of the above exception, another exception occurred:
 
@@ -122,11 +122,11 @@ Traceback (most recent call last):
     r = adapter.send(request, **kwargs)
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/requests/adapters.py"", line 519, in send
     raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.coronavirus.data.gov.uk', port=443): Max retries exceeded with url: /v1/data?filters=areaType%3Doverview&structure=%7B%22date%22%3A%22date%22%2C%22location%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22people_vaccinated%22%3A%22cumPeopleVaccinatedFirstDoseByPublishDate%22%2C%22people_fully_vaccinated%22%3A%22cumPeopleVaccinatedSecondDoseByPublishDate%22%2C%22total_vaccinations%22%3A%22cumVaccinesGivenByPublishDate%22%2C%22total_boosters%22%3A%22cumPeopleVaccinatedThirdInjectionByPublishDate%22%2C%22vaccinations_age%22%3A%22vaccinationsAgeDemographics%22%7D&format=json&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0b5e640400>: Failed to establish a new connection: [Errno -2] Name or service not known'))
-","HTTPSConnectionPool(host='api.coronavirus.data.gov.uk', port=443): Max retries exceeded with url: /v1/data?filters=areaType%3Doverview&structure=%7B%22date%22%3A%22date%22%2C%22location%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22people_vaccinated%22%3A%22cumPeopleVaccinatedFirstDoseByPublishDate%22%2C%22people_fully_vaccinated%22%3A%22cumPeopleVaccinatedSecondDoseByPublishDate%22%2C%22total_vaccinations%22%3A%22cumVaccinesGivenByPublishDate%22%2C%22total_boosters%22%3A%22cumPeopleVaccinatedThirdInjectionByPublishDate%22%2C%22vaccinations_age%22%3A%22vaccinationsAgeDemographics%22%7D&format=json&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0b5e640400>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
-cowidev.vax.batch.united_states,13.96,True,2024-04-09T07:00:21,,
-cowidev.vax.batch.uruguay,2.38,True,2024-04-09T07:00:10,,
-cowidev.vax.batch.zimbabwe,0.21,False,2024-04-09T07:02:04,"Traceback (most recent call last):
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.coronavirus.data.gov.uk', port=443): Max retries exceeded with url: /v1/data?filters=areaType%3Doverview&structure=%7B%22date%22%3A%22date%22%2C%22location%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22people_vaccinated%22%3A%22cumPeopleVaccinatedFirstDoseByPublishDate%22%2C%22people_fully_vaccinated%22%3A%22cumPeopleVaccinatedSecondDoseByPublishDate%22%2C%22total_vaccinations%22%3A%22cumVaccinesGivenByPublishDate%22%2C%22total_boosters%22%3A%22cumPeopleVaccinatedThirdInjectionByPublishDate%22%2C%22vaccinations_age%22%3A%22vaccinationsAgeDemographics%22%7D&format=json&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2b017aef0>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+","HTTPSConnectionPool(host='api.coronavirus.data.gov.uk', port=443): Max retries exceeded with url: /v1/data?filters=areaType%3Doverview&structure=%7B%22date%22%3A%22date%22%2C%22location%22%3A%22areaName%22%2C%22areaCode%22%3A%22areaCode%22%2C%22people_vaccinated%22%3A%22cumPeopleVaccinatedFirstDoseByPublishDate%22%2C%22people_fully_vaccinated%22%3A%22cumPeopleVaccinatedSecondDoseByPublishDate%22%2C%22total_vaccinations%22%3A%22cumVaccinesGivenByPublishDate%22%2C%22total_boosters%22%3A%22cumPeopleVaccinatedThirdInjectionByPublishDate%22%2C%22vaccinations_age%22%3A%22vaccinationsAgeDemographics%22%7D&format=json&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2b017aef0>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+cowidev.vax.batch.united_states,12.37,True,2024-04-10T07:00:19,,
+cowidev.vax.batch.uruguay,1.9,True,2024-04-10T07:00:09,,
+cowidev.vax.batch.zimbabwe,0.22,False,2024-04-10T07:02:01,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/batch/zimbabwe.py"", line 76, in main
@@ -137,19 +137,19 @@ cowidev.vax.batch.zimbabwe,0.21,False,2024-04-09T07:02:04,"Traceback (most recen
     return pd.DataFrame.from_records(elem[""attributes""] for elem in data[""features""])
 KeyError: 'features'
 ",'features'
-cowidev.vax.incremental.africacdc,,,2024-04-09T07:00:08,,
-cowidev.vax.incremental.antigua_barbuda,,,2024-04-09T07:00:08,,
-cowidev.vax.incremental.aruba,1.94,True,2024-04-09T07:00:10,,
-cowidev.vax.incremental.austria,,,2024-04-09T07:00:08,,
-cowidev.vax.incremental.azerbaijan,,,2024-04-09T07:00:08,,
-cowidev.vax.incremental.bahrain,,,2024-04-09T07:00:08,,
-cowidev.vax.incremental.bangladesh,57.82,True,2024-04-09T07:01:06,,
-cowidev.vax.incremental.barbados,,,2024-04-09T07:00:08,,
-cowidev.vax.incremental.brazil,0.39,True,2024-04-09T07:00:08,,
-cowidev.vax.incremental.bulgaria,2.34,True,2024-04-09T07:00:10,,
-cowidev.vax.incremental.china,14.93,True,2024-04-09T07:00:23,,
-cowidev.vax.incremental.costa_rica,,,2024-04-09T07:00:08,,
-cowidev.vax.incremental.croatia,0.04,False,2024-04-09T07:02:04,"Traceback (most recent call last):
+cowidev.vax.incremental.africacdc,,,2024-04-10T07:00:07,,
+cowidev.vax.incremental.antigua_barbuda,,,2024-04-10T07:00:07,,
+cowidev.vax.incremental.aruba,1.41,True,2024-04-10T07:00:09,,
+cowidev.vax.incremental.austria,,,2024-04-10T07:00:07,,
+cowidev.vax.incremental.azerbaijan,,,2024-04-10T07:00:07,,
+cowidev.vax.incremental.bahrain,,,2024-04-10T07:00:07,,
+cowidev.vax.incremental.bangladesh,56.61,True,2024-04-10T07:01:04,,
+cowidev.vax.incremental.barbados,,,2024-04-10T07:00:07,,
+cowidev.vax.incremental.brazil,0.25,True,2024-04-10T07:00:07,,
+cowidev.vax.incremental.bulgaria,3.05,True,2024-04-10T07:00:10,,
+cowidev.vax.incremental.china,16.66,True,2024-04-10T07:00:24,,
+cowidev.vax.incremental.costa_rica,,,2024-04-10T07:00:08,,
+cowidev.vax.incremental.croatia,0.06,False,2024-04-10T07:02:01,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/connection.py"", line 174, in _new_conn
     conn = connection.create_connection(
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/util/connection.py"", line 72, in create_connection
@@ -171,7 +171,7 @@ Traceback (most recent call last):
     self.sock = conn = self._new_conn()
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/connection.py"", line 186, in _new_conn
     raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f0b5e640940>: Failed to establish a new connection: [Errno -2] Name or service not known
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7fa2b017b430>: Failed to establish a new connection: [Errno -2] Name or service not known
 
 During handling of the above exception, another exception occurred:
 
@@ -182,7 +182,7 @@ Traceback (most recent call last):
     retries = retries.increment(
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/util/retry.py"", line 592, in increment
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.koronavirus.hr', port=443): Max retries exceeded with url: /data/stats_latest.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0b5e640940>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.koronavirus.hr', port=443): Max retries exceeded with url: /data/stats_latest.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2b017b430>: Failed to establish a new connection: [Errno -2] Name or service not known'))
 
 During handling of the above exception, another exception occurred:
 
@@ -213,22 +213,36 @@ Traceback (most recent call last):
     r = adapter.send(request, **kwargs)
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/requests/adapters.py"", line 519, in send
     raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.koronavirus.hr', port=443): Max retries exceeded with url: /data/stats_latest.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0b5e640940>: Failed to establish a new connection: [Errno -2] Name or service not known'))
-","HTTPSConnectionPool(host='www.koronavirus.hr', port=443): Max retries exceeded with url: /data/stats_latest.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f0b5e640940>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
-cowidev.vax.incremental.cuba,26.59,True,2024-04-09T07:00:35,,
-cowidev.vax.incremental.curacao,,,2024-04-09T07:00:08,,
-cowidev.vax.incremental.cyprus,1.32,True,2024-04-09T07:00:10,,
-cowidev.vax.incremental.dominican_republic,16.05,True,2024-04-09T07:00:24,,
-cowidev.vax.incremental.el_salvador,9.33,True,2024-04-09T07:00:18,,
-cowidev.vax.incremental.faeroe_islands,1.2,True,2024-04-09T07:00:10,,
-cowidev.vax.incremental.fiji,0.0,True,2024-04-09T07:00:10,,
-cowidev.vax.incremental.finland,0.23,True,2024-04-09T07:00:10,,
-cowidev.vax.incremental.gabon,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.georgia,4.59,True,2024-04-09T07:00:14,,
-cowidev.vax.incremental.greenland,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.guatemala,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.guernsey,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.hungary,0.14,False,2024-04-09T07:02:04,"Traceback (most recent call last):
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.koronavirus.hr', port=443): Max retries exceeded with url: /data/stats_latest.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2b017b430>: Failed to establish a new connection: [Errno -2] Name or service not known'))
+","HTTPSConnectionPool(host='www.koronavirus.hr', port=443): Max retries exceeded with url: /data/stats_latest.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fa2b017b430>: Failed to establish a new connection: [Errno -2] Name or service not known'))"
+cowidev.vax.incremental.cuba,12.4,False,2024-04-10T07:02:14,"Traceback (most recent call last):
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
+    module.main()
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/cuba.py"", line 85, in main
+    Cuba().export()
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/cuba.py"", line 71, in export
+    data = self.read().pipe(self.pipeline)
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/cuba.py"", line 32, in read
+    return self._parse_data(soup)
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/cuba.py"", line 37, in _parse_data
+    ""date"": self._parse_date(soup),
+  File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/cuba.py"", line 44, in _parse_date
+    date_str = match.group(1)
+AttributeError: 'NoneType' object has no attribute 'group'
+",'NoneType' object has no attribute 'group'
+cowidev.vax.incremental.curacao,,,2024-04-10T07:00:08,,
+cowidev.vax.incremental.cyprus,1.57,True,2024-04-10T07:00:09,,
+cowidev.vax.incremental.dominican_republic,15.69,True,2024-04-10T07:00:23,,
+cowidev.vax.incremental.el_salvador,7.21,True,2024-04-10T07:00:15,,
+cowidev.vax.incremental.faeroe_islands,1.14,True,2024-04-10T07:00:09,,
+cowidev.vax.incremental.fiji,0.0,True,2024-04-10T07:00:08,,
+cowidev.vax.incremental.finland,0.55,True,2024-04-10T07:00:09,,
+cowidev.vax.incremental.gabon,,,2024-04-10T07:00:08,,
+cowidev.vax.incremental.georgia,1.5,True,2024-04-10T07:00:10,,
+cowidev.vax.incremental.greenland,,,2024-04-10T07:00:08,,
+cowidev.vax.incremental.guatemala,,,2024-04-10T07:00:08,,
+cowidev.vax.incremental.guernsey,,,2024-04-10T07:00:08,,
+cowidev.vax.incremental.hungary,0.13,False,2024-04-10T07:02:14,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/connectionpool.py"", line 703, in urlopen
     httplib_response = self._make_request(
   File ""/home/owid/covid-19-data/scripts/venv/lib/python3.10/site-packages/urllib3/connectionpool.py"", line 386, in _make_request
@@ -289,26 +303,26 @@ Traceback (most recent call last):
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='koronavirus.gov.hu', port=443): Max retries exceeded with url: /hirek?page=0/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)')))
 ","HTTPSConnectionPool(host='koronavirus.gov.hu', port=443): Max retries exceeded with url: /hirek?page=0/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)')))"
-cowidev.vax.incremental.iceland,2.42,True,2024-04-09T07:00:12,,
-cowidev.vax.incremental.india,2.92,True,2024-04-09T07:00:13,,
-cowidev.vax.incremental.iran,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.isle_of_man,2.59,True,2024-04-09T07:00:12,,
-cowidev.vax.incremental.jamaica,9.21,True,2024-04-09T07:00:19,,
-cowidev.vax.incremental.kazakhstan,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.kosovo,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.kyrgyzstan,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.laos,2.51,True,2024-04-09T07:02:07,,
-cowidev.vax.incremental.macao,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.moldova,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.monaco,81.51,True,2024-04-09T07:01:31,,
-cowidev.vax.incremental.mongolia,1.5,True,2024-04-09T07:00:12,,
-cowidev.vax.incremental.montenegro,0.28,True,2024-04-09T07:00:11,,
-cowidev.vax.incremental.morocco,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.myanmar,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.nepal,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.north_macedonia,,,2024-04-09T07:00:10,,
-cowidev.vax.incremental.northern_cyprus,5.1,True,2024-04-09T07:00:16,,
-cowidev.vax.incremental.paho,83.59,False,2024-04-09T07:03:30,"Traceback (most recent call last):
+cowidev.vax.incremental.iceland,2.31,True,2024-04-10T07:00:11,,
+cowidev.vax.incremental.india,7.52,True,2024-04-10T07:00:16,,
+cowidev.vax.incremental.iran,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.isle_of_man,3.45,True,2024-04-10T07:00:12,,
+cowidev.vax.incremental.jamaica,7.5,True,2024-04-10T07:00:16,,
+cowidev.vax.incremental.kazakhstan,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.kosovo,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.kyrgyzstan,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.laos,6.1,True,2024-04-10T07:02:20,,
+cowidev.vax.incremental.macao,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.moldova,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.monaco,102.6,True,2024-04-10T07:01:52,,
+cowidev.vax.incremental.mongolia,1.22,True,2024-04-10T07:00:10,,
+cowidev.vax.incremental.montenegro,0.23,True,2024-04-10T07:00:09,,
+cowidev.vax.incremental.morocco,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.myanmar,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.nepal,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.north_macedonia,,,2024-04-10T07:00:09,,
+cowidev.vax.incremental.northern_cyprus,4.36,True,2024-04-10T07:00:14,,
+cowidev.vax.incremental.paho,83.24,False,2024-04-10T07:03:43,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/paho.py"", line 196, in main
@@ -327,21 +341,21 @@ cowidev.vax.incremental.paho,83.59,False,2024-04-09T07:03:30,"Traceback (most re
     return func(obj, *args, **kwargs)
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/paho.py"", line 122, in pipe_check_columns
     raise ValueError(f""Missing column fields: {columns_missing}. Present columns are: {df.columns}"")
-ValueError: Missing column fields: {'2nd additional dose', 'Second dose', 'Country/ Territory', 'Single dose', 'Total doses', '1st additional dose', 'Country code', 'First dose'}. Present columns are: Index(['date,location,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters,new_vaccinations,new_vaccinations_interpolated,new_people_vaccinated_interpolated,new_vaccinations_smoothed,new_people_vaccinated_smoothed', 'date'], dtype='object')
-","Missing column fields: {'2nd additional dose', 'Second dose', 'Country/ Territory', 'Single dose', 'Total doses', '1st additional dose', 'Country code', 'First dose'}. Present columns are: Index(['date,location,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters,new_vaccinations,new_vaccinations_interpolated,new_people_vaccinated_interpolated,new_vaccinations_smoothed,new_people_vaccinated_smoothed', 'date'], dtype='object')"
-cowidev.vax.incremental.pakistan,,,2024-04-09T07:00:12,,
-cowidev.vax.incremental.philippines,,,2024-04-09T07:00:12,,
-cowidev.vax.incremental.poland,10.57,True,2024-04-09T07:00:22,,
-cowidev.vax.incremental.qatar,,,2024-04-09T07:00:12,,
-cowidev.vax.incremental.russia,14.65,True,2024-04-09T07:00:27,,
-cowidev.vax.incremental.saint_lucia,,,2024-04-09T07:00:12,,
-cowidev.vax.incremental.serbia,10.35,True,2024-04-09T07:00:23,,
-cowidev.vax.incremental.south_africa,,,2024-04-09T07:00:13,,
-cowidev.vax.incremental.spain,18.54,True,2024-04-09T07:00:31,,
-cowidev.vax.incremental.sri_lanka,,,2024-04-09T07:00:13,,
-cowidev.vax.incremental.suriname,14.4,True,2024-04-09T07:00:28,,
-cowidev.vax.incremental.taiwan,,,2024-04-09T07:00:14,,
-cowidev.vax.incremental.thailand,0.25,False,2024-04-09T07:03:31,"Traceback (most recent call last):
+ValueError: Missing column fields: {'Total doses', 'Country/ Territory', 'Second dose', 'Single dose', 'Country code', '1st additional dose', 'First dose', '2nd additional dose'}. Present columns are: Index(['date,location,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters,new_vaccinations,new_vaccinations_interpolated,new_people_vaccinated_interpolated,new_vaccinations_smoothed,new_people_vaccinated_smoothed', 'date'], dtype='object')
+","Missing column fields: {'Total doses', 'Country/ Territory', 'Second dose', 'Single dose', 'Country code', '1st additional dose', 'First dose', '2nd additional dose'}. Present columns are: Index(['date,location,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters,new_vaccinations,new_vaccinations_interpolated,new_people_vaccinated_interpolated,new_vaccinations_smoothed,new_people_vaccinated_smoothed', 'date'], dtype='object')"
+cowidev.vax.incremental.pakistan,,,2024-04-10T07:00:10,,
+cowidev.vax.incremental.philippines,,,2024-04-10T07:00:10,,
+cowidev.vax.incremental.poland,2.75,True,2024-04-10T07:00:12,,
+cowidev.vax.incremental.qatar,,,2024-04-10T07:00:10,,
+cowidev.vax.incremental.russia,14.47,True,2024-04-10T07:00:25,,
+cowidev.vax.incremental.saint_lucia,,,2024-04-10T07:00:10,,
+cowidev.vax.incremental.serbia,11.19,True,2024-04-10T07:00:22,,
+cowidev.vax.incremental.south_africa,,,2024-04-10T07:00:11,,
+cowidev.vax.incremental.spain,18.57,True,2024-04-10T07:00:29,,
+cowidev.vax.incremental.sri_lanka,,,2024-04-10T07:00:11,,
+cowidev.vax.incremental.suriname,14.29,True,2024-04-10T07:00:25,,
+cowidev.vax.incremental.taiwan,,,2024-04-10T07:00:11,,
+cowidev.vax.incremental.thailand,0.26,False,2024-04-10T07:03:43,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/thailand.py"", line 67, in main
@@ -362,11 +376,11 @@ cowidev.vax.incremental.thailand,0.25,False,2024-04-09T07:03:31,"Traceback (most
     raise JSONDecodeError(""Expecting value"", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 ",Expecting value: line 1 column 1 (char 0)
-cowidev.vax.incremental.turkey,,,2024-04-09T07:00:15,,
-cowidev.vax.incremental.united_arab_emirates,,,2024-04-09T07:00:15,,
-cowidev.vax.incremental.vietnam,,,2024-04-09T07:00:15,,
-cowidev.vax.incremental.who,14.9,True,2024-04-09T07:00:30,,
-cowidev.vax.incremental.zambia,0.24,False,2024-04-09T07:03:31,"Traceback (most recent call last):
+cowidev.vax.incremental.turkey,,,2024-04-10T07:00:12,,
+cowidev.vax.incremental.united_arab_emirates,,,2024-04-10T07:00:12,,
+cowidev.vax.incremental.vietnam,,,2024-04-10T07:00:12,,
+cowidev.vax.incremental.who,15.35,True,2024-04-10T07:00:27,,
+cowidev.vax.incremental.zambia,0.23,False,2024-04-10T07:03:44,"Traceback (most recent call last):
   File ""/home/owid/covid-19-data/scripts/src/cowidev/cmd/commons/get.py"", line 47, in run
     module.main()
   File ""/home/owid/covid-19-data/scripts/src/cowidev/vax/incremental/zambia.py"", line 74, in main
