@@ -1,3 +1,6 @@
+"""As of April 4, 2024, we no longer report COVID-19 hospital use. This is due to the limited amount of data available to report a valid national number and weekly trend. Please refer to provincial and territorial web pages for regional level information.
+"""
+
 import pandas as pd
 
 METADATA = {

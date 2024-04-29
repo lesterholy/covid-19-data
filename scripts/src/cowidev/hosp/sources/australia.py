@@ -1,3 +1,6 @@
+# NOTE from the author:
+# Note: From December 2023, we will no longer be updating this site due to the very minimal COVID-19 data reporting from the federal and state/territory governments.
+
 import io
 import requests
 
