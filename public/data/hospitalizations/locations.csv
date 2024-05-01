@@ -28,7 +28,7 @@ Latvia,LVA,2023-11-26,European Centre for Disease Prevention and Control,https:/
 Liechtenstein,LIE,2023-04-04,European Centre for Disease Prevention and Control,https://www.ecdc.europa.eu/en/publications-data/download-data-hospital-and-icu-admission-rates-and-current-occupancy-covid-19
 Lithuania,LTU,2023-11-26,European Centre for Disease Prevention and Control,https://www.ecdc.europa.eu/en/publications-data/download-data-hospital-and-icu-admission-rates-and-current-occupancy-covid-19
 Luxembourg,LUX,2023-03-30,European Centre for Disease Prevention and Control,https://www.ecdc.europa.eu/en/publications-data/download-data-hospital-and-icu-admission-rates-and-current-occupancy-covid-19
-Malaysia,MYS,2024-04-30,Ministry of Health,https://github.com/MoH-Malaysia/covid19-public
+Malaysia,MYS,2024-05-01,Ministry of Health,https://github.com/MoH-Malaysia/covid19-public
 Malta,MLT,2023-11-26,European Centre for Disease Prevention and Control,https://www.ecdc.europa.eu/en/publications-data/download-data-hospital-and-icu-admission-rates-and-current-occupancy-covid-19
 Netherlands,NLD,2024-04-29,National Coordination Center Patient Distribution,https://lcps.nu/datafeed/
 Northern Ireland,OWID_NIR,2023-12-11,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/healthcare
@@ -48,5 +48,5 @@ Spain,ESP,2023-06-11,"Ministry of Health, Consumption and Social Welfare",https:
 Sweden,SWE,2024-04-05,The Swedish National Board of Health and Welfare,https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/
 Switzerland,CHE,2023-05-01,Federal Office of Public Health,https://www.covid19.admin.ch/
 United Kingdom,GBR,2023-07-12,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/healthcare
-United States,USA,2024-04-18,U.S. Department of Health & Human Services,https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh
+United States,USA,2024-04-25,U.S. Department of Health & Human Services,https://healthdata.gov/Hospital/COVID-19-Reported-Patient-Impact-and-Hospital-Capa/g62h-syeh
 Wales,OWID_WLS,2023-07-12,Government of the United Kingdom,https://coronavirus.data.gov.uk/details/healthcare
