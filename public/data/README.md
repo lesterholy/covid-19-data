@@ -6,7 +6,7 @@
 
 Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by [_Our World in Data_](https://ourworldindata.org/coronavirus). We will update it daily throughout the duration of the COVID-19 pandemic (more information on our updating process and schedule [here](https://docs.owid.io/projects/covid/en/latest/data-pipeline.html#overview)). It includes the following data:
 
-| Metrics                     | Source                                                    | Updated | Countries |
+| Metrics                     | Source                                                    | Accessed/Updated* | Countries |
 |-----------------------------|-----------------------------------------------------------|---------|-----------|
 | Vaccinations                | Official data collated by the Our World in Data team      | Daily   | 218       |
 | Tests & positivity          | Official data collated by the Our World in Data team      | No longer updated (read more: https://github.com/owid/covid-19-data/discussions/2667)  | 193       |
@@ -19,6 +19,7 @@ Our complete COVID-19 dataset is a collection of the COVID-19 data maintained by
 
 A [specific section of this repository](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations) is also dedicated to **vaccinations**, with a lighter dataset containing only vaccination data.
 
+*By _Accessed_ we mean that we have accessed the source's data. It does not imply that the data in the source is changed.
 
 ## The data you find here and our data sources
 
