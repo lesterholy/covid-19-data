@@ -4595,8 +4595,9 @@ date,indicator,value,entity
 2024-05-14,Daily hospital occupancy,3.0,Czechia
 2024-05-15,Daily hospital occupancy,3.0,Czechia
 2024-05-16,Daily hospital occupancy,1.0,Czechia
-2024-05-17,Daily hospital occupancy,2.0,Czechia
-2024-05-18,Daily hospital occupancy,2.0,Czechia
+2024-05-17,Daily hospital occupancy,1.0,Czechia
+2024-05-18,Daily hospital occupancy,1.0,Czechia
+2024-05-19,Daily hospital occupancy,1.0,Czechia
 2020-03-01,Daily ICU occupancy,0.0,Czechia
 2020-03-02,Daily ICU occupancy,0.0,Czechia
 2020-03-03,Daily ICU occupancy,0.0,Czechia
@@ -4906,7 +4907,7 @@ date,indicator,value,entity
 2021-01-01,Daily ICU occupancy,951.0,Czechia
 2021-01-02,Daily ICU occupancy,961.0,Czechia
 2021-01-03,Daily ICU occupancy,1007.0,Czechia
-2021-01-04,Daily ICU occupancy,1092.0,Czechia
+2021-01-04,Daily ICU occupancy,1091.0,Czechia
 2021-01-05,Daily ICU occupancy,1115.0,Czechia
 2021-01-06,Daily ICU occupancy,1153.0,Czechia
 2021-01-07,Daily ICU occupancy,1150.0,Czechia
@@ -5680,7 +5681,7 @@ date,indicator,value,entity
 2023-02-14,Daily ICU occupancy,37.0,Czechia
 2023-02-15,Daily ICU occupancy,33.0,Czechia
 2023-02-16,Daily ICU occupancy,38.0,Czechia
-2023-02-17,Daily ICU occupancy,44.0,Czechia
+2023-02-17,Daily ICU occupancy,45.0,Czechia
 2023-02-18,Daily ICU occupancy,46.0,Czechia
 2023-02-19,Daily ICU occupancy,48.0,Czechia
 2023-02-20,Daily ICU occupancy,49.0,Czechia
@@ -6137,3 +6138,4 @@ date,indicator,value,entity
 2024-05-16,Daily ICU occupancy,0.0,Czechia
 2024-05-17,Daily ICU occupancy,0.0,Czechia
 2024-05-18,Daily ICU occupancy,0.0,Czechia
+2024-05-19,Daily ICU occupancy,0.0,Czechia
