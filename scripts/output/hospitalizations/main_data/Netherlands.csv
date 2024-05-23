@@ -998,6 +998,7 @@ date,indicator,value,entity
 2024-05-16,Daily ICU occupancy,2.0,Netherlands
 2024-05-17,Daily ICU occupancy,3.0,Netherlands
 2024-05-21,Daily ICU occupancy,3.0,Netherlands
+2024-05-22,Daily ICU occupancy,4.0,Netherlands
 2021-01-01,Daily hospital occupancy,1780.0,Netherlands
 2021-01-02,Daily hospital occupancy,1819.0,Netherlands
 2021-01-03,Daily hospital occupancy,1826.0,Netherlands
@@ -1997,6 +1998,7 @@ date,indicator,value,entity
 2024-05-16,Daily hospital occupancy,37.0,Netherlands
 2024-05-17,Daily hospital occupancy,37.0,Netherlands
 2024-05-21,Daily hospital occupancy,38.0,Netherlands
+2024-05-22,Daily hospital occupancy,48.0,Netherlands
 2021-01-07,Weekly new ICU admissions,259.0,Netherlands
 2021-01-08,Weekly new ICU admissions,259.0,Netherlands
 2021-01-09,Weekly new ICU admissions,266.0,Netherlands
@@ -2990,6 +2992,7 @@ date,indicator,value,entity
 2024-05-16,Weekly new ICU admissions,4.0,Netherlands
 2024-05-17,Weekly new ICU admissions,4.0,Netherlands
 2024-05-21,Weekly new ICU admissions,4.0,Netherlands
+2024-05-22,Weekly new ICU admissions,4.0,Netherlands
 2021-01-07,Weekly new hospital admissions,1768.0,Netherlands
 2021-01-08,Weekly new hospital admissions,1746.0,Netherlands
 2021-01-09,Weekly new hospital admissions,1739.0,Netherlands
@@ -3983,3 +3986,4 @@ date,indicator,value,entity
 2024-05-16,Weekly new hospital admissions,100.0,Netherlands
 2024-05-17,Weekly new hospital admissions,92.0,Netherlands
 2024-05-21,Weekly new hospital admissions,91.0,Netherlands
+2024-05-22,Weekly new hospital admissions,102.0,Netherlands
