@@ -2,7 +2,7 @@ import requests
 
 import pandas as pd
 
-from cowidev.utils.web.download import read_csv_from_url
+from epiweeks import Week
 
 
 METADATA = {
@@ -12,42 +12,61 @@ METADATA = {
     "entity": "Singapore",
 }
 
-
-def import_flow():
-    metadata = requests.get(METADATA["source_url_flow"]).json()
-
-    for resource in metadata["result"]["resources"]:
-        if resource["name"] == "New COVID-19 Hospital Admissions":
-            hosp_flow = read_csv_from_url(resource["url"]).sort_values("date")
-        if resource["name"] == "New COVID-19 ICU Admissions":
-            icu_flow = read_csv_from_url(resource["url"]).sort_values("date")
-
-    hosp_flow["new_hospital_admissions"] = hosp_flow.new_hospital_admissions.rolling(7).sum()
-    icu_flow["new_icu_admissions"] = icu_flow.new_icu_admissions.rolling(7).sum()
-
-    icu_flow["date"] = pd.to_datetime(icu_flow.date, dayfirst=True).astype(str)
-    return hosp_flow, icu_flow
+"https://beta.data.gov.sg/datasets/d_98e8d8ba612a748413c439550c3c6942/view"
 
 
-def main():
+def get_data() -> pd.DataFrame:
+    # Get data
+    base_url = "https://data.gov.sg/api/action/datastore_search"
+    url = base_url + "?resource_id=d_98e8d8ba612a748413c439550c3c6942&limit=1000"
+    response = requests.get(url)
+    data = response.json()
 
-    hosp_flow, icu_flow = import_flow()
+    if ("result" not in data) | ("records" not in data["result"]):
+        raise Exception("Couldn't retrieve data")
 
-    df = (
-        hosp_flow.merge(icu_flow, on="date", how="outer", validate="one_to_one")
-        .melt("date", var_name="indicator")
-        .dropna(subset=["value"])
-    )
+    df = pd.DataFrame.from_records(data["result"]["records"])
 
+    return df
+
+
+def process_data(df: pd.DataFrame) -> pd.DataFrame:
+    COLUMNS_RENAME = {
+        "epi_week": "date",
+        "new_admisison_type": "indicator",
+        "count": "value",
+    }
+    # Keep relevant columns
+    df = df[list(COLUMNS_RENAME.keys())]
+
+    # Rename columns
+    df = df.rename(columns=COLUMNS_RENAME)
+
+    # Parse date
+    df["date"] = df["date"].apply(lambda x: Week.fromstring(x).startdate())
+
+    # Rename indicator values
     df["indicator"] = df.indicator.replace(
         {
-            "new_hospital_admissions": "Weekly new hospital admissions",
-            "new_icu_admissions": "Weekly new ICU admissions",
+            "Hospitalised": "Weekly new hospital admissions",
+            "ICU": "Weekly new ICU admissions",
         }
     )
 
+    # Add entity
     df["entity"] = METADATA["entity"]
+
+    # Sort
     df = df.sort_values(["indicator", "date"])
+    return df
+
+
+def main():
+    # Get data
+    df = get_data()
+
+    # Process data
+    df = process_data(df)
 
     return df, METADATA
 
