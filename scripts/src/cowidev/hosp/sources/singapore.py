@@ -43,7 +43,7 @@ def process_data(df: pd.DataFrame) -> pd.DataFrame:
     df = df.rename(columns=COLUMNS_RENAME)
 
     # Parse date
-    df["date"] = df["date"].apply(lambda x: Week.fromstring(x).startdate())
+    df["date"] = df["date"].apply(lambda x: Week.fromstring(x).startdate()).astype("string")
 
     # Rename indicator values
     df["indicator"] = df.indicator.replace(
