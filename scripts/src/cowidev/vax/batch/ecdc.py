@@ -105,6 +105,87 @@ COLUMNS = {
     "NumberDosesExported",
 }
 
+MANUF_LOCATIONS_OUTLIERS = {
+    "Cyprus": {
+        "Moderna": {
+            "date_min": "2023-02-17",
+            "date_max": "2023-09-15",
+        },
+        "Pfizer/BioNTech": {
+            "date_min": "2023-02-17",
+            "date_max": "2023-09-15",
+        },
+    },
+    "Denmark": {
+        "Pfizer/BioNTech": {
+            # Remove datapoints between date_min and date_max
+            "date_min": "2023-07-14",
+            "date_max": "2023-09-29",
+            # Remove datapoins with these dates
+            "dates": [
+                "2023-05-12",
+                "2023-06-23",
+                "2023-06-30",
+                "2023-07-07",
+            ]
+        },
+    },
+    "Ireland": {
+        "Pfizer/BioNTech": {
+            "date_min": "2023-06-30",
+            "date_max": "2023-09-15",
+        },
+        "Moderna": {
+            "date_min": "2023-06-30",
+            "date_max": "2023-09-15",
+            "dates": [
+                "2023-03-03",
+                "2023-03-31",
+                "2023-04-07",
+                "2023-04-14",
+                "2023-04-21",
+            ]
+        },
+    },
+    "Norway": {
+        "Pfizer/BioNTech": {
+            "date_min": "2023-06-30",
+            "date_max": "2023-09-11",
+            # Remove datapoints after this date that have values lower that in this date
+            "dates_after_if_lower": ["2023-02-10"],
+        },
+        "Moderna": {
+            "dates": [
+                "2023-03-03",
+                "2023-06-02",
+                "2023-07-07",
+                "2023-07-14",
+                "2023-07-28",
+                "2023-08-04",
+                "2023-08-11",
+                "2023-08-25",
+                "2023-09-01",
+            ],
+            "dates_after_if_lower": ["2023-02-10"],
+        },
+    },
+    "Slovenia": {
+        "Moderna": {
+            "dates_after_if_lower": ["2022-10-07"],
+        },
+        "Pfizer/BioNTech": {
+            "dates_after_if_lower": ["2022-10-07"],
+        }
+    },
+    "Portugal": {
+        "Moderna": {
+            "dates_after_if_lower": ["2023-02-10"],
+        },
+        "Pfizer/BioNTech": {
+            "dates_after_if_lower": ["2023-02-10"],
+        }
+    },
+}
 
 class ECDC(CountryVaxBase):
     location = "ECDC"
@@ -117,6 +198,7 @@ class ECDC(CountryVaxBase):
         return self._load_country_mapping(PATHS.INTERNAL_INPUT_ISO_FULL_FILE)
 
     def read(self):
+        # df = pd.read_csv("/home/lucas/repos/covid-19-data/ECDC data.csv")
         df = read_csv_from_url(self.source_url, timeout=40)
         return df
 
@@ -465,7 +547,25 @@ class ECDC(CountryVaxBase):
         # Export
         locations = df_manufacturer.location.unique()
         for location in locations:
+            # Filter to keep only country-relevant data
             df_c = df_manufacturer[df_manufacturer.location == location].copy()
+            # Filter some dates
+            if location in MANUF_LOCATIONS_OUTLIERS:
+                for vaccine, dates in MANUF_LOCATIONS_OUTLIERS[location].items():
+                    if ("date_min" in dates) and ("date_max" in dates):
+                        msk = (df_c.vaccine == vaccine) & (df_c.date >= dates["date_min"]) & (df_c.date <= dates["date_max"])
+                        df_c = df_c.loc[~msk]
+                    if "dates" in dates:
+                        msk = (df_c.vaccine == vaccine) & (df_c.date.isin(dates["dates"]))
+                        df_c = df_c.loc[~msk]
+                    if "dates_after_if_lower" in dates:
+                        for d in dates["dates_after_if_lower"]:
+                            value = df_c.loc[(df_c["date"] == d) & (df_c["vaccine"] == vaccine), "total_vaccinations"]
+                            if not value.empty:
+                                value = value.values[0]
+                                msk = (df_c.vaccine == vaccine) & (df_c.date >= d) & (df_c.total_vaccinations < value)
+                                df_c = df_c.loc[~msk]
+            df_c = self.make_monotonic(df_c, "vaccine")
             self.export_datafile(
                 df_manufacturer=df_c,
                 filename=location,
