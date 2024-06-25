@@ -13025,8 +13025,9 @@ Czechia,2024-06-14,Pfizer/BioNTech,16088205
 Czechia,2024-06-17,Pfizer/BioNTech,16088209
 Czechia,2024-06-18,Pfizer/BioNTech,16088222
 Czechia,2024-06-19,Pfizer/BioNTech,16088233
-Czechia,2024-06-20,Pfizer/BioNTech,16088238
-Czechia,2024-06-21,Pfizer/BioNTech,16088240
+Czechia,2024-06-20,Pfizer/BioNTech,16088239
+Czechia,2024-06-21,Pfizer/BioNTech,16088241
+Czechia,2024-06-24,Pfizer/BioNTech,16088242
 Denmark,2020-12-18,Pfizer/BioNTech,2
 Denmark,2020-12-25,Moderna,1
 Denmark,2020-12-25,Pfizer/BioNTech,10
@@ -68145,7 +68146,7 @@ European Union,2024-06-20,Johnson&Johnson,18699990
 European Union,2024-06-20,Moderna,157229389
 European Union,2024-06-20,Novavax,310470
 European Union,2024-06-20,Oxford/AstraZeneca,67183317
-European Union,2024-06-20,Pfizer/BioNTech,669096154
+European Union,2024-06-20,Pfizer/BioNTech,669096155
 European Union,2024-06-20,Sanofi/GSK,5458
 European Union,2024-06-20,Sinopharm/Beijing,2320667
 European Union,2024-06-20,Sinovac,10664
@@ -68156,9 +68157,20 @@ European Union,2024-06-21,Johnson&Johnson,18699990
 European Union,2024-06-21,Moderna,157229389
 European Union,2024-06-21,Novavax,310470
 European Union,2024-06-21,Oxford/AstraZeneca,67183317
-European Union,2024-06-21,Pfizer/BioNTech,669096156
+European Union,2024-06-21,Pfizer/BioNTech,669096157
 European Union,2024-06-21,Sanofi/GSK,5458
 European Union,2024-06-21,Sinopharm/Beijing,2320667
 European Union,2024-06-21,Sinovac,10664
 European Union,2024-06-21,Sputnik V,1845408
 European Union,2024-06-21,Valneva,10193
+European Union,2024-06-24,Covaxin,178
+European Union,2024-06-24,Johnson&Johnson,18699990
+European Union,2024-06-24,Moderna,157229389
+European Union,2024-06-24,Novavax,310470
+European Union,2024-06-24,Oxford/AstraZeneca,67183317
+European Union,2024-06-24,Pfizer/BioNTech,669096158
+European Union,2024-06-24,Sanofi/GSK,5458
+European Union,2024-06-24,Sinopharm/Beijing,2320667
+European Union,2024-06-24,Sinovac,10664
+European Union,2024-06-24,Sputnik V,1845408
+European Union,2024-06-24,Valneva,10193
