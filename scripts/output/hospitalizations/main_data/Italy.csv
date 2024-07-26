@@ -3084,6 +3084,13 @@ date,indicator,value,entity
 2024-07-15,Daily ICU occupancy,38.0,Italy
 2024-07-16,Daily ICU occupancy,39.0,Italy
 2024-07-17,Daily ICU occupancy,43.0,Italy
+2024-07-18,Daily ICU occupancy,42.0,Italy
+2024-07-19,Daily ICU occupancy,46.0,Italy
+2024-07-20,Daily ICU occupancy,46.0,Italy
+2024-07-21,Daily ICU occupancy,44.0,Italy
+2024-07-22,Daily ICU occupancy,44.0,Italy
+2024-07-23,Daily ICU occupancy,38.0,Italy
+2024-07-24,Daily ICU occupancy,38.0,Italy
 2020-02-24,Daily hospital occupancy,127.0,Italy
 2020-02-25,Daily hospital occupancy,150.0,Italy
 2020-02-26,Daily hospital occupancy,164.0,Italy
@@ -4690,6 +4697,13 @@ date,indicator,value,entity
 2024-07-15,Daily hospital occupancy,1165.0,Italy
 2024-07-16,Daily hospital occupancy,1199.0,Italy
 2024-07-17,Daily hospital occupancy,1226.0,Italy
+2024-07-18,Daily hospital occupancy,1262.0,Italy
+2024-07-19,Daily hospital occupancy,1334.0,Italy
+2024-07-20,Daily hospital occupancy,1358.0,Italy
+2024-07-21,Daily hospital occupancy,1421.0,Italy
+2024-07-22,Daily hospital occupancy,1481.0,Italy
+2024-07-23,Daily hospital occupancy,1497.0,Italy
+2024-07-24,Daily hospital occupancy,1555.0,Italy
 2020-12-09,Weekly new ICU admissions,1248.0,Italy
 2020-12-10,Weekly new ICU admissions,1282.0,Italy
 2020-12-11,Weekly new ICU admissions,1289.0,Italy
@@ -6007,3 +6021,10 @@ date,indicator,value,entity
 2024-07-15,Weekly new ICU admissions,38.0,Italy
 2024-07-16,Weekly new ICU admissions,44.0,Italy
 2024-07-17,Weekly new ICU admissions,40.0,Italy
+2024-07-18,Weekly new ICU admissions,39.0,Italy
+2024-07-19,Weekly new ICU admissions,44.0,Italy
+2024-07-20,Weekly new ICU admissions,40.0,Italy
+2024-07-21,Weekly new ICU admissions,44.0,Italy
+2024-07-22,Weekly new ICU admissions,40.0,Italy
+2024-07-23,Weekly new ICU admissions,35.0,Italy
+2024-07-24,Weekly new ICU admissions,33.0,Italy
