@@ -1,6 +1,6 @@
 import click
 
-from cowidev.cases_deaths.generate import generate_dataset
+from cowidev.cases_deaths import generate_dataset
 from cowidev.cmd.commons.utils import OrderedGroup, feedback_log
 
 
