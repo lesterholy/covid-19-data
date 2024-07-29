@@ -245,7 +245,7 @@ def create_internal(
     annotator = add_annotations_countries_100_percentage(df, annotator)
     # Insert CFR column to avoid calculating it on the client, and enable
     # splitting up into cases & deaths columns.
-    df["cfr"] = (df["total_deaths"] * 100 / df["total_cases"]).round(3)
+    df["cfr"] = (df["total_deaths"] * 100 / df["total_cases"]).round(3).replace([np.inf, -np.inf], np.nan)
 
     # Insert short-term CFR
     cfr_day_shift = 10  # We compute number of deaths divided by number of cases `cfr_day_shift` days before.
@@ -257,12 +257,15 @@ def create_internal(
     df.loc[
         (df.cfr_short_term < 0) | (df.cfr_short_term > 10) | (df.date.astype(str) < "2020-09-01"),
         "cfr_short_term",
-    ] = pd.NA
+    ] = np.nan
 
     # Add partly vaccinated
     df = df.pipe(add_partially_vaccinated, country_data)
     # Add total vaccinations without boosters
     df = df.pipe(add_total_vaccinations_no_boosters)
+
+    # Replace pd.NA with np.nan
+    df = df.replace({pd.NA: np.nan})
 
     def _export_internal(output_dir, name, config, annotator):
         output_path = os.path.join(output_dir, f"megafile--{name}.json")
