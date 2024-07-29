@@ -4805,8 +4805,9 @@ date,indicator,value,entity
 2024-07-23,Daily hospital occupancy,14.0,Czechia
 2024-07-24,Daily hospital occupancy,13.0,Czechia
 2024-07-25,Daily hospital occupancy,16.0,Czechia
-2024-07-26,Daily hospital occupancy,13.0,Czechia
-2024-07-27,Daily hospital occupancy,12.0,Czechia
+2024-07-26,Daily hospital occupancy,14.0,Czechia
+2024-07-27,Daily hospital occupancy,13.0,Czechia
+2024-07-28,Daily hospital occupancy,12.0,Czechia
 2020-03-01,Daily ICU occupancy,0.0,Czechia
 2020-03-02,Daily ICU occupancy,0.0,Czechia
 2020-03-03,Daily ICU occupancy,0.0,Czechia
@@ -5125,7 +5126,7 @@ date,indicator,value,entity
 2021-01-10,Daily ICU occupancy,1177.0,Czechia
 2021-01-11,Daily ICU occupancy,1190.0,Czechia
 2021-01-12,Daily ICU occupancy,1178.0,Czechia
-2021-01-13,Daily ICU occupancy,1174.0,Czechia
+2021-01-13,Daily ICU occupancy,1175.0,Czechia
 2021-01-14,Daily ICU occupancy,1185.0,Czechia
 2021-01-15,Daily ICU occupancy,1175.0,Czechia
 2021-01-16,Daily ICU occupancy,1166.0,Czechia
@@ -5157,7 +5158,7 @@ date,indicator,value,entity
 2021-02-11,Daily ICU occupancy,1116.0,Czechia
 2021-02-12,Daily ICU occupancy,1114.0,Czechia
 2021-02-13,Daily ICU occupancy,1107.0,Czechia
-2021-02-14,Daily ICU occupancy,1148.0,Czechia
+2021-02-14,Daily ICU occupancy,1147.0,Czechia
 2021-02-15,Daily ICU occupancy,1174.0,Czechia
 2021-02-16,Daily ICU occupancy,1217.0,Czechia
 2021-02-17,Daily ICU occupancy,1245.0,Czechia
@@ -5184,7 +5185,7 @@ date,indicator,value,entity
 2021-03-10,Daily ICU occupancy,1832.0,Czechia
 2021-03-11,Daily ICU occupancy,1822.0,Czechia
 2021-03-12,Daily ICU occupancy,1833.0,Czechia
-2021-03-13,Daily ICU occupancy,1783.0,Czechia
+2021-03-13,Daily ICU occupancy,1784.0,Czechia
 2021-03-14,Daily ICU occupancy,1829.0,Czechia
 2021-03-15,Daily ICU occupancy,1886.0,Czechia
 2021-03-16,Daily ICU occupancy,1896.0,Czechia
@@ -6417,3 +6418,4 @@ date,indicator,value,entity
 2024-07-25,Daily ICU occupancy,2.0,Czechia
 2024-07-26,Daily ICU occupancy,1.0,Czechia
 2024-07-27,Daily ICU occupancy,1.0,Czechia
+2024-07-28,Daily ICU occupancy,2.0,Czechia
