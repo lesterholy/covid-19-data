@@ -14,12 +14,39 @@ NUM_WEEKS_TOLERANCE_LATEST = 4
 
 def create_dataset(df, macro_variables, logger, filename=None):
     """Export dataset as CSV, XLSX and JSON (complete time series)."""
+    # Reduce size
+    ## Integers
+    cols_int = [
+        "new_cases",
+        "new_deaths",
+        "total_cases",
+        "total_deaths",
+        "icu_patients",
+        "hosp_patients",
+        "weekly_icu_admissions",
+        "weekly_hosp_admissions",
+        "new_tests",
+        "total_tests",
+        "total_vaccinations",
+        "people_vaccinated",
+        "people_fully_vaccinated",
+        "total_boosters",
+        "new_vaccinations",
+        "population",
+    ]
+    df[cols_int] = df[cols_int].astype("Int64")
+
     if filename is None:
         filename = "owid-covid-data"
     logger.info("Writing to CSV…")
     filename_local = os.path.join(DATA_DIR, f"{filename}.csv")
     df.to_csv(filename_local, index=False)
     S3().upload_to_s3(filename_local, f"s3://covid-19/public/{filename}.csv", public=True)
+
+    ## Float resolution (only for local file)
+    cols_float = df.select_dtypes(include=['float']).columns.tolist()
+    df[cols_float] = df[cols_float].round(2)
+    df.to_csv(filename_local, index=False)
 
     logger.info("Writing to XLSX…")
     # filename = os.path.join(DATA_DIR, "owid-covid-data.xlsx")
