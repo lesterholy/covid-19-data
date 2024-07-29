@@ -55,6 +55,16 @@ def generate_megafile(logger):
     """Generate megafile data."""
     # Load data
     all_covid = load_data(logger)
+    # Replace names for regions
+    all_covid["location"] = all_covid["location"].replace({
+        "European Union": "European Union (27)",
+        "Low income": "Low-income countries",
+        "Lower middle income": "Lower-middle-income countries",
+        "Upper middle income": "Upper-middle-income countries",
+        "High income": "High-income countries",
+        "Timor": "East Timor",
+        "Faeroe Islands": "Faroe Islands",
+    })
     # Create internal datasets
     export_internal(
         logger,
