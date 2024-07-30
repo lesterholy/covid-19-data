@@ -53,24 +53,12 @@ git reset --hard origin/$BRANCH && git pull origin $BRANCH
 # Cases & Deaths
 
 # Attempt to download JHU CSVs
-cowid jhu get
-
-hour=$(date +%H)
-if has_changed './scripts/input/jhu/*'; then
-  echo "Generating JHU files..."
-  cowid --server jhu generate
-  # python $SCRIPTS_DIR/scripts/jhu.py --skip-download
-  git_push "jhu"
-else
-  echo "JHU export is up to date"
-fi
 
 hour=$(date +%H)
 echo "Hour: $hour"  # Debugging output
 if [ "$hour" == "00" ] || [ "$hour" == "06" ] || [ "$hour" == "12" ] || [ "$hour" == "18" ]; then
   echo "Generating Case/Death files..."
   cowid --server casedeath generate
-  # python "$SCRIPTS_DIR/scripts/jhu.py" --skip-download
   git_push "case-death"
 fi
 

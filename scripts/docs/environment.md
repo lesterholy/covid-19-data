@@ -213,7 +213,6 @@ Commands:
   test        COVID-19 Testing data pipeline.
   vax         COVID-19 Vaccination data pipeline.
   hosp        COVID-19 Hospitalization data pipeline.
-  jhu         COVID-19 Cases/Deaths data pipeline. [DEPRECATED]
   casedeath   COVID-19 Cases/Deaths data pipeline.
   variants    COVID-19 Variants data pipeline.
   xm          COVID-19 Excess Mortality data pipeline.

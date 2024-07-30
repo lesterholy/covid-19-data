@@ -11,7 +11,7 @@ S3_VAX_ICE_DIR = f"{S3_INTERNAL_VAX_DIR}/ice"
 
 # PROJECT DIR ###########################
 def _get_project_dir_from_env(err: bool = False):
-    project_dir = os.environ.get("OWID_COVID_PROJECT_DIR")
+    project_dir = os.environ.get("OWID_COVID_PROJECT_DIR", "/home/lucas/repos/covid-19-data")
     if project_dir is None:  # err and
         raise EnvironmentError("Please set environment variable 'OWID_COVID_PROJECT_DIR'.")
     elif not os.path.isdir(project_dir):  # err and
@@ -178,7 +178,7 @@ INTERNAL_STATUS_FILE = os.path.join(INTERNAL_OUTPUT_DIR, "STATUS.md")
 # CONFIG ################################
 CONFIG_DIR = os.path.join(os.path.expanduser("~"), ".config", "owid")
 """Where temporary files are stored."""
-CONFIG_FILE = os.environ.get("OWID_COVID_CONFIG")
+CONFIG_FILE = os.environ.get("OWID_COVID_CONFIG", os.path.join(PROJECT_DIR, "scripts/config.yaml"))
 """YAML with pipeline & execution configuration. Obtained from env var $OWID_COVID_CONFIG."""
 if CONFIG_FILE is None:
     raise EnvironmentError(
@@ -189,7 +189,7 @@ elif not os.path.isfile(CONFIG_FILE):
         f"Environment variable 'OWID_COVID_CONFIG' is pointing to an inexisting file {CONFIG_FILE}. Make sure that the"
         " file exists."
     )
-SECRETS_FILE = os.environ.get("OWID_COVID_SECRETS")
+SECRETS_FILE = os.environ.get("OWID_COVID_SECRETS", os.path.join(PROJECT_DIR, "scripts/secrets.yaml"))
 """YAML with secrets, links and credentials. Not shared publicly. Obtained from env var $OWID_COVID_SECRETS."""
 if SECRETS_FILE is None:
     raise EnvironmentError(
