@@ -15,12 +15,9 @@ GRAPHER_DIR = PATHS.INTERNAL_GRAPHER_DIR
 DATA_DIR = PATHS.DATA_DIR
 
 
-def get_base_dataset(logger, old=False):
+def get_base_dataset(logger):
     """Get owid datasets from: who, reproduction rate, hospitalizations, testing, vaccinations, CGRT."""
-    if old:
-        path = PATHS.DATA_JHU_DIR
-    else:
-        path = PATHS.DATA_CASES_DEATHS_DIR
+    path = PATHS.DATA_CASES_DEATHS_DIR
 
     logger.info("Fetching Case/Death dataset…")
     cases_deaths = get_casedeath(dataset_dir=path)

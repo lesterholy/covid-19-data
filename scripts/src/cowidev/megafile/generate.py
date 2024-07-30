@@ -77,8 +77,8 @@ def generate_megafile(logger):
     export_public(logger, all_covid)
 
 
-def load_data(logger, old=False):
-    all_covid = get_base_dataset(logger, old)
+def load_data(logger):
+    all_covid = get_base_dataset(logger)
 
     # Remove today's datapoint
     all_covid = all_covid[all_covid["date"] < str(date.today())]

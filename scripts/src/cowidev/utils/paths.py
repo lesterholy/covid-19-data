@@ -55,10 +55,6 @@ DATA_VAX_META_MANUFACT_FILE = os.path.join(DATA_VAX_DIR, "locations-manufacturer
 DATA_VAX_AGE_FILE = os.path.join(DATA_VAX_DIR, "vaccinations-by-age-group.csv")
 DATA_VAX_META_AGE_FILE = os.path.join(DATA_VAX_DIR, "locations-age.csv")
 DATA_VAX_READ_FILE = os.path.join(DATA_VAX_DIR, "README.md")
-## Data jhu
-DATA_JHU_DIR = os.path.join(DATA_DIR, "jhu")
-DATA_JHU_CASES_FILE = os.path.join(DATA_JHU_DIR, "total_cases.csv")
-DATA_JHU_DEATHS_FILE = os.path.join(DATA_JHU_DIR, "total_deaths.csv")
 ## Data cases/deaths
 DATA_CASES_DEATHS_DIR = os.path.join(DATA_DIR, "cases_deaths")
 DATA_CASES_FILE = os.path.join(DATA_CASES_DEATHS_DIR, "total_cases.csv")
@@ -75,7 +71,6 @@ DATA_TIMESTAMP_ROOT_FILE = os.path.join(DATA_TIMESTAMP_DIR, "owid-covid-data-las
 DATA_TIMESTAMP_TEST_FILE = os.path.join(DATA_TIMESTAMP_DIR, "owid-covid-data-last-updated-timestamp-test.txt")
 DATA_TIMESTAMP_VAX_FILE = os.path.join(DATA_TIMESTAMP_DIR, "owid-covid-data-last-updated-timestamp-vaccination.txt")
 DATA_TIMESTAMP_XM_FILE = os.path.join(DATA_TIMESTAMP_DIR, "owid-covid-data-last-updated-timestamp-xm.txt")
-DATA_TIMESTAMP_JHU_FILE = os.path.join(DATA_TIMESTAMP_DIR, "owid-covid-data-last-updated-timestamp-jhu.txt")
 DATA_TIMESTAMP_CASES_DEATHS_FILE = os.path.join(
     DATA_TIMESTAMP_DIR, "owid-covid-data-last-updated-timestamp-cases-deaths.txt"
 )
@@ -131,8 +126,6 @@ INTERNAL_INPUT_GMOB_STD_FILE = os.path.join(INTERNAL_INPUT_GMOB_DIR, "gmobility_
 INTERNAL_INPUT_ISO_DIR = os.path.join(INTERNAL_INPUT_DIR, "iso")
 INTERNAL_INPUT_ISO_FILE = os.path.join(INTERNAL_INPUT_ISO_DIR, "iso3166_1_alpha_3_codes.csv")
 INTERNAL_INPUT_ISO_FULL_FILE = os.path.join(INTERNAL_INPUT_ISO_DIR, "iso.csv")
-INTERNAL_INPUT_JHU_DIR = os.path.join(INTERNAL_INPUT_DIR, "jhu")
-INTERNAL_INPUT_JHU_STD_FILE = os.path.join(INTERNAL_INPUT_JHU_DIR, "jhu_country_standardized.csv")
 INTERNAL_INPUT_OWID_DIR = os.path.join(INTERNAL_INPUT_DIR, "owid")
 INTERNAL_INPUT_OWID_POPULATION_SUB_FILE = os.path.join(INTERNAL_INPUT_OWID_DIR, "subnational_population_2020.csv")
 INTERNAL_INPUT_OWID_CONT_FILE = os.path.join(INTERNAL_INPUT_OWID_DIR, "continents.csv")
