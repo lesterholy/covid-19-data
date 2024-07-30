@@ -1,7 +1,7 @@
 """Collect Cases/Deaths data"""
 from cowidev import PATHS
 from cowidev.utils.utils import export_timestamp
-from owid import catalog
+from cowidev.utils.catalog import load_table_from_catalog
 import os
 from termcolor import colored
 import pandas as pd
@@ -10,8 +10,7 @@ import pandas as pd
 def generate_dataset(logger, server_mode):
     """Generate Cases/Deaths dataset."""
     # Load data from ETL catalog
-    cat = catalog.RemoteCatalog(channels=["garden"])
-    tb = cat.find_latest(namespace="covid", dataset="cases_deaths", table="cases_deaths")
+    tb = load_table_from_catalog(namespace="covid", dataset="cases_deaths", table="cases_deaths")
 
     # Process
     tb = process_data(tb)
