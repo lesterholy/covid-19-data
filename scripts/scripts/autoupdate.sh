@@ -64,15 +64,6 @@ fi
 
 
 # =====================================================================
-# Decoupling charts
-hour=$(date +%H)
-if [ $hour == 01 ] ; then
-  echo "Generating decoupling dataset..."
-  cowid --server decoupling generate
-  git_push "decoupling"
-fi
-
-# =====================================================================
 # VAX ICER
 hour=$(date +%H)
 if [ $hour == 03 ] ; then

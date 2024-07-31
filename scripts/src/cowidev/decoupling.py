@@ -271,5 +271,5 @@ def main():
     df.to_csv(os.path.join(PATHS.INTERNAL_GRAPHER_DIR, f"{DATASET_NAME}.csv"), index=False)
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+    # main()

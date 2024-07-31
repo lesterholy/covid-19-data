@@ -218,7 +218,6 @@ Commands:
   xm          COVID-19 Excess Mortality data pipeline.
   gmobility   Google Mobility data pipeline.
   oxcgrt      COVID-19 stringency index (by OxCGRT) data pipeline.
-  decoupling  COVID-19 Decoupling data pipeline.
   sweden      COVID-19 Sweden data pipeline.
   uk-nations  COVID-19 UK Nations data pipeline.
   check       COVID-19 data pipeline checks.
