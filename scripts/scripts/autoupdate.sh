@@ -95,22 +95,6 @@ if [ $hour == 07 ] ; then
 fi
 
 # =====================================================================
-# Google Mobility
-
-# hour=$(date +%H)
-# if [ $hour == 09 ] ; then
-#   # Generate dataset
-#   cowid --server gmobility generate
-
-#   echo "Generating Google Mobility export..."
-#   cowid --server gmobility grapher-io
-
-#   if has_changed './scripts/grapher/Google Mobility Trends (2020).csv'; then
-#     git_push "mobility"
-#   fi
-# fi
-
-# =====================================================================
 # Swedish Public Health Agency
 
 # hour=$(date +%H)

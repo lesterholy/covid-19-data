@@ -216,7 +216,6 @@ Commands:
   casedeath   COVID-19 Cases/Deaths data pipeline.
   variants    COVID-19 Variants data pipeline.
   xm          COVID-19 Excess Mortality data pipeline.
-  gmobility   Google Mobility data pipeline.
   oxcgrt      COVID-19 stringency index (by OxCGRT) data pipeline.
   sweden      COVID-19 Sweden data pipeline.
   uk-nations  COVID-19 UK Nations data pipeline.
