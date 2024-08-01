@@ -118,8 +118,6 @@ INTERNAL_INPUT_DIR = os.path.join(INTERNAL_DIR, "input")
 ### Input UN
 INTERNAL_INPUT_BSG_DIR = os.path.join(INTERNAL_INPUT_DIR, "bsg")
 INTERNAL_INPUT_BSG_FILE = os.path.join(INTERNAL_INPUT_BSG_DIR, "latest.csv")
-INTERNAL_INPUT_BSG_DIFF_FILE = os.path.join(INTERNAL_INPUT_BSG_DIR, "latest-differentiated.csv")
-INTERNAL_INPUT_BSG_STD_FILE = os.path.join(INTERNAL_INPUT_BSG_DIR, "bsg_country_standardised.csv")
 INTERNAL_INPUT_CDC_VAX_DIR = os.path.join(INTERNAL_INPUT_DIR, "cdc", "vaccinations")
 INTERNAL_INPUT_ISO_DIR = os.path.join(INTERNAL_INPUT_DIR, "iso")
 INTERNAL_INPUT_ISO_FILE = os.path.join(INTERNAL_INPUT_ISO_DIR, "iso3166_1_alpha_3_codes.csv")

@@ -152,25 +152,6 @@ if [ $hour == 21 ] ; then
   git_push "xm"
 fi
 
-# =====================================================================
-# Policy responses
-OXCGRT_CSV_PATH=./scripts/input/bsg/latest.csv
-hour=$(date +%H)
-if [ $hour == 23 ] ; then
-  # Download CSV
-  cowid --server oxcgrt get
-  # If there are any unstaged changes in the repo, then the
-  # CSV has changed, and we need to run the update script.
-  if has_changed $OXCGRT_CSV_PATH; then
-    echo "Generating OxCGRT export..."
-    cowid --server oxcgrt grapher-io
-    git_push "oxcgrt"
-  else
-    echo "OxCGRT export is up to date"
-  fi
-else
-  echo "OxCGRT CSV was recently updated; skipping download"
-fi
 
 
 # =====================================================================

@@ -9,7 +9,6 @@ from cowidev.cmd.hosp import click_hosp
 from cowidev.cmd.cases_deaths import click_cases_deaths
 from cowidev.cmd.xm import click_xm
 from cowidev.cmd.variants import click_variants
-from cowidev.cmd.oxcgrt import click_oxcgrt
 from cowidev.cmd.megafile import click_megafile
 from cowidev.cmd.sweden import click_sweden
 from cowidev.cmd.uk_nations import click_uk_nations
@@ -57,7 +56,6 @@ cli.add_command(click_hosp)
 cli.add_command(click_cases_deaths)
 cli.add_command(click_variants)
 cli.add_command(click_xm)
-cli.add_command(click_oxcgrt)
 cli.add_command(click_sweden)
 cli.add_command(click_uk_nations)
 cli.add_command(click_check)
