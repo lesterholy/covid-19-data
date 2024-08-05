@@ -10,9 +10,9 @@ Our COVID-19 data is being migrated into our [catalog](https://docs.owid.io/proj
 pip install owid-catalog
 ```
 
-## Usage
+## Usage and preview
 
-Our data is identified by URIs (learn more [here](https://docs.owid.io/projects/etl/architecture/design/uri/?h=uri#path-for-data)), and for COVID data these go like:
+Our data is identified by URIs, and for COVID data these go like:
 
 ```
 data://garden/covid/latest/{DATASET_NAME}/{TABLE_NAME}
@@ -22,6 +22,8 @@ where:
 
 - `DATASET_NAME` is the name of the dataset (e.g. `case_death`)
 - `TABLE_NAME` is the name of the table (e.g. `case_death`)
+
+[→ Learn more about our URIs](https://docs.owid.io/projects/etl/architecture/design/uri/?h=uri#path-for-data)
 
 **Notes**:
 
@@ -42,17 +44,11 @@ catalogs.find(namespace="covid")
 tb = catalogs.find(namespace="covid").iloc[3].load()
 ```
 
-## Load specific data
+## Load data
 
-Use an `uri` from the table below, and run the following code:
+Use an `uri` from the table below[^1].
 
-```python
-from owid import catalog
-
-rc = catalog.RemoteCatalog()
-uri = "..."
-df = rc[uri]
-```
+[^1]: more items are being added to this table shortly.
 
 | **Data category**                | **URI**                                                                                |
 | -------------------------------- | -------------------------------------------------------------------------------------- |
@@ -63,4 +59,25 @@ df = rc[uri]
 | Policy Response (OxCGRT)         | `garden/covid/latest/oxcgrt_policy/oxcgrt_policy`                                      |
 | Indicator decoupling             | `garden/covid/latest/decoupling/decoupling`                                            |
 
-(more items are being added to this table shortly)
+and run the following code:
+
+```python
+from owid import catalog
+
+rc = catalog.RemoteCatalog()
+uri = "..."
+df = rc[uri]
+```
+
+## Access metadata
+
+Note that objects `df` are not pure pandas DataFrames, but rather `owid.catalog.Table` datasets, which behave like DataFrames but also contain metadata. You can access metadata like this:
+
+```python
+# Table metadata
+df.metadata
+# Column (or indicator) metadata
+df[column_name].metadata
+```
+
+[→ Learn more about our metadata](https://docs.owid.io/projects/etl/architecture/metadata/)
