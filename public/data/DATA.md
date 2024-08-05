@@ -1,0 +1,64 @@
+# Data
+
+**⚠️ This file is currently under construction. ⚠️**
+
+Our COVID-19 data is being migrated into our [catalog](https://docs.owid.io/projects/etl/api/).
+
+## Install our catalog package
+
+```bash
+pip install owid-catalog
+```
+
+## Usage
+
+Our data is identified by URIs (learn more [here](https://docs.owid.io/projects/etl/architecture/design/uri/?h=uri#path-for-data)), and for COVID data these go like:
+
+```
+data://garden/covid/latest/{DATASET_NAME}/{TABLE_NAME}
+```
+
+where:
+
+- `DATASET_NAME` is the name of the dataset (e.g. `case_death`)
+- `TABLE_NAME` is the name of the table (e.g. `case_death`)
+
+NOTE: A dataset can be a collection of tables (equivalent to DataFrames). For instance, there might be several files (or DataFrames) in our 'Vaccination' dataset (e.g. global data, US data, etc.).
+EXCEPTION: Our excess mortality dataset is currently under the namespace `excess_mortality`, i.e. with URIs `data://garden/excess_mortality/latest/{DATASET_NAME}/{TABLE_NAME}`.
+
+### Check all our COVID data
+
+Simply run:
+
+```python
+from owid import catalog
+
+# Preview list of available datasets (each row = dataset)
+catalogs.find(namespace="covid")
+
+# You can load any dataset (using the row of the above-returned table)
+tb = catalogs.find(namespace="covid").iloc[3].load()
+```
+
+## Load specific data
+
+Use an `uri` from the table below, and run the following code:
+
+```python
+from owid import catalog
+
+rc = catalog.RemoteCatalog()
+uri = "..."
+df = rc[uri]
+```
+
+```
+| **Data Category** | **URI** |
+| ----------------- | ------- |
+| Cases and deaths  | `garden/covid/latest/cases_deaths/cases_deaths`   |
+| Excess Mortality        | `garden/excess_mortality/latest/excess_mortality/excess_mortality`   |
+| Excess Mortality (The Exonomist)        | `garden/excess_mortality/latest/excess_mortality_economist/excess_mortality_economist`   |
+| Google Mobility        | `garden/covid/latest/google_mobility/google_mobility`   |
+| Policy Response (OxCGRT)        | `garden/covid/latest/oxcgrt_policy/oxcgrt_policy`   |
+| Indicator decoupling        | `garden/covid/latest/decoupling/decoupling`   |
+```
