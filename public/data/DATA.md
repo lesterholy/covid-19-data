@@ -58,6 +58,8 @@ Use an `uri` from the table below[^1].
 | Google Mobility                  | `garden/covid/latest/google_mobility/google_mobility`                                  |
 | Policy Response (OxCGRT)         | `garden/covid/latest/oxcgrt_policy/oxcgrt_policy`                                      |
 | Indicator decoupling             | `garden/covid/latest/decoupling/decoupling`                                            |
+| YouGov                           | `garden/covid/latest/yougov/yougov`                                                    |
+| YouGov (Composite)               | `garden/covid/latest/yougov/yougov_composite`                                          |
 
 and run the following code:
 

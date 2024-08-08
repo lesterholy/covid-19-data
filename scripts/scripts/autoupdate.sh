@@ -135,6 +135,7 @@ fi
 
 # =====================================================================
 # Variants
+# TODO: REMOVE
 hour=$(date +%H)
 if [ $hour == 19 ] ; then
   echo "Generating CoVariants dataset..."

@@ -1,3 +1,10 @@
+"""
+THIS SCRIPT HAS BEEN DEPRECATED.
+
+
+Please refer to https://github.com/owid/covid-19-data/blob/master/public/data/DATA.md for more details.
+"""
+
 import os
 import json
 import datetime
