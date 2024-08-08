@@ -60,6 +60,7 @@ Use an `uri` from the table below[^1].
 | Indicator decoupling             | `garden/covid/latest/decoupling/decoupling`                                            |
 | YouGov                           | `garden/covid/latest/yougov/yougov`                                                    |
 | YouGov (Composite)               | `garden/covid/latest/yougov/yougov_composite`                                          |
+| Vaccinations (US)                | `garden/covid/latest/vaccinations_us/vaccinations_us`                                  |
 
 and run the following code:
 

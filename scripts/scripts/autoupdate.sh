@@ -121,19 +121,6 @@ if [ $hour == 13 ] ; then
 fi
 
 # =====================================================================
-# US vaccinations
-hour=$(date +%H)
-if [ $hour == 15 ] ; then
-  echo "Generating US vaccination files..."
-  cowid --server vax us-states
-  if has_changed './public/data/vaccinations/us_state_vaccinations.csv'; then
-    git_push "vax,us"
-  else
-    echo "US vaccination export is up to date"
-  fi
-fi
-
-# =====================================================================
 # Variants
 # TODO: REMOVE
 hour=$(date +%H)
