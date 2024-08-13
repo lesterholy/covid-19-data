@@ -62,9 +62,10 @@ Use an `uri` from the table below[^1].
 | YouGov (Composite)               | `garden/covid/latest/yougov/yougov_composite`                                          |
 | Vaccinations (US)                | `garden/covid/latest/vaccinations_us/vaccinations_us`                                  |
 | Testing                          | `garden/covid/latest/testing/testing`                                                  |
-| Sequencing / Variants            | `garden/covid/latest/testing/sequence`                                                 |
-| Decoupling                       | `garden/covid/latest/testing/decoupling`                                               |
-| Sweden confirmed deaths          | `garden/covid/latest/testing/sweden_covid`                                             |
+| Sequencing / Variants            | `garden/covid/latest/sequence/sequence`                                                |
+| Decoupling                       | `garden/covid/latest/decoupling/decoupling`                                            |
+| Sweden confirmed deaths          | `garden/covid/latest/sweden_covid/sweden_covid/`                                       |
+| UK COVID Data                    | `garden/covid/latest/uk_covid/uk_covid/`                                               |
 
 and run the following code:
 
