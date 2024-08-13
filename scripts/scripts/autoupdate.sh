@@ -74,14 +74,14 @@ fi
 # =====================================================================
 # Hospital & ICU data
 
-hour=$(date +%H)
-if [ $hour == 05 ] || [ $hour == 17 ] ; then
-  # Download CSV
-  echo "Generating hospital & ICU export..."
-  cowid --server hosp generate
-  cowid --server hosp grapher-io
-  git_push "hosp"
-fi
+# hour=$(date +%H)
+# if [ $hour == 05 ] || [ $hour == 17 ] ; then
+#   # Download CSV
+#   echo "Generating hospital & ICU export..."
+#   cowid --server hosp generate
+#   cowid --server hosp grapher-io
+#   git_push "hosp"
+# fi
 
 # =====================================================================
 # Vaccinations
@@ -112,13 +112,13 @@ fi
 
 # =====================================================================
 # UK subnational data
-hour=$(date +%H)
-if [ $hour == 13 ] ; then
-  # Download CSV
-  echo "Generating UK subnational export..."
-  cowid --server uk-nations generate
-  git_push "uk"
-fi
+# hour=$(date +%H)
+# if [ $hour == 13 ] ; then
+#   # Download CSV
+#   echo "Generating UK subnational export..."
+#   cowid --server uk-nations generate
+#   git_push "uk"
+# fi
 
 # =====================================================================
 # Variants
