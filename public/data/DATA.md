@@ -55,6 +55,7 @@ Use an `uri` from the table below[^1].
 | Cases and deaths                 | `garden/covid/latest/cases_deaths/cases_deaths`                                        |
 | Excess Mortality                 | `garden/excess_mortality/latest/excess_mortality/excess_mortality`                     |
 | Excess Mortality (The Exonomist) | `garden/excess_mortality/latest/excess_mortality_economist/excess_mortality_economist` |
+| Hospitalisations                 | `garden/covid/latest/hospital/hospital/`                                               |
 | Google Mobility                  | `garden/covid/latest/google_mobility/google_mobility`                                  |
 | Policy Response (OxCGRT)         | `garden/covid/latest/oxcgrt_policy/oxcgrt_policy`                                      |
 | Indicator decoupling             | `garden/covid/latest/decoupling/decoupling`                                            |
