@@ -65,11 +65,11 @@ fi
 
 # =====================================================================
 # VAX ICER
-hour=$(date +%H)
-if [ $hour == 03 ] ; then
-  echo "Generating ICE vaccination data..."
-  cowid --server vax icer
-fi
+# hour=$(date +%H)
+# if [ $hour == 03 ] ; then
+#   echo "Generating ICE vaccination data..."
+#   cowid --server vax icer
+# fi
 
 # =====================================================================
 # Hospital & ICU data
@@ -86,13 +86,13 @@ fi
 # =====================================================================
 # Vaccinations
 
-hour=$(date +%H)
-if [ $hour == 07 ] ; then
-  echo "Generating Vaccination (get, process, generate)..."
-  cowid --server vax get
-  cowid --server vax process generate
-  git_push "vax"
-fi
+# hour=$(date +%H)
+# if [ $hour == 07 ] ; then
+#   echo "Generating Vaccination (get, process, generate)..."
+#   cowid --server vax get
+#   cowid --server vax process generate
+#   git_push "vax"
+# fi
 
 # =====================================================================
 # Swedish Public Health Agency
