@@ -22,7 +22,7 @@ ALLOWED_DAYS_MAX_CASESDEATHS = 30
 ALLOWED_DAYS_MAX_JHU = 1
 ALLOWED_DAYS_MAX_TESTING = 7
 ALLOWED_DAYS_MAX_HOSP = 7
-ALLOWED_DAYS_MAX_MEGAFILE = 1
+ALLOWED_DAYS_MAX_MEGAFILE = 10
 
 
 def check_updated(url, date_col, allowed_days, weekends, local_check=False, url_local=None) -> None:
