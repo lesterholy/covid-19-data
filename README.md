@@ -1,16 +1,13 @@
 ![Warning](https://img.shields.io/badge/Warning-Data%20has%20been%20moved-red)
 
-**⚠️ Warning: Our datasets on GitHub are deprecated. Please use https://docs.owid.io/projects/etl/api/covid/.**
+**📢 : Our datasets on GitHub are deprecated. Please use https://docs.owid.io/projects/etl/api/covid/.**
+---
 
 # COVID-19 Dataset by _Our World in Data_ 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://ourworldindata.org/coronavirus)
 [![Data](https://img.shields.io/badge/go_to-data-purple)](public/data/)
 [![documentation](https://img.shields.io/badge/go_to-dev_docs-0055ff)](https://docs.owid.io/projects/covid)
 [![Open Source Love svg3](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
-**📢 Find our data on COVID-19 and its documentation in [`public/data`](public/data)!**
-
----
 
 ### Project structure
 The project contains two independent directories:
