@@ -1,52 +1,52 @@
 #!/bin/bash
 
-set -e
+# set -e
 
-BRANCH="master"
-ROOT_DIR="/home/owid/covid-19-data" #"$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd ../.. && pwd )"
-SCRIPTS_DIR=$ROOT_DIR/scripts
-
-
-# ENV VARS
-export OWID_COVID_PROJECT_DIR=${ROOT_DIR}
-export OWID_COVID_CONFIG=${OWID_COVID_PROJECT_DIR}/scripts/config.yaml
-export OWID_COVID_SECRETS=${OWID_COVID_PROJECT_DIR}/scripts/secrets.yaml
-export PATH=$PATH:/usr/local/bin/  # so geckodriver is correctly found
+# BRANCH="master"
+# ROOT_DIR="/home/owid/covid-19-data" #"$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd ../.. && pwd )"
+# SCRIPTS_DIR=$ROOT_DIR/scripts
 
 
-# FUNCTIONS
-has_changed() {
-  git diff --name-only --exit-code $1 >/dev/null 2>&1
-  [ $? -ne 0 ]
-}
+# # ENV VARS
+# export OWID_COVID_PROJECT_DIR=${ROOT_DIR}
+# export OWID_COVID_CONFIG=${OWID_COVID_PROJECT_DIR}/scripts/config.yaml
+# export OWID_COVID_SECRETS=${OWID_COVID_PROJECT_DIR}/scripts/secrets.yaml
+# export PATH=$PATH:/usr/local/bin/  # so geckodriver is correctly found
 
-has_changed_gzip() {
-  # Ignore the header because it includes the creation time
-  cmp --silent -i 8 $1 <(git show HEAD:$1)
-  [ $? -ne 0 ]
-}
 
-git_push() {
-  if [ -n "$(git status --porcelain)" ]; then
-    msg="data("$1"): automated update"
-    git add .
-    git commit -m "$msg"
-    git push origin $BRANCH
-  fi
-}
+# # FUNCTIONS
+# has_changed() {
+#   git diff --name-only --exit-code $1 >/dev/null 2>&1
+#   [ $? -ne 0 ]
+# }
 
-run_python() {
-  (cd $SCRIPTS_DIR/scripts; python -c "$1")
-}
+# has_changed_gzip() {
+#   # Ignore the header because it includes the creation time
+#   cmp --silent -i 8 $1 <(git show HEAD:$1)
+#   [ $? -ne 0 ]
+# }
 
-# Move to the root directory
-cd $ROOT_DIR
+# git_push() {
+#   if [ -n "$(git status --porcelain)" ]; then
+#     msg="data("$1"): automated update"
+#     git add .
+#     git commit -m "$msg"
+#     git push origin $BRANCH
+#   fi
+# }
 
-# Activate Python virtualenv
-source $SCRIPTS_DIR/venv/bin/activate
+# run_python() {
+#   (cd $SCRIPTS_DIR/scripts; python -c "$1")
+# }
 
-# Make sure we have the latest commit.
-git reset --hard origin/$BRANCH && git pull origin $BRANCH
+# # Move to the root directory
+# cd $ROOT_DIR
+
+# # Activate Python virtualenv
+# source $SCRIPTS_DIR/venv/bin/activate
+
+# # Make sure we have the latest commit.
+# git reset --hard origin/$BRANCH && git pull origin $BRANCH
 
 
 # =====================================================================
@@ -54,13 +54,13 @@ git reset --hard origin/$BRANCH && git pull origin $BRANCH
 
 # Attempt to download JHU CSVs
 
-hour=$(date +%H)
-echo "Hour: $hour"  # Debugging output
-if [ "$hour" == "00" ] || [ "$hour" == "06" ] || [ "$hour" == "12" ] || [ "$hour" == "18" ]; then
-  echo "Generating Case/Death files..."
-  cowid --server casedeath generate
-  git_push "case-death"
-fi
+# hour=$(date +%H)
+# echo "Hour: $hour"  # Debugging output
+# if [ "$hour" == "00" ] || [ "$hour" == "06" ] || [ "$hour" == "12" ] || [ "$hour" == "18" ]; then
+#   echo "Generating Case/Death files..."
+#   cowid --server casedeath generate
+#   git_push "case-death"
+# fi
 
 
 # =====================================================================
@@ -123,26 +123,26 @@ fi
 # =====================================================================
 # Variants
 # TODO: REMOVE
-hour=$(date +%H)
-if [ $hour == 19 ] ; then
-  echo "Generating CoVariants dataset..."
-  cowid --server variants generate
-  cowid --server variants grapher-io
-  git_push "variants"
-fi
+# hour=$(date +%H)
+# if [ $hour == 19 ] ; then
+#   echo "Generating CoVariants dataset..."
+#   cowid --server variants generate
+#   cowid --server variants grapher-io
+#   git_push "variants"
+# fi
 
 # =====================================================================
 # Excess Mortality
-hour=$(date +%H)
-if [ $hour == 21 ] ; then
-  echo "Generating XM dataset..."
-  cowid --server xm generate
-  git_push "xm"
-fi
+# hour=$(date +%H)
+# if [ $hour == 21 ] ; then
+#   echo "Generating XM dataset..."
+#   cowid --server xm generate
+#   git_push "xm"
+# fi
 
 
 
 # =====================================================================
 # Megafile
-cowid --server megafile
-git_push "megafile"
+# cowid --server megafile
+# git_push "megafile"
