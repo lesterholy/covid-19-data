@@ -733,6 +733,11 @@ class DatasetGenerator:
             ignore_index=True,
         )
 
+        # df_vaccinations.to_csv("/home/lucas/repos/etl/vaccinations.csv", index=False)
+        # df_manufacturer.to_csv("/home/lucas/repos/etl/vaccinations_man.csv", index=False)
+        # df_age.to_csv("/home/lucas/repos/etl/vaccinations_age.csv", index=False)
+        
+        # raise Exception("FORCING BREAK")
         # Metadata
         logger.info("2/10 Generating `automated_state` table...")
         df_automated = df_metadata.pipe(self.pipeline_automated)  # Export to AUTOMATED_STATE_FILE
