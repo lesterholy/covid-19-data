@@ -44,23 +44,23 @@ def create_dataset(df, macro_variables, logger, filename=None):
     S3().upload_to_s3(filename_local, f"s3://covid-19/public/{filename}.csv", public=True)
 
     ## Float resolution (only for local file)
-    cols_float = df.select_dtypes(include=['float']).columns.tolist()
-    df[cols_float] = df[cols_float].round(2)
-    df.to_csv(filename_local, index=False)
+    # cols_float = df.select_dtypes(include=['float']).columns.tolist()
+    # df[cols_float] = df[cols_float].round(2)
+    # df.to_csv(filename_local, index=False)
 
-    logger.info("Writing to XLSX…")
-    # filename = os.path.join(DATA_DIR, "owid-covid-data.xlsx")
-    # all_covid.to_excel(os.path.join(DATA_DIR, "owid-covid-data.xlsx"), index=False, engine="xlsxwriter")
-    # upload_to_s3(filename, "public/owid-covid-data.xlsx", public=True)
-    obj_to_s3(df, s3_path=f"s3://covid-19/public/{filename}.xlsx", public=True)
+    # logger.info("Writing to XLSX…")
+    # # filename = os.path.join(DATA_DIR, "owid-covid-data.xlsx")
+    # # all_covid.to_excel(os.path.join(DATA_DIR, "owid-covid-data.xlsx"), index=False, engine="xlsxwriter")
+    # # upload_to_s3(filename, "public/owid-covid-data.xlsx", public=True)
+    # obj_to_s3(df, s3_path=f"s3://covid-19/public/{filename}.xlsx", public=True)
 
-    logger.info("Writing to JSON…")
-    data = df_to_dict(
-        df,
-        macro_variables.keys(),
-        valid_json=True,
-    )
-    obj_to_s3(data, f"s3://covid-19/public/{filename}.json", public=True)
+    # logger.info("Writing to JSON…")
+    # data = df_to_dict(
+    #     df,
+    #     macro_variables.keys(),
+    #     valid_json=True,
+    # )
+    # obj_to_s3(data, f"s3://covid-19/public/{filename}.json", public=True)
 
 
 def create_latest(df, logger):
