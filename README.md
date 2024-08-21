@@ -1,3 +1,7 @@
+![Warning](https://img.shields.io/badge/Warning-Data%20has%20been%20moved-red)
+
+**⚠️ Warning: Our datasets on GitHub are deprecated. Please use https://docs.owid.io/projects/etl/api/covid/.**
+
 # COVID-19 Dataset by _Our World in Data_ 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://ourworldindata.org/coronavirus)
 [![Data](https://img.shields.io/badge/go_to-data-purple)](public/data/)
