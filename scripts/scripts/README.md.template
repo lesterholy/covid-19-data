@@ -1,6 +1,8 @@
-![Warning](https://img.shields.io/badge/Warning-Data%20has%20been%20moved-red)
+### ![Warning](https://img.shields.io/badge/Warning-Data%20has%20been%20moved-red) Our GitHub datasets are no longer updated since 19 August 2024
 
-**📢 : Our datasets on GitHub are deprecated. Please use https://docs.owid.io/projects/etl/api/covid/.**
+You can access the CSV version of our COVID-19 dataset via Our World in Data's data catalog: https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
+
+See our complete documentation for more information, other files, and metadata: https://docs.owid.io/projects/etl/api/covid/
 
 ---
 
