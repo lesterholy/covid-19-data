@@ -1,8 +1,15 @@
-### ![Warning](https://img.shields.io/badge/Warning-Data%20has%20been%20moved-red) Our GitHub datasets are no longer updated since 19 August 2024
+> [!CAUTION]
+> ## This repository has been archived and is no longer maintained
+>
+> The data in this repository was last updated on **19 August 2024**.
+>
+> **Where to get latest COVID-19 data:**
+> - CSV: [catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv](https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv)
+> - Documentation & metadata: [docs.owid.io/projects/etl/api/covid/](https://docs.owid.io/projects/etl/api/covid/)
+> - All OWID data: [https://ourworldindata.org/search](https://ourworldindata.org/search) via the [ETL](https://github.com/owid/etl)
+>
+> For programmatic access to any OWID dataset, see our [data access documentation](https://docs.owid.io/projects/etl/api/).
 
-You can access the CSV version of our COVID-19 dataset via Our World in Data's data catalog: https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv
-
-See our complete documentation for more information, other files, and metadata: https://docs.owid.io/projects/etl/api/covid/
 
 ---
 
