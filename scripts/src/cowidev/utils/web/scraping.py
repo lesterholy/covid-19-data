@@ -1,11 +1,12 @@
 import json
-from urllib.error import HTTPError
+import requests
 
 from bs4 import BeautifulSoup
-import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChroOpt
 from selenium.webdriver.firefox.options import Options as FireOpt
+
+from cowidev.utils.web.utils import to_proxy_url
 
 
 def get_headers() -> dict:
@@ -25,31 +26,18 @@ def get_headers() -> dict:
     }
 
 
-def get_soup(
+def get_response(
     source: str,
-    from_encoding: str = None,
-    # parser="html.parser",
-    parser="lxml",
     request_method: str = "get",
+    use_proxy: bool = False,
     **kwargs,
-) -> BeautifulSoup:
-    """Get soup from website.
-
-    Args:
-        source (str): Website url.
-        from_encoding (str, optional): Encoding to use. Defaults to None.
-        parser (str, optional): HTML parser. Read https://www.crummy.com/software/BeautifulSoup/bs4/doc/
-                                #installing-a-parser. Defaults to 'lxml'.
-        request_method (str, optional): Request method. Options are 'get' and 'post'. Defaults to GET method. For POST
-                                        ßmethod, make sure to specify a header (default one does not work).
-        kwargs (dict): Extra arguments passed to requests.get method. Default values for `headers`, `verify` and
-                        `timeout` are used.
-    Returns:
-        BeautifulSoup: Website soup.
-    """
+):
+    source_orig = source
     kwargs["headers"] = kwargs.get("headers", get_headers())
     kwargs["verify"] = kwargs.get("verify", True)
     kwargs["timeout"] = kwargs.get("timeout", 20)
+    if use_proxy:
+        source = to_proxy_url(source)
     try:
         if request_method == "get":
             response = requests.get(source, **kwargs)
@@ -60,29 +48,87 @@ def get_soup(
     except Exception as err:
         raise err
     if not response.ok:
-        raise HTTPError(f"Web {source} not found! {response.content}")
-    content = response.content
+        scrapapi_used = "Scraper API was used!\n" if use_proxy else ""
+        raise ValueError(
+            f"Source {source_orig} not reached! {scrapapi_used}Error code {response.status_code} {response.reason}"
+            # +": {response.content}",
+        )
+    return response
+
+
+def get_soup(
+    source: str,
+    from_encoding: str = None,
+    # parser="html.parser",
+    parser="lxml",
+    request_method: str = "get",
+    use_proxy: bool = False,
+    **kwargs,
+) -> BeautifulSoup:
+    """Get soup from website.
+
+    Args:
+        source (str): Website url.
+        from_encoding (str, optional): Encoding to use. Defaults to None.
+        parser (str, optional): HTML parser. Read https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+                                #installing-a-parser. Defaults to 'lxml'.
+        request_method (str, optional): Request method. Options are 'get' and 'post'. Defaults to GET method. For POST
+                                        method, make sure to specify a header (default one does not work).
+        use_proxy(bool):
+        kwargs (dict): Extra arguments passed to requests.get method. Default values for `headers`, `verify` and
+                        `timeout` are used.
+    Returns:
+        BeautifulSoup: Website soup.
+    """
+    response = get_response(source, request_method, use_proxy, **kwargs)
+    content = response.text
     soup = BeautifulSoup(content, parser, from_encoding=from_encoding)
     if soup.text == "":
         soup = BeautifulSoup(content, "html.parser", from_encoding=from_encoding)
+    # print(response.url)
     return soup
 
 
-def request_json(url, **kwargs):
+def request_json(url, mode="soup", **kwargs) -> dict:
     """Get data from `url` as a dictionary.
 
     Content at `url` should be a dictionary.
 
     Args:
         url (str): URL to data.
+        mode (str): Mode to use. Accepted is 'soup' (default) and 'raw'.
         kwargs: Check `get_soup` for the complete list of accepted arguments.
 
     Returns:
         dict: Data
     """
-    soup = get_soup(url, **kwargs)
-    data = json.loads(soup.text)
-    return data
+    if mode == "soup":
+        text = request_text(url, **kwargs)
+        return json.loads(text)
+    elif mode == "raw":
+        return get_response(url, **kwargs).json()
+    raise ValueError(f"Unrecognized `mode` value: {mode}. Accepted values are 'soup' and 'raw'.")
+
+
+def request_text(url, mode="soup", **kwargs) -> str:
+    """Get data from `url` as plain text.
+
+    Content at `url` should be a dictionary.
+
+    Args:
+        url (str): URL to data.
+        mode (str): Mode to use. Accepted is 'soup' (default) and 'raw'.
+        kwargs: Check `get_soup` for the complete list of accepted arguments.
+
+    Returns:
+        dict: Data
+    """
+    if mode == "soup":
+        soup = get_soup(url, **kwargs)
+        return soup.text
+    elif mode == "raw":
+        return get_response(url, **kwargs).text
+    raise ValueError(f"Unrecognized `mode` value: {mode}. Accepted values are 'soup' and 'raw'.")
 
 
 def sel_options(headless: bool = True, firefox: bool = False):
@@ -104,7 +150,9 @@ def sel_options(headless: bool = True, firefox: bool = False):
     return op
 
 
-def get_driver(headless: bool = True, download_folder: str = None, options=None, firefox: bool = False):
+def get_driver(
+    headless: bool = True, download_folder: str = None, options=None, firefox: bool = False, timeout: int = None
+):
     if options is None:
         options = sel_options(headless=headless, firefox=firefox)
     if firefox:
@@ -112,11 +160,15 @@ def get_driver(headless: bool = True, download_folder: str = None, options=None,
     else:
         driver = webdriver.Chrome(options=options)
     if download_folder:
-        set_download_settings(driver, download_folder)
+        set_download_settings(driver, download_folder, firefox)
+    if timeout is not None:
+        driver.set_page_load_timeout(timeout)
     return driver
 
 
-def set_download_settings(driver, folder_name: str = None):
+def set_download_settings(driver, folder_name: str = None, firefox: bool = False):
+    if firefox:
+        raise NotImplementedError("Download capabilities only supported for Chromedriver!")
     if folder_name is None:
         folder_name = "/tmp"
     driver.command_executor._commands["send_command"] = (

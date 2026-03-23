@@ -1,313 +1,76 @@
-date,people_vaccinated,people_fully_vaccinated,total_vaccinations,source_url,location,vaccine
-2021-01-04,480,,480,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-05,1365,,1365,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-06,7648,,7648,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-07,15765,,15765,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-08,23900,,23900,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-09,25515,,25515,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-10,25715,,25715,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-11,29803,,29803,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-12,40714,,40714,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-13,47544,,47544,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-14,54946,,54946,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-15,62904,,62904,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-16,63787,,63787,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-17,63841,,63841,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-18,71941,582,72523,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-19,79701,1166,80867,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-20,86715,2040,88755,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-21,92304,2689,94993,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-22,98988,2822,101810,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-23,99264,2822,102086,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-24,99264,2822,102086,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-25,106122,5115,111237,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-26,113036,5476,118512,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,Pfizer/BioNTech
-2021-01-27,119819,5645,125464,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-01-28,128167,7288,135455,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-01-29,137772,9757,147529,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-01-30,139161,9760,148921,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-01-31,139221,9760,148981,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-01,148419,12671,161090,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-02,157179,16121,173300,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-03,166634,18457,185091,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-04,175397,24054,199451,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-05,183764,30735,214499,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-06,185757,31406,217163,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-07,185937,31406,217343,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-08,193428,35685,229113,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-09,200756,43217,243973,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-10,207182,49729,256911,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-11,214637,56329,270966,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-12,222331,62724,285055,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Pfizer/BioNTech"
-2021-02-13,226126,63120,289246,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-14,236729,63325,300054,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-15,243485,70223,313708,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-16,248484,76534,325018,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-17,254044,82520,336564,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-18,258642,89119,347761,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-19,264975,95957,360932,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-20,271335,96240,367575,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-21,277651,96240,373891,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-22,283278,103249,386527,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-23,289430,109807,399237,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-24,295578,116626,412204,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-25,298802,124436,423238,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-26,302722,133428,436150,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-27,310046,134312,444358,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-02-28,315612,134312,449924,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-01,321418,143609,465027,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-02,327140,153286,480426,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-03,331453,162481,493934,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-04,335870,171229,507099,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-05,341559,178527,520086,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-06,357631,180268,537899,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-07,367063,180460,547523,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-08,372211,189209,561420,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-09,375729,196305,572034,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-10,379663,202819,582482,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-11,390752,209797,600549,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-12,404532,216096,620628,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-13,422147,218132,640279,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-14,436155,218308,654463,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-15,450603,222264,672867,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-16,466430,225637,692067,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-17,482466,229516,711982,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-18,499254,233285,732539,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-19,513120,239650,752770,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-20,532138,241050,773188,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-21,546419,241803,788222,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-22,564411,245139,809550,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-23,582818,249716,832534,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-24,601489,253922,855411,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-25,618745,256798,875543,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-26,635920,258747,894667,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-27,650904,258912,909816,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-28,660054,258913,918967,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-29,678863,260257,939120,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-30,697631,262136,959767,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-03-31,718452,264034,982486,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-01,738798,265752,1004550,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-02,743226,265854,1009080,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-03,754509,266018,1020527,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-04,758605,266018,1024623,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-05,758974,266022,1024996,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-06,775596,269521,1045117,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-07,796335,271743,1068078,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-08,811591,279863,1091454,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-09,828097,288886,1116983,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-10,848385,289708,1138093,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-11,868178,290976,1159154,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-12,880025,301427,1181452,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-13,889947,312797,1202744,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-14,900262,323801,1224063,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-15,912052,336221,1248273,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-16,926310,348243,1274553,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-17,952705,348612,1301317,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-18,965008,348708,1313716,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-19,974487,360401,1334888,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-20,982664,374638,1357302,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-21,990112,388583,1378695,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-22,999018,402380,1401398,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-23,1007156,417156,1424312,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-24,1021736,423913,1445649,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-25,1034974,429695,1464669,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-26,1041946,447909,1489855,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-27,1047392,463741,1511133,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-28,1053618,479765,1533383,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-29,1061096,496525,1557621,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-04-30,1082081,503503,1585584,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-01,1108036,507731,1615767,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-02,1125291,511019,1636310,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-03,1145289,513981,1659270,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-04,1155251,528861,1684112,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-05,1161423,546929,1708352,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-06,1173738,560576,1734314,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-07,1188712,575373,1764085,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-08,1223821,585652,1809473,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-09,1253205,588614,1841819,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-10,1277579,595996,1873575,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-11,1299790,604309,1904099,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-12,1318495,615197,1933692,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-13,1336525,627300,1963825,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-14,1358232,641884,2000116,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-15,1383985,660506,2044491,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-16,1406955,669729,2076684,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-17,1428950,681636,2110586,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-18,1450885,690006,2140891,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-19,1472566,699349,2171915,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-20,1494492,713033,2207525,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-21,1523522,722663,2246185,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-22,1549466,744518,2293984,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-23,1573594,754291,2327885,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-24,1598978,762212,2361190,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-25,1624810,767277,2392087,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-26,1645398,775834,2421232,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-27,1669753,788231,2457984,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-28,1686052,805945,2491997,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-29,1712339,829820,2542159,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-30,1726547,852732,2579279,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-05-31,1740234,873681,2613915,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-01,1758998,884164,2643162,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-02,1777578,893407,2670985,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-03,1795185,909597,2704782,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-04,1812634,926492,2739126,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-05,1824363,962365,2786728,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-06,1831128,991270,2822398,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-07,1840425,1015367,2855792,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-08,1849957,1035489,2885446,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-09,1858941,1054933,2913874,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-10,1868098,1080509,2948607,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-11,1877310,1107183,2984493,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-12,1888230,1141106,3029336,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-13,1899795,1166060,3065855,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-14,1910588,1186300,3096888,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-15,1920447,1205497,3125944,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-16,1927674,1227218,3154892,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-17,1934645,1256112,3190757,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-18,1941319,1287041,3228360,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-19,1952080,1322673,3274753,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-20,1957363,1356887,3314250,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-21,1964287,1384054,3348341,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-22,1971524,1409364,3380888,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-23,1979880,1430560,3410440,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-24,1986468,1460556,3447024,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-25,1995809,1488558,3484367,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-26,2002275,1523773,3526048,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-27,2009466,1546763,3556229,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-28,2018351,1564222,3582573,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-29,2027508,1583603,3611111,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-06-30,2035697,1604366,3640063,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-01,2043504,1629741,3673245,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-02,2054842,1652265,3707107,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-03,2068374,1679996,3748370,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-04,2081126,1693814,3774940,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-05,2085852,1697914,3783766,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-06,2096832,1715024,3811856,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-07,2106637,1729993,3836630,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-08,2117724,1744140,3861864,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-09,2129564,1762435,3891999,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-10,2140367,1782607,3922974,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-11,2153584,1799177,3952761,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-12,2167342,1811716,3979058,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-13,2176247,1822575,3998822,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-14,2186125,1832502,4018627,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-15,2193912,1844048,4037960,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-16,2201531,1857859,4059390,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-17,2209593,1870911,4080504,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-18,2212432,1878334,4090766,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-19,2217700,1886181,4103881,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-20,2222984,1894987,4117971,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-21,2228511,1902410,4130921,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-22,2234234,1909219,4143453,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-23,2238736,1922036,4160772,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-24,2243057,1929604,4172661,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-25,2248127,1937268,4185395,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-26,2251984,1943002,4194986,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-27,2256125,1950304,4206429,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-28,2260663,1958008,4218671,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-29,2265566,1967410,4232976,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-30,2271321,1978026,4249347,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-07-31,2275631,1988864,4264495,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-01,2279045,2000291,4279336,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-02,2283739,2006886,4290625,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-03,2288675,2014107,4302782,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-04,2294052,2023532,4317584,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-05,2299593,2032949,4332542,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-06,2305438,2043127,4348565,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-07,2310766,2053528,4364294,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-08,2313500,2058577,4372077,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-09,2316883,2067435,4384318,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-10,2321321,2075414,4396735,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-11,2325594,2085320,4410914,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-12,2329656,2094175,4423831,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-13,2334422,2102824,4437246,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-14,2337388,2106865,4444253,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-15,2341064,2108608,4449672,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-16,2345753,2114027,4459780,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-17,2349775,2118862,4468637,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-18,2354554,2124873,4479427,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-19,2358899,2130910,4489809,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-20,2365151,2136928,4502079,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-21,2367350,2138700,4506050,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-22,2370774,2140322,4511096,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-23,2374118,2144766,4518884,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-24,2377418,2149097,4526515,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-25,2381946,2153999,4535945,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-26,2385204,2158324,4543528,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-27,2389129,2165221,4554350,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-28,2392025,2167582,4559607,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-29,2393313,2169064,4562377,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-30,2395911,2173430,4569341,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-08-31,2399229,2178569,4577798,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-01,2399560,2178795,4578355,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-02,2402583,2185194,4587777,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-03,2405996,2191063,4597059,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-04,2407073,2192099,4599172,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-05,2408095,2192897,4600992,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-06,2409979,2196444,4606423,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-07,2412187,2199478,4611665,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-08,2414307,2203172,4617479,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-09,2416876,2207598,4624474,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-10,2419995,2213587,4633582,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-11,2420654,2214207,4634861,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-12,2421495,2215245,4636740,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-13,2423599,2218438,4642037,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-14,2426612,2221318,4647930,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-15,2426792,2221543,4648335,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-16,2429736,2227266,4657002,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-17,2433149,2232602,4665751,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-18,2434024,2233724,4667748,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-19,2435434,2234622,4670056,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-20,2437477,2237166,4674643,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-21,2440566,2239811,4680377,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-22,2443217,2242688,4685905,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-23,2446557,2246009,4692566,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-24,2450870,2250774,4701644,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-25,2451500,2251382,4702882,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-26,2452481,2251969,4704450,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-27,2454690,2254109,4708799,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-28,2456853,2256058,4712911,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-29,2459355,2257651,4717006,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-09-30,2461864,2259867,4721731,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-01,2465854,2263310,4729164,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-02,2466577,2263939,4730516,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-03,2467685,2264341,4732026,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-04,2469455,2265773,4735228,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-05,2471056,2267203,4738259,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-06,2472770,2268963,4741733,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-07,2475071,2271017,4746088,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-08,2478636,2274466,4753102,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-09,2479362,2274824,4754186,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-10,2480364,2275288,4755652,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-11,2481716,2277018,4758734,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-12,2483382,2278611,4761993,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-13,2484859,2279623,4764482,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-14,2486635,2281381,4768016,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-15,2489600,2284818,4774418,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-16,2490157,2285169,4775326,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-17,2490913,2285495,4776408,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-18,2492276,2287159,4779435,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-19,2493606,2288665,4782271,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-20,2495097,2290589,4785686,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-21,2496711,2292593,4789304,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-22,2499649,2296640,4796289,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-23,2500477,2297119,4797596,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-24,2501034,2297454,4798488,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-25,2502684,2299333,4802017,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-26,2504362,2300880,4805242,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-27,2505993,2302562,4808555,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-28,2508122,2304498,4812620,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-29,2510781,2307996,4818777,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-30,2511430,2308396,4819826,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-10-31,2512481,2308659,4821140,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-01,2512546,2308676,4821222,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-02,2514536,2310629,4825165,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-03,2516171,2312111,4828282,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-04,2518065,2313715,4831780,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-05,2521310,2316488,4837798,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-06,2523091,2316932,4840023,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-07,2525199,2317473,4842672,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-08,2527188,2318699,4845887,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-09,2529910,2319979,4849889,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-10,2532966,2321223,4854189,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
-2021-11-11,2535967,2322437,4858404,https://github.com/Institut-Zdravotnych-Analyz/covid19-data,Slovakia,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V"
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Slovakia,2021-01-03,Pfizer/BioNTech,https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,30160,30159,0,1
+Slovakia,2021-01-10,Pfizer/BioNTech,https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,63481,63479,0,2
+Slovakia,2021-01-17,Pfizer/BioNTech,https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,101443,98585,2839,6
+Slovakia,2021-01-24,"Moderna, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,148585,138694,9824,6
+Slovakia,2021-01-31,"Moderna, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,217224,184635,32371,6
+Slovakia,2021-02-07,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,299324,235290,63698,6
+Slovakia,2021-02-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,371706,274838,96428,6
+Slovakia,2021-02-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,448455,313161,134461,6
+Slovakia,2021-02-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,546223,364358,180506,6
+Slovakia,2021-03-07,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,652175,432714,217802,6
+Slovakia,2021-03-14,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,784461,540097,242544,6
+Slovakia,2021-03-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,915724,653627,260196,6
+Slovakia,2021-03-28,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,1021329,751763,267615,6
+Slovakia,2021-04-04,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,1156822,861555,293042,6
+Slovakia,2021-04-11,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,1311803,958349,350794,6
+Slovakia,2021-04-18,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,1463516,1027209,433350,6
+Slovakia,2021-04-25,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,1632429,1115721,513382,6
+Slovakia,2021-05-02,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,1831946,1236034,592315,6
+Slovakia,2021-05-09,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,2067000,1389494,673642,7
+Slovakia,2021-05-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,2317232,1555168,757541,8
+Slovakia,2021-05-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,2568546,1706186,857375,8
+Slovakia,2021-05-30,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,2812249,1811000,995830,8
+Slovakia,2021-06-06,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,3055133,1879151,1170122,8
+Slovakia,2021-06-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,3305307,1937731,1361471,8
+Slovakia,2021-06-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,3548622,1989514,1552861,8
+Slovakia,2021-06-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,3771604,2062704,1707503,8
+Slovakia,2021-07-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,3952349,2135112,1824192,8
+Slovakia,2021-07-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4092545,2193484,1915064,8
+Slovakia,2021-07-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4189094,2229797,1981370,9
+Slovakia,2021-07-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4284997,2262180,2050216,9
+Slovakia,2021-08-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4379083,2296718,2117453,9
+Slovakia,2021-08-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4458651,2325601,2175897,9
+Slovakia,2021-08-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4522774,2356017,2218460,12
+Slovakia,2021-08-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4575516,2379410,2253718,14
+Slovakia,2021-08-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4616982,2396215,2282920,15
+Slovakia,2021-09-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4655468,2410517,2310032,16
+Slovakia,2021-09-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4690914,2425909,2334421,22
+Slovakia,2021-09-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4728118,2444947,2357264,30
+Slovakia,2021-09-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4758401,2461655,2375757,54
+Slovakia,2021-10-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4784375,2475811,2391301,103
+Slovakia,2021-10-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4807782,2487399,2405331,661
+Slovakia,2021-10-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4850689,2498658,2421691,19100
+Slovakia,2021-10-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,4912919,2510935,2437137,57212
+Slovakia,2021-10-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5000849,2525330,2451335,121474
+Slovakia,2022-01-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5187219,2541832,2475349,268721
+Slovakia,2022-01-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5359965,2558133,2499486,402746
+Slovakia,2022-01-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5490176,2571220,2512978,507492
+Slovakia,2022-01-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5586144,2580881,2527812,579629
+Slovakia,2022-01-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5635086,2585411,2540907,611367
+Slovakia,2022-02-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5666929,2588114,2552041,629591
+Slovakia,2022-02-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5688916,2589620,2560111,642122
+Slovakia,2022-02-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5702752,2590553,2565302,649900
+Slovakia,2022-02-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5710247,2591078,2568048,654164
+Slovakia,2022-03-06,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5716695,2591570,2570062,658138
+Slovakia,2022-03-13,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5722226,2592218,2571494,661641
+Slovakia,2022-03-20,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5726953,2592703,2572459,664937
+Slovakia,2022-03-27,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5731178,2593197,2573257,667913
+Slovakia,2022-04-03,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5734651,2593528,2573982,670355
+Slovakia,2022-04-10,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5736801,2593757,2574376,671902
+Slovakia,2022-04-17,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5738934,2593957,2574917,673310
+Slovakia,2022-04-24,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5740819,2594155,2575336,674595
+Slovakia,2022-05-01,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5742599,2594357,2575731,675803
+Slovakia,2022-05-08,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5744038,2594521,2576005,676817
+Slovakia,2022-05-15,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5745261,2594651,2576249,677676
+Slovakia,2022-05-22,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5746501,2594798,2576504,678540
+Slovakia,2022-05-29,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5747390,2594935,2576678,679126
+Slovakia,2022-06-05,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5748150,2595043,2576832,679642
+Slovakia,2022-06-12,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5748874,2595137,2577009,680104
+Slovakia,2022-06-19,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5749687,2595244,2577167,680666
+Slovakia,2022-06-26,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5750512,2595371,2577303,681233
+Slovakia,2022-07-03,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5751090,2595454,2577393,681643
+Slovakia,2022-07-10,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5751991,2595583,2577527,682294
+Slovakia,2022-07-17,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5753035,2595742,2577675,683046
+Slovakia,2022-07-24,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5753964,2595863,2577795,683744
+Slovakia,2022-07-31,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sputnik V",https://github.com/Institut-Zdravotnych-Analyz/covid19-data/raw/main/Vaccination/OpenData_Slovakia_Vaccination_AgeGroup_District.csv,5754313,2595901,2577827,684026

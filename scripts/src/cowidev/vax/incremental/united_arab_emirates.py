@@ -65,9 +65,12 @@ class UnitedArabEmirates:
         return extract_clean_date(text_date, regex_date, "%d %B %Y", lang="en")
 
     def pipe_calculate_boosters(self, ds: pd.Series) -> pd.Series:
-        return enrich_data(
-            ds, "total_boosters", ds.total_vaccinations - ds.people_vaccinated - ds.people_fully_vaccinated
+        total_boosters = (
+            ds.total_vaccinations - ds.people_vaccinated - ds.people_fully_vaccinated
+            if ds.people_vaccinated and ds.people_fully_vaccinated
+            else None
         )
+        return enrich_data(ds, "total_boosters", total_boosters)
 
     def pipe_location(self, ds: pd.Series) -> pd.Series:
         return enrich_data(ds, "location", self.location)
@@ -90,10 +93,9 @@ class UnitedArabEmirates:
             .pipe(self.pipe_source)
         )
 
-    def export(self, paths):
+    def export(self):
         data = self.read().pipe(self.pipeline)
         increment(
-            paths=paths,
             location=data["location"],
             total_vaccinations=data["total_vaccinations"],
             people_vaccinated=data["people_vaccinated"],
@@ -102,8 +104,9 @@ class UnitedArabEmirates:
             date=data["date"],
             source_url=data["source_url"],
             vaccine=data["vaccine"],
+            make_series_monotonic=True,
         )
 
 
-def main(paths):
-    UnitedArabEmirates().export(paths)
+def main():
+    UnitedArabEmirates().export()

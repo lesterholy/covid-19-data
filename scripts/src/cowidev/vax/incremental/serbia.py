@@ -13,7 +13,9 @@ class Serbia:
         self.location = "Serbia"
         self.source_url = "https://vakcinacija.gov.rs/"
         self.regex = {
-            "metrics": r"Број доза: ([\d.]+) – прва доза ([\d.]+), друга доза ([\d.]+), трећа доза ([\d.]+)",
+            "metrics": (
+                r"Број доза: ([\d\.]+)\s?(?:–|-) прва доза ([\d\.]+), друга доза ([\d\.]+), трећа доза ([\d\.]+)"
+            ),
             "date": r"ажурирано .*",
         }
 
@@ -68,10 +70,9 @@ class Serbia:
     def pipeline(self, ds: pd.Series) -> pd.Series:
         return ds.pipe(self.pipe_vaccine).pipe(self.pipe_location)
 
-    def to_csv(self, paths):
+    def export(self):
         data = self.read().pipe(self.pipeline)
         increment(
-            paths=paths,
             location=data["location"],
             total_vaccinations=data["total_vaccinations"],
             people_vaccinated=data["people_vaccinated"],
@@ -83,9 +84,5 @@ class Serbia:
         )
 
 
-def main(paths):
-    Serbia().to_csv(paths)
-
-
-if __name__ == "__main__":
-    main()
+def main():
+    Serbia().export()

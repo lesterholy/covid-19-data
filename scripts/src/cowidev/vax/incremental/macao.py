@@ -1,140 +1,95 @@
+import time
 import re
-import os
-import urllib3
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
-from bs4 import BeautifulSoup
-import pandas as pd
-
-from cowidev.utils.clean import clean_count, clean_date
-from cowidev.utils.web.scraping import get_soup
+from cowidev.utils.clean import clean_count, extract_clean_date
+from cowidev.utils.web import get_driver
+from cowidev.vax.utils.incremental import increment
 
 
-def parse_date(elem) -> str:
-    date = elem.find_parent(class_="card").find(class_="news--item-date").text.strip()
-    return clean_date(date, "%Y年%m月%d日 %H:%M")
+class Macao:
+    source_url = "https://www.ssm.gov.mo/apps1/PreventCOVID-19/en.aspx"
+    location = "Macao"
+
+    def read_old(self):
+        """Create data."""
+        with get_driver() as driver:
+            # Get main page
+            driver.get(self.source_url)
+            time.sleep(5)
+            # Get element
+            # iframe_url = "https://www.ssm.gov.mo/apps1/COVID19Case/en.aspx"
+            iframe_url = self._get_iframe_url(driver)
+            # Build data
+            print(iframe_url)
+            data = self._parse_data(iframe_url, driver)
+            return data
+
+    def read(self):
+        with get_driver() as driver:
+            url = "https://www.ssm.gov.mo/apps1/COVID19Case/en.aspx"
+            data = self._parse_data(url, driver)
+            return data
+
+    def _get_iframe_url(self, driver):
+        """Get iframe url."""
+        elem = driver.find_element_by_id("ICovid19Monitor")
+        return elem.get_property("src")
+
+    def _parse_data(self, url, driver):
+        driver.get(url)
+        # Obtain metrics
+        # total_vaccinations
+        elem = self._get_elem_div(driver, "Total doses administered (local and non-local)")
+        total_vaccinations = clean_count(
+            re.search(r"Total doses administered \(local and non-local\) : ([\d,]+).*", elem.text).group(1)
+        )
+        # people_vaccinated
+        elem = self._get_elem_div(driver, "Total number of people vaccinated")
+        people_vaccinated = clean_count(re.search(r"Total number of people vaccinated : (\d+)", elem.text).group(1))
+        # people_with_2_doses_or_more
+        elem = self._get_elem_div(driver, "Number of people completed 2 or more doses")
+        people_with_2_doses_or_more = clean_count(
+            re.search(r"Number of people completed 2 or more doses : (\d+)", elem.text).group(1)
+        )
+        # Obtain date
+        elem = self._get_elem_div(driver, "updated on:")
+        date = extract_clean_date(elem.text, r"updated on:(\d\d/\d\d/20\d\d)", "%d/%m/%Y")
+        # Build dict
+        data = {
+            "total_vaccinations": total_vaccinations,
+            "people_vaccinated": people_vaccinated,
+            "people_fully_vaccinated": people_with_2_doses_or_more,
+            "total_boosters": total_vaccinations - people_vaccinated - people_with_2_doses_or_more,
+            "source_url": url,
+            "date": date,
+        }
+        return data
+
+    def _get_elem_div(self, driver, text_match):
+        elem = driver.find_elements_by_xpath(f"//div[contains(text(), '{text_match}')]")
+        print(elem)
+        assert len(elem) == 1
+        return elem[0]
+
+    def _parse_date(self, element):
+        """Get data from report file title."""
+        r = r".* \(Last updated: (\d\d\/\d\d\/20\d\d) .*\)"
+        return extract_clean_date(element.text, r, "%d/%m/%Y")
+
+    def export(self):
+        data = self.read()
+        increment(
+            location=self.location,
+            total_vaccinations=data["total_vaccinations"],
+            people_vaccinated=data["people_vaccinated"],
+            people_fully_vaccinated=data["people_fully_vaccinated"],
+            total_boosters=data["total_boosters"],
+            date=data["date"],
+            source_url=data["source_url"],
+            # vaccines in use: https://www.ssm.gov.mo/apps1/covid19vaccine/en.aspx#vactype
+            vaccine="Pfizer/BioNTech, Sinopharm/Beijing",
+        )
 
 
-def parse_source_url(elem) -> str:
-    return elem.find_parent(class_="card").find("a").get("href")
-
-
-def parse_vaccinations(elem) -> dict:
-    # Get news text
-    url = elem.find_parent(class_="card").find("a").get("href")
-    soup = get_soup(url, verify=False)
-    text = "\n".join([p.text for p in soup.find("article").find_all("p")])
-
-    # Find metrics
-    metrics = dict()
-    # total_vaccinations = re.search(r"疫苗共有(?P<count>[\d,]*)人次", text)
-    total_vaccinations = re.search(r"疫苗劑數為(?P<count>[\d,]*)劑", text)
-    # print(total_vaccinations)
-    # people_vaccinated = re.search(r"1劑疫苗共有(?P<count>[\d,]*)人次", text)
-    people_vaccinated = re.search(r"已接種人數共有(?P<count>[\d,]*)人", text)
-    # people_fully_vaccinated = re.search(r"2劑疫苗共有(?P<count>[\d,]*)人次", text)
-    # people_fully_vaccinated = re.search(r"已完成接種2劑有(?P<count>[\d,]*)人", text)
-    people_fully_vaccinated = re.search(r"已接種第2劑的?有([\d,]{6,})", text)
-    # people_fully_vaccinated = re.search(r"接種2劑有(?P<count>[\d,]*)人", text)
-
-    if total_vaccinations:
-        metrics["total_vaccinations"] = clean_count(total_vaccinations.group(1))
-    if people_vaccinated:
-        metrics["people_vaccinated"] = clean_count(people_vaccinated.group(1))
-    if people_fully_vaccinated:
-        metrics["people_fully_vaccinated"] = clean_count(people_fully_vaccinated.group(1))
-    return metrics
-
-
-def parse_data(soup: BeautifulSoup) -> pd.Series:
-    regex_pattern = r"(新冠|疫苗接種|疫苗)"
-    # Get all h3 elements
-    elems = soup.find_all("h3")
-    # Get data
-    records = []
-    for elem in elems:
-        if elem.find(text=re.compile(regex_pattern)):
-            date = parse_date(elem)
-            # print("added", date)
-            records.append(
-                {
-                    "date": date,
-                    "source_url": parse_source_url(elem),
-                    **parse_vaccinations(elem),
-                }
-            )
-    # print(records)
-    return records
-
-
-def postprocess(df):
-    col_ints = ["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]
-    # 1. remove entire NaN rows
-    df = df[~df[col_ints].isnull().all(axis=1)]
-    # 2. Combine
-    df = df.sort_values(by=["date", "source_url"])
-    df = df.fillna(method="ffill")
-    df = df.drop_duplicates(subset=["date"], keep="last")
-    return df
-
-
-def read(source: str, last_update: str, num_pages_limit: int = 10):
-    records = []
-    for page_nr in range(1, num_pages_limit):
-        # print(page_nr)
-        # Get soup
-        url = f"{source}/{page_nr}/"
-        soup = get_soup(url, verify=False)
-        # Get data (if any)
-        records_sub = parse_data(soup)
-        if records_sub:
-            records.extend(records_sub)
-            if any([record["date"] <= last_update for record in records_sub]):
-                # print("Dates exceding!  ", str([record["date"] for record in records_sub]))
-                break
-    if pd.Series([r.get("total_vaccinations") for r in records]).notnull().any():
-        records = [record for record in records if record["date"] >= last_update]
-        if len(records) > 0:
-            return postprocess(pd.DataFrame(records))
-    return None
-
-
-def enrich_location(df: pd.DataFrame) -> pd.DataFrame:
-    return df.assign(location="Macao")
-
-
-def enrich_vaccine(df: pd.DataFrame) -> pd.DataFrame:
-    return df.assign(vaccine="Pfizer/BioNTech, Sinopharm/Beijing")
-
-
-def pipeline(df: pd.DataFrame) -> pd.DataFrame:
-    return df.pipe(enrich_location).pipe(enrich_vaccine)
-
-
-def merge_with_current_data(df: pd.DataFrame, filepath: str) -> pd.DataFrame:
-    col_ints = ["total_vaccinations", "people_vaccinated", "people_fully_vaccinated"]
-    # Load current data
-    if os.path.isfile(filepath):
-        df_current = pd.read_csv(filepath)
-        # Merge
-        df_current = df_current[~df_current.date.isin(df.date)]
-        df = pd.concat([df, df_current]).sort_values(by="date")
-        # Int values
-    df[col_ints] = df[col_ints].astype("Int64").fillna(pd.NA)
-    return df
-
-
-def main(paths):
-    source = "https://www.gov.mo/zh-hant/news/"
-    output_file = paths.tmp_vax_out("Macao")
-    last_update = pd.read_csv(output_file).date.max()
-    df = read(source, last_update)
-    if df is not None:
-        df = df.pipe(pipeline)
-        df = merge_with_current_data(df, output_file)
-        df.to_csv(output_file, index=False)
-
-
-if __name__ == "__main__":
-    main()
+def main():
+    Macao().export()

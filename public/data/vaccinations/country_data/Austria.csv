@@ -1,323 +1,131 @@
-date,people_vaccinated,people_fully_vaccinated,total_vaccinations,total_boosters,location,source_url,vaccine
-2020-12-27,754,0,754,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2020-12-28,2077,0,2077,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2020-12-29,3749,0,3749,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2020-12-30,5134,0,5134,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2020-12-31,5149,0,5149,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-01,5158,0,5158,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-02,5171,0,5171,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-03,5181,0,5181,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-04,5312,0,5312,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-05,7120,0,7120,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-06,7983,0,7983,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-07,11267,0,11267,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-08,24506,0,24506,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-09,29033,0,29033,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-10,31276,0,31276,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-11,36977,0,36977,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-12,52010,0,52010,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-13,68171,0,68171,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-14,85169,0,85169,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,Pfizer/BioNTech
-2021-01-15,103753,0,103753,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-16,110639,12,110651,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-17,115986,394,116380,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-18,126567,1296,127863,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-19,151327,2796,154123,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-20,173713,4115,177828,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-21,193538,4289,197827,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-22,204553,4897,209450,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-23,207715,4901,212616,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-24,208981,4913,213894,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-25,210397,5029,215426,0,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-26,218250,5952,224204,2,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-27,225806,6488,232296,2,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-28,233129,9175,242313,9,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-29,238516,18972,257497,9,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-30,239869,21361,261239,9,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-01-31,240283,22374,262666,9,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-02-01,241898,25520,267427,9,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-02-02,245042,40089,285169,38,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-02-03,248258,55312,303608,38,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-02-04,251155,73376,324569,38,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-02-05,255337,90665,346040,38,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-02-06,258107,97125,355271,39,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-02-07,258736,101543,360318,39,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Pfizer/BioNTech"
-2021-02-08,260804,109346,370189,39,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-09,263704,126239,389982,39,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-10,267342,144822,412203,39,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-11,272792,164426,437258,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-12,281402,182889,464331,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-13,286768,188047,474855,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-14,287251,189644,476935,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-15,291186,192895,484121,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-16,298271,200589,498900,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-17,308432,210270,518742,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-18,320354,218417,538811,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-19,333403,226960,560403,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-20,344790,228669,573499,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-21,350449,229056,579545,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-22,355607,230928,586575,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-23,366189,235439,601668,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-24,382679,238955,621674,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-25,399168,242673,641881,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-26,423757,247693,671490,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-27,447014,249671,696725,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-02-28,456707,250184,706931,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-01,464829,251077,715946,40,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-02,488236,253505,741782,41,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-03,514131,255922,770093,41,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-04,539118,258743,797901,41,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-05,573517,261901,835458,41,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-06,599217,264448,863705,41,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-07,610567,265110,875717,41,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-08,620924,266520,887485,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-09,646016,270114,916171,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-10,670662,274671,945374,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-11,710251,280162,990454,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-12,763847,285618,1049506,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-13,810665,291447,1102153,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-14,837651,295707,1133399,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-15,856597,298047,1154682,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-16,878952,304539,1183518,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-17,905598,312777,1218399,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-18,932530,321017,1253571,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-19,978302,329720,1308045,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-20,1016291,339448,1355761,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-21,1028015,343361,1371398,42,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-22,1041583,345981,1387584,43,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-23,1060993,362923,1423936,43,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-24,1082932,381183,1464134,44,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-25,1112921,397869,1510806,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-26,1145595,416861,1562469,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-27,1172585,431659,1604254,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-28,1182608,436372,1618990,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-29,1203877,442047,1645934,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-30,1233743,453995,1687746,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-03-31,1256113,467267,1723382,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-01,1279190,486638,1765823,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-02,1304132,506172,1810294,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-03,1316977,515304,1832267,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-04,1325330,517103,1842418,45,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-05,1333195,521924,1855099,46,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-06,1359615,534088,1893678,47,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-07,1399573,550475,1950018,48,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-08,1447087,576494,2023544,48,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-09,1492772,610124,2102849,48,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-10,1529599,639168,2168718,58,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-11,1540006,654902,2194852,58,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-12,1568279,662053,2230270,58,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-13,1602151,673788,2275876,59,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-14,1656462,687721,2344122,61,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-15,1712261,706980,2419179,61,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-16,1764457,725770,2490166,63,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-17,1800697,747868,2548503,63,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-18,1815688,752227,2567854,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-19,1841943,758051,2599933,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-20,1874967,770918,2645823,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-21,1927912,781839,2709687,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-22,1988689,792591,2781216,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-23,2046024,804118,2850078,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-24,2080678,810015,2890626,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-25,2106895,811859,2918686,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-26,2134512,815438,2949879,64,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-27,2171651,826904,2998479,65,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-28,2216051,841471,3057444,65,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-29,2277511,856892,3134293,65,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-04-30,2345140,870759,3215767,66,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-01,2379385,878985,3258036,66,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-02,2394787,880395,3274841,66,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-03,2412958,892774,3304524,66,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-04,2454443,914796,3366379,66,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-05,2515404,933163,3445054,67,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-06,2593830,954107,3543357,69,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-07,2681137,977620,3653271,71,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-08,2715239,997340,3706145,71,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-09,2728065,1003516,3725131,71,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-10,2761518,1014849,3768932,71,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-11,2811111,1032965,3835671,73,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-12,2889740,1057327,3937180,73,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-13,2916321,1065968,3971603,73,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-14,2983852,1090469,4062619,74,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-15,3028459,1107519,4123228,74,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-16,3046289,1114764,4147592,74,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-17,3077087,1133536,4195411,75,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-18,3121739,1161510,4265978,75,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-19,3196614,1195316,4372679,75,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-20,3273653,1232101,4484688,78,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-21,3347247,1274022,4597307,80,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-22,3386887,1294294,4656931,80,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-23,3406437,1305925,4686640,80,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-24,3418723,1318959,4711829,80,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-25,3456969,1337919,4767481,80,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-26,3506291,1383906,4861154,80,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-27,3561394,1431738,4961368,83,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-28,3621206,1488828,5072543,84,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-29,3646689,1526664,5135484,87,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-30,3660836,1550958,5173899,87,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-05-31,3682736,1576382,5218324,88,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-01,3739106,1617532,5309995,92,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-02,3817185,1690643,5454284,96,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-03,3848389,1729502,5523405,96,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-04,3911064,1779889,5633489,97,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-05,3944732,1810106,5696930,100,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-06,3968883,1840087,5750670,101,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-07,3994984,1874913,5808839,103,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-08,4045613,1921374,5901103,105,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-09,4108539,1981023,6019153,107,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-10,4161307,2055132,6141370,112,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-11,4217064,2135338,6273202,120,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-12,4245185,2177760,6343047,121,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-13,4262514,2198476,6380956,121,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-14,4282329,2230111,6430342,121,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-15,4329884,2272446,6517490,123,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-16,4379851,2346082,6638384,126,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-17,4422085,2422307,6754243,133,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-18,4464670,2497616,6867669,135,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-19,4495246,2534501,6934847,135,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-20,4514548,2552497,6972033,135,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-21,4535529,2585888,7024879,138,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-22,4571524,2644222,7117260,147,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-23,4607020,2722655,7229916,151,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-24,4640078,2801421,7339974,159,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-25,4675202,2890860,7462850,168,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-26,4701896,2941931,7540392,172,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-27,4724009,2961502,7581943,174,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-28,4740179,2999681,7633288,178,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-29,4771995,3063855,7726075,186,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-06-30,4805533,3148933,7841074,193,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-01,4836909,3239506,7959277,210,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-02,4865124,3329237,8074071,223,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-03,4887454,3380437,8145067,224,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-04,4921660,3407105,8199739,225,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-05,4940315,3439308,8246093,235,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-06,4968972,3497414,8328767,244,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-07,4994801,3568980,8423746,259,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-08,5020815,3643436,8521373,321,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-09,5045702,3713710,8611669,369,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-10,5058552,3755040,8663254,375,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-11,5070726,3776556,8694271,383,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-12,5079624,3805959,8730753,400,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-13,5100691,3861761,8805834,414,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-14,5117382,3928980,8887676,438,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-15,5135767,3977821,8952265,519,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-16,5154691,4043570,9033908,600,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-17,5172089,4083776,9085266,620,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-18,5179363,4106320,9113622,623,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-19,5190849,4128037,9145456,632,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-20,5203572,4164490,9193071,663,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-21,5215607,4222164,9260656,683,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-22,5233930,4276764,9330317,713,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-23,5250923,4334071,9401852,732,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-24,5262473,4377163,9452988,741,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-25,5269136,4400765,9481411,746,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-26,5278092,4423843,9512062,764,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-27,5285920,4471420,9566088,788,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-28,5294508,4520871,9622502,815,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-29,5303833,4558243,9667310,854,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-30,5315649,4605734,9723204,879,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-07-31,5321768,4636904,9758907,903,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-01,5324239,4662272,9786104,909,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-02,5329713,4686213,9814167,926,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-03,5338282,4726174,9860848,957,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-04,5348352,4764254,9907132,994,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-05,5357907,4797665,9947478,1023,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-06,5367658,4837150,9993762,1084,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-07,5375111,4862846,10023444,1097,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-08,5378982,4884954,10048553,1111,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-09,5383031,4897207,10063686,1171,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-10,5388480,4933028,10103520,1231,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-11,5395449,4967066,10143033,1285,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-12,5402114,4992534,10173677,1333,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-13,5408560,5014466,10199894,1415,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-14,5414026,5028782,10218142,1425,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-15,5415987,5036639,10227271,1436,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-16,5420209,5056726,10250437,1464,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-17,5426561,5076991,10275369,1526,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-18,5433670,5097028,10300892,1619,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-19,5441071,5116717,10326025,1726,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-20,5450117,5136456,10351825,1836,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-21,5456819,5149136,10368405,1906,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-22,5460246,5154110,10376100,1922,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-23,5463677,5160293,10384812,2023,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-24,5474698,5171864,10404205,2190,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-25,5481759,5181622,10419394,2357,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-26,5490274,5196809,10440712,2583,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-27,5499437,5208877,10459471,2786,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-28,5505053,5214053,10468626,2827,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-29,5506708,5216339,10472025,2849,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-30,5511186,5222122,10481160,2951,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-08-31,5521610,5231638,10498573,3175,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-01,5529299,5239678,10512802,3578,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-02,5536555,5248838,10528382,4318,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-03,5545622,5257614,10544534,5386,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-04,5552998,5265786,10558624,6182,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-05,5554188,5267156,10560810,6225,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-06,5557734,5271022,10568020,6828,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-07,5567027,5278115,10583618,7913,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-08,5575297,5285568,10598394,8871,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-09,5584146,5293819,10614631,10099,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-10,5595392,5303173,10633773,11323,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-11,5604835,5310827,10647429,11820,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-12,5606580,5312680,10650518,11922,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-13,5611060,5317115,10659488,13051,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-14,5621330,5325744,10679129,15081,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-15,5630341,5333069,10696202,17631,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-16,5640307,5341152,10715200,20679,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-17,5654549,5350882,10739558,23601,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-18,5662292,5357161,10752283,24354,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-19,5663834,5359610,10756001,24552,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-20,5668558,5364147,10766187,26683,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-21,5678236,5373504,10787130,31041,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-22,5687748,5381148,10808694,37167,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-23,5696838,5388520,10827164,41133,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-24,5711317,5399141,10851511,44531,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-25,5716974,5404769,10862985,46442,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-26,5718248,5406016,10865516,46890,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-27,5723057,5410197,10876239,49556,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-28,5730674,5418423,10894890,54124,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-29,5738324,5425442,10916253,62028,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-09-30,5745454,5432590,10937502,70022,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-01,5755046,5442807,10961661,75830,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-02,5759913,5448133,10973553,78324,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-03,5760838,5449279,10975762,78611,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-04,5764475,5454168,10988846,83806,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-05,5770833,5462739,11012530,93501,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-06,5777156,5470775,11040494,107837,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-07,5782597,5478115,11064543,119564,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-08,5790407,5490613,11096959,132348,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-09,5794330,5495400,11110348,137429,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-10,5794991,5496477,11112546,138002,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-11,5797916,5501406,11126349,144315,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-12,5802720,5508947,11148304,154383,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-13,5807959,5517192,11175429,168376,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-14,5813165,5525213,11201312,181456,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-15,5819542,5536419,11230199,193355,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-16,5822798,5541308,11241425,196743,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-17,5823365,5542193,11243316,197253,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-18,5825848,5547138,11259573,206291,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-19,5830170,5554287,11283191,218799,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-20,5834899,5562792,11312982,235696,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-21,5840602,5571266,11342218,251111,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-22,5850344,5582068,11376563,265879,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-23,5856867,5587335,11392409,270578,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-24,5858249,5588450,11395469,271290,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-25,5863145,5593826,11411161,277305,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-26,5867377,5596070,11418700,278896,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-27,5876415,5605277,11450295,292919,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-28,5884655,5613158,11478948,306038,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-29,5898902,5622988,11514320,318957,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-30,5907681,5627640,11532172,324252,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-10-31,5909572,5628739,11536104,325355,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-01,5910935,5629685,11539516,326627,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-02,5922293,5637032,11570733,340102,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-03,5933662,5646467,11615605,364820,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-04,5945644,5655639,11664283,392876,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-05,5964646,5666993,11728810,428388,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-06,5978510,5672745,11768374,448861,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-07,5985677,5675085,11788754,459902,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-08,5998266,5681614,11835197,487700,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-09,6020830,5690684,11902623,524281,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-10,6038774,5700321,11974888,569464,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-11,6060450,5712171,12059065,620680,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-12,6085934,5725966,12153984,676913,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
-2021-11-13,6101691,5733743,12208257,707943,Austria,https://info.gesundheitsministerium.gv.at/data/COVID19_vaccination_doses_timeline.csv,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech"
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Austria,2021-01-08,Pfizer/BioNTech,https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,31790,31772,3,0
+Austria,2021-01-15,"Moderna, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,117665,117207,413,0
+Austria,2021-01-22,"Moderna, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,216189,210927,5078,0
+Austria,2021-01-29,"Moderna, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,265704,242645,22730,2
+Austria,2021-02-05,"Moderna, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,364418,261361,102623,22
+Austria,2021-02-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,482438,290286,191427,42
+Austria,2021-02-19,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,586391,354057,231289,50
+Austria,2021-02-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,715245,461280,252766,60
+Austria,2021-03-05,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,885732,616346,267987,67
+Austria,2021-03-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1146023,845268,299008,79
+Austria,2021-03-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1386146,1037036,347186,89
+Austria,2021-03-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1636696,1193500,441072,98
+Austria,2021-04-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1863002,1337870,522752,108
+Austria,2021-04-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,2219599,1555064,661789,155
+Austria,2021-04-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,2597215,1833700,760467,175
+Austria,2021-04-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,2952324,2127931,821048,202
+Austria,2021-04-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,3313413,2419044,890789,232
+Austria,2021-05-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,3769595,2756010,1015822,275
+Austria,2021-05-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,4198562,3078478,1129222,327
+Austria,2021-05-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,4745351,3443295,1323411,395
+Austria,2021-05-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,5239573,3701057,1572100,479
+Austria,2021-06-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,5824871,4013690,1865647,585
+Austria,2021-06-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,6463485,4311598,2228669,735
+Austria,2021-06-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,7062963,4567831,2587058,914
+Austria,2021-06-25,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,7681377,4780781,3001085,1086
+Austria,2021-07-02,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,8307594,4982328,3451574,1345
+Austria,2021-07-09,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,8809627,5134769,3825406,1849
+Austria,2021-07-16,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,9235745,5245966,4159436,2380
+Austria,2021-07-23,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,9609828,5338010,4457963,2782
+Austria,2021-07-30,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,9920906,5395358,4723579,3271
+Austria,2021-08-06,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,10189078,5452215,4949841,3832
+Austria,2021-08-13,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,10372949,5491228,5104538,4568
+Austria,2021-08-20,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,10526122,5537256,5224409,5448
+Austria,2021-08-27,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,10625859,5585397,5288780,6659
+Austria,2021-09-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,10718512,5634739,5341513,10484
+Austria,2021-09-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,10811721,5688935,5388610,16590
+Austria,2021-09-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,10920680,5747770,5437045,29847
+Austria,2021-09-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11034119,5803799,5485104,53179
+Austria,2021-10-01,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11148412,5847952,5528283,87687
+Austria,2021-10-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11289327,5883507,5572957,152479
+Austria,2021-10-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11424338,5913262,5614360,219008
+Austria,2021-10-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11582148,5950215,5654961,302433
+Austria,2021-10-29,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11728922,6003786,5689024,366862
+Austria,2021-11-05,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11993434,6083947,5726999,517739
+Austria,2021-11-12,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,12495122,6222882,5774657,836120
+Austria,2021-11-19,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,13190432,6338821,5831434,1359862
+Austria,2021-11-26,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,13986115,6429431,5897396,1999068
+Austria,2021-12-03,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,14754686,6508467,5991010,2594668
+Austria,2021-12-10,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,15432474,6575291,6092932,3103421
+Austria,2021-12-17,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16117395,6647425,6200315,3608362
+Austria,2021-12-24,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16442896,6682680,6262472,3835880
+Austria,2021-12-31,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16677400,6707225,6315016,3992833
+Austria,2022-01-07,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16976974,6738714,6382719,4192435
+Austria,2022-01-14,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,17314752,6774368,6447765,4427410
+Austria,2022-01-21,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,17560251,6803541,6486888,4603686
+Austria,2022-01-28,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,17760687,6823970,6519956,4749607
+Austria,2022-02-04,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,17963207,6837231,6552854,4903472
+Austria,2022-02-11,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18069467,6846623,6577677,4972844
+Austria,2022-02-18,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18130254,6852557,6594820,5007391
+Austria,2022-02-25,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18172954,6856666,6606812,5031261
+Austria,2022-03-04,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18209211,6861174,6615616,5050765
+Austria,2022-03-11,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18237778,6864031,6622219,5066400
+Austria,2022-03-18,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18261878,6866115,6626829,5080262
+Austria,2022-03-25,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18287092,6868259,6631502,5094669
+Austria,2022-04-01,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18310588,6869917,6635202,5108707
+Austria,2022-04-08,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18332948,6871423,6638026,5122546
+Austria,2022-04-15,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18352299,6872573,6640142,5134530
+Austria,2022-04-22,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18373879,6873670,6642597,5146877
+Austria,2022-04-29,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18400191,6874764,6645412,5161559
+Austria,2022-05-06,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18426752,6875740,6648164,5175548
+Austria,2022-05-13,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18454086,6876695,6650631,5189712
+Austria,2022-05-20,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18480457,6877588,6652568,5202795
+Austria,2022-05-27,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18498269,6878291,6653890,5211841
+Austria,2022-06-03,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18520039,6879034,6655460,5222027
+Austria,2022-06-10,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18540313,6879677,6656721,5230567
+Austria,2022-06-17,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18561826,6880263,6657909,5238214
+Austria,2022-06-24,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18596713,6880982,6659298,5247832
+Austria,2022-07-01,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18647304,6881663,6660627,5256626
+Austria,2022-07-08,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18714296,6882412,6661889,5265714
+Austria,2022-07-15,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18786170,6883225,6663115,5274673
+Austria,2022-07-22,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18846243,6883846,6664185,5282247
+Austria,2022-07-29,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18898299,6884495,6665161,5289267
+Austria,2022-08-05,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18940102,6885043,6665955,5294820
+Austria,2022-08-12,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18981314,6885628,6666760,5300107
+Austria,2022-08-19,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19021746,6886193,6667559,5305594
+Austria,2022-08-26,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19069081,6886817,6668454,5312492
+Austria,2022-09-02,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19124417,6887619,6669452,5321114
+Austria,2022-09-09,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19187027,6888433,6670387,5329440
+Austria,2022-09-16,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19243935,6889081,6671204,5335372
+Austria,2022-09-23,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19300179,6889695,6671971,5340576
+Austria,2022-09-30,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19387051,6890334,6672915,5346801
+Austria,2022-10-07,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19499196,6891086,6673835,5353940
+Austria,2022-10-14,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19621776,6891902,6674789,5361690
+Austria,2022-10-21,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19741790,6892685,6675642,5368881
+Austria,2022-10-28,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19814255,6893250,6676307,5373467
+Austria,2022-11-04,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19887029,6893756,6676905,5377364
+Austria,2022-11-11,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19979348,6894379,6677600,5381739
+Austria,2022-11-18,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20064469,6895097,6678220,5385751
+Austria,2022-11-25,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20139505,6895707,6678724,5389074
+Austria,2022-12-02,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20212063,6896265,6679241,5392183
+Austria,2022-12-09,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20262376,6896710,6679629,5394476
+Austria,2022-12-16,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20316117,6897270,6680148,5396896
+Austria,2022-12-23,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20340085,6897554,6680466,5398093
+Austria,2022-12-30,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20351827,6897765,6680653,5398800
+Austria,2023-01-06,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20365631,6897991,6680930,5399792
+Austria,2023-01-13,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20384653,6898335,6681297,5400846
+Austria,2023-01-20,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20399035,6898555,6681527,5401639
+Austria,2023-01-27,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20409648,6898733,6681716,5402265
+Austria,2023-02-03,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20418050,6898901,6681903,5402772
+Austria,2023-02-10,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20424217,6899016,6682072,5403154
+Austria,2023-02-17,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20429762,6899122,6682220,5403513
+Austria,2023-02-24,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20434553,6899216,6682344,5403783
+Austria,2023-03-03,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20441522,6899304,6682488,5404077
+Austria,2023-03-10,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20445536,6899379,6682595,5404340
+Austria,2023-03-17,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20449101,6899444,6682694,5404578
+Austria,2023-03-24,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20452291,6899501,6682778,5404761
+Austria,2023-03-31,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20455410,6899567,6682850,5404937
+Austria,2023-04-07,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20457056,6899607,6682902,5405034
+Austria,2023-04-14,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20458581,6899643,6682951,5405140
+Austria,2023-04-21,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20460568,6899677,6683012,5405256
+Austria,2023-04-28,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20462394,6899714,6683064,5405401
+Austria,2023-05-05,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20463465,6899739,6683089,5405495
+Austria,2023-05-12,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20464555,6899768,6683120,5405585
+Austria,2023-05-19,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20465230,6899782,6683145,5405644
+Austria,2023-05-26,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20466154,6899806,6683173,5405717
+Austria,2023-06-02,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20466793,6899821,6683192,5405773
+Austria,2023-06-09,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20467339,6899844,6683216,5405827
+Austria,2023-06-16,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20467934,6899858,6683230,5405875
+Austria,2023-06-23,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20468338,6899866,6683246,5405917
+Austria,2023-06-30,"Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Valneva",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20468731,6899873,6683263,5405966

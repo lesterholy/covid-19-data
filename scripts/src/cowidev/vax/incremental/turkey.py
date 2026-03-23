@@ -29,8 +29,9 @@ def parse_data(soup: BeautifulSoup) -> pd.Series:
 
 
 def parse_date(soup: BeautifulSoup) -> str:
-    date_raw = re.search(rf"var asidozuguncellemesaati = '(.*202\d)", str(soup))
-    return clean_date(date_raw.group(1), fmt="%d %B %Y", lang="tr_TR", loc="tr_TR")
+    date_raw = re.search(rf"var asidozuguncellemesaati = '(.*202\d)", str(soup)).group(1)
+    date_raw = date_raw.lower()
+    return clean_date(date_raw, fmt="%d %B %Y", lang="tr_TR", loc="tr_TR")
 
 
 def parse_metric(soup: BeautifulSoup, metric_name: str) -> int:
@@ -43,7 +44,7 @@ def enrich_location(ds: pd.Series) -> pd.Series:
 
 
 def enrich_vaccine(ds: pd.Series) -> pd.Series:
-    return enrich_data(ds, "vaccine", "Pfizer/BioNTech, Sinovac")
+    return enrich_data(ds, "vaccine", "Pfizer/BioNTech, Sinovac, Turkovac")
 
 
 def enrich_source(ds: pd.Series) -> pd.Series:
@@ -54,11 +55,10 @@ def pipeline(ds: pd.Series) -> pd.Series:
     return ds.pipe(enrich_location).pipe(enrich_vaccine).pipe(enrich_source)
 
 
-def main(paths):
+def main():
     source = "https://covid19asi.saglik.gov.tr/"
     data = read(source).pipe(pipeline)
     increment(
-        paths=paths,
         location=data["location"],
         total_vaccinations=data["total_vaccinations"],
         people_vaccinated=data["people_vaccinated"],
@@ -68,7 +68,3 @@ def main(paths):
         source_url=data["source_url"],
         vaccine=data["vaccine"],
     )
-
-
-if __name__ == "__main__":
-    main()

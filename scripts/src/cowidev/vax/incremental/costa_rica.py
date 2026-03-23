@@ -13,7 +13,7 @@ class CostaRica:
     source_url: str = "https://www.ccss.sa.cr/web/coronavirus/vacunacion"
 
     def read(self) -> pd.Series:
-        soup = get_soup(self.source_url)
+        soup = get_soup(self.source_url, use_proxy=True)
         return self._parse_data(soup)
 
     def _parse_data(self, soup: BeautifulSoup) -> pd.Series:
@@ -31,7 +31,7 @@ class CostaRica:
         return pd.Series(data=data)
 
     def _parse_table(self, soup):
-        df = pd.read_html(str(soup.find("table", id="content-table3")))[0]
+        df = pd.read_html(str(soup.find("table", id="content-table3")), thousands=".")[0]
         df = df[df["Región"] == "Total"]
         total_vaccinations = clean_count(df["Total dosis"].item())
         people_vaccinated = clean_count(df["Dosis 1"].item())
@@ -57,10 +57,9 @@ class CostaRica:
     def pipeline(self, ds: pd.Series) -> pd.Series:
         return ds.pipe(self.pipe_location).pipe(self.pipe_vaccine).pipe(self.pipe_source)
 
-    def export(self, paths):
+    def export(self):
         data = self.read().pipe(self.pipeline)
         increment(
-            paths=paths,
             location=data["location"],
             total_vaccinations=data["total_vaccinations"],
             people_vaccinated=data["people_vaccinated"],
@@ -72,5 +71,5 @@ class CostaRica:
         )
 
 
-def main(paths):
-    CostaRica().export(paths)
+def main():
+    CostaRica().export()

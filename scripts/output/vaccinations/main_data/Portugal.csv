@@ -1,262 +1,145 @@
-date,total_vaccinations,people_vaccinated,people_fully_vaccinated,vaccine,location,source_url
-2020-12-27,4963.0,4963.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2020-12-28,7754.0,7754.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2020-12-29,20368.0,20368.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2020-12-30,30543.0,30543.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2020-12-31,32749.0,32749.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-01,32749.0,32749.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-02,32750.0,32750.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-03,32750.0,32750.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-04,33670.0,33670.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-05,46433.0,46433.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-06,61454.0,61454.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-07,71751.0,71751.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-08,74254.0,74254.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-09,74352.0,74352.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-10,74392.0,74392.0,0.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-11,85186.0,85067.0,135.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-12,96068.0,95949.0,135.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-13,109867.0,109748.0,135.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-14,121017.0,120898.0,135.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-15,128503.0,128384.0,135.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-16,130038.0,129919.0,135.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-17,131206.0,129926.0,1296.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-18,136625.0,135286.0,1410.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-19,160355.0,151398.0,9028.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-20,189288.0,171156.0,18203.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-21,222392.0,199286.0,23177.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-22,248651.0,223141.0,25581.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-23,263445.0,233895.0,29621.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-24,267620.0,237553.0,30138.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-26,275420.0,,,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-27,290334.0,,,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-28,307925.0,,,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-29,327658.0,,,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-30,342154.0,277179.0,65046.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-01-31,348692.0,280793.0,67970.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-01,380235.0,300093.0,80478.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-02,383788.0,301703.0,82421.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-03,392614.0,305372.0,87578.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-04,405880.0,309515.0,96701.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-05,421047.0,314741.0,106642.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-06,435757.0,320581.0,115512.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-07,437573.0,321657.0,116252.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-08,442126.0,324340.0,118157.0,Pfizer/BioNTech,Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-09,445945.0,326717.0,119599.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-10,461038.0,331306.0,130103.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-11,481975.0,335724.0,146622.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-12,514074.0,343297.0,171148.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-13,551126.0,353259.0,198238.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-14,569104.0,361401.0,208074.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-15,582851.0,365424.0,218083.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-16,593616.0,370603.0,223669.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-17,610161.0,381116.0,229701.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-18,632532.0,395534.0,237654.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-19,672466.0,422764.0,250358.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-20,710241.0,447585.0,263312.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-21,729283.0,463123.0,266816.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-22,737218.0,469303.0,269134.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-23,751258.0,481619.0,270858.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-24,777678.0,505818.0,273079.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-25,809278.0,533929.0,276568.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-26,853966.0,575525.0,279660.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-27,894848.0,610951.0,285116.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-02-28,918883.0,633701.0,286401.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-01,935459.0,646707.0,290553.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-02,951617.0,661515.0,291903.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-03,967339.0,675572.0,293568.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-04,995641.0,698841.0,298601.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-05,1038691.0,736082.0,304410.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-06,1078540.0,767324.0,313017.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-07,1095697.0,780328.0,317170.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-08,1108978.0,786407.0,324760.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-09,1119969.0,795220.0,326938.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-10,1130963.0,804308.0,328844.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-11,1154641.0,818988.0,337842.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-12,1189763.0,839807.0,352145.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-13,1223453.0,860025.0,365617.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-14,1239751.0,870958.0,370982.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-15,1258053.0,883239.0,377340.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-16,1283024.0,905195.0,380355.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-17,1290529.0,906753.0,386302.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-18,1324974.0,919301.0,408199.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-19,1370247.0,931221.0,441552.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-20,1415104.0,948103.0,469527.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-21,1438169.0,958258.0,482437.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-22,1451305.0,965922.0,488065.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-23,1469031.0,976016.0,495697.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-24,1491340.0,996253.0,497769.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-25,1533833.0,1035139.0,501376.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-26,1605265.0,1102067.0,505880.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-27,1635973.0,1130319.0,508336.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-28,1699388.0,1192216.0,509854.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-29,1731864.0,1224219.0,510885.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-30,1755411.0,1245138.0,513513.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-03-31,1786358.0,1272489.0,517109.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-01,1810034.0,1286458.0,526816.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-02,1893315.0,1327691.0,568864.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-03,1928749.0,1346369.0,585620.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-04,1946683.0,1357180.0,592743.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-05,1955832.0,1362921.0,596407.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-06,1988477.0,1389646.0,602327.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-07,2028195.0,1426282.0,605409.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-08,2090043.0,1477691.0,615848.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-09,2160535.0,1533177.0,630854.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-10,2230094.0,1590151.0,643439.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-11,2243005.0,1600956.0,645545.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-12,2267182.0,1620332.0,650898.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-13,2299166.0,1650154.0,653060.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-14,2343393.0,1692601.0,654840.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-15,2406946.0,1745261.0,665733.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-16,2476590.0,1804774.0,675864.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-17,2544385.0,1852614.0,695819.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-18,2663203.0,1966502.0,700749.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-19,2748589.0,2046722.0,706416.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-20,2780953.0,2067919.0,717583.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-21,2819166.0,2097156.0,726559.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-22,2873035.0,2127138.0,750446.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-23,2940843.0,2155615.0,789777.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-24,3018399.0,2195236.0,827712.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-25,3062012.0,2226567.0,839994.0,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-26,3100056.0,2258407.0,847144.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-27,3148955.0,2298689.0,855761.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-28,3198336.0,2337870.0,865961.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-29,3271107.0,2391783.0,884819.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-04-30,3351914.0,2454359.0,903050.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-01,3438217.0,2523634.0,920078.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-02,3489721.0,2565694.0,929522.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-03,3537505.0,2606492.0,938515.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-04,3602565.0,2657936.0,952131.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-05,3679672.0,2718134.0,969040.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-06,3770601.0,2766691.0,1011412.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-07,3871625.0,2816418.0,1062709.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-08,3975875.0,2863850.0,1119527.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-09,4058360.0,2932447.0,1133415.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-10,4130075.0,2990977.0,1160104.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-11,4208621.0,3049838.0,1179789.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-12,4277932.0,3103082.0,1195856.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-13,4346331.0,3156364.0,1210973.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-14,4418828.0,3209264.0,1230570.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-15,4498669.0,3232913.0,1286762.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-16,4628519.0,3238935.0,1410590.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-17,4726927.0,3299073.0,1468416.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-18,4795397.0,3346848.0,1489111.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-19,4874893.0,3402783.0,1512672.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-20,4954189.0,3455530.0,1539221.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-21,5036840.0,3509937.0,1567465.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-22,5122294.0,3559277.0,1603579.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-23,5193360.0,3595806.0,1638116.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-24,5254601.0,3629640.0,1700792.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-25,5322547.0,3673162.0,1725216.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-26,5391349.0,3722642.0,1744538.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-27,5479193.0,3767035.0,1787989.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-28,5578212.0,3808894.0,1845149.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-29,5681970.0,3848276.0,1909525.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-30,5755219.0,3882388.0,1948662.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-05-31,5817675.0,3912151.0,2053664.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-01,5887795.0,3944206.0,2091729.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-02,5976551.0,3985846.0,2138845.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-03,6066032.0,4039036.0,2175136.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-04,6137676.0,4080895.0,2204921.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-05,6228349.0,4129942.0,2246547.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-06,6309279.0,4165772.0,2291647.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-07,6389197.0,4200173.0,2408990.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-08,6493412.0,4253178.0,2460200.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-09,6588915.0,4314780.0,2494101.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-10,6688232.0,4380157.0,2528041.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-11,6800621.0,4454275.0,2566312.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-12,6857065.0,4485029.0,2592002.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-13,6928088.0,4550036.0,2598018.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-14,7002297.0,4589578.0,2681168.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-15,7095466.0,4647025.0,2716890.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-16,7197884.0,4697742.0,2768591.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-17,7308920.0,4759459.0,2817910.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-18,7477240.0,4857883.0,2887806.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-19,7528085.0,4881280.0,2915254.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-20,7666562.0,4928639.0,3006372.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-21,7737062.0,4969887.0,3091345.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-22,7768173.0,4985401.0,3106942.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-23,7874793.0,5040573.0,3158390.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-24,7985301.0,5101219.0,3208252.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-25,8096687.0,5164468.0,3256389.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-26,8206314.0,5229806.0,3300678.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-27,8304398.0,5290829.0,3337739.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-28,8461049.0,5391819.0,3464578.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-06-29,8575736.0,5454289.0,3516795.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-05,9284246.0,5808086.0,3927645.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-06,9430614.0,5876536.0,4005563.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-07,9589317.0,5945063.0,4095739.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-12,10340152.0,6280338.0,4586365.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-13,10458224.0,6324997.0,4659778.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-14,10573507.0,6381656.0,4718402.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-15,10693843.0,6438047.0,4782347.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-16,10810167.0,6493331.0,4843387.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-17,10926002.0,6544304.0,4908249.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-18,11024173.0,6599464.0,4951260.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-19,11108338.0,6642328.0,5141867.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-20,11208066.0,6685956.0,5197967.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-21,11307205.0,6730947.0,5252115.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-22,11403075.0,6768293.0,5310639.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-23,11505495.0,6812529.0,5368823.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-24,11608161.0,6854810.0,5429208.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-25,11701986.0,6893089.0,5484754.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-26,11777968.0,6919659.0,5698666.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-27,11864310.0,6945301.0,5759366.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-28,11949931.0,6973217.0,5817071.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-29,12037243.0,7001291.0,5876309.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-30,12125042.0,7031006.0,5934393.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-07-31,12218465.0,7064782.0,5994040.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-02,12384055.0,7127484.0,6230186.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-03,12470311.0,7153773.0,6290153.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-04,12555482.0,7181767.0,6347330.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-05,12661404.0,7228152.0,6406867.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-06,12763892.0,7265630.0,6471877.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-07,12864774.0,7305822.0,6532567.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-08,12952260.0,7340911.0,6584964.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-09,13023071.0,7374913.0,6772619.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-10,13109461.0,7424978.0,6808944.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-11,13210265.0,7488009.0,6846717.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-12,13302877.0,7549112.0,6878226.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-13,13394080.0,7595187.0,6923354.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-14,13512448.0,7673619.0,6963290.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-15,13616167.0,7772600.0,6968028.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-16,13691542.0,7832492.0,7177043.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-17,13790090.0,7899634.0,7208449.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-18,13870907.0,7954742.0,7234158.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-19,13950515.0,8015608.0,7252900.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-20,14025110.0,8074861.0,7268242.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-21,14105124.0,8130495.0,7292622.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-22,14233658.0,8256684.0,7294967.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-23,14293791.0,8304617.0,7463273.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-24,14363287.0,8359521.0,7477865.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-25,14423852.0,8406653.0,7491298.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-26,14487994.0,8455345.0,7506748.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-27,14543308.0,8496075.0,7521332.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-28,14603308.0,8533345.0,7544062.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-29,14682153.0,8608408.0,7547844.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-30,14727886.0,8640378.0,7642317.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-08-31,14782719.0,8671373.0,7666155.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-01,14833490.0,8695172.0,7693127.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-02,14887604.0,8715191.0,7727222.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-03,14937154.0,8739117.0,7752846.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-05,15100592.0,8775039.0,7880362.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-06,15159450.0,8787035.0,7973783.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-07,15206270.0,8799088.0,8008550.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-08,15247878.0,8810237.0,8039009.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-09,15288704.0,8820142.0,8069930.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-10,15330285.0,8831918.0,8099735.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-11,15371149.0,8842920.0,8129597.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-12,15496831.0,8852743.0,8245456.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-13,15537955.0,8858070.0,8298318.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-14,15593396.0,8867911.0,8343918.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-20,15809057.0,8889941.0,8546688.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-21,15876123.0,8916632.0,8577924.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-22,15901270.0,8922866.0,8596837.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-26,15949645.0,8928921.0,8658945.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-09-27,15981456.0,8944323.0,8676864.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-10-04,16062838.0,8968560.0,8742445.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-10-11,16120905.0,8983965.0,8790129.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-10-18,16175518.0,9001755.0,8831376.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-10-25,16218589.0,9015314.0,8864677.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-11-01,16249575.0,9028364.0,8886647.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
-2021-11-08,16272251.0,9037865.0,8902861.0,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",Portugal,https://github.com/dssg-pt/covid19pt-data
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Portugal,2021-01-01,"Moderna, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,5199,5186,6,5
+Portugal,2021-01-08,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,86088,85686,212,47
+Portugal,2021-01-15,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,138100,136372,1458,114
+Portugal,2021-01-22,"Johnson&Johnson, Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,294624,259842,33965,493
+Portugal,2021-01-29,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,383964,302937,79330,1255
+Portugal,2021-02-05,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,447164,328144,112541,6010
+Portugal,2021-02-12,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,589505,370061,197880,20928
+Portugal,2021-02-19,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,745949,474668,243856,26468
+Portugal,2021-02-26,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,947400,653049,262780,29987
+Portugal,2021-03-05,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1124639,794356,294830,33288
+Portugal,2021-03-12,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1278157,893830,345334,36217
+Portugal,2021-03-19,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1476627,978820,455321,38125
+Portugal,2021-03-26,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1763527,1239791,478013,40314
+Portugal,2021-04-02,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,1993626,1380943,563905,42206
+Portugal,2021-04-09,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,2312746,1640923,618851,45477
+Portugal,2021-04-16,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,2802639,2070145,675163,49010
+Portugal,2021-04-23,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,3163135,2284803,816514,51283
+Portugal,2021-04-30,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,3610385,2636032,908875,55196
+Portugal,2021-05-07,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,4215186,3024317,1131499,59028
+Portugal,2021-05-14,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,4822045,3335779,1439857,62384
+Portugal,2021-05-21,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,5359124,3670311,1662598,64762
+Portugal,2021-05-28,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,5932903,3956750,1995144,66702
+Portugal,2021-06-04,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,6514851,4249423,2338008,68123
+Portugal,2021-06-11,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,7138496,4644140,2593236,68989
+Portugal,2021-06-18,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,7883043,5029458,2986072,69940
+Portugal,2021-06-25,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,8617516,5456506,3335294,71405
+Portugal,2021-07-02,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,9452074,5877512,3771862,72768
+Portugal,2021-07-09,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,10520213,6354592,4398461,74012
+Portugal,2021-07-16,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11297632,6720411,4924794,74860
+Portugal,2021-07-23,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,11976132,7001708,5454449,75777
+Portugal,2021-07-30,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,12589801,7212940,5958525,76651
+Portugal,2021-08-06,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,13236264,7463989,6470514,77365
+Portugal,2021-08-13,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,13912854,7926009,6827898,77945
+Portugal,2021-08-20,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,14522243,8401547,7070847,78399
+Portugal,2021-08-27,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,14962644,8739906,7213959,78831
+Portugal,2021-09-03,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,15400338,8888760,7517936,79505
+Portugal,2021-09-10,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,15784442,8961668,7832134,80213
+Portugal,2021-09-17,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16094937,9012987,8093270,81152
+Portugal,2021-09-24,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16239055,9051104,8199866,82330
+Portugal,2021-10-01,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16325898,9076540,8261084,83967
+Portugal,2021-10-08,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16389509,9093030,8308269,85849
+Portugal,2021-10-15,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16476943,9111646,8347248,114788
+Portugal,2021-10-22,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16640067,9126030,8377900,230835
+Portugal,2021-10-29,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16791493,9140105,8397041,346810
+Portugal,2021-11-05,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,16927812,9150897,8411353,456042
+Portugal,2021-11-12,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,17135143,9164909,8427625,629528
+Portugal,2021-11-19,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,17423124,9185401,8442258,877655
+Portugal,2021-11-26,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,17892484,9206695,8456288,1299347
+Portugal,2021-12-03,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18395674,9234860,8472057,1746826
+Portugal,2021-12-10,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,18910859,9259220,8490964,2210024
+Portugal,2021-12-17,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19330538,9369453,8505222,2498840
+Portugal,2021-12-24,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,19614695,9383306,8520463,2750143
+Portugal,2021-12-31,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20043506,9397561,8540366,3140672
+Portugal,2022-01-07,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,20682339,9616044,8553261,3545313
+Portugal,2022-01-14,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,21276674,9638836,8570710,4095848
+Portugal,2022-01-21,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,21885027,9655246,8582510,4673490
+Portugal,2022-01-28,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,22440832,9666618,8592883,5205762
+Portugal,2022-02-04,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,22959187,9701516,8655338,5625318
+Portugal,2022-02-11,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23340998,9709568,8666095,5987092
+Portugal,2022-02-18,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23529021,9716514,8676577,6156857
+Portugal,2022-02-25,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23700443,9723204,8776397,6221220
+Portugal,2022-03-04,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23746072,9725521,8782817,6257734
+Portugal,2022-03-11,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23792647,9728891,8792749,6290611
+Portugal,2022-03-18,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23830961,9731438,8797263,6321447
+Portugal,2022-03-25,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23870346,9734776,8807620,6346738
+Portugal,2022-04-01,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23906912,9737768,8816675,6370761
+Portugal,2022-04-08,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23935928,9740161,8820783,6392733
+Portugal,2022-04-15,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23952606,9741445,8822521,6405859
+Portugal,2022-04-22,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,23986956,9744495,8828596,6430521
+Portugal,2022-04-29,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24016353,9747249,8835049,6450147
+Portugal,2022-05-06,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24046871,9749793,8841183,6471430
+Portugal,2022-05-13,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24078024,9752527,8847388,6493007
+Portugal,2022-05-20,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24159222,9755312,8853007,6516416
+Portugal,2022-05-27,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24287344,9758127,8858498,6545537
+Portugal,2022-06-03,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24450976,9760198,8862131,6605568
+Portugal,2022-06-10,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24590159,9761996,8865176,6660180
+Portugal,2022-06-17,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24700583,9763829,8868251,6713709
+Portugal,2022-06-24,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24787777,9765998,8872479,6768097
+Portugal,2022-07-01,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24851510,9767833,8875546,6809549
+Portugal,2022-07-08,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24893648,9769653,8878151,6837283
+Portugal,2022-07-15,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24925455,9771056,8880446,6857048
+Portugal,2022-07-22,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24953709,9772547,8882504,6871786
+Portugal,2022-07-29,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24979198,9773878,8884500,6884297
+Portugal,2022-08-05,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,24995812,9774928,8886096,6894405
+Portugal,2022-08-12,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25010501,9775786,8887575,6903338
+Portugal,2022-08-19,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25022520,9776642,8888899,6910670
+Portugal,2022-08-26,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25035565,9777788,8890622,6918119
+Portugal,2022-09-02,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25046557,9778737,8892293,6924462
+Portugal,2022-09-09,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25115445,9779670,8893639,6930442
+Portugal,2022-09-16,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25283244,9780347,8894628,6936406
+Portugal,2022-09-23,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25493632,9781036,8895559,6943701
+Portugal,2022-09-30,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25723947,9781633,8896503,6951453
+Portugal,2022-10-07,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,25950153,9782193,8897345,6958068
+Portugal,2022-10-14,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,26205271,9782807,8898160,6965143
+Portugal,2022-10-21,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,26463231,9783585,8899071,6972546
+Portugal,2022-10-28,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,26694349,9784516,8900244,6979546
+Portugal,2022-11-04,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,26888053,9784932,8900725,6987294
+Portugal,2022-11-11,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,27088881,9785532,8901387,6996190
+Portugal,2022-11-18,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,27257474,9786059,8901950,7003425
+Portugal,2022-11-25,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,27458726,9786597,8902641,7011172
+Portugal,2022-12-02,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,27676707,9787031,8903158,7019032
+Portugal,2022-12-09,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,27863212,9787473,8903609,7026957
+Portugal,2022-12-16,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,27993828,9787962,8904220,7033767
+Portugal,2022-12-23,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28026624,9788229,8904539,7036218
+Portugal,2022-12-30,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28058542,9788424,8904796,7038928
+Portugal,2023-01-06,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28081596,9788655,8905050,7040967
+Portugal,2023-01-13,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28103944,9789023,8905394,7043237
+Portugal,2023-01-20,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28125456,9789351,8905766,7045258
+Portugal,2023-01-27,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28147849,9789692,8906224,7047064
+Portugal,2023-02-03,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28169209,9790025,8906681,7048702
+Portugal,2023-02-10,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28185781,9790270,8906993,7050069
+Portugal,2023-02-17,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28198590,9790580,8907333,7051165
+Portugal,2023-02-24,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28205691,9790783,8907549,7051935
+Portugal,2023-03-03,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28213885,9791016,8907792,7052730
+Portugal,2023-03-10,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28219784,9791156,8907956,7053318
+Portugal,2023-03-17,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28225044,9791309,8908152,7053862
+Portugal,2023-03-24,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28229485,9791434,8908305,7054363
+Portugal,2023-03-31,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28232794,9791548,8908458,7054772
+Portugal,2023-04-07,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28234206,9791623,8908565,7054998
+Portugal,2023-04-14,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28236254,9791769,8908714,7055356
+Portugal,2023-04-21,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28237921,9791867,8908841,7055625
+Portugal,2023-04-28,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28239147,9791963,8908969,7055807
+Portugal,2023-05-05,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28240289,9791995,8909024,7056024
+Portugal,2023-05-12,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28241421,9792087,8909103,7056193
+Portugal,2023-05-19,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28242365,9792142,8909175,7056348
+Portugal,2023-05-26,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28243279,9792202,8909255,7056488
+Portugal,2023-06-02,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28244030,9792233,8909316,7056621
+Portugal,2023-06-09,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28244402,9792258,8909346,7056685
+Portugal,2023-06-16,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28244942,9792299,8909383,7056794
+Portugal,2023-06-23,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28245356,9792348,8909417,7056881
+Portugal,2023-06-30,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28245679,9792384,8909467,7056951
+Portugal,2023-07-07,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28245957,9792424,8909505,7057006
+Portugal,2023-07-14,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28246282,9792449,8909532,7057081
+Portugal,2023-07-21,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28246527,9792482,8909553,7057138
+Portugal,2023-07-28,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28246788,9792507,8909581,7057204
+Portugal,2023-08-04,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28246942,9792526,8909600,7057237
+Portugal,2023-08-11,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28247099,9792535,8909623,7057279
+Portugal,2023-08-18,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28247297,9792559,8909635,7057321
+Portugal,2023-08-25,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28247623,9792633,8909661,7057377
+Portugal,2023-09-01,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28247889,9792665,8909683,7057434
+Portugal,2023-09-08,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28248018,9792683,8909689,7057448
+Portugal,2023-09-15,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28248227,9792698,8909705,7057477
+Portugal,2023-09-22,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28248401,9792718,8909730,7057523
+Portugal,2023-09-29,"Covaxin, Johnson&Johnson, Moderna, Novavax, Oxford/AstraZeneca, Pfizer/BioNTech, Sanofi/GSK, Sinopharm/Beijing, Sinovac",https://www.ecdc.europa.eu/en/publications-data/data-covid-19-vaccination-eu-eea,28314797,9821414,8909769,7086326
