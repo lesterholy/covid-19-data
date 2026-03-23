@@ -1,5 +1,5 @@
 > [!CAUTION]
-> ## This repository has been archived and is no longer maintained
+> ## This repository has been archived and is no longer maintained ([see announcement](https://github.com/owid/covid-19-data/issues/2841))
 >
 > The data in this repository was last updated on **19 August 2024**.
 >
