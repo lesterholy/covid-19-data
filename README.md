@@ -1,7 +1,7 @@
 > [!CAUTION]
-> ## This repository has been archived and is no longer maintained ([see announcement](https://github.com/owid/covid-19-data/issues/2841))
+> ## This repository has been archived and is no longer maintained
 >
-> The data in this repository was last updated on **19 August 2024**.
+> The data in this repository was last updated on **19 August 2024** ([see announcement](https://github.com/owid/covid-19-data/issues/2841)).
 >
 > **Where to get latest COVID-19 data:**
 > - CSV: [catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv](https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv)
